@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100vw;
+  height: 95px;
+  background-color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  height: 50vw;
+}
+
+.block-1 {
+  width: 100vw;
+  padding-top: 2.43vw;
+  position: relative;
+}
+
+.block-1 .slogn-1 {
+  width: 20.63vw;
+  margin-left: 5.27vw;
+  margin-bottom: 1.02vw;
+  display: block;
+}
+
+.block-1 .slogn-2 {
+  width: 42.21vw;
+  margin-left: 2.86vw;
+  margin-bottom: 1.67vw;
+  display: block;
+}
+
+.block-1 .slognAbreast {
+  display: flex;
+  align-items: center;
+  margin-left: 2.86vw;
+  margin-bottom: 0.90vw;
+}
+
+.block-1 .slognAbreast .slogn-3 {
+  width: 27.30vw;
+  margin-right: 2.64vw;
+  display: flex;
+  align-items: center;
+}
+
+.block-1 .slognAbreast .logo {
+  width: 8.09vw;
+  display: flex;
+  align-items: center;
+}
+
+.block-1 .slogn-4 {
+  width: 20.26vw;
+  margin-left: 2.86vw;
+  display: block;
+}
+
+.block-1 .lantern {
+  width: 72.08vw;
+  position: absolute;
+  left: 27.89vw;
+  top: 0vw;
+}
+
+.block-1 .block-1-star {
+  width: 8.09vw;
+  position: absolute;
+  left: 46.09vw;
+  top: 9.58vw;
+}
+
+.block-1 .block-1-unicorn {
+  width: 50.46vw;
+  position: absolute;
+  left: 46.09vw;
+  bottom: 2.14vw;
+  z-index: 2;
+}
+
+.block-1 .tigerBady {
+  width: 18.43vw;
+  position: absolute;
+  left: 33.20vw;
+  bottom: 3.43vw;
+  z-index: 1;
+}
+
+.block-1 .block-1-build {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 4vw;
+}
+
+.block-1 .redCloth {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 0vw;
+  display: block;
+}
+
+.block-2 {
+  width: 100vw;
+  padding-top: 5.21vw;
+  position: relative;
+}
+
+.block-2 .block-2-title {
+  width: 29.13vw;
+  margin: 0 auto 4.49vw;
+  display: block;
+}
+
+.block-2 .swapper {
+  width: 100%;
+  height: 13.80vw;
+  background-color: aquamarine;
+}
+
+.block-2 .block-2-star {
+  width: 93.09vw;
+  position: absolute;
+  top: 31.36vw;
+  left: 5.26vw;
+}
+
+.block-2 .block-2-unicorn {
+  width: 18.07vw;
+  position: absolute;
+  bottom: 0;
+  left: 3.95vw;
+}
+
+.block-2 .block-2-build {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.block-2 .plate-container {
+  margin-left: 22.15vw;
+  position: absolute;
+  bottom: 2.34vw;
+}
+
+.block-2 .plate {
+  width: 10.98vw;
+  margin-left: 1.24vw;
+}
+/*# sourceMappingURL=index.css.map */
