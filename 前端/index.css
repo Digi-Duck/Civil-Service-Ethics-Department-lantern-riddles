@@ -15,11 +15,23 @@ nav {
   width: 100vw;
   height: 95px;
   background-color: aliceblue;
+  padding-top: 1.30vw;
+  padding-left: 1.56vw;
+}
+
+nav .logo {
+  width: 15.52vw;
+  right: 2.6vw;
+  display: block;
 }
 
 .container {
   width: 100%;
   height: 50vw;
+}
+
+.background {
+  position: absolute;
 }
 
 .block-1 {
@@ -68,23 +80,20 @@ nav {
   display: block;
 }
 
-.block-1 .lantern {
+.block-1 .block-1-lantern {
   width: 72.08vw;
-  position: absolute;
   left: 27.89vw;
   top: 0vw;
 }
 
 .block-1 .block-1-star {
   width: 8.09vw;
-  position: absolute;
   left: 46.09vw;
   top: 9.58vw;
 }
 
 .block-1 .block-1-unicorn {
   width: 50.46vw;
-  position: absolute;
   left: 46.09vw;
   bottom: 2.14vw;
   z-index: 2;
@@ -92,7 +101,6 @@ nav {
 
 .block-1 .tigerBady {
   width: 18.43vw;
-  position: absolute;
   left: 33.20vw;
   bottom: 3.43vw;
   z-index: 1;
@@ -100,17 +108,21 @@ nav {
 
 .block-1 .block-1-build {
   width: 100%;
-  position: absolute;
   left: 0;
   bottom: 4vw;
 }
 
-.block-1 .redCloth {
+.block-1 .redcloth {
   width: 100vw;
-  position: absolute;
   left: 0;
   bottom: 0vw;
   display: block;
+}
+
+.block-1 .brand {
+  width: 2.15vw;
+  right: 1.56;
+  bottom: 4.57vw;
 }
 
 .block-2 {
@@ -133,33 +145,204 @@ nav {
 
 .block-2 .block-2-star {
   width: 93.09vw;
-  position: absolute;
   top: 31.36vw;
   left: 5.26vw;
 }
 
 .block-2 .block-2-unicorn {
   width: 18.07vw;
-  position: absolute;
   bottom: 0;
   left: 3.95vw;
 }
 
 .block-2 .block-2-build {
   width: 100vw;
-  position: absolute;
   bottom: 0;
   left: 0;
 }
 
 .block-2 .plate-container {
   margin-left: 22.15vw;
-  position: absolute;
   bottom: 2.34vw;
 }
 
 .block-2 .plate {
   width: 10.98vw;
   margin-left: 1.24vw;
+}
+
+.block-3 {
+  padding-top: 7.16vw;
+  padding-left: 21.72vw;
+  position: relative;
+}
+
+.block-3 .games-information {
+  width: 9.68vw;
+  height: 33.56vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.block-3 .games-information .block-3-title {
+  width: 6.14vw;
+}
+
+.block-3 .games-information .lottery {
+  width: 9.68vw;
+}
+
+.block-3 .games {
+  width: 42vw;
+  position: absolute;
+  top: 7.03vw;
+  left: 33.48vw;
+}
+
+.block-3 .games .games-btn {
+  width: 13.12vw;
+}
+
+.block-3 .block-3-star {
+  width: 94.46vw;
+  top: 5.95vw;
+  left: 2.14vw;
+}
+
+.block-3 .block-3-lantern {
+  width: 19.91vw;
+  top: 21.14vw;
+  left: -1.33vw;
+}
+
+.block-3 .block-3-bridge {
+  width: 24.82vw;
+  left: 0.78vw;
+  bottom: -0.16vw;
+  z-index: -3;
+}
+
+.block-3 .block-3-cloud-4 {
+  width: 22.61vw;
+  left: 1.61vw;
+  bottom: -0.65vw;
+  z-index: -1;
+}
+
+.block-3 .block-3-cloud-5 {
+  width: 20.89vw;
+  left: -2.16vw;
+  bottom: -0.74vw;
+  z-index: -2;
+}
+
+.block-3 .block-3-cloud-1 {
+  width: 14.22vw;
+  right: -1.42vw;
+  bottom: -0.51vw;
+  z-index: -1;
+}
+
+.block-3 .block-3-cloud-2 {
+  width: 19.71vw;
+  right: -0.89vw;
+  bottom: -0.63vw;
+  z-index: -2;
+}
+
+.block-3 .block-3-unicorn {
+  width: 17.66vw;
+  right: 6.37vw;
+  bottom: 1.06vw;
+  z-index: -3;
+}
+
+.block-3 .block-3-cloud-3 {
+  width: 18.82vw;
+  right: -3.86vw;
+  bottom: -0.75vw;
+  z-index: -4;
+}
+
+.block-3 .block-3-moon {
+  width: 13.68vw;
+  right: 0;
+  bottom: 5.97vw;
+  z-index: -5;
+}
+
+.block-4 {
+  z-index: 0;
+  background-color: #000000;
+  padding-top: 14.31vw;
+  position: relative;
+}
+
+.block-4 .block-4-title {
+  width: 14.94vw;
+  margin: 0 auto 2.39vw;
+  display: block;
+}
+
+.block-4 .swapper {
+  width: 100vw;
+  height: 11.87vw;
+  background-color: blueviolet;
+}
+
+.block-4 .block-4-lantern {
+  width: 111.83vw;
+  top: 0;
+}
+
+.block-4 .role-1 {
+  width: 8.11vw;
+  left: 12.27vw;
+  bottom: 0.47vw;
+}
+
+.block-4 .role-2 {
+  width: 10.74vw;
+  left: 17.95vw;
+  bottom: 0.38vw;
+}
+
+.block-4 .role-3 {
+  width: 10.74vw;
+  left: 28.15vw;
+  bottom: 0;
+}
+
+.block-4 .role-4 {
+  width: 10.78vw;
+  left: 62.82vw;
+  bottom: 0.47vw;
+}
+
+.block-4 .role-5 {
+  width: 9.75vw;
+  left: 72.04vw;
+  bottom: 0.47vw;
+}
+
+.block-4 .role-6 {
+  width: 7.24vw;
+  left: 80.53vw;
+  bottom: 0.47vw;
+}
+
+.block-4 .block-4-build {
+  width: 104.21vw;
+  bottom: 1.33vw;
+  z-index: -2;
+}
+
+.block-4 .block-4-redcloth {
+  width: 100vw;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
 }
 /*# sourceMappingURL=index.css.map */
