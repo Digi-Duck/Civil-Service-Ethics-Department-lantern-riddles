@@ -13,22 +13,28 @@ body {
 
 nav {
     width: 100vw;
-   
+    position: fixed;
+    z-index: 10;
+    background-color: #000000;
 
-    .nav-container{
+    .nav-container {
+        padding-top: 1.30vw;
+        padding-left: 1.56vw;
+        padding-right: 2.60vw;
 
+        .logo {
+            width: 15.52vw;
+            cursor: pointer;
+        }
+
+        .sound {
+            width: 2.18vw;
+            float: right;
+            padding-top: 0.07vw;
+            display: block;
+            cursor: pointer;
+        }
     }
-
-    padding-top: 1.30vw;
-    padding-left: 1.56vw;
-
-    .logo {
-        width: 15.52vw;
-        right: 2.6vw;
-        margin-top: ;
-        display: block;
-    }
-
 }
 
 .container {
@@ -40,9 +46,9 @@ nav {
     position: absolute;
 }
 
-.block-1 {
+.banner-1 {
     width: 100vw;
-    padding-top: 2.43vw;
+    padding-top: 6.95vw;
     position: relative;
 
     .slogn-1 {
@@ -88,19 +94,19 @@ nav {
 
     //------背景-------
 
-    .block-1-lantern {
+    .banner-1-lantern {
         width: 72.08vw;
         left: 27.89vw;
-        top: 0vw;
+        top: 4.94vw;
     }
 
-    .block-1-star {
+    .banner-1-star {
         width: 8.09vw;
         left: 46.09vw;
         top: 9.58vw;
     }
 
-    .block-1-unicorn {
+    .banner-1-unicorn {
         width: 50.46vw;
         left: 46.09vw;
         // top: 13.90vw;
@@ -116,14 +122,14 @@ nav {
         z-index: 1;
     }
 
-    .block-1-build {
+    .banner-1-build {
         width: 100%;
         left: 0;
         // top: 20.02vw;
         bottom: 4vw;
     }
 
-    .redcloth {
+    .banner-1-redcloth {
         width: 100vw;
         left: 0;
         bottom: 0vw;
@@ -132,41 +138,96 @@ nav {
 
     .brand {
         width: 2.15vw;
-        right: 1.56;
+        right: 1.56vw;
         bottom: 4.57vw;
     }
 }
 
-.block-2 {
+.banner-2 {
     width: 100vw;
     padding-top: 5.21vw;
     position: relative;
 
-    .block-2-title {
+    .banner-2-title {
         width: 29.13vw;
         margin: 0 auto 4.49vw;
         display: block;
     }
 
-    .swapper {
-        width: 100%;
+    .swiper {
+        width: 74.74vw;
+        // width: 50vw;
         height: 13.80vw;
-        background-color: aquamarine;
+        // background-color: aquamarine;
+        margin-left: 12.89vw;
+        margin-right: 0;
+
+        .swiper-wrapper {
+
+
+            .swiper-slide {
+                width: 13.80vw !important;
+                margin-left: 1.30vw;
+                text-align: center;
+                font-size: 18px;
+                cursor: pointer;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+
+                .swiper-img {
+                    width: 13.80vw;
+                    display: block;
+                }
+
+
+            }
+
+            .swiper-slide-1 {
+                margin-left: 0;
+            }
+        }
     }
 
-    .block-2-star {
+    .swiper-button-prev {
+        content: url("./img/banner-2/svg/箭頭-左.svg");
+        width: 1.18vw;
+        left: 9.62vw;
+        display: block;
+        transform: translateY(-50%);
+    }
+
+    .swiper-button-next {
+        content: url("./img/banner-2/svg/箭頭-右.svg");
+        width: 1.18vw;
+        right: 9.62vw;
+        display: block;
+        transform: translateY(-50%);
+    }
+
+    .banner-2-star {
         width: 93.09vw;
         top: 31.36vw;
         left: 5.26vw;
     }
 
-    .block-2-unicorn {
+    .banner-2-unicorn {
         width: 18.07vw;
         bottom: 0;
         left: 3.95vw;
     }
 
-    .block-2-build {
+    .banner-2-build {
         width: 100vw;
         bottom: 0;
         left: 0;
@@ -181,11 +242,12 @@ nav {
     .plate {
         width: 10.98vw;
         margin-left: 1.24vw;
+        cursor: pointer;
     }
 
 }
 
-.block-3 {
+.banner-3 {
     padding-top: 7.16vw;
     padding-left: 21.72vw;
     position: relative;
@@ -198,7 +260,7 @@ nav {
         justify-content: space-between;
         align-items: center;
 
-        .block-3-title {
+        .banner-3-title {
             width: 6.14vw;
         }
 
@@ -213,21 +275,23 @@ nav {
         position: absolute;
         top: 7.03vw;
         left: 33.48vw;
+        z-index: 1;
 
         .games-btn {
             width: 13.12vw;
+            cursor: pointer;
         }
     }
 
 
 
-    .block-3-star {
+    .banner-3-star {
         width: 94.46vw;
         top: 5.95vw;
         left: 2.14vw;
     }
 
-    .block-3-lantern {
+    .banner-3-lantern {
         width: 19.91vw;
         top: 21.14vw;
         left: -1.33vw;
@@ -235,21 +299,21 @@ nav {
 
     //-----畫面左下背景-----
 
-    .block-3-bridge {
+    .banner-3-bridge {
         width: 24.82vw;
         left: 0.78vw;
         bottom: -0.16vw;
         z-index: -3;
     }
 
-    .block-3-cloud-4 {
+    .banner-3-cloud-4 {
         width: 22.61vw;
         left: 1.61vw;
         bottom: -0.65vw;
         z-index: -1;
     }
 
-    .block-3-cloud-5 {
+    .banner-3-cloud-5 {
         width: 20.89vw;
         left: -2.16vw;
         bottom: -0.74vw;
@@ -258,35 +322,35 @@ nav {
 
     //-----畫面右下背景-----
 
-    .block-3-cloud-1 {
+    .banner-3-cloud-1 {
         width: 14.22vw;
         right: -1.42vw;
         bottom: -0.51vw;
         z-index: -1;
     }
 
-    .block-3-cloud-2 {
+    .banner-3-cloud-2 {
         width: 19.71vw;
         right: -0.89vw;
         bottom: -0.63vw;
         z-index: -2;
     }
 
-    .block-3-unicorn {
+    .banner-3-unicorn {
         width: 17.66vw;
         right: 6.37vw;
         bottom: 1.06vw;
         z-index: -3;
     }
 
-    .block-3-cloud-3 {
+    .banner-3-cloud-3 {
         width: 18.82vw;
         right: -3.86vw;
         bottom: -0.75vw;
         z-index: -4;
     }
 
-    .block-3-moon {
+    .banner-3-moon {
         width: 13.68vw;
         right: 0;
         bottom: 5.97vw;
@@ -295,26 +359,79 @@ nav {
 
 }
 
-.block-4 {
-
+.banner-4 {
+    width: 100vw;
     z-index: 0;
     background-color: #000000;
     padding-top: 14.31vw;
     position: relative;
 
-    .block-4-title {
+    .banner-4-title {
         width: 14.94vw;
         margin: 0 auto 2.39vw;
         display: block;
     }
 
-    .swapper {
-        width: 100vw;
+    .swiper {
+        width: 73.74vw;
+        // width: 50vw;
         height: 11.87vw;
-        background-color: blueviolet;
+        // background-color: aquamarine;
+        margin-left: 13.10vw;
+        margin-right: 0;
+
+        .swiper-wrapper {
+
+            .swiper-slide {
+                width: 21.35vw !important;
+                margin-left: 0.8vw;
+                text-align: center;
+                font-size: 18px;
+                cursor: pointer;
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+
+                .swiper-img {
+                    width: 21.35vw;
+                    display: block;
+                }
+
+            }
+
+            .swiper-slide-1 {
+                margin-left: 0;
+            }
+        }
     }
 
-    .block-4-lantern {
+    .swiper-button-prev {
+        content: url("./img/banner-2/svg/箭頭-左.svg");
+        width: 1.18vw;
+        left: 9.62vw;
+        display: block;
+        margin-top: 0;
+    }
+
+    .swiper-button-next {
+        content: url("./img/banner-2/svg/箭頭-右.svg");
+        width: 1.18vw;
+        right: 9.62vw;
+        display: block;
+        margin-top: 0;
+    }
+
+    .banner-4-lantern {
         width: 111.83vw;
         top: 0;
     }
@@ -333,7 +450,7 @@ nav {
     }
 
     .role-3 {
-        width: 10.74vw;
+        width: 7.61vw;
         left: 28.15vw;
         bottom: 0;
     }
@@ -356,13 +473,13 @@ nav {
         bottom: 0.47vw;
     }
 
-    .block-4-build {
+    .banner-4-build {
         width: 104.21vw;
         bottom: 1.33vw;
         z-index: -2;
     }
 
-    .block-4-redcloth {
+    .banner-4-redcloth {
         width: 100vw;
         left: 0;
         bottom: 0;
