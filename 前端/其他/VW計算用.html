@@ -16,20 +16,28 @@
 </head>
 
 <body>
-    <p id="NewStringBox">目標寬度/總寬度</p>
+    <p id="NewStringBox">目前的總寬度是：</p>
     <input type="number" id="number-1">
     <!-- <input type="number" id="number-2"> -->
     <input type="button" value="確定" onclick="ChangeString()">
     <p id="output">結果為：</p>
 
     <script type="text/javascript">
+        var width = 375;
         function ChangeString() {
             var number1 = document.getElementById("number-1").value;
+            //總長度
             // var number2 = document.getElementById("number-2").value;
-
-            document.getElementById("output").innerHTML = (number1/1920)*100;
+            roundDown = function (num, decimal) { return Math.floor((num + Number.EPSILON) * Math.pow(10, decimal)) / Math.pow(10, decimal); }
+            var output = roundDown(((number1 / width) * 100), 2);
+            document.getElementById("output").innerHTML = `${output}vw`;
 
         }
+
+    </script>
+    <script>
+        var NewStringBox = document.querySelector('#NewStringBox');
+        NewStringBox.innerHTML = `目前的總寬度是: ${width}px`;
     </script>
 </body>
 

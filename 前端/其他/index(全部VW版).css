@@ -3,9 +3,17 @@
   box-sizing: border-box;
 }
 
-/*#region nav*/
-nav {
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
   width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+nav {
+  width: 100vw;
   height: 4.94vw;
   position: fixed;
   z-index: 10;
@@ -19,22 +27,28 @@ nav {
 }
 
 nav .nav-container {
-  padding: 1.30vw 2.60vw 0 1.56vw;
+  padding: 1.3vw calc(2.60vw + 0.88vw) 0 1.56vw;
+}
+
+@media (max-width: 375px) {
+  nav .nav-container {
+    padding: 3.63vw calc(4vw + 4.53vw) 0 4vw;
+  }
 }
 
 nav .nav-container .logo {
-  width: 15.52%;
+  width: 15.52vw;
   cursor: pointer;
 }
 
 @media (max-width: 375px) {
   nav .nav-container .logo {
-    width: 55.82%;
+    width: 55.82vw;
   }
 }
 
 nav .nav-container .sound {
-  width: 2.18%;
+  width: 2.18vw;
   float: right;
   padding-top: 0.07vw;
   display: block;
@@ -43,25 +57,9 @@ nav .nav-container .sound {
 
 @media (max-width: 375px) {
   nav .nav-container .sound {
-    width: 6.21%;
+    width: 6.21vw;
     padding-top: 1.65vw;
   }
-}
-
-@media (max-width: 375px) {
-  nav .nav-container {
-    padding: 3.63vw 4vw 0 4vw;
-  }
-}
-
-/*#endregion*/
-body {
-  margin: 0;
-  padding: 0;
-  background-color: #000000;
-  width: 100%;
-  height: 100vh;
-  overflow-x: hidden;
 }
 
 .container {
@@ -74,7 +72,6 @@ body {
   position: absolute;
 }
 
-/*#region banner-1*/
 .banner-1 {
   width: 100%;
   padding-top: 6.95vw;
@@ -88,7 +85,7 @@ body {
 }
 
 .banner-1 .slogn-1 {
-  width: 20.63%;
+  width: 20.63vw;
   margin-left: 5.27vw;
   margin-bottom: 1.02vw;
   display: block;
@@ -96,14 +93,14 @@ body {
 
 @media (max-width: 375px) {
   .banner-1 .slogn-1 {
-    width: 46.05%;
+    width: 46.05vw;
     margin-left: 8.94vw;
     margin-bottom: 3.29vw;
   }
 }
 
 .banner-1 .slogn-2 {
-  width: 42.21%;
+  width: 42.21vw;
   margin-left: 2.86vw;
   margin-bottom: 1.67vw;
   display: block;
@@ -141,47 +138,27 @@ body {
 @media (max-width: 375px) {
   .banner-1 .slognAbreast .slogn-3 {
     width: 91.74%;
-    margin-right: 0;
-    margin-bottom: 5.85vw;
   }
 }
 
-.banner-1 .slognAbreast .logo-computer {
+.banner-1 .slognAbreast .logo {
   width: 8.09%;
 }
 
 @media (max-width: 375px) {
-  .banner-1 .slognAbreast .logo-computer {
-    display: none;
-  }
-}
-
-.banner-1 .slognAbreast .logo-phone {
-  width: 29.68%;
-  margin-left: 6.59vw;
-  display: none;
-}
-
-@media (max-width: 375px) {
-  .banner-1 .slognAbreast .logo-phone {
-    display: block;
+  .banner-1 .slognAbreast .logo {
+    width: 29.68%;
   }
 }
 
 .banner-1 .slogn-4 {
-  width: 20.26%;
+  width: 20.26vw;
   margin-left: 2.86vw;
   display: block;
 }
 
-@media (max-width: 375px) {
-  .banner-1 .slogn-4 {
-    display: none;
-  }
-}
-
 .banner-1 .banner-1-lantern-computer {
-  width: 72.08%;
+  width: 72.08vw;
   left: 27.89vw;
   top: 4.94vw;
 }
@@ -193,7 +170,7 @@ body {
 }
 
 .banner-1 .banner-1-lantern-phone {
-  width: 63.69%;
+  width: 63.69vw;
   left: 55.17vw;
   top: 21.33vw;
   display: none;
@@ -206,36 +183,28 @@ body {
 }
 
 .banner-1 .banner-1-star {
-  width: 8.09%;
+  width: 8.09vw;
   left: 46.09vw;
   top: 9.58vw;
 }
 
 @media (max-width: 375px) {
   .banner-1 .banner-1-star {
-    width: 98.34%;
+    width: 98.34vw;
     left: 0.36vw;
     top: 82.10vw;
   }
 }
 
 .banner-1 .banner-1-unicorn {
-  width: 50.46%;
+  width: 50.46vw;
   left: 46.09vw;
   bottom: 2.14vw;
   z-index: 2;
 }
 
-@media (max-width: 375px) {
-  .banner-1 .banner-1-unicorn {
-    width: 85.83%;
-    left: 19.77vw;
-    bottom: 18.09vw;
-  }
-}
-
 .banner-1 .tigerBady {
-  width: 18.43%;
+  width: 18.43vw;
   left: 33.20vw;
   bottom: 3.43vw;
   z-index: 1;
@@ -243,7 +212,7 @@ body {
 
 @media (max-width: 375px) {
   .banner-1 .tigerBady {
-    width: 32.59%;
+    width: 32.59vw;
     left: 0;
     bottom: 17.93vw;
   }
@@ -262,9 +231,9 @@ body {
 }
 
 .banner-1 .banner-1-build-phone {
-  width: 134.76%;
+  width: 134.76vw;
   left: -26.46vw;
-  bottom: 16vw;
+  bottom: 17.93vw;
   display: none;
 }
 
@@ -274,35 +243,22 @@ body {
   }
 }
 
-.banner-1 .banner-1-redcloth-computer {
-  width: 100%;
+.banner-1 .banner-1-redcloth {
+  width: 100vw;
   left: 0;
   bottom: 0vw;
   display: block;
 }
 
 @media (max-width: 375px) {
-  .banner-1 .banner-1-redcloth-computer {
-    width: 122.86%;
+  .banner-1 .banner-1-redcloth {
+    width: 122.86vw;
     left: -11.08vw;
   }
 }
 
-.banner-1 .banner-1-redcloth-phone {
-  width: 122.86vw;
-  left: -11.09vw;
-  bottom: 0;
-  display: none;
-}
-
-@media (max-width: 375px) {
-  .banner-1 .banner-1-redcloth-phone {
-    display: block;
-  }
-}
-
 .banner-1 .brand {
-  width: 2.15%;
+  width: 2.15vw;
   right: 1.56vw;
   bottom: 4.57vw;
 }
@@ -313,10 +269,8 @@ body {
   }
 }
 
-/*#endregion*/
-/*#region banner-2*/
 .banner-2 {
-  width: 100%;
+  width: 100vw;
   padding-top: 5.21vw;
 }
 
@@ -328,14 +282,14 @@ body {
 }
 
 .banner-2 .banner-2-title {
-  width: 29.13%;
+  width: 29.13vw;
   margin: 0 auto 4.49vw;
   display: block;
 }
 
 @media (max-width: 375px) {
   .banner-2 .banner-2-title {
-    width: 61.28%;
+    width: 61.28vw;
     margin: 0 auto 8.11vw;
   }
 }
@@ -352,7 +306,6 @@ body {
     width: 100vw;
     height: 53.33vw;
     margin-left: 3.96vw;
-    margin-bottom: 10.36vw;
   }
 }
 
@@ -376,7 +329,7 @@ body {
   .banner-2 .swiper .swiper-wrapper .swiper-slide {
     width: 53.33vw !important;
     height: 53.33vw !important;
-    margin-left: 4vw;
+    margin-left: 0;
   }
 }
 
@@ -397,138 +350,49 @@ body {
 
 .banner-2 .swiper-button-prev {
   content: url("./img/banner-2/svg/箭頭-左.svg");
-  width: 1.18%;
+  width: 1.18vw;
   left: 9.62vw;
   display: block;
   transform: translateY(-50%);
 }
 
-@media (max-width: 375px) {
-  .banner-2 .swiper-button-prev {
-    display: none;
-  }
-}
-
 .banner-2 .swiper-button-next {
   content: url("./img/banner-2/svg/箭頭-右.svg");
-  width: 1.18%;
+  width: 1.18vw;
   right: 9.62vw;
   display: block;
   transform: translateY(-50%);
 }
 
-@media (max-width: 375px) {
-  .banner-2 .swiper-button-next {
-    display: none;
-  }
-}
-
-.banner-2 .banner-2-star-computer {
-  width: 93.09%;
+.banner-2 .banner-2-star {
+  width: 93.09vw;
   top: 31.36vw;
   left: 5.26vw;
 }
 
-@media (max-width: 375px) {
-  .banner-2 .banner-2-star-computer {
-    display: none;
-  }
-}
-
-.banner-2 .banner-2-star-phone {
-  width: 101.84%;
-  top: 70.56vw;
-  left: 4.16vw;
-  display: none;
-}
-
-@media (max-width: 375px) {
-  .banner-2 .banner-2-star-phone {
-    display: block;
-  }
-}
-
 .banner-2 .banner-2-unicorn {
-  width: 18.07%;
+  width: 18.07vw;
   bottom: 0;
   left: 3.95vw;
 }
 
-.banner-2 .banner-2-build-computer {
-  width: 100%;
+.banner-2 .banner-2-build {
+  width: 100vw;
   bottom: 0;
   left: 0;
 }
 
-@media (max-width: 375px) {
-  .banner-2 .banner-2-build-computer {
-    display: none;
-  }
-}
-
-.banner-2 .banner-2-build-phone {
-  width: 115.25vw;
-  left: -6.73vw;
-  bottom: 0;
-}
-
-@media (max-width: 375px) {
-  .banner-2 .banner-2-build-phone {
-    display: block;
-  }
-}
-
-.banner-2 .plate-container-computer {
+.banner-2 .plate-container {
   margin-left: 22.15vw;
   bottom: 2.34vw;
 }
 
-@media (max-width: 375px) {
-  .banner-2 .plate-container-computer {
-    display: none;
-  }
-}
-
-.banner-2 .plate-computer {
-  width: 10.98%;
+.banner-2 .plate {
+  width: 10.98vw;
   margin-left: 1.24vw;
   cursor: pointer;
 }
 
-@media (max-width: 375px) {
-  .banner-2 .plate-computer {
-    display: none;
-  }
-}
-
-.banner-2 .plate-container-phone {
-  width: 100%;
-  height: 108vw;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-@media (max-width: 375px) {
-  .banner-2 .plate-container-phone {
-    display: flex;
-  }
-}
-
-.banner-2 .plate-phone {
-  width: 80vw;
-  display: none;
-}
-
-@media (max-width: 375px) {
-  .banner-2 .plate-phone {
-    display: block;
-  }
-}
-
-/*#endregion*/
-/*#region banner-3*/
 .banner-3 {
   padding-top: 7.16vw;
   padding-left: 21.72vw;
@@ -537,13 +401,11 @@ body {
 @media (max-width: 375px) {
   .banner-3 {
     height: 192.38vw;
-    padding-top: 10.68vw;
-    padding-left: 29.21vw;
   }
 }
 
 .banner-3 .games-information {
-  width: 9.68%;
+  width: 9.68vw;
   height: 33.56vw;
   display: flex;
   flex-direction: column;
@@ -572,96 +434,76 @@ body {
   cursor: pointer;
 }
 
-.banner-3 .banner-3-star-computer {
-  width: 94.46%;
-  top: 5.95;
+.banner-3 .banner-3-star {
+  width: 94.46vw;
+  top: 5.95vw;
   left: 2.14vw;
 }
 
-@media (max-width: 375px) {
-  .banner-3 .banner-3-star-computer {
-    display: none;
-  }
-}
-
-.banner-3 .banner-3-star-phone {
-  width: 100.98%;
-  top: 3.87vw;
-  left: 0.36vw;
-  display: none;
-}
-
-@media (max-width: 375px) {
-  .banner-3 .banner-3-star-phone {
-    display: block;
-  }
-}
-
 .banner-3 .banner-3-lantern {
-  width: 19.91%;
+  width: 19.91vw;
   top: 21.14vw;
   left: -1.33vw;
 }
 
 .banner-3 .banner-3-bridge {
-  width: 24.82%;
+  width: 24.82vw;
   left: 0.78vw;
   bottom: -0.16vw;
   z-index: -3;
 }
 
 .banner-3 .banner-3-cloud-4 {
-  width: 22.61%;
+  width: 22.61vw;
   left: 1.61vw;
   bottom: -0.65vw;
   z-index: -1;
 }
 
 .banner-3 .banner-3-cloud-5 {
-  width: 20.89%;
+  width: 20.89vw;
   left: -2.16vw;
   bottom: -0.74vw;
   z-index: -2;
 }
 
 .banner-3 .banner-3-cloud-1 {
-  width: 14.22%;
+  width: 14.22vw;
   right: -1.42vw;
   bottom: -0.51vw;
   z-index: -1;
 }
 
 .banner-3 .banner-3-cloud-2 {
-  width: 19.71%;
+  width: 19.71vw;
   right: -0.89vw;
   bottom: -0.63vw;
   z-index: -2;
 }
 
 .banner-3 .banner-3-unicorn {
-  width: 17.66%;
+  width: 17.66vw;
   right: 6.37vw;
   bottom: 1.06vw;
   z-index: -3;
 }
 
 .banner-3 .banner-3-cloud-3 {
-  width: 18.82%;
+  width: 18.82vw;
   right: -3.86vw;
   bottom: -0.75vw;
   z-index: -4;
 }
 
 .banner-3 .banner-3-moon {
-  width: 13.68%;
+  width: 13.68vw;
   right: 0;
   bottom: 5.97vw;
   z-index: -5;
 }
 
-/*#endregion*/
-/*#region banner-4*/
 .banner-4 {
+  width: 100vw;
   z-index: 0;
   background-color: #000000;
   padding-top: 14.31vw;
@@ -709,7 +551,7 @@ body {
 
 .banner-4 .swiper-button-prev {
   content: url("./img/banner-2/svg/箭頭-左.svg");
-  width: 1.18%;
+  width: 1.18vw;
   left: 9.62vw;
   display: block;
   margin-top: 0;
@@ -717,65 +559,63 @@ body {
 
 .banner-4 .swiper-button-next {
   content: url("./img/banner-2/svg/箭頭-右.svg");
-  width: 1.18%;
+  width: 1.18vw;
   right: 9.62vw;
   display: block;
   margin-top: 0;
 }
 
 .banner-4 .banner-4-lantern {
-  width: 111.83%;
+  width: 111.83vw;
   top: 0;
 }
 
 .banner-4 .role-1 {
-  width: 8.11%;
+  width: 8.11vw;
   left: 12.27vw;
   bottom: 0.47vw;
 }
 
 .banner-4 .role-2 {
-  width: 10.74%;
+  width: 10.74vw;
   left: 17.95vw;
   bottom: 0.38vw;
 }
 
 .banner-4 .role-3 {
-  width: 7.61%;
+  width: 7.61vw;
   left: 28.15vw;
   bottom: 0;
 }
 
 .banner-4 .role-4 {
-  width: 10.78%;
+  width: 10.78vw;
   left: 62.82vw;
   bottom: 0.47vw;
 }
 
 .banner-4 .role-5 {
-  width: 9.75%;
+  width: 9.75vw;
   left: 72.04vw;
   bottom: 0.47vw;
 }
 
 .banner-4 .role-6 {
-  width: 7.24%;
+  width: 7.24vw;
   left: 80.53vw;
   bottom: 0.47vw;
 }
 
 .banner-4 .banner-4-build {
-  width: 104.21%;
+  width: 104.21vw;
   bottom: 1.33vw;
   z-index: -2;
 }
 
 .banner-4 .banner-4-redcloth {
-  width: 100%;
+  width: 100vw;
   left: 0;
   bottom: 0;
   z-index: -1;
 }
-
-/*#endregion*/
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=index(全部VW版).css.map */
