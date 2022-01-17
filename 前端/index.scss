@@ -10,18 +10,18 @@ nav {
     z-index: 10;
     background-color: #000000;
 
-    @media (max-width:375px) {
+    @media (max-width: 375px) {
         height: 16vw;
     }
 
     .nav-container {
-        padding: 1.30vw 2.60vw 0 1.56vw;
+        padding: 1.3vw 2.6vw 0 1.56vw;
 
         .logo {
             width: 15.52%;
             cursor: pointer;
 
-            @media (max-width:375px) {
+            @media (max-width: 375px) {
                 width: 55.82%;
             }
         }
@@ -33,17 +33,16 @@ nav {
             display: block;
             cursor: pointer;
 
-            @media (max-width:375px) {
+            @media (max-width: 375px) {
                 width: 6.21%;
                 padding-top: 1.65vw;
             }
         }
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             padding: 3.63vw 4vw 0 4vw;
         }
     }
-
 }
 
 /*#endregion*/
@@ -55,9 +54,10 @@ body {
     height: 100vh;
     overflow-x: hidden;
 }
-
-
-
+main {
+    // width: 100%;
+    // position: relative;
+}
 .container {
     width: 100%;
     height: 50vw;
@@ -73,7 +73,7 @@ body {
     width: 100%;
     padding-top: 6.95vw;
 
-    @media (max-width:375px) {
+    @media (max-width: 375px) {
         height: 176.91vw;
         padding-top: 28.53vw;
     }
@@ -84,7 +84,7 @@ body {
         margin-bottom: 1.02vw;
         display: block;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             width: 46.05%;
             margin-left: 8.94vw;
             margin-bottom: 3.29vw;
@@ -97,7 +97,7 @@ body {
         margin-bottom: 1.67vw;
         display: block;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             width: 94.42%;
             margin-left: 2.84%;
             margin-bottom: 3.62vw;
@@ -108,9 +108,9 @@ body {
         display: flex;
         align-items: center;
         margin-left: 2.86vw;
-        margin-bottom: 0.90vw;
+        margin-bottom: 0.9vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             margin-left: 3.07vw;
             margin-bottom: 0;
             flex-direction: column;
@@ -118,10 +118,10 @@ body {
         }
 
         .slogn-3 {
-            width: 27.30%;
+            width: 27.3%;
             margin-right: 2.64vw;
 
-            @media (max-width:375px) {
+            @media (max-width: 375px) {
                 width: 91.74%;
                 margin-right: 0;
                 margin-bottom: 5.85vw;
@@ -131,7 +131,7 @@ body {
         .logo-computer {
             width: 8.09%;
 
-            @media (max-width:375px) {
+            @media (max-width: 375px) {
                 display: none;
             }
         }
@@ -141,19 +141,18 @@ body {
             margin-left: 6.59vw;
             display: none;
 
-            @media (max-width:375px) {
+            @media (max-width: 375px) {
                 display: block;
             }
         }
     }
-
 
     .slogn-4 {
         width: 20.26%;
         margin-left: 2.86vw;
         display: block;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -165,7 +164,7 @@ body {
         left: 27.89vw;
         top: 4.94vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -176,8 +175,7 @@ body {
         top: 21.33vw;
         display: none;
 
-        @media (max-width:375px) {
-            //check
+        @media (max-width: 375px) {
             display: block;
         }
     }
@@ -187,12 +185,11 @@ body {
         left: 46.09vw;
         top: 9.58vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             width: 98.34%;
             left: 0.36vw;
-            top: 82.10vw;
+            top: 82.1vw;
         }
-
     }
 
     .banner-1-unicorn {
@@ -202,7 +199,7 @@ body {
         bottom: 2.14vw;
         z-index: 2;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             width: 85.83%;
             left: 19.77vw;
             bottom: 18.09vw;
@@ -211,17 +208,16 @@ body {
 
     .tigerBady {
         width: 18.43%;
-        left: 33.20vw;
+        left: 33.2vw;
         // top: 29.43vw;
         bottom: 3.43vw;
         z-index: 1;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             width: 32.59%;
             left: 0;
             bottom: 17.93vw;
         }
-
     }
 
     .banner-1-build-computer {
@@ -229,7 +225,7 @@ body {
         left: 0;
         bottom: 4vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -240,7 +236,7 @@ body {
         bottom: 16vw;
         display: none;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: block;
         }
     }
@@ -251,7 +247,7 @@ body {
         bottom: 0vw;
         display: block;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             width: 122.86%;
             left: -11.08vw;
         }
@@ -263,10 +259,9 @@ body {
         bottom: 0;
         display: none;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: block;
         }
-
     }
 
     .brand {
@@ -274,7 +269,7 @@ body {
         right: 1.56vw;
         bottom: 4.57vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -285,11 +280,9 @@ body {
 .banner-2 {
     width: 100%;
     padding-top: 5.21vw;
-
-    @media (max-width:375px) {
+    @media (max-width: 375px) {
         height: 244.19vw;
         padding-top: 6.35vw;
-
     }
 
     .banner-2-title {
@@ -297,94 +290,104 @@ body {
         margin: 0 auto 4.49vw;
         display: block;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             width: 61.28%;
             margin: 0 auto 8.11vw;
         }
-
     }
 
-    .swiper {
-        width: 74.74vw;
-        height: 13.80vw;
-        // background-color: aquamarine;
-        margin-left: 12.89vw;
-        margin-right: 0;
-
-        @media (max-width:375px) {
+    .swiper-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80.74vw;
+        @media (max-width: 375px) {
+            margin: 0 0;
             width: 100vw;
-            height: 53.33vw;
-            margin-left: 3.96vw;
-            margin-bottom: 10.36vw;
         }
+        .swiper-button-prev {
+            position: static;
+            content: url("./img/banner-2/svg/箭頭-左.svg");
+            width: 1.18%;
+            // left: 9.62vw;
+            display: block;
+            // transform: translateY(-50%);
 
-        .swiper-wrapper {
-            flex-direction: row;
+            @media (max-width: 375px) {
+                display: none;
+            }
+        }
+        .swiper {
+            width: 74.21vw;
+            height: 13.8vw;
+            // background-color: aquamarine;
+            margin-left: 2.08vw;
+            margin-right: 2.08vw;
+            display: flex;
+            justify-content: center;
+            @media (max-width: 375px) {
+                width: 100vw;
+                height: 53.33vw;
+                margin-left: 3.96vw;
+                margin-bottom: 10.36vw;
+            }
 
-            .swiper-slide {
-                width: 13.80vw !important;
-                margin-left: 1.30vw;
-                text-align: center;
-                font-size: 18px;
-                cursor: pointer;
-                /* Center slide text vertically */
-                display: flex;
-                justify-content: center;
-                align-items: center;
+            .swiper-wrapper {
+                flex-direction: row;
 
-                @media (max-width:375px) {
-                    width: 53.33vw !important;
-                    height: 53.33vw !important;
-                    margin-left: 4vw;
-                }
+                .swiper-slide {
+                    width: 13.8vw !important;
+                    margin-left: 1.3vw;
+                    text-align: center;
+                    font-size: 18px;
+                    cursor: pointer;
+                    /* Center slide text vertically */
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
 
-                .swiper-img {
-                    width: 13.80vw;
-                    display: block;
+                    @media (max-width: 375px) {
+                        width: 53.33vw !important;
+                        height: 53.33vw !important;
+                        margin-left: 4vw;
+                    }
 
+                    .swiper-img {
+                        width: 13.8vw;
+                        display: block;
 
-                    @media (max-width:375px) {
-                        width: 53.33vw;
+                        @media (max-width: 375px) {
+                            width: 53.33vw;
+                        }
                     }
                 }
+
+                .swiper-slide-1 {
+                    margin-left: 0;
+                }
             }
+        }
 
-            .swiper-slide-1 {
-                margin-left: 0;
+        .swiper-button-next {
+            content: url("./img/banner-2/svg/箭頭-右.svg");
+            width: 1.18%;
+            // right: 9.62vw;
+            position: static;
+            display: block;
+            // transform: translateY(-50%);
+
+            @media (max-width: 375px) {
+                display: none;
             }
         }
     }
-
-    .swiper-button-prev {
-        content: url("./img/banner-2/svg/箭頭-左.svg");
-        width: 1.18%;
-        left: 9.62vw;
-        display: block;
-        transform: translateY(-50%);
-
-        @media (max-width:375px) {
-            display: none;
-        }
-    }
-
-    .swiper-button-next {
-        content: url("./img/banner-2/svg/箭頭-右.svg");
-        width: 1.18%;
-        right: 9.62vw;
-        display: block;
-        transform: translateY(-50%);
-
-        @media (max-width:375px) {
-            display: none;
-        }
-    }
-
     .banner-2-star-computer {
         width: 93.09%;
         top: 31.36vw;
         left: 5.26vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -395,7 +398,7 @@ body {
         left: 4.16vw;
         display: none;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: block;
         }
     }
@@ -404,6 +407,12 @@ body {
         width: 18.07%;
         bottom: 0;
         left: 3.95vw;
+        z-index: 1;
+        @media (max-width: 375px) {
+            width: 43.79%;
+            bottom: 1.26vw;
+            left: 1.85vw;
+        }
     }
 
     .banner-2-build-computer {
@@ -411,27 +420,26 @@ body {
         bottom: 0;
         left: 0;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
 
     .banner-2-build-phone {
-        width: 115.25vw;
+        width: 115.25%;
         left: -6.73vw;
         bottom: 0;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: block;
         }
     }
 
     .plate-container-computer {
-
         margin-left: 22.15vw;
         bottom: 2.34vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -441,7 +449,7 @@ body {
         margin-left: 1.24vw;
         cursor: pointer;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -455,7 +463,7 @@ body {
         justify-content: space-between;
 
         // margin: 0 auto;
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: flex;
         }
     }
@@ -464,12 +472,10 @@ body {
         width: 80vw;
         display: none;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: block;
         }
     }
-
-
 }
 
 /*#endregion*/
@@ -478,10 +484,10 @@ body {
     padding-top: 7.16vw;
     padding-left: 21.72vw;
 
-    @media (max-width:375px) {
+    @media (max-width: 375px) {
         height: 192.38vw;
         padding-top: 10.68vw;
-        padding-left: 29.21vw;
+        padding-left: 0;
     }
 
     .games-information {
@@ -492,37 +498,71 @@ body {
         justify-content: space-between;
         align-items: center;
 
-        .banner-3-title {
-            width: 6.14vw;
+        @media (max-width: 375px) {
+            height: 132.34vw;
+            margin: 0 auto;
+        }
+        .banner-3-title-computer {
+            width: calc(6.14vw - 17px);
+            @media (max-width: 375px) {
+                display: none;
+            }
+        }
+        .banner-3-title-phone {
+            width: calc(41.95vw - 17px);
+            display: none;
+
+            @media (max-width: 375px) {
+                display: block;
+            }
+        }
+        .games {
+            width: 42vw;
+            position: absolute;
+            top: 7.03vw;
+            left: 33.48vw;
+            z-index: 1;
+            @media (max-width: 375px) {
+                width: 92.51vw;
+                height: 91.07vw;
+                position: static;
+                display: flex;
+                justify-content: space-between;
+                align-content: space-between;
+                flex-wrap: wrap;
+            }
+            .games-btn {
+                width: 13.12vw;
+                cursor: pointer;
+                @media (max-width: 375px) {
+                    width: 30.05vw;
+                    display: block;
+                }
+            }
         }
 
-        .lottery {
+        .lottery-computer {
             width: 9.68vw;
+            @media (max-width: 375px) {
+                display: none;
+            }
         }
-
-    }
-
-    .games {
-        width: 42vw;
-        position: absolute;
-        top: 7.03vw;
-        left: 33.48vw;
-        z-index: 1;
-
-        .games-btn {
-            width: 13.12vw;
-            cursor: pointer;
+        .lottery-phone {
+            width: calc(80.53vw - 17px);
+            margin: 0 auto;
+            display: none;
+            @media (max-width: 375px) {
+                display: block;
+            }
         }
     }
-
-
 
     .banner-3-star-computer {
         width: 94.46%;
         top: 5.95;
         left: 2.14vw;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: none;
         }
     }
@@ -533,7 +573,7 @@ body {
         left: 0.36vw;
         display: none;
 
-        @media (max-width:375px) {
+        @media (max-width: 375px) {
             display: block;
         }
     }
@@ -542,6 +582,12 @@ body {
         width: 19.91%;
         top: 21.14vw;
         left: -1.33vw;
+        @media (max-width: 375px) {
+            width: 31.35%;
+            top: auto;
+            left: -6.7vw;
+            bottom: 19.63vw;
+        }
     }
 
     //-----畫面左下背景-----
@@ -551,6 +597,12 @@ body {
         left: 0.78vw;
         bottom: -0.16vw;
         z-index: -3;
+
+        @media (max-width: 375px) {
+            width: 53.98%;
+            left: -2.83vw;
+            bottom: -0.58vw;
+        }
     }
 
     .banner-3-cloud-4 {
@@ -558,6 +610,11 @@ body {
         left: 1.61vw;
         bottom: -0.65vw;
         z-index: -1;
+        @media (max-width: 375px) {
+            width: 43.1%;
+            left: -0.2vw;
+            bottom: -0.65vw;
+        }
     }
 
     .banner-3-cloud-5 {
@@ -565,6 +622,11 @@ body {
         left: -2.16vw;
         bottom: -0.74vw;
         z-index: -2;
+        @media (max-width: 375px) {
+            width: 39.81%;
+            left: -8.15vw;
+            bottom: -0.58vw;
+        }
     }
 
     //-----畫面右下背景-----
@@ -574,6 +636,11 @@ body {
         right: -1.42vw;
         bottom: -0.51vw;
         z-index: -1;
+        @media (max-width: 375px) {
+            width: 31.83%;
+            bottom: 0;
+            right: 4.78vw;
+        }
     }
 
     .banner-3-cloud-2 {
@@ -581,6 +648,11 @@ body {
         right: -0.89vw;
         bottom: -0.63vw;
         z-index: -2;
+        @media (max-width: 375px) {
+            width: 44.13%;
+            right: -10.21vw;
+            bottom: 0;
+        }
     }
 
     .banner-3-unicorn {
@@ -588,6 +660,11 @@ body {
         right: 6.37vw;
         bottom: 1.06vw;
         z-index: -3;
+        @media (max-width: 375px) {
+            width: 39.55%;
+            right: 6.02%;
+            bottom: 3.06vw;
+        }
     }
 
     .banner-3-cloud-3 {
@@ -595,6 +672,11 @@ body {
         right: -3.86vw;
         bottom: -0.75vw;
         z-index: -4;
+        @media (max-width: 375px) {
+            width: 42.15%;
+            right: -16.64vw;
+            bottom: 0;
+        }
     }
 
     .banner-3-moon {
@@ -602,8 +684,12 @@ body {
         right: 0;
         bottom: 5.97vw;
         z-index: -5;
+        @media (max-width: 375px) {
+            width: 30.62vw;
+            right: -8.27vw;
+            bottom: 14.11vw;
+        }
     }
-
 }
 
 /*#endregion*/
@@ -613,120 +699,206 @@ body {
     background-color: #000000;
     padding-top: 14.31vw;
 
-    @media (max-width:375px) {
+    @media (max-width: 375px) {
         height: 128.31vw;
+        padding-top: 26.3vw;
     }
 
     .banner-4-title {
         width: 14.94vw;
         margin: 0 auto 2.39vw;
         display: block;
-    }
-
-    .swiper {
-        width: 73.74vw;
-        // width: 50vw;
-        height: 11.87vw;
-        // background-color: aquamarine;
-        margin-left: 13.10vw;
-        margin-right: 0;
-
-        .swiper-wrapper {
-
-            .swiper-slide {
-                width: 21.35vw !important;
-                margin-left: 0.8vw;
-                text-align: center;
-                font-size: 18px;
-                cursor: pointer;
-                /* Center slide text vertically */
-
-                display: flex;
-                justify-content: center;
-                align-items: center;
-
-                .swiper-img {
-                    width: 21.35vw;
-                    display: block;
-                }
-
-            }
-
-            .swiper-slide-1 {
-                margin-left: 0;
-            }
+        @media (max-width: 375px) {
+            width: 42.25vw;
+            margin: 0 auto 8.04vw;
         }
     }
 
-    .swiper-button-prev {
-        content: url("./img/banner-2/svg/箭頭-左.svg");
-        width: 1.18%;
-        left: 9.62vw;
-        display: block;
-        margin-top: 0;
-    }
+    .swiper-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        width: 80.74vw;
+        @media (max-width: 375px) {
+            margin: 0;
+            width: 100vw;
+        }
 
-    .swiper-button-next {
-        content: url("./img/banner-2/svg/箭頭-右.svg");
-        width: 1.18%;
-        right: 9.62vw;
-        display: block;
-        margin-top: 0;
-    }
+        .swiper-button-prev {
+            position: static;
+            content: url("./img/banner-2/svg/箭頭-左.svg");
+            width: 1.18%;
+            // left: 9.62vw;
+            display: block;
+            margin-top: 0;
+            @media (max-width: 375px) {
+                display: none;
+            }
+        }
+        .swiper {
+            width: 73.74vw;
+            // width: 50vw;
+            height: 11.87vw;
+            // background-color: aquamarine;
+            margin-left: 2.29vw;
+            margin-right: 2.29vw;
+            display: flex;
+            justify-content: center;
+            @media (max-width: 375px) {
+                width: 100vw;
+                // display: block;
+                margin-left: 4vw;
+                margin-right: 0;
+                height: 44.73vw;
+            }
+            .swiper-wrapper {
+                .swiper-slide {
+                    width: 21.35vw !important;
+                    margin-left: 0.8vw;
+                    text-align: center;
+                    font-size: 18px;
+                    cursor: pointer;
+                    /* Center slide text vertically */
 
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    @media (max-width: 375px) {
+                        width: 80.44vw !important;
+                        height: 44.73 !important;
+                        margin-left: 3.13vw;
+                    }
+                    .swiper-img {
+                        width: 21.35vw;
+                        display: block;
+                        @media (max-width: 375px) {
+                            width: 80.44vw !important;
+                        }
+                    }
+                }
+                .swiper-slide-1 {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        .swiper-button-next {
+            content: url("./img/banner-2/svg/箭頭-右.svg");
+            width: 1.18%;
+            // right: 9.62vw;
+            position: static;
+            display: block;
+            margin-top: 0;
+            @media (max-width: 375px) {
+                display: none;
+            }
+        }
+    }
     .banner-4-lantern {
         width: 111.83%;
         top: 0;
+        @media (max-width: 375px) {
+            width: 166.61%;
+            left: -33.61%;
+        }
     }
-
 
     .role-1 {
         width: 8.11%;
         left: 12.27vw;
         bottom: 0.47vw;
+        @media (max-width: 375px) {
+            width: 16.1%;
+            left: 0.39vw;
+            bottom: 1.27vw;
+        }
     }
 
     .role-2 {
         width: 10.74%;
         left: 17.95vw;
         bottom: 0.38vw;
+        @media (max-width: 375px) {
+            width: 21.33%;
+            left: 11.74vw;
+            bottom: 1.08vw;
+        }
     }
 
     .role-3 {
         width: 7.61%;
         left: 28.15vw;
         bottom: 0;
+        @media (max-width: 375px) {
+            width: 15.11vw;
+            left: 32.96vw;
+            bottom: 0.33vw;
+        }
     }
 
     .role-4 {
         width: 10.78%;
         left: 62.82vw;
         bottom: 0.47vw;
+        @media (max-width: 375px) {
+            width: 21.05vw;
+            left: 50.25vw;
+            bottom: 0.86vw;
+        }
     }
 
     .role-5 {
         width: 9.75%;
         left: 72.04vw;
         bottom: 0.47vw;
+        @media (max-width: 375px) {
+            width: 19.06vw;
+            left: 68.34vw;
+            bottom: 0.86vw;
+        }
     }
 
     .role-6 {
         width: 7.24%;
         left: 80.53vw;
         bottom: 0.47vw;
+        @media (max-width: 375px) {
+            width: 14.14vw;
+            left: 85.08vw;
+            bottom: 0.86vw;
+        }
     }
 
     .banner-4-build {
         width: 104.21%;
         bottom: 1.33vw;
         z-index: -2;
+        @media (max-width: 375px) {
+            width: 112.85vw;
+            left: -3.58vw;
+            bottom: 3.37vw;
+        }
     }
 
-    .banner-4-redcloth {
+    .banner-4-redcloth-computer {
         width: 100%;
         left: 0;
         bottom: 0;
         z-index: -1;
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
+    .banner-4-redcloth-phone {
+        width: 101.77vw;
+        left: -0.92vw;
+        bottom: 0;
+        z-index: -1;
+        display: none;
+        @media (max-width: 375px) {
+            display: block;
+        }
     }
 }
 
