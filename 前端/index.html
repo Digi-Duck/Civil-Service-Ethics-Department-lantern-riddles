@@ -45,14 +45,17 @@
                         class="background banner-1-build-phone">
                     <!-- <img src="./img/banner-1/png/紅布條.png" alt="跑馬燈紅布條" class="background banner-1-redcloth-computer"> -->
                     <img src="./img/banner-1/png/手機板-紅布條.png" alt="跑馬燈紅布條" class="background banner-1-redcloth-phone">
-                    <video class="background banner-high" loop="true" playsinline preload="auto"
+
+                    <video class="background banner-1-video-background-computer" loop="true" playsinline preload="auto"
                         autoplay="autoplay" muted>
                         <source src="./video/banner-1/2022-01-18-主視覺-電腦版-修正版.mp4" type="video/mp4">
                     </video>
-                    <!-- <video class="background banner-1-video-background-phone" loop="true" playsinline
-                        preload="auto" autoplay="autoplay" muted>
-                        <source src="./video/banner-1/2022-01-17-主視覺-手機版.mp4" type="video/mp4">
-                    </video> -->
+                    <img src="./img/banner-1/png/平板版-banner-1動畫-靜態.png" alt=""
+                        class="background banner-1-video-background-ipad">
+                    <video class="background banner-1-video-background-phone" loop="true" playsinline preload="auto"
+                        autoplay="autoplay" muted>
+                        <source src="./video/banner-1/2022-01-18-主視覺-手機版.mp4" type="video/mp4">
+                    </video>
                 </section>
                 <!-- <img src="./img/banner-1/png/廣告.png" alt="廣告" class="background brand"> -->
             </div>
@@ -95,6 +98,8 @@
                         class="background banner-2-video-unicorn">
                     <img src="./img/banner-2/png/區塊2-背景城市.png" alt="背景城市-電腦版"
                         class="background banner-2-build-computer">
+                        <img src="./img/banner-2/png/區塊2-平板版-背景城市.png" alt="背景城市-平板版"
+                        class="background banner-2-build-ipad">
                     <img src="./img/banner-2/png/區塊2-背景城市-手機板.png" alt="背景城市-手機板"
                         class="background banner-2-build-phone">
                     <section>
@@ -142,8 +147,8 @@
                         <img src="./img/banner-3/png/虎頭燈籠-無光暈.png" alt="虎頭燈籠按鈕-9" class="games-btn">
                     </div>
                     <a href="https://id.taipei/tpcd/login">
-                        <img src="./img/banner-3/svg/抽獎按鈕.svg" alt="抽獎按鈕" class="lottery-computer">
-                        <img src="./img/banner-3/png/手機板-區塊3-抽獎按鈕.png" alt="抽獎按鈕" class="lottery-phone">
+                        <img src="./img/banner-3/svg/抽獎按鈕.svg" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
+                        <img src="./img/banner-3/png/手機板-區塊3-抽獎按鈕.png" alt="抽獎按鈕-手機板" class="lottery-btn-phone">
                     </a>
 
                 </div>
@@ -152,6 +157,8 @@
 
                 <section>
                     <img src="./img/banner-3/svg/區塊3-背景星星.svg" alt="星星-電腦版" class="background banner-3-star-computer">
+                    <img src="./img/banner-3/png/平板版-區塊3-左星星.png" alt="左星星-平板版" class="background banner-3-left-star-ipad">
+                    <img src="./img/banner-3/png/平板版-區塊3-右星星.png" alt="右星星-平板版" class="background banner-3-right-star-ipad">
                     <img src="./img/banner-3/png/手機版-區塊3背景星星.png" alt="星星-手機板" class="background banner-3-star-phone">
                     <img src="./img/banner-3/svg/天燈.svg" alt="天燈" class="background banner-3-lantern">
                     <img src="./img/banner-3/svg/橋-剪影.svg" alt="橋" class="background banner-3-bridge">
@@ -188,13 +195,13 @@
                             <div class="swiper-slide swiper-slide-4">
                                 <img src="./img/banner-4/png/提示底加4.png" alt="提示底加4" class="swiper-img swiper-img-4">
                             </div>
-                            <div class="swiper-slide swiper-slide-4">
+                            <div class="swiper-slide swiper-slide-5">
                                 <img src="./img/banner-4/png/提示底加5.png" alt="提示底加5" class="swiper-img swiper-img-5">
                             </div>
-                            <div class="swiper-slide swiper-slide-4">
+                            <div class="swiper-slide swiper-slide-6">
                                 <img src="./img/banner-4/png/提示底加6.png" alt="提示底加6" class="swiper-img swiper-img-6">
                             </div>
-                            <div class="swiper-slide swiper-slide-4">
+                            <div class="swiper-slide swiper-slide-7">
                                 <img src="./img/banner-4/png/提示底加7.png" alt="提示底加7" class="swiper-img swiper-img-7">
                             </div>
                         </div>
@@ -218,6 +225,7 @@
                         preload="auto" autoplay="autoplay" muted>
                         <source src="./video/banner-4/2022-01-13-Footer-電腦版.mp4" type="video/mp4">
                     </video>
+                    <img src="./img/banner-4/png/平板版-banner-4動畫-靜態.png" alt="" class="background banner-4-video-background-ipad">
                     <video class="background banner-4-video-background-phone" loop="true" playsinline preload="auto"
                         autoplay="autoplay" muted>
                         <source src="./video/banner-4/2022-01-17-Footer-手機版.mp4" type="video/mp4">
@@ -238,6 +246,8 @@
         var swiper2 = new Swiper('.banner-2 .swiper', {
             slidesPerView: 1.6,//一次在螢幕上顯示多少張
             direction: 'horizontal',
+            loop: true,
+            spaceBetween: 15,
             navigation: {
                 nextEl: '.banner-2 .swiper-button-next',
                 prevEl: '.banner-2 .swiper-button-prev',
@@ -247,8 +257,13 @@
             breakpoints: {
                 375: {
                     slidesPerView: 5,
+                    spaceBetween: 15,
                 },
-            }
+                768:{
+                    slidesPerView: 4,
+                    spaceBetween: 25,
+                }
+            },
         });
         var swiper4 = new Swiper('.banner-4 .swiper', {
             slidesPerView: 1.13,
@@ -259,11 +274,19 @@
                 // centerInsufficientSlides:true,
                 // spaceBetween: 25,
             },
+            spaceBetween: 11,
             breakpoints: {
-                375: {
-                    slidesPerView: 3,
+
+                375: {//>375
+                    slidesPerView: 6,
+                    spaceBetween: 19,
                 },
+                768:{//>768
+                    slidesPerView: 7,
+                    spaceBetween: 16,
+                }
             },
+            loop: true,
         });
         function getDirection() {
             var windowWidth = window.innerWidth;

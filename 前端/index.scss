@@ -82,14 +82,13 @@ main {
 .banner-1 {
     width: 100%;
     padding-top: 6.95vw;
-
+    @media (max-width: 768px) {
+        height: 123.72vw;
+        padding-top: 10.59vw;
+    }
     @media (max-width: 375px) {
         height: 176.91vw;
         padding-top: 28.53vw;
-    }
-    @media (max-width: 768px) {
-        height: 176.91vw;
-        padding-top: 10.59vw;
     }
 
     .slogn-1 {
@@ -97,7 +96,11 @@ main {
         margin-left: 5.27vw;
         margin-bottom: 1.02vw;
         display: block;
-
+        @media (max-width: 768px) {
+            width: 46.2%;
+            margin-left: 8.44vw;
+            margin-bottom: 3.26vw;
+        }
         @media (max-width: 375px) {
             width: 46.05%;
             margin-left: 8.94vw;
@@ -110,7 +113,11 @@ main {
         margin-left: 2.86vw;
         margin-bottom: 1.67vw;
         display: block;
-
+        @media (max-width: 768px) {
+            width: 94.51%;
+            margin-left: 2.75%;
+            margin-bottom: 3.77vw;
+        }
         @media (max-width: 375px) {
             width: 94.42%;
             margin-left: 2.84%;
@@ -123,7 +130,10 @@ main {
         align-items: center;
         margin-left: 2.86vw;
         margin-bottom: 0.9vw;
-
+        @media (max-width: 768px) {
+            margin-left: 2.74vw;
+            margin-bottom: 2.23vw;
+        }
         @media (max-width: 375px) {
             margin-left: 3.07vw;
             margin-bottom: 0;
@@ -134,7 +144,10 @@ main {
         .slogn-3 {
             width: 27.3%;
             margin-right: 2.64vw;
-
+            @media (max-width: 768px) {
+                width: 61.14%;
+                margin-right: 5.91vw;
+            }
             @media (max-width: 375px) {
                 width: 91.74%;
                 margin-right: 0;
@@ -144,7 +157,9 @@ main {
 
         .logo-computer {
             width: 8.09%;
-
+            @media (max-width: 768px) {
+                width: 18.13%;
+            }
             @media (max-width: 375px) {
                 display: none;
             }
@@ -165,7 +180,10 @@ main {
         width: 20.26%;
         margin-left: 2.86vw;
         display: block;
-
+        @media (max-width: 768px) {
+            width: 45.38%;
+            margin-left: 2.74vw;
+        }
         @media (max-width: 375px) {
             display: none;
         }
@@ -297,7 +315,6 @@ main {
             display: none;
         }
     }
-    // .banner-1-video-background-computer-high{
     .banner-middle {
         width: 100vw;
         // height: 44.94vw;
@@ -308,27 +325,40 @@ main {
             display: none;
         }
     }
-    .banner-high {
+    .banner-1-video-background-computer {
         width: 100vw;
         // height: 44.94vw;
         top: 4.94vw;
         left: 0;
         z-index: -1;
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    .banner-1-video-background-ipad {
+        width: 128.65vw;
+        top: 7.16vw;
+        left: -10.79vw;
+        z-index: -1;
+        display: none;
+        @media (max-width: 768px) {
+            display: block;
+        }
         @media (max-width: 375px) {
             display: none;
         }
     }
-    // .banner-1-video-background-phone {
-    //     width: 100vw;
-    //     // height: 44.94vw;
-    //     top: 17.33vw;
-    //     left: 0;
-    //     z-index: -1;
-    //     display: none;
-    //     @media (max-width: 375px) {
-    //         display: block;
-    //     }
-    // }
+    .banner-1-video-background-phone {
+        width: 100vw;
+        // height: 44.94vw;
+        top: 65px;
+        left: 0;
+        z-index: -1;
+        display: none;
+        @media (max-width: 375px) {
+            display: block;
+        }
+    }
 }
 
 /*#endregion*/
@@ -336,6 +366,10 @@ main {
 .banner-2 {
     width: 100%;
     padding-top: 5.21vw;
+    @media (max-width: 768px) {
+        height: 122.91vw;
+        padding-top: 5.2vw;
+    }
     @media (max-width: 375px) {
         height: 244.19vw;
         padding-top: 6.35vw;
@@ -345,7 +379,10 @@ main {
         width: 29.13%;
         margin: 0 auto 4.49vw;
         display: block;
-
+        @media (max-width: 768px) {
+            width: 49.01%;
+            margin: 0 auto 4.77vw;
+        }
         @media (max-width: 375px) {
             width: 61.28%;
             margin: 0 auto 8.11vw;
@@ -358,10 +395,15 @@ main {
         justify-content: center;
         margin: 0 auto;
         width: 80.74vw;
+        @media (max-width: 768px) {
+            margin: 0 0;
+            width: 100vw;
+        }
         @media (max-width: 375px) {
             margin: 0 0;
             width: 100vw;
         }
+
         .swiper-button-prev {
             position: static;
             content: url("./img/banner-2/svg/箭頭-左.svg");
@@ -370,7 +412,7 @@ main {
             display: block;
             // transform: translateY(-50%);
             z-index: 0;
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 display: none;
             }
         }
@@ -378,14 +420,18 @@ main {
             width: 74.21vw;
             height: 13.8vw;
             // background-color: aquamarine;
-            margin-left: 2.08vw;
-            margin-right: 2.08vw;
+            // margin-left: 2.08vw;
             display: flex;
             justify-content: center;
+            @media (max-width: 768px) {
+                width: 100vw;
+                height: 28.64vw;
+                margin-bottom: 5.06vw;
+            }
             @media (max-width: 375px) {
                 width: 100vw;
                 height: 53.33vw;
-                margin-left: 3.96vw;
+                // margin-left: 3.96vw;
                 margin-bottom: 10.36vw;
             }
 
@@ -394,7 +440,7 @@ main {
 
                 .swiper-slide {
                     width: 13.8vw !important;
-                    margin-left: 1.3vw;
+                    // margin-left: 1.3vw;
                     text-align: center;
                     font-size: 18px;
                     cursor: pointer;
@@ -402,26 +448,32 @@ main {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-
+                    @media (max-width: 768px) {
+                        width: 28.64vw !important;
+                        height: 28.64vw !important;
+                        // margin-left: 4vw;
+                    }
                     @media (max-width: 375px) {
                         width: 53.33vw !important;
                         height: 53.33vw !important;
-                        margin-left: 4vw;
+                        // margin-left: 4vw;
                     }
 
                     .swiper-img {
                         width: 13.8vw;
                         display: block;
-
+                        @media (max-width: 768px) {
+                            width: 28.64vw;
+                        }
                         @media (max-width: 375px) {
                             width: 53.33vw;
                         }
                     }
                 }
 
-                .swiper-slide-1 {
-                    margin-left: 0;
-                }
+                // .swiper-slide-1 {
+                //     margin-left: 0;
+                // }
             }
         }
 
@@ -433,7 +485,7 @@ main {
             display: block;
             // transform: translateY(-50%);
             z-index: 0;
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 display: none;
             }
         }
@@ -442,7 +494,11 @@ main {
         width: 93.09%;
         top: 31.36vw;
         left: 5.26vw;
-
+        @media (max-width: 768px) {
+            width: 87.41%;
+            top: 81.92vw;
+            left: 10.44vw;
+        }
         @media (max-width: 375px) {
             display: none;
         }
@@ -464,9 +520,14 @@ main {
         bottom: 0;
         left: 3.95vw;
         z-index: 2;
+        @media (max-width: 768px) {
+            width: 41.92%;
+            bottom: 1.26vw;
+            left: 0.61vw;
+        }
         @media (max-width: 375px) {
             width: 43.79%;
-            bottom: 1.26vw;
+            bottom: 0.86vw;
             left: 1.85vw;
         }
     }
@@ -475,6 +536,11 @@ main {
         bottom: 0.1vw;
         left: 3.4vw;
         z-index: 2;
+        @media (max-width: 768px) {
+            width: 44%;
+            bottom: 1.2vw;
+            left: -0.3vw;
+        }
         @media (max-width: 375px) {
             width: 43.79%;
             bottom: -0.74vw;
@@ -487,11 +553,23 @@ main {
         bottom: 0;
         left: 0;
         z-index: 1;
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    .banner-2-build-ipad {
+        width: 116.45%;
+        left: -8.81vw;
+        bottom: 0;
+        z-index: 1;
+        display: none;
+        @media (max-width: 768px) {
+            display: block;
+        }
         @media (max-width: 375px) {
             display: none;
         }
     }
-
     .banner-2-build-phone {
         width: 115.25%;
         left: -6.73vw;
@@ -507,7 +585,7 @@ main {
         margin-left: 23.38%;
         bottom: 2.34vw;
 
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
             display: none;
         }
     }
@@ -517,7 +595,7 @@ main {
         margin-left: 1vw;
         cursor: pointer;
         z-index: -1;
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
             display: none;
         }
     }
@@ -526,25 +604,35 @@ main {
     }
 
     .plate-container-phone {
-        width: 100vw;
-        height: 108vw;
         display: none;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
 
         // margin: 0 auto;
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
+            //check
+            width: 92.18vw;
+            height: 29.23vw;
             display: flex;
+            justify-content: space-between;
+            align-content: space-between;
+            flex-wrap: wrap;
+            margin: 0 auto;
+        }
+        @media (max-width: 375px) {
+            flex-direction: column;
+            align-items: center;
+            width: 100vw;
+            height: 108vw;
         }
     }
 
     .plate-phone {
-        width: 80vw;
         display: none;
-
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
+            width: 44.96vw;
             display: block;
+        }
+        @media (max-width: 375px) {
+            width: 80vw;
         }
     }
 }
@@ -554,6 +642,12 @@ main {
 .banner-3 {
     padding-top: 7.16vw;
     padding-left: 21.72vw;
+
+    @media (max-width: 768px) {
+        height: 144.24vw;
+        padding-top: 5.23vw;
+        padding-left: 0;
+    }
 
     @media (max-width: 375px) {
         height: 192.38vw;
@@ -569,13 +663,18 @@ main {
         justify-content: space-between;
         align-items: center;
 
+        @media (max-width: 768px) {
+            height: 104.75vw;
+            margin: 0 auto;
+        }
+
         @media (max-width: 375px) {
             height: 132.34vw;
             margin: 0 auto;
         }
         .banner-3-title-computer {
             width: calc(6.14vw - 17px);
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 display: none;
             }
         }
@@ -583,8 +682,12 @@ main {
             width: calc(41.95vw - 17px);
             display: none;
 
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 display: block;
+                width: calc(33.85vw - 17px);
+            }
+            @media (max-width: 375px) {
+                width: calc(41.95vw - 17px);
             }
         }
         .games {
@@ -593,37 +696,50 @@ main {
             top: 7.03vw;
             left: 33.48vw;
             z-index: 1;
-            @media (max-width: 375px) {
-                width: 92.51vw;
-                height: 91.07vw;
+
+            @media (max-width: 768px) {
+                width: 78.12vw;
+                height: 76.9vw;
                 position: static;
                 display: flex;
                 justify-content: space-between;
                 align-content: space-between;
                 flex-wrap: wrap;
             }
+            @media (max-width: 375px) {
+                width: 92.51vw;
+                height: 91.07vw;
+            }
+
             .games-btn {
                 width: 13.12vw;
                 cursor: pointer;
+                @media (max-width: 768px) {
+                    width: 25.3vw;
+                    display: block;
+                }
                 @media (max-width: 375px) {
                     width: 30.05vw;
-                    display: block;
                 }
             }
         }
 
-        .lottery-computer {
+        .lottery-btn-computer {
             width: 9.68vw;
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 display: none;
             }
         }
-        .lottery-phone {
-            width: calc(80.53vw - 17px);
-            margin: 0 auto;
+        .lottery-btn-phone {
             display: none;
-            @media (max-width: 375px) {
+
+            @media (max-width: 768px) {
                 display: block;
+            }
+
+            @media (max-width: 375px) {
+                width: calc(80.53vw - 17px);
+                margin: 0 auto;
             }
         }
     }
@@ -633,19 +749,42 @@ main {
         top: 5.95vw;
         left: 2.14vw;
 
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+    .banner-3-left-star-ipad {
+        width: 20.52vw;
+        top: 4.08vw;
+        left: 8.6vw;
+        display: none;
+        @media (max-width: 768px) {
+            display: block;
+        }
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
+    .banner-3-right-star-ipad {
+        width: 20.41vw;
+        top: 2.6vw;
+        right: 11.51vw;
+        display: none;
+        @media (max-width: 768px) {
+            display: block;
+        }
         @media (max-width: 375px) {
             display: none;
         }
     }
 
     .banner-3-star-phone {
-        width: 100.98%;
-        top: 3.87vw;
-        left: 0.36vw;
         display: none;
 
         @media (max-width: 375px) {
-            display: block;
+            width: 100.98%;
+            top: 3.87vw;
+            left: 0.36vw;
         }
     }
 
@@ -653,6 +792,12 @@ main {
         width: 19.91%;
         top: 21.14vw;
         left: -1.33vw;
+        @media (max-width: 768px) {
+            width: 33.74%;
+            top: auto;
+            left: -9.69vw;
+            bottom: 15.89vw;
+        }
         @media (max-width: 375px) {
             width: 31.35%;
             top: auto;
@@ -669,10 +814,15 @@ main {
         bottom: -0.16vw;
         z-index: -3;
 
+        @media (max-width: 768px) {
+            width: 44.12%;
+            left: 1.71vw;
+            bottom: -0.58vw;
+        }
         @media (max-width: 375px) {
             width: 53.98%;
             left: -2.83vw;
-            bottom: -0.58vw;
+            bottom: -0.77vw;
         }
     }
 
@@ -681,8 +831,13 @@ main {
         left: 1.61vw;
         bottom: -0.65vw;
         z-index: -1;
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
             width: 43.1%;
+            left: 3.27vw;
+            bottom: -0.77vw;
+        }
+        @media (max-width: 375px) {
+            width: 35.23%;
             left: -0.2vw;
             bottom: -0.65vw;
         }
@@ -693,6 +848,11 @@ main {
         left: -2.16vw;
         bottom: -0.74vw;
         z-index: -2;
+        @media (max-width: 768px) {
+            width: 32.54%;
+            left: -8.15vw;
+            bottom: -0.58vw;
+        }
         @media (max-width: 375px) {
             width: 39.81%;
             left: -8.15vw;
@@ -707,8 +867,13 @@ main {
         right: -1.42vw;
         bottom: -0.51vw;
         z-index: -1;
-        @media (max-width: 375px) {
+        @media (max-width: 768px) {
             width: 31.83%;
+            bottom: -1.33vw;
+            right: 2.87vw;
+        }
+        @media (max-width: 375px) {
+            width: 26.46%;
             bottom: 0;
             right: 4.78vw;
         }
@@ -719,6 +884,11 @@ main {
         right: -0.89vw;
         bottom: -0.63vw;
         z-index: -2;
+        @media (max-width: 768px) {
+            width: 36.69%;
+            right: -1.4vw;
+            bottom: -1.57vw;
+        }
         @media (max-width: 375px) {
             width: 44.13%;
             right: -10.21vw;
@@ -731,6 +901,11 @@ main {
         right: 6.37vw;
         bottom: 1.06vw;
         z-index: -3;
+        @media (max-width: 768px) {
+            width: 32.88%;
+            right: 12.11%;
+            bottom: 1.31vw;
+        }
         @media (max-width: 375px) {
             width: 39.55%;
             right: 6.02%;
@@ -742,6 +917,11 @@ main {
         right: 4.8vw;
         bottom: 0.6vw;
         z-index: -3;
+        @media (max-width: 768px) {
+            width: 49%;
+            right: 7%;
+            bottom: -0.9%;
+        }
         @media (max-width: 375px) {
             width: 39.55%;
             right: 6.02%;
@@ -754,6 +934,12 @@ main {
         right: -3.86vw;
         bottom: -0.75vw;
         z-index: -4;
+
+        @media (max-width: 768px) {
+            width: 35.04vw;
+            right: -6.9vw;
+            bottom: -1.77vw;
+        }
         @media (max-width: 375px) {
             width: 42.15%;
             right: -16.64vw;
@@ -766,6 +952,11 @@ main {
         right: 0;
         bottom: 5.97vw;
         z-index: -5;
+        @media (max-width: 768px) {
+            width: 25.46vw;
+            right: -3.75vw;
+            bottom: 10.49vw;
+        }
         @media (max-width: 375px) {
             width: 30.62vw;
             right: -8.27vw;
@@ -781,6 +972,10 @@ main {
     background-color: #000000;
     padding-top: 14.31vw;
 
+    @media (max-width: 768px) {
+        height: 101.65vw;
+        padding-top: 19.66vw;
+    }
     @media (max-width: 375px) {
         height: 128.31vw;
         padding-top: 26.3vw;
@@ -790,6 +985,10 @@ main {
         width: 14.94vw;
         margin: 0 auto 2.39vw;
         display: block;
+        @media (max-width: 768px) {
+            width: 32.55vw;
+            margin: 0 auto 3.9vw;
+        }
         @media (max-width: 375px) {
             width: 42.25vw;
             margin: 0 auto 8.04vw;
@@ -802,11 +1001,14 @@ main {
         justify-content: center;
         margin: 0 auto;
         width: 80.74vw;
+        @media (max-width: 768px) {
+            margin: 0;
+            width: 100vw;
+        }
         @media (max-width: 375px) {
             margin: 0;
             width: 100vw;
         }
-
         .swiper-button-prev {
             position: static;
             content: url("./img/banner-2/svg/箭頭-左.svg");
@@ -814,7 +1016,7 @@ main {
             // left: 9.62vw;
             display: block;
             margin-top: 0;
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 display: none;
             }
         }
@@ -827,17 +1029,24 @@ main {
             margin-right: 2.29vw;
             display: flex;
             justify-content: center;
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 width: 100vw;
+                height: 36.45vw;
                 // display: block;
                 margin-left: 4vw;
                 margin-right: 0;
+            }
+            @media (max-width: 375px) {
+                width: 100vw;
                 height: 44.73vw;
+                // display: block;
+                margin-left: 4vw;
+                margin-right: 0;
             }
             .swiper-wrapper {
                 .swiper-slide {
                     width: 21.35vw !important;
-                    margin-left: 0.8vw;
+                    // margin-left: 0.8vw;
                     text-align: center;
                     font-size: 18px;
                     cursor: pointer;
@@ -846,22 +1055,30 @@ main {
                     display: flex;
                     justify-content: center;
                     align-items: center;
+                    @media (max-width: 768px) {
+                        width: 65.56vw !important;
+                        height: 44.73 !important;
+                        // margin-left: 3.13vw;
+                    }
                     @media (max-width: 375px) {
                         width: 80.44vw !important;
-                        height: 44.73 !important;
-                        margin-left: 3.13vw;
+                        height: 44.73 !important; //check
+                        // margin-left: 3.13vw;
                     }
                     .swiper-img {
                         width: 21.35vw;
                         display: block;
+                        @media (max-width: 768px) {
+                            width: 65.56vw !important;
+                        }
                         @media (max-width: 375px) {
                             width: 80.44vw !important;
                         }
                     }
                 }
-                .swiper-slide-1 {
-                    margin-left: 0;
-                }
+                // .swiper-slide-1 {
+                //     margin-left: 0;
+                // }
             }
         }
 
@@ -872,7 +1089,7 @@ main {
             position: static;
             display: block;
             margin-top: 0;
-            @media (max-width: 375px) {
+            @media (max-width: 768px) {
                 display: none;
             }
         }
@@ -880,6 +1097,10 @@ main {
     .banner-4-lantern {
         width: 111.83%;
         top: 0;
+        @media (max-width: 768px) {
+            width: 156.78%;
+            left: -28.34%;
+        }
         @media (max-width: 375px) {
             width: 166.61%;
             left: -33.61%;
@@ -990,6 +1211,20 @@ main {
             display: none;
         }
     }
+    .banner-4-video-background-ipad {
+        display: none;
+        @media (max-width: 768px) {
+            width: 111.72vw;
+            display: block;
+            left: -3.05vw;
+            bottom: 0;
+            z-index: -3;
+        }
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
+
     .banner-4-video-background-phone {
         // top: 35.82vw;
         bottom: 0;
