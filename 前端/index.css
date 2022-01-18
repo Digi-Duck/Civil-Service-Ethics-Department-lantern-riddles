@@ -355,7 +355,7 @@ body {
   }
 }
 
-.banner-1 .banner-1-video-background-computer-down {
+.banner-1 .banner-down {
   width: 100vw;
   top: 4.94vw;
   left: 0;
@@ -365,12 +365,12 @@ body {
 }
 
 @media (max-width: 375px) {
-  .banner-1 .banner-1-video-background-computer-down {
+  .banner-1 .banner-down {
     display: none;
   }
 }
 
-.banner-1 .banner-1-video-background-computer-high {
+.banner-1 .banner-high {
   width: 100vw;
   top: 4.94vw;
   left: 0;
@@ -379,7 +379,7 @@ body {
 }
 
 @media (max-width: 375px) {
-  .banner-1 .banner-1-video-background-computer-high {
+  .banner-1 .banner-high {
     display: none;
   }
 }

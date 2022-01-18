@@ -34,7 +34,6 @@ nav {
             @media (max-width: 768px) {
                 width: 26.04%;
             }
-
         }
 
         .sound {
@@ -51,11 +50,8 @@ nav {
             @media (max-width: 768px) {
                 width: 3.03%;
                 padding-top: 0.7vw;
-                
             }
         }
-
-        
     }
 }
 
@@ -291,7 +287,7 @@ main {
             display: none;
         }
     }
-    .banner-1-video-background-computer-down{
+    .banner-down {
         width: 100vw;
         // height: 44.94vw;
         top: 4.94vw;
@@ -303,7 +299,8 @@ main {
             display: none;
         }
     }
-    .banner-1-video-background-computer-high{
+    // .banner-1-video-background-computer-high{
+    .banner-high {
         width: 100vw;
         // height: 44.94vw;
         top: 4.94vw;
