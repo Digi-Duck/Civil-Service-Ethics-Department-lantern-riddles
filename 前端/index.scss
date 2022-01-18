@@ -297,6 +297,7 @@ main {
         top: 4.94vw;
         left: 0;
         z-index: -1;
+        display: block;
         display: none;
         @media (max-width: 375px) {
             display: none;
