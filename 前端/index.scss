@@ -13,10 +13,17 @@ nav {
     @media (max-width: 375px) {
         height: 16vw;
     }
-
+    @media (max-width: 768px) {
+        height: 7.16vw;
+    }
     .nav-container {
         padding: 1.3vw 2.6vw 0 1.56vw;
-
+        @media (max-width: 375px) {
+            padding: 3.63vw 4vw 0 4vw;
+        }
+        @media (max-width: 768px) {
+            padding: 1.39vw 3.9vw 0 3.9vw;
+        }
         .logo {
             width: 15.52%;
             cursor: pointer;
@@ -24,6 +31,10 @@ nav {
             @media (max-width: 375px) {
                 width: 55.82%;
             }
+            @media (max-width: 768px) {
+                width: 26.04%;
+            }
+
         }
 
         .sound {
@@ -37,11 +48,14 @@ nav {
                 width: 6.21%;
                 padding-top: 1.65vw;
             }
+            @media (max-width: 768px) {
+                width: 3.03%;
+                padding-top: 0.7vw;
+                
+            }
         }
 
-        @media (max-width: 375px) {
-            padding: 3.63vw 4vw 0 4vw;
-        }
+        
     }
 }
 
@@ -76,6 +90,10 @@ main {
     @media (max-width: 375px) {
         height: 176.91vw;
         padding-top: 28.53vw;
+    }
+    @media (max-width: 768px) {
+        height: 176.91vw;
+        padding-top: 10.59vw;
     }
 
     .slogn-1 {
@@ -428,7 +446,7 @@ main {
         width: 18.07%;
         bottom: 0;
         left: 3.95vw;
-        z-index: 1;
+        z-index: 2;
         @media (max-width: 375px) {
             width: 43.79%;
             bottom: 1.26vw;
@@ -436,13 +454,13 @@ main {
         }
     }
     .banner-2-video-unicorn {
-        width: 18.07%;
-        bottom: -0.9vw;
-        left: 3.95vw;
+        width: 19.07%;
+        bottom: 0.1vw;
+        left: 3.4vw;
         z-index: 2;
         @media (max-width: 375px) {
             width: 43.79%;
-            bottom: 1.26vw;
+            bottom: -0.74vw;
             left: 1.85vw;
         }
     }
@@ -486,7 +504,7 @@ main {
             display: none;
         }
     }
-    .plate-1-computer{
+    .plate-1-computer {
         margin-left: 0;
     }
 
@@ -703,9 +721,9 @@ main {
         }
     }
     .banner-3-video-unicorn {
-        width: 17.66%;
-        right: 6.37vw;
-        bottom: 1.06vw;
+        width: 24.5%;
+        right: 4.8vw;
+        bottom: 0.6vw;
         z-index: -3;
         @media (max-width: 375px) {
             width: 39.55%;
@@ -947,10 +965,22 @@ main {
             display: block;
         }
     }
-    .banner-4-video-background {
+    .banner-4-video-background-computer {
         // top: 35.82vw;
         bottom: 0;
         z-index: -3;
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
+    .banner-4-video-background-phone {
+        // top: 35.82vw;
+        bottom: 0;
+        z-index: -3;
+        display: none;
+        @media (max-width: 375px) {
+            display: block;
+        }
     }
 }
 

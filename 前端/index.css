@@ -19,8 +19,26 @@ nav {
   }
 }
 
+@media (max-width: 768px) {
+  nav {
+    height: 7.16vw;
+  }
+}
+
 nav .nav-container {
   padding: 1.3vw 2.6vw 0 1.56vw;
+}
+
+@media (max-width: 375px) {
+  nav .nav-container {
+    padding: 3.63vw 4vw 0 4vw;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .nav-container {
+    padding: 1.39vw 3.9vw 0 3.9vw;
+  }
 }
 
 nav .nav-container .logo {
@@ -31,6 +49,12 @@ nav .nav-container .logo {
 @media (max-width: 375px) {
   nav .nav-container .logo {
     width: 55.82%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .nav-container .logo {
+    width: 26.04%;
   }
 }
 
@@ -49,9 +73,10 @@ nav .nav-container .sound {
   }
 }
 
-@media (max-width: 375px) {
-  nav .nav-container {
-    padding: 3.63vw 4vw 0 4vw;
+@media (max-width: 768px) {
+  nav .nav-container .sound {
+    width: 3.03%;
+    padding-top: 0.7vw;
   }
 }
 
@@ -85,6 +110,13 @@ body {
   .banner-1 {
     height: 176.91vw;
     padding-top: 28.53vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-1 {
+    height: 176.91vw;
+    padding-top: 10.59vw;
   }
 }
 
@@ -511,7 +543,7 @@ body {
   width: 18.07%;
   bottom: 0;
   left: 3.95vw;
-  z-index: 1;
+  z-index: 2;
 }
 
 @media (max-width: 375px) {
@@ -523,16 +555,16 @@ body {
 }
 
 .banner-2 .banner-2-video-unicorn {
-  width: 18.07%;
-  bottom: -0.9vw;
-  left: 3.95vw;
+  width: 19.07%;
+  bottom: 0.1vw;
+  left: 3.4vw;
   z-index: 2;
 }
 
 @media (max-width: 375px) {
   .banner-2 .banner-2-video-unicorn {
     width: 43.79%;
-    bottom: 1.26vw;
+    bottom: -0.74vw;
     left: 1.85vw;
   }
 }
@@ -878,9 +910,9 @@ body {
 }
 
 .banner-3 .banner-3-video-unicorn {
-  width: 17.66%;
-  right: 6.37vw;
-  bottom: 1.06vw;
+  width: 24.5%;
+  right: 4.8vw;
+  bottom: 0.6vw;
   z-index: -3;
 }
 
@@ -1199,9 +1231,27 @@ body {
   }
 }
 
-.banner-4 .banner-4-video-background {
+.banner-4 .banner-4-video-background-computer {
   bottom: 0;
   z-index: -3;
+}
+
+@media (max-width: 375px) {
+  .banner-4 .banner-4-video-background-computer {
+    display: none;
+  }
+}
+
+.banner-4 .banner-4-video-background-phone {
+  bottom: 0;
+  z-index: -3;
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .banner-4 .banner-4-video-background-phone {
+    display: block;
+  }
 }
 
 /*#endregion*/
