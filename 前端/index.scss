@@ -293,20 +293,27 @@ main {
         top: 4.94vw;
         left: 0;
         z-index: -1;
-        display: block;
-        display: none;
         @media (max-width: 375px) {
             display: none;
         }
     }
     // .banner-1-video-background-computer-high{
+    .banner-middle {
+        width: 100vw;
+        // height: 44.94vw;
+        top: 4.94vw;
+        left: 0;
+        z-index: -1;
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
     .banner-high {
         width: 100vw;
         // height: 44.94vw;
         top: 4.94vw;
         left: 0;
         z-index: -1;
-        display: none;
         @media (max-width: 375px) {
             display: none;
         }

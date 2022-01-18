@@ -360,12 +360,23 @@ body {
   top: 4.94vw;
   left: 0;
   z-index: -1;
-  display: block;
-  display: none;
 }
 
 @media (max-width: 375px) {
   .banner-1 .banner-down {
+    display: none;
+  }
+}
+
+.banner-1 .banner-middle {
+  width: 100vw;
+  top: 4.94vw;
+  left: 0;
+  z-index: -1;
+}
+
+@media (max-width: 375px) {
+  .banner-1 .banner-middle {
     display: none;
   }
 }
@@ -375,7 +386,6 @@ body {
   top: 4.94vw;
   left: 0;
   z-index: -1;
-  display: none;
 }
 
 @media (max-width: 375px) {
