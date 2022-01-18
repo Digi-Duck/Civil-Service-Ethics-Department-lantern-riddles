@@ -73,15 +73,15 @@ main {
     width: 100%;
     padding-top: 6.95vw;
 
-//   .banner-1-video-1{
-      
-//     width: 100%;
-//     // height: 44.94vw;
-//     position: absolute;
-//     top: 4.94vw;
-//     left: 0;
-//     z-index: 1;
-//   }
+    .banner-1-video-1 {
+        width: 100%;
+        // height: 44.94vw;
+        position: absolute;
+
+        top:4.94vw;
+        left: 0;
+        z-index: -1;
+    }
     @media (max-width: 375px) {
         height: 176.91vw;
         padding-top: 28.53vw;
@@ -322,7 +322,7 @@ main {
             // left: 9.62vw;
             display: block;
             // transform: translateY(-50%);
-
+            z-index: 0;
             @media (max-width: 375px) {
                 display: none;
             }
@@ -385,7 +385,7 @@ main {
             position: static;
             display: block;
             // transform: translateY(-50%);
-
+            z-index: 0;
             @media (max-width: 375px) {
                 display: none;
             }

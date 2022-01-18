@@ -80,6 +80,14 @@ body {
   padding-top: 6.95vw;
 }
 
+.banner-1 .banner-1-video-1 {
+  width: 100%;
+  position: absolute;
+  top: 4.94vw;
+  left: 0;
+  z-index: -1;
+}
+
 @media (max-width: 375px) {
   .banner-1 {
     height: 176.91vw;
@@ -375,6 +383,7 @@ body {
   content: url("./img/banner-2/svg/箭頭-左.svg");
   width: 1.18%;
   display: block;
+  z-index: 0;
 }
 
 @media (max-width: 375px) {
@@ -458,6 +467,7 @@ body {
   width: 1.18%;
   position: static;
   display: block;
+  z-index: 0;
 }
 
 @media (max-width: 375px) {
