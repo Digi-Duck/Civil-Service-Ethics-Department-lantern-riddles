@@ -355,15 +355,30 @@ body {
   }
 }
 
-.banner-1 .banner-1-video-background-computer {
-  width: 100%;
+.banner-1 .banner-1-video-background-computer-down {
+  width: 100vw;
   top: 4.94vw;
   left: 0;
   z-index: -1;
+  display: none;
 }
 
 @media (max-width: 375px) {
-  .banner-1 .banner-1-video-background-computer {
+  .banner-1 .banner-1-video-background-computer-down {
+    display: none;
+  }
+}
+
+.banner-1 .banner-1-video-background-computer-high {
+  width: 100vw;
+  top: 4.94vw;
+  left: 0;
+  z-index: -1;
+  display: none;
+}
+
+@media (max-width: 375px) {
+  .banner-1 .banner-1-video-background-computer-high {
     display: none;
   }
 }
