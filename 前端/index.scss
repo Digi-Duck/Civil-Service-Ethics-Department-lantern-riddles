@@ -15,6 +15,7 @@ body {
 main {
     // width: 100%;
     // position: relative;
+        overflow-x: hidden;
 }
 .container {
     width: 100%;
@@ -36,10 +37,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    .moudle-background{
+    .moudle-background {
         width: 66.66vw;
     }
-    
+    .moudle-content {
+        // padding-top: ;
+    }
 }
 /*#endregion*/
 
@@ -96,6 +99,7 @@ nav {
 .banner-1 {
     width: 100%;
     padding-top: 6.95vw;
+    overflow-x: hidden;
     @media (max-width: 768px) {
         height: 123.72vw;
         padding-top: 10.59vw;
@@ -392,6 +396,7 @@ nav {
 /*#region banner-2*/
 .banner-2 {
     padding-top: 5.21vw;
+    overflow-x: hidden;
     @media (max-width: 768px) {
         height: 122.91vw;
         padding-top: 5.2vw;
@@ -669,7 +674,7 @@ nav {
 .banner-3 {
     padding-top: 7.16vw;
     padding-left: 21.72vw;
-
+    overflow: hidden;
     @media (max-width: 768px) {
         height: 144.24vw;
         padding-top: 5.23vw;
@@ -894,6 +899,7 @@ nav {
         right: -1.42vw;
         bottom: -0.51vw;
         z-index: -1;
+        overflow-x: hidden;
         @media (max-width: 768px) {
             width: 31.83%;
             bottom: -1.33vw;
@@ -911,6 +917,7 @@ nav {
         right: -0.89vw;
         bottom: -0.63vw;
         z-index: -2;
+        overflow-x: hidden;
         @media (max-width: 768px) {
             width: 36.69%;
             right: -1.4vw;
@@ -961,7 +968,7 @@ nav {
         right: -3.86vw;
         bottom: -0.75vw;
         z-index: -4;
-
+        overflow-x: hidden;
         @media (max-width: 768px) {
             width: 35.04vw;
             right: -6.9vw;
@@ -979,6 +986,7 @@ nav {
         right: 0;
         bottom: 5.97vw;
         z-index: -5;
+overflow-x: hidden;
         @media (max-width: 768px) {
             width: 25.46vw;
             right: -3.75vw;
@@ -999,7 +1007,7 @@ nav {
     z-index: 0;
     background-color: #000000;
     padding-top: 14.31vw;
-
+    overflow-x: hidden;
     @media (max-width: 768px) {
         height: 101.65vw;
         padding-top: 19.66vw;
