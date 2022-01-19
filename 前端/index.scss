@@ -35,13 +35,31 @@ main {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 40px;
     .moudle-background {
         width: 66.66vw;
     }
     .moudle-content {
         // padding-top: ;
+        display: flex;
+        justify-content: center;
+        color: white;
+        .moudle-question{
+            font-size: 24px;
+        }
+        .moudle-btn{
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            .moudle-btn-content{
+                position: absolute;
+            }
+        }
     }
 }
 /*#endregion*/
