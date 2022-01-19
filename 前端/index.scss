@@ -9,47 +9,43 @@ nav {
     position: fixed;
     z-index: 10;
     background-color: #000000;
-
-    @media (max-width: 375px) {
-        height: 16vw;
-    }
     @media (max-width: 768px) {
         height: 7.16vw;
     }
+    @media (max-width: 375px) {
+        height: 16vw;
+    }
     .nav-container {
         padding: 1.3vw 2.6vw 0 1.56vw;
-        @media (max-width: 375px) {
-            padding: 3.63vw 4vw 0 4vw;
-        }
         @media (max-width: 768px) {
             padding: 1.39vw 3.9vw 0 3.9vw;
+        }
+        @media (max-width: 375px) {
+            padding: 3.63vw 4vw 0 4vw;
         }
         .logo {
             width: 15.52%;
             cursor: pointer;
-
-            @media (max-width: 375px) {
-                width: 55.82%;
-            }
             @media (max-width: 768px) {
                 width: 26.04%;
             }
+            @media (max-width: 375px) {
+                width: 55.82%;
+            }
         }
-
         .sound {
             width: 2.18%;
             float: right;
             padding-top: 0.07vw;
             display: block;
             cursor: pointer;
-
-            @media (max-width: 375px) {
-                width: 6.21%;
-                padding-top: 1.65vw;
-            }
             @media (max-width: 768px) {
                 width: 3.03%;
                 padding-top: 0.7vw;
+            }
+            @media (max-width: 375px) {
+                width: 6.21%;
+                padding-top: 1.65vw;
             }
         }
     }
@@ -335,7 +331,7 @@ main {
             display: none;
         }
     }
-    .banner-1-video-background-ipad {
+    .banner-1-background-ipad {
         width: 128.65vw;
         top: 7.16vw;
         left: -10.79vw;
@@ -348,8 +344,21 @@ main {
             display: none;
         }
     }
+    .banner-1-video-background-ipad {
+        width: 100%;
+        top: 7.16vw;
+        left: 0;
+        z-index: -1;
+        display: none;
+        @media (max-width: 768px) {
+            display: block;
+        }
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
     .banner-1-video-background-phone {
-        width: 100vw;
+        width: 100%;
         // height: 44.94vw;
         top: 65px;
         left: 0;
@@ -618,10 +627,11 @@ main {
             margin: 0 auto;
         }
         @media (max-width: 375px) {
+            width: 100%;
+            height: 108vw;
             flex-direction: column;
             align-items: center;
-            width: 100vw;
-            height: 108vw;
+            align-content: unset;
         }
     }
 
@@ -1211,7 +1221,7 @@ main {
             display: none;
         }
     }
-    .banner-4-video-background-ipad {
+    .banner-4-background-ipad {
         display: none;
         @media (max-width: 768px) {
             width: 111.72vw;
@@ -1224,9 +1234,23 @@ main {
             display: none;
         }
     }
+    .banner-4-video-background-ipad {
+        display: none;
+        @media (max-width: 768px) {
+            width: 100vw;
+            display: block;
+            left: 0;
+            bottom: 0;
+            z-index: -3;
+        }
+        @media (max-width: 375px) {
+            display: none;
+        }
+    }
 
     .banner-4-video-background-phone {
         // top: 35.82vw;
+        width: 100%;
         bottom: 0;
         z-index: -3;
         display: none;
