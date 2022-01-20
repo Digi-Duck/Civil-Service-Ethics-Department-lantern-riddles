@@ -50,25 +50,61 @@ main {
   font-size: 40px;
 }
 
-.moudle .moudle-background {
+.moudle .moudle-exit {
+  width: 3.5vw;
+  position: fixed;
+  cursor: pointer;
+}
+
+.moudle-question {
+  display: none;
+}
+
+.moudle-question .moudle-background {
   width: 66.66vw;
 }
 
-.moudle .moudle-content {
+.moudle-question .moudle-content {
+  width: 100%;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: white;
 }
 
-.moudle .moudle-content .moudle-question {
-  font-size: 24px;
+.moudle-question .moudle-content .moudle-title {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
 }
 
-.moudle .moudle-content .moudle-btn {
+.moudle-question .moudle-content .moudle-subtitle {
+  font-size: 24px;
+  line-height: 24px;
+  text-align: center;
+  margin-bottom: 2.39vw;
+}
+
+.moudle-question .moudle-content .moudle-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.moudle-question .moudle-content .moudle-btn-container .moudle-btn {
+  margin: 0 0.8vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -79,10 +115,34 @@ main {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  cursor: pointer;
 }
 
-.moudle .moudle-content .moudle-btn .moudle-btn-content {
+.moudle-question .moudle-content .moudle-btn-container .moudle-btn .moudle-btn-background {
+  width: 12.16vw;
+}
+
+.moudle-question .moudle-content .moudle-btn-container .moudle-btn .moudle-btn-content {
+  font-size: 40px;
   position: absolute;
+}
+
+.moudle-question .moudle-content .moudle-question-exit {
+  top: -4vw;
+  right: 17vw;
+}
+
+.moudle-teach {
+  display: none;
+}
+
+.moudle-teach .moudle-teach-background .moudle-teach-background-img {
+  width: 66.66vw;
+}
+
+.moudle-teach .moudle-teach-exit {
+  top: 37vw;
+  right: 17vw;
 }
 
 /*#endregion*/
