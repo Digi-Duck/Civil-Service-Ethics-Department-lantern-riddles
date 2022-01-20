@@ -47,30 +47,16 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 40px;
+  font-size: 2.08vw;
 }
 
-.moudle .moudle-exit {
-  width: 3.5vw;
-  position: fixed;
-  cursor: pointer;
+.moudle .moudle-container {
+  background-size: cover;
+  padding-top: 1.36vw;
 }
 
-.moudle-question {
-  display: none;
-}
-
-.moudle-question .moudle-background {
-  width: 66.66vw;
-}
-
-.moudle-question .moudle-content {
+.moudle .moudle-container .moudle-content {
   width: 100%;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -81,30 +67,61 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.moudle .moudle-container .moudle-content .moudle-exit {
+  width: 2.62vw;
+  cursor: pointer;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 1.7vw;
+}
+
+.moudle-question {
+  display: none;
+}
+
+.moudle-question .moudle-container {
+  width: 66.66vw;
+  height: 40vw;
+  color: red;
+  background-color: black;
+  background-image: url("./img/moudle/模組-問題背景.png");
+}
+
+.moudle-question .moudle-container .moudle-content {
   color: white;
 }
 
-.moudle-question .moudle-content .moudle-title {
-  font-size: 40px;
-  line-height: 40px;
-  text-align: center;
+.moudle-question .moudle-container .moudle-content .moudle-exit {
+  margin-bottom: 2.8vw;
 }
 
-.moudle-question .moudle-content .moudle-subtitle {
-  font-size: 24px;
-  line-height: 24px;
+.moudle-question .moudle-container .moudle-content .moudle-title {
+  font-size: 2.08vw;
+  line-height: 2.5vw;
   text-align: center;
-  margin-bottom: 2.39vw;
+  margin-bottom: 0.62vw;
 }
 
-.moudle-question .moudle-content .moudle-btn-container {
+.moudle-question .moudle-container .moudle-content .moudle-subtitle {
+  font-size: 1.04vw;
+  line-height: 1.25vw;
+  text-align: center;
+  margin-bottom: 2.16vw;
+}
+
+.moudle-question .moudle-container .moudle-content .moudle-btn-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.moudle-question .moudle-content .moudle-btn-container .moudle-btn {
-  margin: 0 0.8vw;
+.moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn-2 {
+  margin: 0 1.62vw;
+}
+
+.moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -118,31 +135,98 @@ main {
   cursor: pointer;
 }
 
-.moudle-question .moudle-content .moudle-btn-container .moudle-btn .moudle-btn-background {
+.moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn .moudle-btn-background {
   width: 12.16vw;
 }
 
-.moudle-question .moudle-content .moudle-btn-container .moudle-btn .moudle-btn-content {
-  font-size: 40px;
+.moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn .moudle-btn-content {
+  font-size: 2.08vw;
   position: absolute;
-}
-
-.moudle-question .moudle-content .moudle-question-exit {
-  top: -4vw;
-  right: 17vw;
 }
 
 .moudle-teach {
   display: none;
 }
 
-.moudle-teach .moudle-teach-background .moudle-teach-background-img {
-  width: 66.66vw;
+.moudle-teach .moudle-container {
+  width: 66.25vw;
+  height: 39.58vw;
+  background-image: url("./img/moudle/資產 8.png");
+  background-color: black;
+  border: 4px #ff8908 solid;
+  border-radius: 20px;
 }
 
-.moudle-teach .moudle-teach-exit {
-  top: 37vw;
-  right: 17vw;
+.moudle-teach .moudle-container .moudle-teach-information {
+  width: 36.45vw;
+  height: 14.43vw;
+  background-image: url("./img/moudle/您答對了-背景.png");
+  background-size: cover;
+  padding-left: 19.58vw;
+  margin-top: -1.85vw;
+  margin-bottom: 1.83vw;
+  padding-top: 4.26vw;
+}
+
+.moudle-teach .moudle-container .moudle-teach-information .moudle-teach-title {
+  color: #22ab38;
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 0.25vw;
+  line-height: 1.77vw;
+}
+
+.moudle-teach .moudle-container .moudle-teach-information .moudle-teach-subtitle {
+  font-size: 22px;
+  line-height: 1.77vw;
+  font-weight: bolder;
+  margin-bottom: 1.56vw;
+}
+
+.moudle-teach .moudle-container .moudle-teach-information .next {
+  cursor: pointer;
+}
+
+.moudle-teach .moudle-container .moudle-teach-background {
+  width: 39.79vw;
+  padding-top: 1.2vw;
+  height: 20.8vw;
+  overflow-y: scroll;
+}
+
+.moudle-teach .moudle-container .moudle-teach-background .moudle-teach-detail {
+  width: 37.25vw;
+  font-size: 26px;
+  line-height: 38px;
+  color: white;
+  margin-bottom: 1.32vw;
+  text-align: justify;
+}
+
+.moudle-teach .moudle-container .moudle-teach-background .moudle-teach-video-information {
+  width: 100%;
+  color: #ff8908;
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 0.42vw;
+}
+
+.moudle-teach .moudle-container .moudle-teach-background .moudle-teach-video {
+  width: 37.22vw;
+}
+
+.moudle-teach .moudle-container .moudle-teach-background::-webkit-scrollbar {
+  width: 4px;
+}
+
+.moudle-teach .moudle-container .moudle-teach-background::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
+}
+
+.moudle-teach .moudle-container .moudle-teach-background::-webkit-scrollbar-thumb {
+  border: 4px solid #808080;
+  border-radius: 2px;
 }
 
 /*#endregion*/
@@ -1641,6 +1725,7 @@ nav .nav-container .sound {
 .banner-4 .banner-4-lantern {
   width: 111.83%;
   top: 0;
+  left: -5.92vw;
   overflow-x: hidden;
 }
 
