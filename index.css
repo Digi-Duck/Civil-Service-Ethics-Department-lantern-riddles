@@ -182,8 +182,12 @@ main {
   margin-bottom: 1.56vw;
 }
 
-.moudle-teach .moudle-container .moudle-teach-information .next {
+.moudle-teach .moudle-container .moudle-teach-information .moudle-teach-next {
   cursor: pointer;
+}
+
+.moudle-teach .moudle-container .moudle-teach-information .moudle-teach-next .moudle-teach-next-img {
+  width: 7.56vw;
 }
 
 .moudle-teach .moudle-container .moudle-teach-background {
@@ -1201,22 +1205,63 @@ nav .nav-container .sound {
   }
 }
 
-.banner-3 .games-information .games .games-btn {
+.banner-3 .games-information .games .card {
   width: 13.12vw;
+  height: 13.12vw;
   cursor: pointer;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+  display: inline-block;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.banner-3 .games-information .games .card .games-btn-front {
+  width: 13.12vw;
+  position: absolute;
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
 }
 
 @media (max-width: 768px) {
-  .banner-3 .games-information .games .games-btn {
+  .banner-3 .games-information .games .card .games-btn-front {
     width: 25.3vw;
     display: block;
   }
 }
 
 @media (max-width: 414px) {
-  .banner-3 .games-information .games .games-btn {
+  .banner-3 .games-information .games .card .games-btn-front {
     width: 30.05vw;
   }
+}
+
+.banner-3 .games-information .games .card .games-btn-back {
+  width: 13.12vw;
+  position: absolute;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 0.8s all ease;
+  transition: 0.8s all ease;
+}
+
+.banner-3 .games-information .front-open {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.banner-3 .games-information .back-open {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
 }
 
 .banner-3 .games-information .lottery-btn-computer {

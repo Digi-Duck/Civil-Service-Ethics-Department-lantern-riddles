@@ -141,8 +141,11 @@ main {
                 font-weight: bolder;
                 margin-bottom: 1.56vw;
             }
-            .next {
+            .moudle-teach-next {
                 cursor: pointer;
+                .moudle-teach-next-img {
+                    width: 7.56vw;
+                }
             }
         }
         .moudle-teach-background {
@@ -880,20 +883,45 @@ nav {
                 width: 92.51vw;
                 height: 91.07vw;
             }
-
-            .games-btn {
+            .card {
                 width: 13.12vw;
+                height: 13.12vw;
                 cursor: pointer;
-                @media (max-width: 768px) {
-                    width: 25.3vw;
-                    display: block;
+                transform-style: preserve-3d;
+                transition: 0.8s all ease;
+                display: inline-block;
+                position: relative;
+                perspective :1000px;
+
+                .games-btn-front {
+                    width: 13.12vw;
+                    position: absolute;
+                    transform: rotateY(0);
+                    backface-visibility:hidden;
+                    transition:0.8s all ease;
+                    @media (max-width: 768px) {
+                        width: 25.3vw;
+                        display: block;
+                    }
+                    @media (max-width: 414px) {
+                        width: 30.05vw;
+                    }
                 }
-                @media (max-width: 414px) {
-                    width: 30.05vw;
+                .games-btn-back {
+                    width: 13.12vw;
+                    position: absolute;
+                    transform: rotateY(180deg);
+                    backface-visibility:hidden;
+                    transition:0.8s all ease;
                 }
             }
         }
-
+        .front-open{
+            transform: rotateY(-180deg);
+        }
+        .back-open{
+            transform: rotateY(0);
+        }
         .lottery-btn-computer {
             width: 9.68vw;
             @media (max-width: 768px) {
