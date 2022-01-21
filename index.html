@@ -203,7 +203,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="1">
@@ -212,7 +212,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="2">
@@ -221,7 +221,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="3">
@@ -230,7 +230,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="4">
@@ -239,7 +239,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="5">
@@ -248,7 +248,7 @@
                                     data-index="0">
                             </div>
                             <div class="back" data-index="5">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="6">
@@ -257,7 +257,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="7">
@@ -266,7 +266,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <div class="card" data-index="8">
@@ -275,7 +275,7 @@
                                     data-index="0">
                             </div>
                             <div class="back">
-                                <img src="./img/moudle/模組-返回.png" alt="返回" class="games-btn-back">
+                                <img src="./img/moudle/模組-back.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
                         <!-- <img src="./img/banner-3/png/虎頭燈籠-無光暈.png" alt="虎頭燈籠按鈕-2" class="games-btn-front" data-index="1">
@@ -481,6 +481,8 @@
         let moudle_teach_video_information = document.querySelector(".moudle-teach-video-information");
         let moudle_teach_url = document.querySelector(".moudle-teach-url");
         let moudle_teach_video = document.querySelector(".moudle-teach-video");
+        let games_btn_fronts = document.querySelectorAll(".games-btn-front");
+        let games_btn_backs = document.querySelectorAll(".games-btn-back");
 
         // moudle-teach-title
 
@@ -530,24 +532,27 @@
             teach_Screen.style['display'] = 'none';
         }
 
-        function unshow() {
+        function show() {
             if (istrue == "對") {
                 question_Screen.style['display'] = 'none';
                 teach_Screen.style['display'] = 'none';
-
+                games_btn_fronts[index].classList.add("front-open");
+                games_btn_backs[index].classList.add("back-open");
             }
             else if (istrue == "錯") {
                 teach_Screen.style['display'] = 'none';
             }
+            isconnect();
             // teach_Screen.style['display'] = 'none';
             console.log(istrue);
         }
 
 
-
+        game = ["x", "x", "x", "x", "x", "x", "x", "x", "x"];
+        isfinish = false;
         function change_Teach_Data(e) {
             // console.log(answer);
-            console.log(index);
+            console.log(cards[index]);
             if (answer != e) {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/您答錯了-背景.png')";
                 moudle_teach_title.innerHTML = `您答錯了`;
@@ -556,7 +561,7 @@
                 moudle_teach_next.innerHTML = `<img src="./img/moudle/在答一次.png" alt="" class="moudle-teach-next-img">`
                 moudle_teach_detail.innerHTML = `${data[index].hint}`;
                 istrue = "錯";
-                moudle_teach_next.addEventListener("click", unshow);
+                moudle_teach_next.addEventListener("click", show);
             }
             else {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/您答對了-背景.png')";
@@ -566,9 +571,45 @@
                 moudle_teach_next.innerHTML = `<img src="./img/moudle/繼續下一題.png" alt="" class="moudle-teach-next-img">`
                 moudle_teach_detail.innerHTML = `${data[index].propaganda}`;
                 istrue = "對";
-                moudle_teach_next.addEventListener("click", unshow);
+                moudle_teach_next.addEventListener("click", show);
+                game[index] = "o";
+                
             }
         }
+
+
+
+        function isconnect() {
+            console.log(game);
+            if (isfinish == false) {
+                for (let i = 0; i < 9; i += 3) {
+                    if (('o' == game[i]) && ('o' == game[i + 1]) && ('o' == game[i + 2])) {
+                        isfinish = true;
+                    }
+                }
+                for (let i = 0; i < 3; i++) {
+                    if (('o' == game[i]) && ('o' == game[i + 3]) && ('o' == game[i + 6])) {
+                        isfinish = true;
+                    }
+                }
+                if (('o' == game[0]) && ('o' == game[4]) && ('o' == game[8])) {
+                    isfinish = true;
+                }
+                if (('o' == game[2]) && ('o' == game[4]) && ('o' == game[6])) {
+                    isfinish = true;
+                }
+                if (isfinish == true) {
+                    console.log("yes");
+                    alert("恭喜完成連線");
+                    question_Screen.style['display'] = 'none';
+                    teach_Screen.style['display'] = 'none';
+                }
+            }
+            else {
+                console.log("遊戲已經結束嘍");
+            }
+        }
+
     </script>
 
 
