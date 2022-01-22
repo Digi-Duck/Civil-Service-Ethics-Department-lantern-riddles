@@ -6,12 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- <embed src="./music/2022-01-21-配音調整-v6(人聲老虎吼).mp3" hidden="true" autostart="true" loop="true"> -->
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
 
 <body>
     <section>
+
         <div class="moudle moudle-question">
             <div class="moudle-container">
                 <div class="moudle-content">
@@ -38,6 +40,7 @@
                 </div>
             </div>
         </div>
+
         <div class="moudle moudle-teach">
             <div class="moudle-container">
                 <div class="moudle-content">
@@ -49,7 +52,6 @@
                         <div class="moudle-teach-next">
                             <img src="./img/moudle/繼續下一題.png" alt="" class="moudle-teach-next-img">
                         </div>
-
                     </div>
                     <div class="moudle-teach-background">
                         <div class="moudle-teach-detail">
@@ -62,7 +64,35 @@
                             https://www-ws.gov.taipei/001/Upload/377/ebook/ebook_2033450/index.html?ccms_cs=1</div> -->
                         <img src="./img/moudle/模組-影片.png" alt="" class="moudle-teach-video">
                     </div>
-
+                </div>
+            </div>
+        </div>
+        <div class="moudle moudle-award">
+            <div class="moudle-container">
+                <div class="moudle-content">
+                    <img src="./img/moudle/模組-返回.png" alt="返回" class="moudle-exit moudle-award-exit">
+                    <div class="moudle-award-title">領獎方式</div>
+                    <div class="moudle-award-detail">一、特獎、頭獎、貳獎、參獎及肆獎（iPhone 13 pro max 256 GB、禮券2萬元、任天堂 Switch
+                        主機(OLED款式)+健身環、Garmin vivoactive 4 GPS 智慧腕錶、Armor A60
+                        2T可攜式硬碟）獲獎者須於本處指定時間內（相關訊息將公布於「2022臺北燈節」官網「虎虎生風_廉潔燈謎王」線上燈謎網活動頁面、台北通及本處網站），以傳真、電子郵件或郵寄回覆個人基本資料，含真實姓名、身分證影本、獎品寄送地址（限臺澎金馬地區）：傳真請傳送至：02-27595690；電子郵件請寄送至：
+                        va-a620130@mail.taipei.gov.tw；郵寄請寄至「11008臺北市信義區市府路1號11樓西南區（臺北市政府政風處第三科辛先生收）」，聯絡電話：(02)27208889分機7765辛先生。獎品將以快遞或郵件寄出，若因逾期回覆資料、資料不全或地址錯誤，而導致獎品無法寄送、退回、冒領、遺失者，視同放棄中獎權益，恕不另行補發。
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="moudle moudle-purpose">
+            <div class="moudle-container">
+                <div class="moudle-content">
+                    <img src="./img/moudle/模組-返回.png" alt="返回" class="moudle-exit moudle-purpose-exit">
+                    <div class="moudle-purpose-subtitle">依據及活動目的</div>
+                    <div class="moudle-purpose-instruction">
+                        <div class="moudle-purpose-title moudle-purpose-title-1">一、依據：</div>
+                        <div class="moudle-purpose-detail moudle-purpose-detail-1">臺北市政府政風處111年度工作計畫。</div>
+                        <div class="moudle-purpose-title moudle-purpose-title-2">二、活動目的：</div>
+                        <div class="moudle-purpose-detail moudle-purpose-detail-2">
+                            為擴大宣導廉政理念，臺北市政府政風處(下稱本處)訂於111年舉辦網路猜謎活動，以臺北市政府重要廉政工作成果、本府第8屆廉能透明獎專刊、廉潔教育教材等廉潔相關概念為謎題與民眾進行猜答互動，透過寓教於樂之方式推廣政府防貪工作，藉以培育全民廉潔意識。
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,7 +101,10 @@
     <nav>
         <div class="nav-container">
             <img src="./img/banner-1/png/logo.png" alt="logo" class="logo">
-            <img src="./img/banner-1/png/sound.png" alt="音樂播放" class="sound">
+            <img src="./img/banner-1/png/sound.png" alt="音樂播放" class="sound-btn">
+            <!-- <audio preload autoplay id="music">
+                <source src="./music/2022-01-21-配音調整-v6(人聲老虎吼).mp3" type="audio/mpeg">
+           </audio> -->
         </div>
     </nav>
 
@@ -456,11 +489,15 @@
             { title: "撥得雲開見白日", subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "天行者", btn2_content: "影武者", btn3_content: "揭弊者", correct_answer: "btn-3", hint: "謎面改李白《登金陵鳳凰臺》：「總為浮雲能蔽日，長安不見使人愁。」", propaganda: "臺北市政府政風處製作廉潔布袋戲影片，將「廉潔自持、正直誠信」等核心價值，結合傳統布袋戲，以競爭掌門人之故事，讓觀眾在身歷其境的布袋戲武俠世界感受其中所蘊含的誠信意涵，理解並認同「拒絕賄賂、勇於揭弊」的重要性。此外，臺北市政府為維護揭弊者之權益，訂定「 臺北市政府揭弊者保護作業原則」。", url: "https://www.youtube.com/watch?v=liXgOFdkKCM" },
         ]
         console.log(data);
+        let sound_btn = document.querySelector(".sound-btn");
 
         let question_Screen = document.querySelector(".moudle-question");
         let title_Screen = document.querySelector(".moudle-title");
         let subtitle_Screen = document.querySelector(".moudle-subtitle");
 
+        // let plate_computer = document.querySelectorAll(".plate-computer");
+        // plate_computer.setAttribute ('src','./img/banner-1/png/logo.png');
+        // console.log(plate_computer);
         let btn1_Screen = document.querySelector(".moudle-btn-1");
         let btn2_Screen = document.querySelector(".moudle-btn-2");
         let btn3_Screen = document.querySelector(".moudle-btn-3");
@@ -470,10 +507,12 @@
         let btn3_content_Screen = document.querySelector(".moudle-btn-3-content");
 
         let question_exit_Screen = document.querySelector(".moudle-question-exit");
+        let purpose_exit_Screen = document.querySelector(".moudle-purpose-exit");
+        let teach_exit_Screen = document.querySelector(".moudle-teach-exit");
+        let award_exit_Screen = document.querySelector(".moudle-award-exit");
 
         let teach_Screen = document.querySelector(".moudle-teach");
         let moudle_teach_information = document.querySelector(".moudle-teach-information");
-        let teach_exit_Screen = document.querySelector(".moudle-teach-exit");
         let moudle_teach_title = document.querySelector(".moudle-teach-title");
         let moudle_teach_subtitle = document.querySelector(".moudle-teach-subtitle");
         let moudle_teach_next = document.querySelector(".moudle-teach-next");
@@ -484,11 +523,16 @@
         let games_btn_fronts = document.querySelectorAll(".games-btn-front");
         let games_btn_backs = document.querySelectorAll(".games-btn-back");
 
+        let award_Screen = document.querySelector(".moudle-award");
+        let purpose_Screen = document.querySelector(".moudle-purpose");
+
+
+
         // moudle-teach-title
 
         let cards = document.querySelectorAll(".card");
 
-
+        // setInterval(function(){alert("Hello")},3000);
 
         for (let i = 0; i < cards.length; i++) {
             cards[i].addEventListener("click", showQuestion);
@@ -502,6 +546,8 @@
 
         teach_exit_Screen.addEventListener("click", unshowTeach);
         question_exit_Screen.addEventListener("click", unshowQuestion);
+        award_exit_Screen.addEventListener("click", unshowAward);
+        purpose_exit_Screen.addEventListener("click", unshowPurpose);
 
         function showQuestion() {
             question_Screen.style['display'] = 'flex';
@@ -511,15 +557,6 @@
         }
         function unshowQuestion() {
             question_Screen.style['display'] = 'none';
-        }
-        function change_Question_Data(e) {
-            // console.log(data[e]);
-            title_Screen.innerHTML = `${data[e].title}`;
-            subtitle_Screen.innerHTML = `${data[e].subtitle}`;
-            btn1_content_Screen.innerHTML = `${data[e].btn1_content}`;
-            btn2_content_Screen.innerHTML = `${data[e].btn2_content}`;
-            btn3_content_Screen.innerHTML = `${data[e].btn3_content}`;
-            answer = `${data[e].correct_answer}`;
         }
 
         function showTeach() {
@@ -532,6 +569,32 @@
             teach_Screen.style['display'] = 'none';
         }
 
+        function showAward() {
+            award_Screen.style['display'] = 'flex';
+        }
+
+        function unshowAward() {
+            award_Screen.style['display'] = 'none';
+        }
+
+        function showPurpose() {
+            purpose_Screen.style['display'] = 'flex';
+        }
+
+        function unshowPurpose() {
+            purpose_Screen.style['display'] = 'none';
+        }
+
+
+        function change_Question_Data(e) {
+            // console.log(data[e]);
+            title_Screen.innerHTML = `${data[e].title}`;
+            subtitle_Screen.innerHTML = `${data[e].subtitle}`;
+            btn1_content_Screen.innerHTML = `${data[e].btn1_content}`;
+            btn2_content_Screen.innerHTML = `${data[e].btn2_content}`;
+            btn3_content_Screen.innerHTML = `${data[e].btn3_content}`;
+            answer = `${data[e].correct_answer}`;
+        }
         function show() {
             if (istrue == "對") {
                 question_Screen.style['display'] = 'none';
@@ -573,10 +636,9 @@
                 istrue = "對";
                 moudle_teach_next.addEventListener("click", show);
                 game[index] = "o";
-                
+
             }
         }
-
 
 
         function isconnect() {
@@ -609,8 +671,20 @@
                 console.log("遊戲已經結束嘍");
             }
         }
+        
+        // setInterval("toggleSound()", 1);
+        
+        // function toggleSound() {
+        //     var music = document.getElementById("music");//獲取ID  
+
+        //     if (music.paused) { //判讀是否播放  
+        //         music.paused = false;
+        //         music.play(); //沒有就播放 
+        //     }
+        // }
 
     </script>
+   
 
 
 </body>

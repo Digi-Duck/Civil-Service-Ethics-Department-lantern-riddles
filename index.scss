@@ -130,13 +130,13 @@ main {
             padding-top: 4.26vw;
             .moudle-teach-title {
                 color: #22ab38;
-                font-size: 36px;
+                font-size: 1.87vw; //36px
                 font-weight: bolder;
                 margin-bottom: 0.25vw;
                 line-height: 1.77vw;
             }
             .moudle-teach-subtitle {
-                font-size: 22px;
+                font-size: 1.14vw;
                 line-height: 1.77vw;
                 font-weight: bolder;
                 margin-bottom: 1.56vw;
@@ -156,8 +156,8 @@ main {
 
             .moudle-teach-detail {
                 width: 37.25vw;
-                font-size: 26px;
-                line-height: 38px;
+                font-size: 1.35vw;
+                line-height: 1.97vw;
                 color: white;
                 margin-bottom: 1.32vw;
                 text-align: justify;
@@ -165,8 +165,8 @@ main {
             .moudle-teach-video-information {
                 width: 100%;
                 color: #ff8908;
-                font-size: 18px;
-                line-height: 20px;
+                font-size: 0.93vw;
+                line-height: 1.04vw;
                 margin-bottom: 0.42vw;
             }
             .moudle-teach-video {
@@ -180,6 +180,97 @@ main {
             box-shadow: inset 0 0 6px #333333;
         }
         .moudle-teach-background::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+.moudle-award {
+    display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+
+        .moudle-award-title {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.56vw;
+            line-height: 1.87vw;
+            margin-bottom: 3.67vw;
+        }
+        .moudle-award-detail {
+            width: 785.6471px;
+            height: 344.7486px;
+            color: white;
+            text-align: justify;
+            font-size: 1.35vw;
+            line-height: 1.97vw;
+            overflow-y: scroll;
+            padding-right: 43.0882px;
+        }
+        .moudle-award-detail::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-award-detail::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-award-detail::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+.moudle-purpose {
+    display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+        .moudle-purpose-subtitle {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.56vw;
+            line-height: 36px;
+            margin-bottom: 3.67vw;
+        }
+        .moudle-purpose-instruction {
+            overflow-y: scroll;
+            width: 40.91vw;
+            height: 17.18vw;
+
+            .moudle-purpose-title {
+                color: white;
+                font-size: 1.35vw;
+                line-height: 38px;
+                font-weight: bold;
+            }
+            .moudle-purpose-title-1 {
+            }
+            .moudle-purpose-title-2 {
+            }
+            .moudle-purpose-detail {
+                text-align: justify;
+                color: white;
+                font-size: 1.35vw;
+                line-height: 38px;
+                padding-right: 2.79vw;
+            }
+            .moudle-purpose-detail-1 {
+                margin-bottom: 2.08vw;
+            }
+            .moudle-purpose-detail-2 {
+            }
+        }
+        .moudle-purpose-instruction::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-purpose-instruction::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-purpose-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
         }
@@ -218,7 +309,7 @@ nav {
                 width: 55.82%;
             }
         }
-        .sound {
+        .sound-btn {
             width: 2.18%;
             float: right;
             padding-top: 0.07vw;
@@ -537,7 +628,6 @@ nav {
 /*#region banner-2*/
 .banner-2 {
     padding-top: 5.21vw;
-    overflow-x: hidden;
     @media (max-width: 768px) {
         height: 122.91vw;
         padding-top: 5.2vw;
@@ -880,8 +970,8 @@ nav {
                 flex-wrap: wrap;
             }
             @media (max-width: 414px) {
-                width: 92.51vw;
-                height: 91.07vw;
+                width: 92.38vw;
+                height: 90.94vw;
             }
             .card {
                 width: 13.12vw;
@@ -891,14 +981,23 @@ nav {
                 transition: 0.8s all ease;
                 display: inline-block;
                 position: relative;
-                perspective :1000px;
+                perspective: 1000px;
 
+                @media (max-width: 768px) {
+                    width: 25.3vw;
+                    height: 24.49vw;
+                }
+                @media (max-width: 375px) {
+                    width:  29.91vw;
+                    height: 28.96vw;
+                }
+               
                 .games-btn-front {
                     width: 13.12vw;
                     position: absolute;
                     transform: rotateY(0);
-                    backface-visibility:hidden;
-                    transition:1.5s all ease;
+                    backface-visibility: hidden;
+                    transition: 1.5s all ease;
                     @media (max-width: 768px) {
                         width: 25.3vw;
                         display: block;
@@ -911,18 +1010,19 @@ nav {
                     width: 13.12vw;
                     position: absolute;
                     transform: rotateY(180deg);
-                    backface-visibility:hidden;
-                    transition:1.5s all ease;
+                    backface-visibility: hidden;
+                    transition: 1.5s all ease;
                 }
-                .front-open{
+                .front-open {
                     transform: rotateY(-180deg);
                 }
-                .back-open{
+                .back-open {
                     transform: rotateY(0);
                 }
             }
+            
         }
-       
+
         .lottery-btn-computer {
             width: 9.68vw;
             @media (max-width: 768px) {
@@ -1303,7 +1403,7 @@ nav {
         left: -5.92vw;
         overflow-x: hidden;
         @media (max-width: 768px) {
-            width: 100%;
+            width: 156.78%;
             left: -28.34%;
         }
         @media (max-width: 414px) {

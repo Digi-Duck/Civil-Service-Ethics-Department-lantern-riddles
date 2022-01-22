@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boz {
+            height: 100px;
+            width: 100px;
+
+        }
+
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <audio id="music1" controls="controls" autoplay="autoplay" preload id="music1" hidden>
+        <source src="music/bgmusic.mp3" />
+    </audio>
+
+    <img id="btn" class="active" src="img/music.png" alt="" />
+
+    <script>
+        var audio = document.getElementById('music1');
+        $("#btn").bind("touchstart", function bf() {
+            if (audio !== null) {
+                //檢測播放是否已暫停.audio.paused 在播放器播放時返回false.
+                //alert(audio.paused);
+                if (audio.paused) {
+                    audio.play(); //audio.play();// 這個就是播放
+                    $("#btn").addClass("active")
+                } else {
+                    audio.pause(); // 這個就是暫停
+                    $("#btn").removeClass("active")
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
