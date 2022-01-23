@@ -120,6 +120,17 @@
                 </div>
             </div>
         </div>
+        <div class="moudle moudle-writeQuestionnaire">
+            <div class="moudle-container">
+                <div class="moudle-content">
+                    <img src="./img/moudle/模組-返回.png" alt="返回" class="moudle-exit moudle-writeQuestionnaire-exit">
+                    <div class="moudle-writeQuestionnaire-instruction">
+                    <div class="moudle-writeQuestionnaire-detail moudle-writeQuestionnaire-detail-1">您已具備抽獎資格，祝您中大獎~</div>
+                        <img src="./img/moudle/填寫活動滿意問卷.png" alt="" class="writeQuestionnaire-btn">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="moudle moudle-questionnaire">
             <div class="moudle-container">
                 <div class="moudle-content">
@@ -894,13 +905,12 @@
                 moudle_notice.style['display']='none';
             })
         }
-        function gotoTaipel(){
+        function openTaipelMoudle(){
             const goto_btn = document.querySelector(".goto-btn");
             const lottery_btn_computer = document.querySelector(".lottery-btn-computer");
             const lottery_btn_phone = document.querySelector(".lottery-btn-phone");
-            const moudle_goto = document.querySelector(".moudle-goto");
             const moudle_goto_exit = document.querySelector(".moudle-goto-exit");
-            
+            const moudle_goto = document.querySelector(".moudle-goto");
             
             lottery_btn_computer.addEventListener("click",element=>{
                 moudle_goto.style['display']='flex';
@@ -909,17 +919,14 @@
             lottery_btn_phone.addEventListener("click",element=>{
                 moudle_goto.style['display']='flex';
             })
-            
+
             moudle_goto_exit.addEventListener("click",element=>{
                 moudle_goto.style['display']='none';
             })
-
             
-            
-        
         }
         banner2_moudle();
-        gotoTaipel();
+        openTaipelMoudle();
         // setInterval("toggleSound()", 1);
         
         // function toggleSound() {

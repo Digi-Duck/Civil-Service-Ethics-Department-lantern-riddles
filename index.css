@@ -89,6 +89,19 @@ main {
   background-image: url("./img/moudle/模組-問題背景.png");
 }
 
+@media (max-width: 768px) {
+  .moudle-question .moudle-container {
+    width: 708px;
+    height: 424.8px;
+  }
+}
+
+@media (max-width: 414px) {
+  .moudle-question .moudle-container {
+    height: 16vw;
+  }
+}
+
 .moudle-question .moudle-container .moudle-content {
   color: white;
 }
@@ -603,7 +616,46 @@ main {
 
 .moudle-goto .moudle-container .moudle-goto-instruction .goto-btn {
   width: 7.55vw;
-  cursor: pointer;
+}
+
+.moudle-writeQuestionnaire {
+  display: none;
+}
+
+.moudle-writeQuestionnaire .moudle-container {
+  width: 1008.1133px;
+  height: 450px;
+  background-color: black;
+  background-image: url("./img/moudle/背景-前往台北通.png");
+}
+
+.moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction {
+  width: 31.45vw;
+  height: 8.69vw;
+  padding-top: 84.4614px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction .moudle-writeQuestionnaire-detail {
+  text-align: justify;
+  color: white;
+  font-size: 26px;
+  line-height: 40px;
+  font-weight: bold;
+  margin-bottom: 54.2343px;
+}
+
+.moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction .writeQuestionnaire-btn {
+  width: 312.8299px;
 }
 
 .moudle-questionnaire {
@@ -1726,7 +1778,6 @@ nav .nav-container .sound-btn {
 
 .banner-3 .game-finish .game-finish-lottery-btn-computer {
   width: 9.68vw;
-  cursor: pointer;
 }
 
 @media (max-width: 768px) {

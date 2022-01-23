@@ -66,6 +66,13 @@ main {
         height: 40vw;
         background-color: black;
         background-image: url("./img/moudle/模組-問題背景.png");
+        @media (max-width: 768px) {
+            width: 708px;
+            height:424.8px;
+        }
+        @media (max-width: 414px) {
+            height: 16vw;
+        }
         .moudle-content {
             color: white;
             .moudle-exit {
@@ -488,7 +495,7 @@ main {
             padding-top: 2.69vw;
             display: flex;
             flex-direction: column;
-         align-items: center;
+            align-items: center;
             .moudle-goto-detail {
                 text-align: justify;
                 color: white;
@@ -499,13 +506,41 @@ main {
             }
             .goto-btn{
                 width: 7.55vw;
-                cursor: pointer;
+            }
+        }
+    }
+}
+.moudle-writeQuestionnaire {
+    //RWD
+    display: none;
+    .moudle-container {
+        width: 1008.1133px;
+        height: 450px;
+        background-color: black;
+        background-image: url("./img/moudle/背景-前往台北通.png");
+        .moudle-writeQuestionnaire-instruction {
+            width:31.45vw;
+            height: 8.69vw;
+            padding-top: 84.4614px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .moudle-writeQuestionnaire-detail {
+                text-align: justify;
+                color: white;
+                font-size: 26px;
+                line-height: 40px;
+                font-weight: bold;
+                margin-bottom: 54.2343px;
+            }
+            .writeQuestionnaire-btn{
+                width: 312.8299px;
             }
         }
     }
 }
 .moudle-questionnaire {
-    display: none;
+    display:none;
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
@@ -1320,7 +1355,6 @@ nav {
         }
         .game-finish-lottery-btn-computer {
             width: 9.68vw;
-            cursor: pointer;
             @media (max-width: 768px) {
                 display: none;
             }
