@@ -41,7 +41,7 @@
 
                         <div class="moudle-rule-title moudle-rule-time-1">活動時間：</div>
                         <div class="moudle-rule-title moudle-rule-time-2">111年1月28日00時至111年2月28日24時。</div>
-                        <div class="moudle-rule-title moudle-rule-game-way">遊戲方式：</div>
+                        <div class="moudle-rule-title moudle-rule-game-way"> 遊戲方式：</div>
                         <div class="moudle-rule-title moudle-rule-title-1">一、請先登入台北通會員（如無台北通帳號請先至網站註冊）。</div>
                         <div class="moudle-rule-title moudle-rule-title-2">二、於活動網站建置９道謎題，每道謎題均設計３個選項供參加者依據問項選擇答案，如答錯即會自動跳出提示框，不限作答次數直到答對為止。</div>
                         <div class="moudle-rule-title moudle-rule-title-3">三、答對3題連成一線即可參加抽獎。每人僅有一次中獎機會，不重複獲獎。</div>
@@ -109,6 +109,17 @@
                 </div>
             </div>
         </div>
+        <div class="moudle moudle-goto">
+            <div class="moudle-container">
+                <div class="moudle-content">
+                    <img src="./img/moudle/模組-返回.png" alt="返回" class="moudle-exit moudle-goto-exit">
+                    <div class="moudle-goto-instruction">
+                    <div class="moudle-goto-detail moudle-goto-detail-1">為了加強保障您的個資安全，及保障抽獎活動的公平性，本次抽獎需登入台北通後即可參加抽獎。</div>
+                        <img src="./img/moudle/前往台北通.png" alt="" class="goto-btn">
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="moudle moudle-questionnaire">
             <div class="moudle-container">
                 <div class="moudle-content">
@@ -121,25 +132,29 @@
                         <div class="moudle-questionnaire-title moudle-questionnaire-question-title-1">1. 請問您對於本次活動的整體滿意度：</div>
                         <div class="moudle-questionnaire-detail moudle-questionnaire-question-detail-1">
                         <form class="moudle-questionnaire-form-1">
-                            <input type="radio" name="what" value="verygood" class="form-1-btn form-1-btn-1"><span class="font">非常滿意</span><br>
-                            <input type="radio" name="what" value="good" class="form-1-btn form-1-btn-2"><span class="font">滿意</span><br>
-                            <input type="radio" name="what" value="generally" class="form-1-btn form-1-btn-3"><span class="font">普通</span><br>
-                            <input type="radio" name="what" value="bad" class="form-1-btn form-1-btn-4"><span class="font">不滿意</span><br>
-                            <input type="radio" name="what" value="verybad" class="form-1-btn form-1-btn-5"><span class="font">非常不滿意</span><br>
+                            <label for=""><input type="radio" name="what" value="verygood" id="what-1" class="form-1-btn form-1-btn-1"><span class="font">非常滿意</span><br></label>
+                           <label for=""><input type="radio" name="what" value="good" id="what-2" class="form-1-btn form-1-btn-2"><span class="font">滿意</span><br></label>
+                           <label for=""><input type="radio" name="what" value="generally" id="what-3" class="form-1-btn form-1-btn-3"><span class="font">普通</span><br></label>
+                           <label for=""><input type="radio" name="what" value="bad" id="what-4" class="form-1-btn form-1-btn-4"><span class="font">不滿意</span><br></label>
+                           <label for=""><input type="radio" name="what" value="verybad" id="what-5" class="form-1-btn form-1-btn-5"><span class="font">非常不滿意</span><br></label>
                         </form>
                         </div>
                         <div class="moudle-questionnaire-title moudle-questionnaire-question-title-2">2. 請問您是如何得知本活動訊息：</div>
                         <form class="moudle-questionnaire-form-2">
-                            <input type="radio" name="how" value="csed" class="form-2-btn form-2-btn-1"><span class="font">臺北市政府政風處官網</span><br>
-                            <input type="radio" name="how" value="friends" class="form-2-btn form-2-btn-2"><span class="font">親友推薦</span><br>
-                            <input type="radio" name="how" value="taipeipass" class="form-2-btn form-2-btn-3"><span class="font font-3">台北通公告</span><br>
-                            <input type="radio" name="how" value="line" class="form-2-btn form-2-btn-4"><span class="font">臺北市政府Line官方帳號</span><br>
-                            <input type="radio" name="how" value="pictorial" class="form-2-btn form-2-btn-5"><span class="font">台北畫刊</span><br>
-                            <input type="radio" name="how" value="Official" class="form-2-btn form-2-btn-6"><span class="font">2022台北燈節官網</span><br>
+                            <label for=""><input type="radio" name="how" value="csed" id="how-1" class="form-2-btn form-2-btn-1"><span class="font">臺北市政府政風處官網</span><br></label>
+                            <label for=""><input type="radio" name="how" value="friends" id="how-2" class="form-2-btn form-2-btn-2"><span class="font">親友推薦</span><br></label>
+                            <label for=""><input type="radio" name="how" value="taipeipass" id="how-3" class="form-2-btn form-2-btn-3"><span class="font font-3">台北通公告</span><br></label>
+                            <label for=""><input type="radio" name="how" value="line" id="how-4" class="form-2-btn form-2-btn-4"><span class="font">臺北市政府Line官方帳號</span><br></label>
+                            <label for=""><input type="radio" name="how" value="pictorial" id="how-5" class="form-2-btn form-2-btn-5"><span class="font">台北畫刊</span><br></label>
+                            <label for=""><input type="radio" name="how" value="Official" id="how-6" class="form-2-btn form-2-btn-6"><span class="font">2022台北燈節官網</span><br></label>
                         </form>
                         <div class="moudle-questionnaire-title moudle-questionnaire-question-title-3">3. 請問您對本次活動或市府廉政工作，有無具體建議或反映事項：</div>
-                        <div class="moudle-questionnaire-detail moudle-questionnaire-question-detail-3">3. 請問您對本次活動或市府廉政工作，有無具體建議或反映事項：</div>
-                        <img src="./img/moudle/確定.png" alt="">
+                        <form class="moudle-questionnaire-form-3">
+                            <input type="text" name="suggestion" class="form-3-text">
+
+                        </form>
+                        <div class="sent"><img src="./img/moudle/確定.png" alt="" class="sent-img"></div>
+                        
                     </div>
                 </div>
             </div>
@@ -425,10 +440,10 @@
                         <img src="./img/banner-3/png/虎頭燈籠-無光暈.png" alt="虎頭燈籠按鈕-9" class="games-btn-front" data-index="8"> -->
                     </div>
                     <div class="login">
-                        <a href="https://id.taipei/tpcd/login" href="javascript:return false;" onclick="return false;" target="_blank">
-                            <img src="./img/banner-3/svg/抽獎按鈕.svg" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
+                        <!-- <a href="https://id.taipei/tpcd/login" href="javascript:return false;" onclick="return false;" target="_blank"> -->
+                            <img src="./img/banner-3/png/抽獎按鈕.png" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
                             <img src="./img/banner-3/png/手機板-區塊3-抽獎按鈕.png" alt="抽獎按鈕-手機板" class="lottery-btn-phone">
-                        </a>
+                        <!-- </a> -->
                     </div>
                 </div>
                 <section>
@@ -656,14 +671,17 @@
         question_exit_Screen.addEventListener("click", unshowQuestion);
         award_exit_Screen.addEventListener("click", unshowAward);
         purpose_exit_Screen.addEventListener("click", unshowPurpose);
+        let body = document.querySelector("body");
 
         function showQuestion() {
+            body.style['overflow-y']='hidden';
             question_Screen.style['display'] = 'flex';
             index = this.dataset.index;
             change_Question_Data(this.dataset.index);
             // changeData(Array.from(cards).indexOf(event.target));
         }
         function unshowQuestion() {
+            body.style['overflow-y']='scroll';
             question_Screen.style['display'] = 'none';
         }
 
@@ -778,10 +796,10 @@
 
                     login.innerHTML=
                     `
-                        <a href="https://id.taipei/tpcd/login" target="_blank" >
-                            <img src="./img/banner-3/png/資產 19.png" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
+                        
+                            <img src="./img/banner-3/png/可抽獎.png" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
                             <img src="./img/banner-3/png/手機板-區塊3-抽獎按鈕.png" alt="抽獎按鈕-手機板" class="lottery-btn-phone">
-                        </a>
+                        
                     `
 
                     question_Screen.style['display'] = 'none';
@@ -876,8 +894,32 @@
                 moudle_notice.style['display']='none';
             })
         }
+        function gotoTaipel(){
+            const goto_btn = document.querySelector(".goto-btn");
+            const lottery_btn_computer = document.querySelector(".lottery-btn-computer");
+            const lottery_btn_phone = document.querySelector(".lottery-btn-phone");
+            const moudle_goto = document.querySelector(".moudle-goto");
+            const moudle_goto_exit = document.querySelector(".moudle-goto-exit");
+            
+            
+            lottery_btn_computer.addEventListener("click",element=>{
+                moudle_goto.style['display']='flex';
+            })
+
+            lottery_btn_phone.addEventListener("click",element=>{
+                moudle_goto.style['display']='flex';
+            })
+            
+            moudle_goto_exit.addEventListener("click",element=>{
+                moudle_goto.style['display']='none';
+            })
+
+            
+            
         
+        }
         banner2_moudle();
+        gotoTaipel();
         // setInterval("toggleSound()", 1);
         
         // function toggleSound() {

@@ -11,6 +11,7 @@ body {
     // height: 100vh;
     position: relative;
     // overflow-x: hidden;
+    overflow-y: scroll;
 }
 main {
     // width: 100%;
@@ -474,8 +475,37 @@ main {
         }
     }
 }
+.moudle-goto {
+    display: none;
+    .moudle-container {
+        width: 1008.1133px;
+        height: 450px;
+        background-color: black;
+        background-image: url("./img/moudle/背景-前往台北通.png");
+        .moudle-goto-instruction {
+            width:31.45vw;
+            height: 8.69vw;
+            padding-top: 2.69vw;
+            display: flex;
+            flex-direction: column;
+         align-items: center;
+            .moudle-goto-detail {
+                text-align: justify;
+                color: white;
+                font-size: 26px;
+                line-height: 38px;
+                font-weight: bold;
+                margin-bottom: 1.71vw;
+            }
+            .goto-btn{
+                width: 7.55vw;
+                cursor: pointer;
+            }
+        }
+    }
+}
 .moudle-questionnaire {
-    // display: none;
+    display: none;
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
@@ -561,8 +591,29 @@ main {
                     margin: 0;
                     margin-right: 7.0203px;
                 }
-                .font-3{
-                    flex:auto;
+                .font-3 {
+                    flex: auto;
+                }
+            }
+            .moudle-questionnaire-question-title-3 {
+                margin-bottom: 18px;
+            }
+            .moudle-questionnaire-form-3 {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 19.333px;
+                .form-3-text {
+                    width: 100%;
+                    height: 6.35vw;
+                    border-radius: 5px;
+                }
+            }
+            .sent {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                .sent-img {
                 }
             }
         }
@@ -1269,6 +1320,7 @@ nav {
         }
         .game-finish-lottery-btn-computer {
             width: 9.68vw;
+            cursor: pointer;
             @media (max-width: 768px) {
                 display: none;
             }
@@ -1381,6 +1433,13 @@ nav {
                     transform: rotateY(180deg);
                     backface-visibility: hidden;
                     transition: 1.5s all ease;
+                    @media (max-width: 768px) {
+                        width: 25.3vw;
+                        display: block;
+                    }
+                    @media (max-width: 414px) {
+                        width: 30.05vw;
+                    }
                 }
                 .front-open {
                     transform: rotateY(-180deg);

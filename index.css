@@ -11,6 +11,7 @@ body {
   background-color: #000000;
   width: 100%;
   position: relative;
+  overflow-y: scroll;
 }
 
 main {
@@ -564,6 +565,51 @@ main {
   border-radius: 2px;
 }
 
+.moudle-goto {
+  display: none;
+}
+
+.moudle-goto .moudle-container {
+  width: 1008.1133px;
+  height: 450px;
+  background-color: black;
+  background-image: url("./img/moudle/背景-前往台北通.png");
+}
+
+.moudle-goto .moudle-container .moudle-goto-instruction {
+  width: 31.45vw;
+  height: 8.69vw;
+  padding-top: 2.69vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.moudle-goto .moudle-container .moudle-goto-instruction .moudle-goto-detail {
+  text-align: justify;
+  color: white;
+  font-size: 26px;
+  line-height: 38px;
+  font-weight: bold;
+  margin-bottom: 1.71vw;
+}
+
+.moudle-goto .moudle-container .moudle-goto-instruction .goto-btn {
+  width: 7.55vw;
+  cursor: pointer;
+}
+
+.moudle-questionnaire {
+  display: none;
+}
+
 .moudle-questionnaire .moudle-container {
   width: 66.66vw;
   height: 40vw;
@@ -678,6 +724,39 @@ main {
   -webkit-box-flex: 1;
       -ms-flex: auto;
           flex: auto;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-question-title-3 {
+  margin-bottom: 18px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 19.333px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-3 .form-3-text {
+  width: 100%;
+  height: 6.35vw;
+  border-radius: 5px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .sent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
 }
 
 .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction::-webkit-scrollbar {
@@ -1647,6 +1726,7 @@ nav .nav-container .sound-btn {
 
 .banner-3 .game-finish .game-finish-lottery-btn-computer {
   width: 9.68vw;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -1827,6 +1907,19 @@ nav .nav-container .sound-btn {
           backface-visibility: hidden;
   -webkit-transition: 1.5s all ease;
   transition: 1.5s all ease;
+}
+
+@media (max-width: 768px) {
+  .banner-3 .games-information .games .card .games-btn-back {
+    width: 25.3vw;
+    display: block;
+  }
+}
+
+@media (max-width: 414px) {
+  .banner-3 .games-information .games .card .games-btn-back {
+    width: 30.05vw;
+  }
 }
 
 .banner-3 .games-information .games .card .front-open {
