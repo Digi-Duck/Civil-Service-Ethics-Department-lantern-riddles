@@ -232,50 +232,6 @@ main {
   border-radius: 2px;
 }
 
-.moudle-award {
-  display: none;
-}
-
-.moudle-award .moudle-container {
-  width: 66.66vw;
-  height: 40vw;
-  background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
-}
-
-.moudle-award .moudle-container .moudle-award-title {
-  padding-top: 1.35vw;
-  color: #ffff00;
-  font-size: 1.56vw;
-  line-height: 1.87vw;
-  margin-bottom: 3.67vw;
-}
-
-.moudle-award .moudle-container .moudle-award-detail {
-  width: 785.6471px;
-  height: 344.7486px;
-  color: white;
-  text-align: justify;
-  font-size: 1.35vw;
-  line-height: 1.97vw;
-  overflow-y: scroll;
-  padding-right: 43.0882px;
-}
-
-.moudle-award .moudle-container .moudle-award-detail::-webkit-scrollbar {
-  width: 4px;
-}
-
-.moudle-award .moudle-container .moudle-award-detail::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #333333;
-          box-shadow: inset 0 0 6px #333333;
-}
-
-.moudle-award .moudle-container .moudle-award-detail::-webkit-scrollbar-thumb {
-  border: 4px solid #808080;
-  border-radius: 2px;
-}
-
 .moudle-purpose {
   display: none;
 }
@@ -292,6 +248,7 @@ main {
   color: #ffff00;
   font-size: 1.56vw;
   line-height: 36px;
+  font-weight: bold;
   margin-bottom: 3.67vw;
 }
 
@@ -299,6 +256,7 @@ main {
   overflow-y: scroll;
   width: 40.91vw;
   height: 17.18vw;
+  padding-right: 2.79vw;
 }
 
 .moudle-purpose .moudle-container .moudle-purpose-instruction .moudle-purpose-title {
@@ -313,7 +271,6 @@ main {
   color: white;
   font-size: 1.35vw;
   line-height: 38px;
-  padding-right: 2.79vw;
 }
 
 .moudle-purpose .moudle-container .moudle-purpose-instruction .moudle-purpose-detail-1 {
@@ -330,6 +287,409 @@ main {
 }
 
 .moudle-purpose .moudle-container .moudle-purpose-instruction::-webkit-scrollbar-thumb {
+  border: 4px solid #808080;
+  border-radius: 2px;
+}
+
+.moudle-rule {
+  display: none;
+}
+
+.moudle-rule .moudle-container {
+  width: 66.66vw;
+  height: 40vw;
+  background-color: black;
+  background-image: url("./img/moudle/模組-領獎背景.png");
+}
+
+.moudle-rule .moudle-container .moudle-rule-subtitle {
+  padding-top: 1.35vw;
+  color: #ffff00;
+  font-size: 1.56vw;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 3.67vw;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction {
+  overflow-y: scroll;
+  width: 40.91vw;
+  height: 17.18vw;
+  padding-right: 2.79vw;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction .moudle-rule-title {
+  color: white;
+  font-size: 1.35vw;
+  line-height: 38px;
+  text-align: justify;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction .moudle-rule-time-2 {
+  margin-bottom: 2.08vw;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction .moudle-rule-title-4 {
+  margin-bottom: 2.08vw;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction .moudle-rule-game-qualifications-2 {
+  margin-bottom: 0;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction::-webkit-scrollbar {
+  width: 4px;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
+}
+
+.moudle-rule .moudle-container .moudle-rule-instruction::-webkit-scrollbar-thumb {
+  border: 4px solid #808080;
+  border-radius: 2px;
+}
+
+.moudle-lottery {
+  display: none;
+}
+
+.moudle-lottery .moudle-container {
+  width: 66.66vw;
+  height: 40vw;
+  background-color: black;
+  background-image: url("./img/moudle/模組-領獎背景.png");
+}
+
+.moudle-lottery .moudle-container .moudle-lottery-subtitle {
+  padding-top: 1.35vw;
+  color: #ffff00;
+  font-size: 1.56vw;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 3.67vw;
+}
+
+.moudle-lottery .moudle-container .moudle-lottery-instruction {
+  overflow-y: scroll;
+  width: 40.91vw;
+  height: 17.18vw;
+  padding-right: 2.79vw;
+}
+
+.moudle-lottery .moudle-container .moudle-lottery-instruction .moudle-lottery-title {
+  text-align: justify;
+  color: white;
+  font-size: 1.35vw;
+  line-height: 38px;
+  font-weight: bold;
+}
+
+.moudle-lottery .moudle-container .moudle-lottery-instruction .moudle-lottery-title-1 {
+  margin-bottom: 2.08vw;
+}
+
+.moudle-lottery .moudle-container .moudle-lottery-instruction::-webkit-scrollbar {
+  width: 4px;
+}
+
+.moudle-lottery .moudle-container .moudle-lottery-instruction::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
+}
+
+.moudle-lottery .moudle-container .moudle-lottery-instruction::-webkit-scrollbar-thumb {
+  border: 4px solid #808080;
+  border-radius: 2px;
+}
+
+.moudle-winning {
+  display: none;
+}
+
+.moudle-winning .moudle-container {
+  width: 66.66vw;
+  height: 40vw;
+  background-color: black;
+  background-image: url("./img/moudle/模組-領獎背景.png");
+}
+
+.moudle-winning .moudle-container .moudle-winning-subtitle {
+  padding-top: 1.35vw;
+  color: #ffff00;
+  font-size: 1.56vw;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 3.67vw;
+}
+
+.moudle-winning .moudle-container .moudle-winning-instruction {
+  overflow-y: scroll;
+  width: 40.91vw;
+  height: 17.18vw;
+  padding-right: 2.79vw;
+}
+
+.moudle-winning .moudle-container .moudle-winning-instruction .moudle-winning-detail {
+  text-align: justify;
+  color: white;
+  font-size: 1.35vw;
+  line-height: 38px;
+}
+
+.moudle-winning .moudle-container .moudle-winning-instruction .moudle-winning-detail-1 {
+  margin-bottom: 2.08vw;
+}
+
+.moudle-winning .moudle-container .moudle-winning-instruction::-webkit-scrollbar {
+  width: 4px;
+}
+
+.moudle-winning .moudle-container .moudle-winning-instruction::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
+}
+
+.moudle-winning .moudle-container .moudle-winning-instruction::-webkit-scrollbar-thumb {
+  border: 4px solid #808080;
+  border-radius: 2px;
+}
+
+.moudle-award {
+  display: none;
+}
+
+.moudle-award .moudle-container {
+  width: 66.66vw;
+  height: 40vw;
+  background-color: black;
+  background-image: url("./img/moudle/模組-領獎背景.png");
+}
+
+.moudle-award .moudle-container .moudle-award-subtitle {
+  padding-top: 1.35vw;
+  color: #ffff00;
+  font-size: 1.56vw;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 3.67vw;
+}
+
+.moudle-award .moudle-container .moudle-award-instruction {
+  overflow-y: scroll;
+  width: 40.91vw;
+  height: 17.18vw;
+  padding-right: 2.79vw;
+}
+
+.moudle-award .moudle-container .moudle-award-instruction .moudle-award-title {
+  text-align: justify;
+  color: white;
+  font-size: 1.35vw;
+  line-height: 38px;
+  font-weight: bold;
+  margin-bottom: 2.08vw;
+}
+
+.moudle-award .moudle-container .moudle-award-instruction .moudle-award-title-2 {
+  margin-bottom: 0;
+}
+
+.moudle-award .moudle-container .moudle-award-instruction::-webkit-scrollbar {
+  width: 4px;
+}
+
+.moudle-award .moudle-container .moudle-award-instruction::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
+}
+
+.moudle-award .moudle-container .moudle-award-instruction::-webkit-scrollbar-thumb {
+  border: 4px solid #808080;
+  border-radius: 2px;
+}
+
+.moudle-notice {
+  display: none;
+}
+
+.moudle-notice .moudle-container {
+  width: 66.66vw;
+  height: 40vw;
+  background-color: black;
+  background-image: url("./img/moudle/模組-領獎背景.png");
+}
+
+.moudle-notice .moudle-container .moudle-notice-subtitle {
+  padding-top: 1.35vw;
+  color: #ffff00;
+  font-size: 1.56vw;
+  line-height: 36px;
+  font-weight: bold;
+  margin-bottom: 3.67vw;
+}
+
+.moudle-notice .moudle-container .moudle-notice-instruction {
+  overflow-y: scroll;
+  width: 40.91vw;
+  height: 17.18vw;
+  padding-right: 2.79vw;
+}
+
+.moudle-notice .moudle-container .moudle-notice-instruction .moudle-notice-title {
+  text-align: justify;
+  color: white;
+  font-size: 1.35vw;
+  line-height: 38px;
+  font-weight: bold;
+  margin-bottom: 2.08vw;
+}
+
+.moudle-notice .moudle-container .moudle-notice-instruction .moudle-notice-title-7 {
+  margin-bottom: 0;
+}
+
+.moudle-notice .moudle-container .moudle-notice-instruction::-webkit-scrollbar {
+  width: 4px;
+}
+
+.moudle-notice .moudle-container .moudle-notice-instruction::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
+}
+
+.moudle-notice .moudle-container .moudle-notice-instruction::-webkit-scrollbar-thumb {
+  border: 4px solid #808080;
+  border-radius: 2px;
+}
+
+.moudle-questionnaire .moudle-container {
+  width: 66.66vw;
+  height: 40vw;
+  background-color: black;
+  background-image: url("./img/moudle/模組-領獎背景.png");
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-subtitle {
+  padding-top: 1.35vw;
+  color: #ffff00;
+  font-size: 1.25vw;
+  line-height: 40px;
+  font-weight: bold;
+  margin-top: -13.4118px;
+  margin-bottom: 1.75vw;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction {
+  overflow-y: scroll;
+  width: 40.91vw;
+  height: 17.18vw;
+  padding-right: 2.79vw;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-thank-title-1 {
+  text-align: justify;
+  color: white;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 28px;
+  font-weight: bold;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-thank-detail-1 {
+  margin-bottom: 28px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-title {
+  font-size: 24px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-question-title-1 {
+  margin-bottom: 14.6423px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-detail {
+  text-align: justify;
+  font-size: 24px;
+  line-height: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 32.8592px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-1 .font {
+  color: #faf0f0;
+  font-size: 24px;
+  line-height: 40px;
+  display: inline;
+  font-weight: bold;
+  margin-right: 18.9208px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-1 .form-1-btn {
+  margin: 0;
+  margin-right: 7.0203px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-question-title-2 {
+  margin-bottom: 14.6423px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 32.8592px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-2 .font {
+  color: #faf0f0;
+  font-size: 24px;
+  line-height: 40px;
+  display: inline;
+  font-weight: bold;
+  margin-right: 18.9208px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-2 .form-2-btn {
+  margin: 0;
+  margin-right: 7.0203px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-form-2 .font-3 {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction::-webkit-scrollbar {
+  width: 4px;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
+}
+
+.moudle-questionnaire .moudle-container .moudle-questionnaire-instruction::-webkit-scrollbar-thumb {
   border: 4px solid #808080;
   border-radius: 2px;
 }
@@ -1136,6 +1496,7 @@ nav .nav-container .sound-btn {
 
 .banner-2 .plate-container-phone {
   display: none;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -1213,7 +1574,18 @@ nav .nav-container .sound-btn {
   }
 }
 
-.banner-3 .games-information {
+.banner-3 .game-finish {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-image: url("./img/moudle/遊戲完成.png");
+  display: none;
+}
+
+.banner-3 .game-finish .game-finish-information {
   width: 9.68%;
   height: 33.56vw;
   display: -webkit-box;
@@ -1229,6 +1601,94 @@ nav .nav-container .sound-btn {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+@media (max-width: 768px) {
+  .banner-3 .game-finish .game-finish-information {
+    height: 104.75vw;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 414px) {
+  .banner-3 .game-finish .game-finish-information {
+    height: 132.34vw;
+    margin: 0 auto;
+  }
+}
+
+.banner-3 .game-finish .game-finish-information .banner-3-title-computer {
+  width: calc(6.14vw - 17px);
+}
+
+@media (max-width: 768px) {
+  .banner-3 .game-finish .game-finish-information .banner-3-title-computer {
+    display: none;
+  }
+}
+
+.banner-3 .game-finish .game-finish-information .banner-3-title-phone {
+  width: calc(41.95vw - 17px);
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .banner-3 .game-finish .game-finish-information .banner-3-title-phone {
+    display: block;
+    width: calc(33.85vw - 17px);
+  }
+}
+
+@media (max-width: 414px) {
+  .banner-3 .game-finish .game-finish-information .banner-3-title-phone {
+    width: calc(41.95vw - 17px);
+  }
+}
+
+.banner-3 .game-finish .game-finish-lottery-btn-computer {
+  width: 9.68vw;
+}
+
+@media (max-width: 768px) {
+  .banner-3 .game-finish .game-finish-lottery-btn-computer {
+    display: none;
+  }
+}
+
+.banner-3 .game-finish .game-finish-lottery-btn-phone {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .banner-3 .game-finish .game-finish-lottery-btn-phone {
+    display: block;
+  }
+}
+
+@media (max-width: 414px) {
+  .banner-3 .game-finish .game-finish-lottery-btn-phone {
+    width: calc(80.53vw - 17px);
+    margin: 0 auto;
+  }
+}
+
+.banner-3 .games-information {
+  width: 9.68vw;
+  height: 33.56vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
 }
 
 @media (max-width: 768px) {

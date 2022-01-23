@@ -185,43 +185,7 @@ main {
         }
     }
 }
-.moudle-award {
-    display: none;
-    .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("./img/moudle/模組-領獎背景.png");
 
-        .moudle-award-title {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.56vw;
-            line-height: 1.87vw;
-            margin-bottom: 3.67vw;
-        }
-        .moudle-award-detail {
-            width: 785.6471px;
-            height: 344.7486px;
-            color: white;
-            text-align: justify;
-            font-size: 1.35vw;
-            line-height: 1.97vw;
-            overflow-y: scroll;
-            padding-right: 43.0882px;
-        }
-        .moudle-award-detail::-webkit-scrollbar {
-            width: 4px;
-        }
-        .moudle-award-detail::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-        .moudle-award-detail::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
-        }
-    }
-}
 .moudle-purpose {
     display: none;
     .moudle-container {
@@ -234,12 +198,14 @@ main {
             color: #ffff00;
             font-size: 1.56vw;
             line-height: 36px;
+            font-weight: bold;
             margin-bottom: 3.67vw;
         }
         .moudle-purpose-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
+            padding-right: 2.79vw;
 
             .moudle-purpose-title {
                 color: white;
@@ -256,7 +222,6 @@ main {
                 color: white;
                 font-size: 1.35vw;
                 line-height: 38px;
-                padding-right: 2.79vw;
             }
             .moudle-purpose-detail-1 {
                 margin-bottom: 2.08vw;
@@ -276,6 +241,344 @@ main {
         }
     }
 }
+.moudle-rule {
+    display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+        .moudle-rule-subtitle {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.56vw;
+            line-height: 36px;
+            font-weight: bold;
+            margin-bottom: 3.67vw;
+        }
+        .moudle-rule-instruction {
+            overflow-y: scroll;
+            width: 40.91vw;
+            height: 17.18vw;
+            padding-right: 2.79vw;
+
+            .moudle-rule-title {
+                color: white;
+                font-size: 1.35vw;
+                line-height: 38px;
+                text-align: justify;
+            }
+            .moudle-rule-time-2 {
+                margin-bottom: 2.08vw;
+            }
+            .moudle-rule-title-4 {
+                margin-bottom: 2.08vw;
+            }
+            .moudle-rule-game-qualifications-2 {
+                margin-bottom: 0;
+            }
+        }
+        .moudle-rule-instruction::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-rule-instruction::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-rule-instruction::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+.moudle-lottery {
+    display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+        .moudle-lottery-subtitle {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.56vw;
+            line-height: 36px;
+            font-weight: bold;
+            margin-bottom: 3.67vw;
+        }
+        .moudle-lottery-instruction {
+            overflow-y: scroll;
+            width: 40.91vw;
+            height: 17.18vw;
+            padding-right: 2.79vw;
+
+            .moudle-lottery-title {
+                text-align: justify;
+                color: white;
+                font-size: 1.35vw;
+                line-height: 38px;
+                font-weight: bold;
+            }
+            .moudle-lottery-title-1 {
+                margin-bottom: 2.08vw;
+            }
+            .moudle-lottery-title-2 {
+            }
+        }
+        .moudle-lottery-instruction::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-lottery-instruction::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-lottery-instruction::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+.moudle-winning {
+    display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+
+        .moudle-winning-subtitle {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.56vw;
+            line-height: 36px;
+            font-weight: bold;
+            margin-bottom: 3.67vw;
+        }
+        .moudle-winning-instruction {
+            overflow-y: scroll;
+            width: 40.91vw;
+            height: 17.18vw;
+            padding-right: 2.79vw;
+
+            .moudle-winning-detail {
+                text-align: justify;
+                color: white;
+                font-size: 1.35vw;
+                line-height: 38px;
+            }
+
+            .moudle-winning-detail-1 {
+                margin-bottom: 2.08vw;
+            }
+
+            .moudle-winning-detail-2 {
+            }
+        }
+        .moudle-winning-instruction::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-winning-instruction::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-winning-instruction::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+.moudle-award {
+    display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+        .moudle-award-subtitle {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.56vw;
+            line-height: 36px;
+            font-weight: bold;
+            margin-bottom: 3.67vw;
+        }
+        .moudle-award-instruction {
+            overflow-y: scroll;
+            width: 40.91vw;
+            height: 17.18vw;
+            padding-right: 2.79vw;
+
+            .moudle-award-title {
+                text-align: justify;
+                color: white;
+                font-size: 1.35vw;
+                line-height: 38px;
+                font-weight: bold;
+                margin-bottom: 2.08vw;
+            }
+            .moudle-award-title-2 {
+                margin-bottom: 0;
+            }
+        }
+        .moudle-award-instruction::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-award-instruction::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-award-instruction::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+.moudle-notice {
+    display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+        .moudle-notice-subtitle {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.56vw;
+            line-height: 36px;
+            font-weight: bold;
+            margin-bottom: 3.67vw;
+        }
+        .moudle-notice-instruction {
+            overflow-y: scroll;
+            width: 40.91vw;
+            height: 17.18vw;
+            padding-right: 2.79vw;
+
+            .moudle-notice-title {
+                text-align: justify;
+                color: white;
+                font-size: 1.35vw;
+                line-height: 38px;
+                font-weight: bold;
+                margin-bottom: 2.08vw;
+            }
+            .moudle-notice-title-7 {
+                margin-bottom: 0;
+            }
+        }
+        .moudle-notice-instruction::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-notice-instruction::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-notice-instruction::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+.moudle-questionnaire {
+    // display: none;
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+        background-image: url("./img/moudle/模組-領獎背景.png");
+        .moudle-questionnaire-subtitle {
+            padding-top: 1.35vw;
+            color: #ffff00;
+            font-size: 1.25vw;
+            line-height: 40px;
+            font-weight: bold;
+            margin-top: -13.4118px;
+            margin-bottom: 1.75vw;
+        }
+        .moudle-questionnaire-instruction {
+            overflow-y: scroll;
+            width: 40.91vw;
+            height: 17.18vw;
+            padding-right: 2.79vw;
+            .moudle-questionnaire-thank-title-1 {
+                text-align: justify;
+                color: white;
+                font-size: 24px;
+                line-height: 40px;
+                margin-bottom: 28px;
+                font-weight: bold;
+            }
+            .moudle-questionnaire-thank-detail-1 {
+                margin-bottom: 28px;
+            }
+
+            .moudle-questionnaire-title {
+                font-size: 24px;
+                line-height: 40px;
+                color: white;
+                font-weight: bold;
+            }
+            .moudle-questionnaire-question-title-1 {
+                margin-bottom: 14.6423px;
+            }
+
+            .moudle-questionnaire-detail {
+                text-align: justify;
+                font-size: 24px;
+                line-height: 40px;
+                color: white;
+                font-weight: bold;
+            }
+            .moudle-questionnaire-form-1 {
+                display: flex;
+                align-items: center;
+                margin-bottom: 32.8592px;
+                .font {
+                    color: #faf0f0;
+                    font-size: 24px;
+                    line-height: 40px;
+                    display: inline;
+                    font-weight: bold;
+                    margin-right: 18.9208px;
+                }
+                .form-1-btn {
+                    margin: 0;
+                    margin-right: 7.0203px;
+                }
+            }
+            .moudle-questionnaire-question-title-2 {
+                margin-bottom: 14.6423px;
+            }
+            .moudle-questionnaire-form-2 {
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+                margin-bottom: 32.8592px;
+                .font {
+                    color: #faf0f0;
+                    font-size: 24px;
+                    line-height: 40px;
+                    display: inline;
+                    font-weight: bold;
+                    margin-right: 18.9208px;
+                }
+                .form-2-btn {
+                    margin: 0;
+                    margin-right: 7.0203px;
+                }
+                .font-3{
+                    flex:auto;
+                }
+            }
+        }
+        .moudle-questionnaire-instruction::-webkit-scrollbar {
+            width: 4px;
+        }
+        .moudle-questionnaire-instruction::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 6px #333333;
+        }
+        .moudle-questionnaire-instruction::-webkit-scrollbar-thumb {
+            border: 4px solid #808080;
+            border-radius: 2px;
+        }
+    }
+}
+
 /*#endregion*/
 
 /*#region nav*/
@@ -867,7 +1170,7 @@ nav {
 
     .plate-container-phone {
         display: none;
-
+        cursor: pointer;
         // margin: 0 auto;
         @media (max-width: 768px) {
             //check
@@ -918,14 +1221,80 @@ nav {
         padding-left: 0;
     }
 
+    .game-finish {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        background-image: url("./img/moudle/遊戲完成.png");
+        display: none;
+        .game-finish-information {
+            width: 9.68%;
+            height: 33.56vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            @media (max-width: 768px) {
+                height: 104.75vw;
+                margin: 0 auto;
+            }
+
+            @media (max-width: 414px) {
+                height: 132.34vw;
+                margin: 0 auto;
+            }
+
+            .banner-3-title-computer {
+                width: calc(6.14vw - 17px);
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+
+            .banner-3-title-phone {
+                width: calc(41.95vw - 17px);
+                display: none;
+
+                @media (max-width: 768px) {
+                    display: block;
+                    width: calc(33.85vw - 17px);
+                }
+                @media (max-width: 414px) {
+                    width: calc(41.95vw - 17px);
+                }
+            }
+        }
+        .game-finish-lottery-btn-computer {
+            width: 9.68vw;
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        .game-finish-lottery-btn-phone {
+            display: none;
+
+            @media (max-width: 768px) {
+                display: block;
+            }
+
+            @media (max-width: 414px) {
+                width: calc(80.53vw - 17px);
+                margin: 0 auto;
+            }
+        }
+    }
     .games-information {
-        width: 9.68%;
+        width: 9.68vw;
         height: 33.56vw;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-
+        // position: absolute;
+        z-index: 100;
         @media (max-width: 768px) {
             height: 104.75vw;
             margin: 0 auto;
@@ -988,10 +1357,10 @@ nav {
                     height: 24.49vw;
                 }
                 @media (max-width: 375px) {
-                    width:  29.91vw;
+                    width: 29.91vw;
                     height: 28.96vw;
                 }
-               
+
                 .games-btn-front {
                     width: 13.12vw;
                     position: absolute;
@@ -1020,7 +1389,6 @@ nav {
                     transform: rotateY(0);
                 }
             }
-            
         }
 
         .lottery-btn-computer {
