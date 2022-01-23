@@ -1321,6 +1321,14 @@ main {
   }
 }
 
+@media (max-width: 414px) {
+  .moudle-questionnaire .moudle-container {
+    width: 347px;
+    height: 602px;
+    background-image: url("./img/moudle/手機板-背景.png");
+  }
+}
+
 .moudle-questionnaire .moudle-container .moudle-questionnaire-subtitle {
   padding-top: 1.35vw;
   color: #ffff00;
@@ -1338,6 +1346,13 @@ main {
   }
 }
 
+@media (max-width: 414px) {
+  .moudle-questionnaire .moudle-container .moudle-questionnaire-subtitle {
+    font-size: 24px;
+    line-height: 28.8px;
+  }
+}
+
 .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction {
   overflow-y: scroll;
   width: 40.91vw;
@@ -1349,6 +1364,13 @@ main {
   .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction {
     width: 515.9756px;
     height: 232.8249px;
+  }
+}
+
+@media (max-width: 414px) {
+  .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction {
+    width: 309.9459px;
+    height: 328.352px;
   }
 }
 
@@ -1371,8 +1393,8 @@ main {
 
 @media (max-width: 414px) {
   .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-thank-title-1 {
-    font-size: 2.6vw;
-    line-height: 4.94vw;
+    font-size: 20px;
+    line-height: 34px;
   }
 }
 
@@ -1383,6 +1405,13 @@ main {
 @media (max-width: 768px) {
   .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-thank-detail-1 {
     margin-bottom: 15.5519px;
+  }
+}
+
+@media (max-width: 414px) {
+  .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-thank-detail-1 {
+    font-size: 20px;
+    line-height: 38px;
   }
 }
 
@@ -1402,8 +1431,8 @@ main {
 
 @media (max-width: 414px) {
   .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-title {
-    font-size: 2.6vw;
-    line-height: 4.94vw;
+    font-size: 20px;
+    line-height: 34px;
   }
 }
 
@@ -1414,6 +1443,14 @@ main {
 @media (max-width: 768px) {
   .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-question-title-1 {
     margin-bottom: 7.776px;
+  }
+}
+
+@media (max-width: 414px) {
+  .moudle-questionnaire .moudle-container .moudle-questionnaire-instruction .moudle-questionnaire-question-title-1 {
+    font-size: 20px;
+    line-height: 34px;
+    margin-bottom: 52.5463px;
   }
 }
 

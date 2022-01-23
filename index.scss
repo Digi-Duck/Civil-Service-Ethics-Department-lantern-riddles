@@ -674,7 +674,7 @@ main {
     }
 }
 .moudle-award {
-    display: none; 
+    display: none;
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
@@ -844,7 +844,7 @@ main {
         @media (max-width: 768px) {
             width: 708px;
             height: 316.0714px;
-        } 
+        }
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
@@ -864,8 +864,7 @@ main {
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
-            width: 279.1305px;
-            
+                width: 279.1305px;
             }
 
             .moudle-goto-detail {
@@ -899,7 +898,7 @@ main {
     }
 }
 .moudle-writeQuestionnaire {
-    //RWD
+    // RWD
     display: none;
     .moudle-container {
         width: 1008.1133px;
@@ -929,7 +928,7 @@ main {
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
-            width: 279.1305px;
+                width: 279.1305px;
             }
             .moudle-writeQuestionnaire-detail {
                 text-align: justify;
@@ -971,6 +970,9 @@ main {
             height: 424.8px;
         }
         @media (max-width: 414px) {
+            width: 347px;
+            height: 602px;
+            background-image: url("./img/moudle/手機板-背景.png");
         }
         .moudle-questionnaire-subtitle {
             padding-top: 1.35vw;
@@ -985,6 +987,8 @@ main {
                 line-height: 19.91px;
             }
             @media (max-width: 414px) {
+                font-size: 24px;
+                line-height: 28.8px;
             }
         }
         .moudle-questionnaire-instruction {
@@ -997,6 +1001,8 @@ main {
                 height: 232.8249px;
             }
             @media (max-width: 414px) {
+                width: 309.9459px;
+                height: 328.352px;
             }
             .moudle-questionnaire-thank-title-1 {
                 text-align: justify;
@@ -1011,8 +1017,9 @@ main {
                     margin-bottom: 7.0588px;
                 }
                 @media (max-width: 414px) {
-                    font-size: 2.6vw;
-                    line-height: 4.94vw;
+                    font-size: 20px;
+                    line-height: 34px;
+                    
                 }
             }
             .moudle-questionnaire-thank-detail-1 {
@@ -1021,6 +1028,8 @@ main {
                     margin-bottom: 15.5519px;
                 }
                 @media (max-width: 414px) {
+                    font-size: 20px;
+                    line-height: 38px;
                 }
             }
 
@@ -1034,8 +1043,8 @@ main {
                     line-height: 2.88vw;
                 }
                 @media (max-width: 414px) {
-                    font-size: 2.6vw;
-                    line-height: 4.94vw;
+                    font-size: 20px;
+                    line-height: 34px;
                 }
             }
             .moudle-questionnaire-question-title-1 {
@@ -1044,6 +1053,9 @@ main {
                     margin-bottom: 7.776px;
                 }
                 @media (max-width: 414px) {
+                    font-size: 20px;
+                    line-height: 34px;
+                    margin-bottom: 52.5463px;
                 }
             }
 
