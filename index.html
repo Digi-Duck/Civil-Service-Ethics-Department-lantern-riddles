@@ -564,9 +564,13 @@
     <script>
         var swiper2 = new Swiper('.banner-2 .swiper', {
             slidesPerView: 1.6,//一次在螢幕上顯示多少張
+            spaceBetween: 15,
             direction: 'horizontal',
             loop: true,
-            spaceBetween: 15,
+            centeredSlides:true,
+            observer: true,
+            observeParents: true,
+            
             navigation: {
                 nextEl: '.banner-2 .swiper-button-next',
                 prevEl: '.banner-2 .swiper-button-prev',
@@ -575,33 +579,34 @@
             },
             breakpoints: {
                 375: {
-                    slidesPerView: 5,
+                    slidesPerView: 3.5,
                     spaceBetween: 15,
                 },
                 768: {
-                    slidesPerView: 4,
-                    spaceBetween: 25,
+                    slidesPerView: 5,
+                    spaceBetween: 20,
                 }
             },
         });
         var swiper4 = new Swiper('.banner-4 .swiper', {
-            slidesPerView: 1.13,
+            slidesPerView: 1.4,
+            spaceBetween: 11,
             direction: 'horizontal',
+            loop: true,
+            centeredSlides:true,
+            observer: true,
+            observeParents: true,
+
             navigation: {
                 nextEl: '.banner-4 .swiper-button-next',
                 prevEl: '.banner-4 .swiper-button-prev',
                 // centerInsufficientSlides:true,
                 // spaceBetween: 25,
             },
-            spaceBetween: 11,
-            breakpoints: {
 
-                375: {//>375
-                    slidesPerView: 6,
-                    spaceBetween: 19,
-                },
-                768: {//>768
-                    slidesPerView: 7,
+            breakpoints: {
+                768: {
+                    slidesPerView: 3.3,
                     spaceBetween: 16,
                 }
             },

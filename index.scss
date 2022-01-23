@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    user-select: none;
 }
 
 /*#endregion*/
@@ -13,11 +14,13 @@ body {
     // overflow-x: hidden;
     overflow-y: scroll;
 }
+
 main {
     // width: 100%;
     // position: relative;
     overflow-x: hidden;
 }
+
 .container {
     width: 100%;
     height: 50vw;
@@ -26,6 +29,10 @@ main {
 
 .background {
     position: absolute;
+}
+
+#TaipeiPasslogin {
+    cursor: pointer;
 }
 
 /*#region moudle*/
@@ -41,32 +48,37 @@ main {
     align-items: center;
     // font-size: 40px;
     font-size: 2.08vw;
+
     .moudle-container {
         background-size: cover;
         padding-top: 1.36vw;
+
         @media (max-width: 768px) {
             height: 16.5765px;
             padding-top: 19.6629px;
         }
-        @media (max-width: 414px) {
-        }
+
+        @media (max-width: 414px) {}
+
         .moudle-content {
             width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             font-weight: bold;
+
             .moudle-exit {
                 width: 2.62vw;
                 cursor: pointer;
                 align-self: flex-end;
                 margin-right: 1.7vw;
+
                 @media (max-width: 768px) {
                     width: 27.9243px;
                     margin-right: 18.2806px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
         }
     }
@@ -74,6 +86,7 @@ main {
 
 .moudle-question {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
@@ -84,18 +97,21 @@ main {
             width: 708px;
             height: 424.8px;
         }
-        @media (max-width: 414px) {
-        }
+
+        @media (max-width: 414px) {}
+
         .moudle-content {
             color: white;
+
             .moudle-exit {
                 margin-bottom: 2.8vw;
             }
+
             @media (max-width: 768px) {
                 margin-bottom: 29.1765px;
             }
-            @media (max-width: 414px) {
-            }
+
+            @media (max-width: 414px) {}
 
             .moudle-title {
                 // font-size: 40px;
@@ -104,14 +120,16 @@ main {
                 line-height: 2.5vw;
                 text-align: center;
                 margin-bottom: 0.62vw;
+
                 @media (max-width: 768px) {
                     font-size: 22.13px;
                     line-height: 26.55px;
                     margin-bottom: 6.6745px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
+
             .moudle-subtitle {
                 // font-size: 20px;
                 // line-height: 24px;
@@ -119,24 +137,27 @@ main {
                 line-height: 1.25vw;
                 text-align: center;
                 margin-bottom: 2.16vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 22.9412px;
                     font-size: 11.06px;
                     line-height: 13.28px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
 
             .moudle-btn-container {
                 display: flex;
+
                 .moudle-btn-2 {
                     margin: 0 1.62vw;
+
                     @media (max-width: 768px) {
                         margin: 0 17.3159px;
                     }
-                    @media (max-width: 414px) {
-                    }
+
+                    @media (max-width: 414px) {}
                 }
 
                 .moudle-btn {
@@ -145,40 +166,46 @@ main {
                     align-items: center;
                     position: relative;
                     cursor: pointer;
+
                     .moudle-btn-background {
                         width: 12.16vw;
 
                         @media (max-width: 768px) {
                             width: 129.2058px;
                         }
-                        @media (max-width: 414px) {
-                        }
+
+                        @media (max-width: 414px) {}
                     }
+
                     .moudle-btn-content {
                         // font-size: 40px;
 
                         font-size: 2.08vw;
                         position: absolute;
+
                         @media (max-width: 768px) {
                             width: 100%;
                             font-size: 22.13px;
                             text-align: center;
                         }
-                        @media (max-width: 414px) {
-                        }
+
+                        @media (max-width: 414px) {}
                     }
+
                     @media (max-width: 768px) {
                         width: 129.2058px;
                     }
-                    @media (max-width: 414px) {
-                    }
+
+                    @media (max-width: 414px) {}
                 }
             }
         }
     }
 }
+
 .moudle-teach {
     display: none;
+
     .moudle-container {
         width: 66.25vw;
         height: 39.58vw;
@@ -186,12 +213,14 @@ main {
         background-color: black;
         border: 4px #ff8908 solid;
         border-radius: 20px;
+
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
-        @media (max-width: 414px) {
-        }
+
+        @media (max-width: 414px) {}
+
         .moudle-teach-information {
             width: 36.45vw;
             height: 14.43vw;
@@ -201,64 +230,75 @@ main {
             margin-top: -1.85vw;
             margin-bottom: 1.83vw;
             padding-top: 4.26vw;
+
             @media (max-width: 768px) {
                 width: 387.1875px;
                 height: 153.2573px;
                 padding-top: 45.1837px;
                 padding-left: 208.3625px;
             }
-            @media (max-width: 414px) {
-            }
+
+            @media (max-width: 414px) {}
+
             .moudle-teach-title {
                 color: #22ab38;
                 font-size: 1.87vw; //36px
                 font-weight: bolder;
                 margin-bottom: 0.25vw;
                 line-height: 1.77vw;
+
                 @media (max-width: 768px) {
                     font-size: 19.91px;
                     line-height: 18.81px;
                     margin-bottom: 2.5882px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
+
             .moudle-teach-subtitle {
                 font-size: 1.14vw;
                 line-height: 1.77vw;
                 font-weight: bolder;
                 margin-bottom: 1.56vw;
+
                 @media (max-width: 768px) {
                     font-size: 12.17px;
                     line-height: 18.81px;
                     margin-bottom: 17.8235px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
+
             .moudle-teach-next {
                 cursor: pointer;
+
                 .moudle-teach-next-img {
                     width: 7.56vw;
+
                     @media (max-width: 768px) {
                         width: 80.2031px;
                     }
-                    @media (max-width: 414px) {
-                    }
+
+                    @media (max-width: 414px) {}
                 }
             }
         }
+
         .moudle-teach-background {
             width: 39.79vw;
             padding-top: 1.2vw;
             height: 20.8vw;
             overflow-y: scroll;
+
             @media (max-width: 768px) {
                 width: 422.669px;
                 height: 215.8628px;
             }
-            @media (max-width: 414px) {
-            }
+
+            @media (max-width: 414px) {}
+
             .moudle-teach-detail {
                 width: 37.25vw;
                 font-size: 1.35vw;
@@ -266,42 +306,50 @@ main {
                 color: white;
                 margin-bottom: 1.32vw;
                 text-align: justify;
+
                 @media (max-width: 768px) {
                     width: 395.6806px;
                     font-size: 14.38px;
                     line-height: 21.02px;
                     margin-bottom: 13.6468px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
+
             .moudle-teach-video-information {
                 width: 100%;
                 color: #ff8908;
                 font-size: 0.93vw;
                 line-height: 1.04vw;
                 margin-bottom: 0.42vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 5.2516px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
+
             .moudle-teach-video {
                 width: 37.22vw;
+
                 @media (max-width: 768px) {
                     width: 395.3132px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
         }
+
         .moudle-teach-background::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-teach-background::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-teach-background::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
@@ -311,6 +359,7 @@ main {
 
 .moudle-purpose {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
@@ -321,11 +370,13 @@ main {
             width: 708px;
             height: 424.8px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-purpose-subtitle {
             padding-top: 1.35vw;
             color: #ffff00;
@@ -333,100 +384,122 @@ main {
             line-height: 36px;
             font-weight: bold;
             margin-bottom: 3.67vw;
+
             @media (max-width: 768px) {
                 font-size: 16.59px;
                 line-height: 19.91px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
         }
+
         .moudle-purpose-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
             padding-right: 2.79vw;
+
             @media (max-width: 768px) {
                 width: 434.561px;
                 height: 182.5462px;
             }
+
             @media (max-width: 414px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
+
             .moudle-purpose-title {
                 color: white;
                 font-size: 1.35vw;
                 line-height: 38px;
                 font-weight: bold;
+
                 @media (max-width: 768px) {
                     font-size: 14.38px;
                     line-height: 21.02px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
             }
-            .moudle-purpose-title-1 {
-            }
-            .moudle-purpose-title-2 {
-            }
+
+            .moudle-purpose-title-1 {}
+
+            .moudle-purpose-title-2 {}
+
             .moudle-purpose-detail {
                 text-align: justify;
                 color: white;
                 font-size: 1.35vw;
                 line-height: 38px;
+
                 @media (max-width: 768px) {
                     font-size: 14.38px;
                     line-height: 21.02px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
             }
+
             .moudle-purpose-detail-1 {
                 margin-bottom: 2.08vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 22.0989px;
                 }
+
                 @media (max-width: 414px) {
                     margin-bottom: 17.1193px;
                 }
             }
-            .moudle-purpose-detail-2 {
-            }
+
+            .moudle-purpose-detail-2 {}
         }
+
         .moudle-purpose-instruction::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-purpose-instruction::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-purpose-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
         }
     }
 }
+
 .moudle-rule {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
         background-color: black;
         background-image: url("./img/moudle/模組-領獎背景.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-rule-subtitle {
             padding-top: 1.35vw;
             color: #ffff00;
@@ -434,92 +507,115 @@ main {
             line-height: 36px;
             font-weight: bold;
             margin-bottom: 3.67vw;
+
             @media (max-width: 768px) {
                 font-size: 16.59px;
                 line-height: 19.91px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
         }
+
         .moudle-rule-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
             padding-right: 2.79vw;
+
             @media (max-width: 768px) {
                 width: 434.561px;
                 height: 182.5462px;
             }
+
             @media (max-width: 414px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
+
             .moudle-rule-title {
                 color: white;
                 font-size: 1.35vw;
                 line-height: 38px;
                 text-align: justify;
+
                 @media (max-width: 768px) {
                     font-size: 14.38px;
                     line-height: 21.02px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
             }
+
             .moudle-rule-time-2 {
                 margin-bottom: 2.08vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 22.0989px;
                 }
+
                 @media (max-width: 414px) {
                     margin-bottom: 17.1193px;
                 }
             }
+
             .moudle-rule-title-4 {
                 margin-bottom: 2.08vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 22.0989px;
                 }
+
                 @media (max-width: 414px) {
                     margin-bottom: 17.1193px;
                 }
             }
+
             .moudle-rule-game-qualifications-2 {
                 margin-bottom: 0;
             }
         }
+
         .moudle-rule-instruction::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-rule-instruction::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-rule-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
         }
     }
 }
+
 .moudle-lottery {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
         background-color: black;
         background-image: url("./img/moudle/模組-領獎背景.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-lottery-subtitle {
             padding-top: 1.35vw;
             color: #ffff00;
@@ -527,83 +623,102 @@ main {
             line-height: 36px;
             font-weight: bold;
             margin-bottom: 3.67vw;
+
             @media (max-width: 768px) {
                 font-size: 16.59px;
                 line-height: 19.91px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
         }
+
         .moudle-lottery-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
             padding-right: 2.79vw;
+
             @media (max-width: 768px) {
                 width: 434.561px;
                 height: 182.5462px;
             }
+
             @media (max-width: 414px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
+
             .moudle-lottery-title {
                 text-align: justify;
                 color: white;
                 font-size: 1.35vw;
                 line-height: 38px;
                 font-weight: bold;
+
                 @media (max-width: 768px) {
                     font-size: 16.59px;
                     line-height: 19.91px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
             }
+
             .moudle-lottery-title-1 {
                 margin-bottom: 2.08vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 22.0989px;
                 }
+
                 @media (max-width: 414px) {
                     margin-bottom: 17.1193px;
                 }
             }
-            .moudle-lottery-title-2 {
-            }
+
+            .moudle-lottery-title-2 {}
         }
+
         .moudle-lottery-instruction::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-lottery-instruction::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-lottery-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
         }
     }
 }
+
 .moudle-winning {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
         background-color: black;
         background-image: url("./img/moudle/模組-領獎背景.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-winning-subtitle {
             padding-top: 1.35vw;
             color: #ffff00;
@@ -611,37 +726,45 @@ main {
             line-height: 36px;
             font-weight: bold;
             margin-bottom: 3.67vw;
+
             @media (max-width: 768px) {
                 font-size: 16.59px;
                 line-height: 19.91px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
         }
+
         .moudle-winning-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
             padding-right: 2.79vw;
+
             @media (max-width: 768px) {
                 width: 434.561px;
                 height: 182.5462px;
             }
+
             @media (max-width: 414px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
+
             .moudle-winning-detail {
                 text-align: justify;
                 color: white;
                 font-size: 1.35vw;
                 line-height: 38px;
+
                 @media (max-width: 768px) {
                     font-size: 14.38px;
                     line-height: 21.02px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
@@ -650,45 +773,54 @@ main {
 
             .moudle-winning-detail-1 {
                 margin-bottom: 2.08vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 22.0989px;
                 }
+
                 @media (max-width: 414px) {
                     margin-bottom: 17.1193px;
                 }
             }
 
-            .moudle-winning-detail-2 {
-            }
+            .moudle-winning-detail-2 {}
         }
+
         .moudle-winning-instruction::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-winning-instruction::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-winning-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
         }
     }
 }
+
 .moudle-award {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
         background-color: black;
         background-image: url("./img/moudle/模組-領獎背景.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-award-subtitle {
             padding-top: 1.35vw;
             color: #ffff00;
@@ -696,28 +828,34 @@ main {
             line-height: 36px;
             font-weight: bold;
             margin-bottom: 3.67vw;
+
             @media (max-width: 768px) {
                 font-size: 16.59px;
                 line-height: 19.91px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
         }
+
         .moudle-award-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
             padding-right: 2.79vw;
+
             @media (max-width: 768px) {
                 width: 434.561px;
                 height: 182.5462px;
             }
+
             @media (max-width: 414px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
+
             .moudle-award-title {
                 text-align: justify;
                 color: white;
@@ -725,48 +863,59 @@ main {
                 line-height: 38px;
                 font-weight: bold;
                 margin-bottom: 2.08vw;
+
                 @media (max-width: 768px) {
                     margin-bottom: 22.0989px;
                     font-size: 14.38px;
                     line-height: 21.02px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
             }
+
             .moudle-award-title-2 {
                 margin-bottom: 0;
             }
         }
+
         .moudle-award-instruction::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-award-instruction::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-award-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
         }
     }
 }
+
 .moudle-notice {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
         background-color: black;
         background-image: url("./img/moudle/模組-領獎背景.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-notice-subtitle {
             padding-top: 1.35vw;
             color: #ffff00;
@@ -774,24 +923,29 @@ main {
             line-height: 36px;
             font-weight: bold;
             margin-bottom: 3.67vw;
+
             @media (max-width: 768px) {
                 font-size: 16.59px;
                 line-height: 19.91px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
         }
+
         .moudle-notice-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
             padding-right: 2.79vw;
+
             @media (max-width: 768px) {
                 width: 434.561px;
                 height: 182.5462px;
             }
+
             @media (max-width: 414px) {
                 width: 309.9459px;
                 height: 328.352px;
@@ -804,52 +958,64 @@ main {
                 line-height: 38px;
                 font-weight: bold;
                 margin-bottom: 2.08vw;
+
                 @media (max-width: 768px) {
                     font-size: 14.38px;
                     line-height: 21.02px;
                     margin-bottom: 22.0989px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                     margin-bottom: 17.1193px;
                 }
             }
+
             .moudle-notice-title-8 {
                 margin-bottom: -8.88px;
             }
+
             .moudle-notice-title-9 {
                 margin-bottom: 0;
             }
         }
+
         .moudle-notice-instruction::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-notice-instruction::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-notice-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
         }
     }
 }
+
 .moudle-goto {
     display: none;
+
     .moudle-container {
         width: 1008.1133px;
         height: 450px;
         background-color: black;
         background-image: url("./img/moudle/背景-前往台北通.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 316.0714px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-goto-instruction {
             width: 31.45vw;
             height: 8.69vw;
@@ -857,10 +1023,12 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+
             @media (max-width: 768px) {
                 padding-top: 35.8767px;
                 width: 424.1305px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
@@ -874,46 +1042,55 @@ main {
                 line-height: 38px;
                 font-weight: bold;
                 margin-bottom: 1.71vw;
+
                 @media (max-width: 768px) {
                     font-size: 18px;
                     line-height: 26.69px;
                     margin-bottom: 24.1462px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                     margin-bottom: 17.1193px;
                 }
             }
+
             .goto-btn {
                 width: 7.55vw;
                 cursor: pointer;
+
                 @media (max-width: 768px) {
                     width: 101.8452px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
         }
     }
 }
+
 .moudle-writeQuestionnaire {
     // RWD
     display: none;
+
     .moudle-container {
         width: 1008.1133px;
         height: 450px;
         background-color: black;
         background-image: url("./img/moudle/背景-前往台北通.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 316.0714px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-writeQuestionnaire-instruction {
             width: 31.45vw;
             height: 8.69vw;
@@ -921,15 +1098,18 @@ main {
             display: flex;
             flex-direction: column;
             align-items: center;
+
             @media (max-width: 768px) {
                 padding-top: 35.8767px;
                 width: 424.1305px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
                 width: 279.1305px;
             }
+
             .moudle-writeQuestionnaire-detail {
                 text-align: justify;
                 color: white;
@@ -937,43 +1117,51 @@ main {
                 line-height: 40px;
                 font-weight: bold;
                 margin-bottom: 54.2343px;
+
                 @media (max-width: 768px) {
                     font-size: 18px;
                     line-height: 26.69px;
                     margin-bottom: 24.1462px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
                     margin-bottom: 17.1193px;
                 }
             }
+
             .writeQuestionnaire-btn {
                 width: 312.8299px;
-                @media (max-width: 768px) {
-                }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 768px) {}
+
+                @media (max-width: 414px) {}
             }
         }
     }
 }
+
 .moudle-questionnaire {
     display: none;
+
     .moudle-container {
         width: 66.66vw;
         height: 40vw;
         background-color: black;
         background-image: url("./img/moudle/模組-領獎背景.png");
+
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
+
         @media (max-width: 414px) {
             width: 347px;
             height: 602px;
             background-image: url("./img/moudle/手機板-背景.png");
         }
+
         .moudle-questionnaire-subtitle {
             padding-top: 1.35vw;
             color: #ffff00;
@@ -982,28 +1170,34 @@ main {
             font-weight: bold;
             margin-top: -13.4118px;
             margin-bottom: 1.75vw;
+
             @media (max-width: 768px) {
                 font-size: 16.59px;
                 line-height: 19.91px;
             }
+
             @media (max-width: 414px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
         }
+
         .moudle-questionnaire-instruction {
             overflow-y: scroll;
             width: 40.91vw;
             height: 17.18vw;
             padding-right: 2.79vw;
+
             @media (max-width: 768px) {
                 width: 515.9756px;
                 height: 232.8249px;
             }
+
             @media (max-width: 414px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
+
             .moudle-questionnaire-thank-title-1 {
                 text-align: justify;
                 color: white;
@@ -1011,22 +1205,27 @@ main {
                 line-height: 40px;
                 margin-bottom: 28px;
                 font-weight: bold;
+
                 @media (max-width: 768px) {
                     font-size: 1.72vw;
                     line-height: 2.88vw;
                     margin-bottom: 7.0588px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 34px;
-                    
+
                 }
             }
+
             .moudle-questionnaire-thank-detail-1 {
                 margin-bottom: 28px;
+
                 @media (max-width: 768px) {
                     margin-bottom: 15.5519px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 38px;
@@ -1038,20 +1237,25 @@ main {
                 line-height: 40px;
                 color: white;
                 font-weight: bold;
+
                 @media (max-width: 768px) {
                     font-size: 1.72vw;
                     line-height: 2.88vw;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 34px;
                 }
             }
+
             .moudle-questionnaire-question-title-1 {
                 margin-bottom: 14.6423px;
+
                 @media (max-width: 768px) {
                     margin-bottom: 7.776px;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 34px;
@@ -1065,24 +1269,29 @@ main {
                 line-height: 40px;
                 color: white;
                 font-weight: bold;
+
                 @media (max-width: 768px) {
                     font-size: 1.72vw;
                     line-height: 2.88vw;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 2.6vw;
                     line-height: 4.94vw;
                 }
             }
+
             .moudle-questionnaire-form-1 {
                 display: flex;
                 align-items: center;
                 margin-bottom: 32.8592px;
+
                 @media (max-width: 768px) {
                     margin-bottom: 17.4706px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
+
                 .font {
                     color: #faf0f0;
                     font-size: 24px;
@@ -1090,42 +1299,50 @@ main {
                     display: inline;
                     font-weight: bold;
                     margin-right: 18.9208px;
+
                     @media (max-width: 768px) {
                         font-size: 1.72vw;
                         line-height: 2.88vw;
                     }
+
                     @media (max-width: 414px) {
                         font-size: 2.6vw;
                         line-height: 4.94vw;
                     }
                 }
+
                 .form-1-btn {
                     margin: 0;
                     margin-right: 7.0203px;
-                    @media (max-width: 768px) {
-                    }
-                    @media (max-width: 414px) {
-                    }
+
+                    @media (max-width: 768px) {}
+
+                    @media (max-width: 414px) {}
                 }
             }
+
             .moudle-questionnaire-question-title-2 {
                 margin-bottom: 14.6423px;
+
                 @media (max-width: 768px) {
                     margin-bottom: 8.1936px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
             }
+
             .moudle-questionnaire-form-2 {
                 display: flex;
                 align-items: center;
                 flex-wrap: wrap;
                 margin-bottom: 32.8592px;
+
                 @media (max-width: 768px) {
                     margin-bottom: 16.6765px;
                 }
-                @media (max-width: 414px) {
-                }
+
+                @media (max-width: 414px) {}
+
                 .font {
                     color: #faf0f0;
                     font-size: 24px;
@@ -1133,51 +1350,62 @@ main {
                     display: inline;
                     font-weight: bold;
                     margin-right: 18.9208px;
+
                     @media (max-width: 768px) {
                         font-size: 1.72vw;
                         line-height: 2.88vw;
                     }
+
                     @media (max-width: 414px) {
                         font-size: 2.6vw;
                         line-height: 4.94vw;
                     }
                 }
+
                 .form-2-btn {
                     margin: 0;
                     margin-right: 7.0203px;
                 }
+
                 .font-3 {
                     flex: auto;
                 }
             }
+
             .moudle-questionnaire-question-title-3 {
                 margin-bottom: 18px;
             }
+
             .moudle-questionnaire-form-3 {
                 display: flex;
                 justify-content: center;
                 margin-bottom: 19.333px;
+
                 .form-3-text {
                     width: 100%;
                     height: 6.35vw;
                     border-radius: 5px;
                 }
             }
+
             .sent {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
-                .sent-img {
-                }
+
+                .sent-img {}
             }
         }
+
         .moudle-questionnaire-instruction::-webkit-scrollbar {
             width: 4px;
         }
+
         .moudle-questionnaire-instruction::-webkit-scrollbar-track {
             box-shadow: inset 0 0 6px #333333;
         }
+
         .moudle-questionnaire-instruction::-webkit-scrollbar-thumb {
             border: 4px solid #808080;
             border-radius: 2px;
@@ -1194,40 +1422,51 @@ nav {
     position: fixed;
     z-index: 10;
     background-color: #000000;
+
     @media (max-width: 768px) {
         height: 7.16vw;
     }
+
     @media (max-width: 414px) {
         height: 16vw;
     }
+
     .nav-container {
         padding: 1.3vw 2.6vw 0 1.56vw;
+
         @media (max-width: 768px) {
             padding: 1.39vw 3.9vw 0 3.9vw;
         }
+
         @media (max-width: 414px) {
             padding: 3.63vw 4vw 0 4vw;
         }
+
         .logo {
             width: 15.52%;
             cursor: pointer;
+
             @media (max-width: 768px) {
                 width: 26.04%;
             }
+
             @media (max-width: 414px) {
                 width: 55.82%;
             }
         }
+
         .sound-btn {
             width: 2.18%;
             float: right;
             padding-top: 0.07vw;
             display: block;
             cursor: pointer;
+
             @media (max-width: 768px) {
                 width: 3.03%;
                 padding-top: 0.7vw;
             }
+
             @media (max-width: 414px) {
                 width: 6.21%;
                 padding-top: 1.65vw;
@@ -1241,10 +1480,12 @@ nav {
     width: 100%;
     padding-top: 6.95vw;
     overflow-x: hidden;
+
     @media (max-width: 768px) {
         height: 123.72vw;
         padding-top: 10.59vw;
     }
+
     @media (max-width: 414px) {
         height: 176.91vw;
         padding-top: 28.53vw;
@@ -1255,11 +1496,13 @@ nav {
         margin-left: 5.27vw;
         margin-bottom: 1.02vw;
         display: block;
+
         @media (max-width: 768px) {
             width: 46.2%;
             margin-left: 8.44vw;
             margin-bottom: 3.26vw;
         }
+
         @media (max-width: 414px) {
             width: 46.05%;
             margin-left: 8.94vw;
@@ -1272,11 +1515,13 @@ nav {
         margin-left: 2.86vw;
         margin-bottom: 1.67vw;
         display: block;
+
         @media (max-width: 768px) {
             width: 94.51%;
             margin-left: 2.75%;
             margin-bottom: 3.77vw;
         }
+
         @media (max-width: 414px) {
             width: 94.42%;
             margin-left: 2.84%;
@@ -1289,10 +1534,12 @@ nav {
         align-items: center;
         margin-left: 2.86vw;
         margin-bottom: 0.9vw;
+
         @media (max-width: 768px) {
             margin-left: 2.74vw;
             margin-bottom: 2.23vw;
         }
+
         @media (max-width: 414px) {
             margin-left: 3.07vw;
             margin-bottom: 0;
@@ -1303,10 +1550,12 @@ nav {
         .slogn-3 {
             width: 27.3%;
             margin-right: 2.64vw;
+
             @media (max-width: 768px) {
                 width: 61.14%;
                 margin-right: 5.91vw;
             }
+
             @media (max-width: 414px) {
                 width: 91.74%;
                 margin-right: 0;
@@ -1316,9 +1565,11 @@ nav {
 
         .logo-computer {
             width: 8.09%;
+
             @media (max-width: 768px) {
                 width: 18.13%;
             }
+
             @media (max-width: 414px) {
                 display: none;
             }
@@ -1339,10 +1590,12 @@ nav {
         width: 20.26%;
         margin-left: 2.86vw;
         display: block;
+
         @media (max-width: 768px) {
             width: 45.38%;
             margin-left: 2.74vw;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
@@ -1464,62 +1717,75 @@ nav {
             display: none;
         }
     }
+
     .banner-down {
         width: 100vw;
         // height: 44.94vw;
         top: 4.94vw;
         left: 0;
         z-index: -1;
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-middle {
         width: 100vw;
         // height: 44.94vw;
         top: 4.94vw;
         left: 0;
         z-index: -1;
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-1-video-background-computer {
         width: 100vw;
         // height: 44.94vw;
         top: 4.94vw;
         left: 0;
         z-index: -1;
+
         @media (max-width: 768px) {
             display: none;
         }
     }
+
     .banner-1-background-ipad {
         width: 128.65vw;
         top: 7.16vw;
         left: -10.79vw;
         z-index: -1;
         display: none;
+
         @media (max-width: 768px) {
             display: block;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-1-video-background-ipad {
         width: 100%;
         top: 7.16vw;
         left: 0;
         z-index: -1;
         display: none;
+
         @media (max-width: 768px) {
             display: block;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-1-video-background-phone {
         width: 100%;
         // height: 44.94vw;
@@ -1527,6 +1793,7 @@ nav {
         left: 0;
         z-index: -1;
         display: none;
+
         @media (max-width: 414px) {
             display: block;
         }
@@ -1537,10 +1804,12 @@ nav {
 /*#region banner-2*/
 .banner-2 {
     padding-top: 5.21vw;
+
     @media (max-width: 768px) {
         height: 122.91vw;
         padding-top: 5.2vw;
     }
+
     @media (max-width: 414px) {
         height: 244.19vw;
         padding-top: 6.35vw;
@@ -1550,10 +1819,12 @@ nav {
         width: 29.13%;
         margin: 0 auto 4.49vw;
         display: block;
+
         @media (max-width: 768px) {
             width: 49.01%;
             margin: 0 auto 4.77vw;
         }
+
         @media (max-width: 414px) {
             width: 61.28%;
             margin: 0 auto 8.11vw;
@@ -1566,10 +1837,12 @@ nav {
         justify-content: center;
         margin: 0 auto;
         width: 80.74vw;
+
         @media (max-width: 768px) {
             margin: 0 0;
             width: 100vw;
         }
+
         @media (max-width: 414px) {
             margin: 0 0;
             width: 100vw;
@@ -1583,10 +1856,12 @@ nav {
             display: block;
             // transform: translateY(-50%);
             z-index: 0;
+
             @media (max-width: 768px) {
                 display: none;
             }
         }
+
         .swiper {
             width: 74.21vw;
             height: 13.8vw;
@@ -1594,11 +1869,13 @@ nav {
             // margin-left: 2.08vw;
             display: flex;
             justify-content: center;
+
             @media (max-width: 768px) {
                 width: 100vw;
                 height: 28.64vw;
                 margin-bottom: 5.06vw;
             }
+
             @media (max-width: 414px) {
                 width: 100vw;
                 height: 53.33vw;
@@ -1610,41 +1887,10 @@ nav {
                 flex-direction: row;
 
                 .swiper-slide {
-                    width: 13.8vw !important;
-                    // margin-left: 1.3vw;
-                    text-align: center;
-                    font-size: 18px;
-                    cursor: pointer;
-                    /* Center slide text vertically */
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    @media (max-width: 768px) {
-                        width: 28.64vw !important;
-                        height: 28.64vw !important;
-                        // margin-left: 4vw;
-                    }
-                    @media (max-width: 414px) {
-                        width: 53.33vw !important;
-                        height: 53.33vw !important;
-                        // margin-left: 4vw;
-                    }
-
-                    .swiper-img {
-                        width: 13.8vw;
-                        display: block;
-                        @media (max-width: 768px) {
-                            width: 28.64vw;
-                        }
-                        @media (max-width: 414px) {
-                            width: 53.33vw;
-                        }
+                    img {
+                        width: 100%;
                     }
                 }
-
-                // .swiper-slide-1 {
-                //     margin-left: 0;
-                // }
             }
         }
 
@@ -1656,20 +1902,24 @@ nav {
             display: block;
             // transform: translateY(-50%);
             z-index: 0;
+
             @media (max-width: 768px) {
                 display: none;
             }
         }
     }
+
     .banner-2-star-computer {
         width: 93.09%;
         top: 31.36vw;
         left: 5.26vw;
+
         @media (max-width: 768px) {
             width: 87.41%;
             top: 81.92vw;
             left: 10.44vw;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
@@ -1691,27 +1941,32 @@ nav {
         bottom: 0;
         left: 3.95vw;
         z-index: 2;
+
         @media (max-width: 768px) {
             width: 41.92%;
             bottom: 1.26vw;
             left: 0.61vw;
         }
+
         @media (max-width: 414px) {
             width: 43.79%;
             bottom: 0.86vw;
             left: 1.85vw;
         }
     }
+
     .banner-2-video-unicorn {
         width: 19.07%;
         bottom: 0.1vw;
         left: 3.4vw;
         z-index: 2;
+
         @media (max-width: 768px) {
             width: 44%;
             bottom: 1.2vw;
             left: -0.3vw;
         }
+
         @media (max-width: 414px) {
             width: 43.79%;
             bottom: -0.74vw;
@@ -1724,23 +1979,28 @@ nav {
         bottom: 0;
         left: 0;
         z-index: 1;
+
         @media (max-width: 768px) {
             display: none;
         }
     }
+
     .banner-2-build-ipad {
         width: 116.45%;
         left: -8.81vw;
         bottom: 0;
         z-index: 1;
         display: none;
+
         @media (max-width: 768px) {
             display: block;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-2-build-phone {
         width: 115.25%;
         left: -6.73vw;
@@ -1766,10 +2026,12 @@ nav {
         margin-left: 1vw;
         cursor: pointer;
         z-index: -1;
+
         @media (max-width: 768px) {
             display: none;
         }
     }
+
     .plate-1-computer {
         margin-left: 0;
     }
@@ -1777,6 +2039,7 @@ nav {
     .plate-container-phone {
         display: none;
         cursor: pointer;
+
         // margin: 0 auto;
         @media (max-width: 768px) {
             //check
@@ -1788,6 +2051,7 @@ nav {
             flex-wrap: wrap;
             margin: 0 auto;
         }
+
         @media (max-width: 414px) {
             width: 100%;
             height: 108vw;
@@ -1799,10 +2063,12 @@ nav {
 
     .plate-phone {
         display: none;
+
         @media (max-width: 768px) {
             width: 44.96vw;
             display: block;
         }
+
         @media (max-width: 414px) {
             width: 80vw;
         }
@@ -1815,6 +2081,7 @@ nav {
     padding-top: 7.16vw;
     padding-left: 21.72vw;
     overflow: hidden;
+
     @media (max-width: 768px) {
         height: 144.24vw;
         padding-top: 5.23vw;
@@ -1836,6 +2103,7 @@ nav {
         z-index: 100;
         background-image: url("./img/moudle/遊戲完成.png");
         display: none;
+
         .game-finish-information {
             width: 9.68%;
             height: 33.56vw;
@@ -1843,6 +2111,7 @@ nav {
             flex-direction: column;
             justify-content: space-between;
             align-items: center;
+
             @media (max-width: 768px) {
                 height: 104.75vw;
                 margin: 0 auto;
@@ -1855,6 +2124,7 @@ nav {
 
             .banner-3-title-computer {
                 width: calc(6.14vw - 17px);
+
                 @media (max-width: 768px) {
                     display: none;
                 }
@@ -1868,20 +2138,25 @@ nav {
                     display: block;
                     width: calc(33.85vw - 17px);
                 }
+
                 @media (max-width: 414px) {
                     width: calc(41.95vw - 17px);
                 }
             }
         }
+
         .game-finish-lottery-btn-computer {
             width: 9.68vw;
+
             @media (max-width: 768px) {
                 display: none;
             }
         }
+
         .game-finish-lottery-btn-phone {
             display: none;
             cursor: pointer;
+
             @media (max-width: 768px) {
                 display: block;
             }
@@ -1892,6 +2167,7 @@ nav {
             }
         }
     }
+
     .games-information {
         width: 9.68vw;
         height: 33.56vw;
@@ -1901,6 +2177,7 @@ nav {
         align-items: center;
         // position: absolute;
         z-index: 100;
+
         @media (max-width: 768px) {
             height: 104.75vw;
             margin: 0 auto;
@@ -1910,12 +2187,15 @@ nav {
             height: 132.34vw;
             margin: 0 auto;
         }
+
         .banner-3-title-computer {
             width: calc(6.14vw - 17px);
+
             @media (max-width: 768px) {
                 display: none;
             }
         }
+
         .banner-3-title-phone {
             width: calc(41.95vw - 17px);
             display: none;
@@ -1924,10 +2204,12 @@ nav {
                 display: block;
                 width: calc(33.85vw - 17px);
             }
+
             @media (max-width: 414px) {
                 width: calc(41.95vw - 17px);
             }
         }
+
         .games {
             width: 42vw;
             position: absolute;
@@ -1944,10 +2226,12 @@ nav {
                 align-content: space-between;
                 flex-wrap: wrap;
             }
+
             @media (max-width: 414px) {
                 width: 92.38vw;
                 height: 90.94vw;
             }
+
             .card {
                 width: 13.12vw;
                 height: 13.12vw;
@@ -1962,6 +2246,7 @@ nav {
                     width: 25.3vw;
                     height: 24.49vw;
                 }
+
                 @media (max-width: 375px) {
                     width: 29.91vw;
                     height: 28.96vw;
@@ -1973,31 +2258,38 @@ nav {
                     transform: rotateY(0);
                     backface-visibility: hidden;
                     transition: 1.5s all ease;
+
                     @media (max-width: 768px) {
                         width: 25.3vw;
                         display: block;
                     }
+
                     @media (max-width: 414px) {
                         width: 30.05vw;
                     }
                 }
+
                 .games-btn-back {
                     width: 13.12vw;
                     position: absolute;
                     transform: rotateY(180deg);
                     backface-visibility: hidden;
                     transition: 1.5s all ease;
+
                     @media (max-width: 768px) {
                         width: 25.3vw;
                         display: block;
                     }
+
                     @media (max-width: 414px) {
                         width: 30.05vw;
                     }
                 }
+
                 .front-open {
                     transform: rotateY(-180deg);
                 }
+
                 .back-open {
                     transform: rotateY(0);
                 }
@@ -2007,13 +2299,16 @@ nav {
         .lottery-btn-computer {
             width: 9.68vw;
             cursor: pointer;
+
             @media (max-width: 768px) {
                 display: none;
             }
         }
+
         .lottery-btn-phone {
             display: none;
             cursor: pointer;
+
             @media (max-width: 768px) {
                 display: block;
             }
@@ -2034,26 +2329,32 @@ nav {
             display: none;
         }
     }
+
     .banner-3-left-star-ipad {
         width: 20.52vw;
         top: 4.08vw;
         left: 8.6vw;
         display: none;
+
         @media (max-width: 768px) {
             display: block;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-3-right-star-ipad {
         width: 20.41vw;
         top: 2.6vw;
         right: 11.51vw;
         display: none;
+
         @media (max-width: 768px) {
             display: block;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
@@ -2073,12 +2374,14 @@ nav {
         width: 19.91%;
         top: 21.14vw;
         left: -1.33vw;
+
         @media (max-width: 768px) {
             width: 33.74%;
             top: auto;
             left: -9.69vw;
             bottom: 15.89vw;
         }
+
         @media (max-width: 414px) {
             width: 31.35%;
             top: auto;
@@ -2100,6 +2403,7 @@ nav {
             left: 1.71vw;
             bottom: -0.58vw;
         }
+
         @media (max-width: 414px) {
             width: 53.98%;
             left: -2.83vw;
@@ -2112,11 +2416,13 @@ nav {
         left: 1.61vw;
         bottom: -0.65vw;
         z-index: -1;
+
         @media (max-width: 768px) {
             width: 43.1%;
             left: 3.27vw;
             bottom: -0.77vw;
         }
+
         @media (max-width: 414px) {
             width: 35.23%;
             left: -0.2vw;
@@ -2129,11 +2435,13 @@ nav {
         left: -2.16vw;
         bottom: -0.74vw;
         z-index: -2;
+
         @media (max-width: 768px) {
             width: 32.54%;
             left: -8.15vw;
             bottom: -0.58vw;
         }
+
         @media (max-width: 414px) {
             width: 39.81%;
             left: -8.15vw;
@@ -2149,11 +2457,13 @@ nav {
         bottom: -0.51vw;
         z-index: -1;
         overflow-x: hidden;
+
         @media (max-width: 768px) {
             width: 31.83%;
             bottom: -1.33vw;
             right: 2.87vw;
         }
+
         @media (max-width: 414px) {
             width: 26.46%;
             bottom: 0;
@@ -2167,11 +2477,13 @@ nav {
         bottom: -0.63vw;
         z-index: -2;
         overflow-x: hidden;
+
         @media (max-width: 768px) {
             width: 36.69%;
             right: -1.4vw;
             bottom: -1.57vw;
         }
+
         @media (max-width: 414px) {
             width: 44.13%;
             right: -10.21vw;
@@ -2184,27 +2496,32 @@ nav {
         right: 6.37vw;
         bottom: 1.06vw;
         z-index: -3;
+
         @media (max-width: 768px) {
             width: 32.88%;
             right: 12.11%;
             bottom: 1.31vw;
         }
+
         @media (max-width: 414px) {
             width: 39.55%;
             right: 6.02%;
             bottom: 3.06vw;
         }
     }
+
     .banner-3-video-unicorn {
         width: 24.5%;
         right: 4.8vw;
         bottom: 0.6vw;
         z-index: -3;
+
         @media (max-width: 768px) {
             width: 49%;
             right: 7%;
             bottom: -0.9%;
         }
+
         @media (max-width: 414px) {
             width: 39.55%;
             right: 6.02%;
@@ -2218,11 +2535,13 @@ nav {
         bottom: -0.75vw;
         z-index: -4;
         overflow-x: hidden;
+
         @media (max-width: 768px) {
             width: 35.04vw;
             right: -6.9vw;
             bottom: -1.77vw;
         }
+
         @media (max-width: 414px) {
             width: 42.15%;
             right: -16.64vw;
@@ -2236,11 +2555,13 @@ nav {
         bottom: 5.97vw;
         z-index: -5;
         overflow-x: hidden;
+
         @media (max-width: 768px) {
             width: 25.46vw;
             right: -3.75vw;
             bottom: 10.49vw;
         }
+
         @media (max-width: 414px) {
             width: 30.62vw;
             right: -8.27vw;
@@ -2257,10 +2578,12 @@ nav {
     background-color: #000000;
     padding-top: 14.31vw;
     overflow-x: hidden;
+
     @media (max-width: 768px) {
         height: 101.65vw;
         padding-top: 19.66vw;
     }
+
     @media (max-width: 414px) {
         height: 128.31vw;
         padding-top: 26.3vw;
@@ -2270,10 +2593,12 @@ nav {
         width: 14.94vw;
         margin: 0 auto 2.39vw;
         display: block;
+
         @media (max-width: 768px) {
             width: 32.55vw;
             margin: 0 auto 3.9vw;
         }
+
         @media (max-width: 414px) {
             width: 42.25vw;
             margin: 0 auto 8.04vw;
@@ -2286,14 +2611,17 @@ nav {
         justify-content: center;
         margin: 0 auto;
         width: 80.74vw;
+
         @media (max-width: 768px) {
             margin: 0;
             width: 100vw;
         }
+
         @media (max-width: 414px) {
             margin: 0;
             width: 100vw;
         }
+
         .swiper-button-prev {
             position: static;
             content: url("./img/banner-2/svg/箭頭-左.svg");
@@ -2301,10 +2629,12 @@ nav {
             // left: 9.62vw;
             display: block;
             margin-top: 0;
+
             @media (max-width: 768px) {
                 display: none;
             }
         }
+
         .swiper {
             width: 73.74vw;
             // width: 50vw;
@@ -2314,6 +2644,7 @@ nav {
             margin-right: 2.29vw;
             display: flex;
             justify-content: center;
+
             @media (max-width: 768px) {
                 width: 100vw;
                 height: 36.45vw;
@@ -2321,6 +2652,7 @@ nav {
                 margin-left: 4vw;
                 margin-right: 0;
             }
+
             @media (max-width: 414px) {
                 width: 100vw;
                 height: 44.73vw;
@@ -2328,42 +2660,13 @@ nav {
                 margin-left: 4vw;
                 margin-right: 0;
             }
+
             .swiper-wrapper {
                 .swiper-slide {
-                    width: 21.35vw !important;
-                    // margin-left: 0.8vw;
-                    text-align: center;
-                    font-size: 18px;
-                    cursor: pointer;
-                    /* Center slide text vertically */
-
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    @media (max-width: 768px) {
-                        width: 65.56vw !important;
-                        height: 44.73 !important;
-                        // margin-left: 3.13vw;
-                    }
-                    @media (max-width: 414px) {
-                        width: 80.44vw !important;
-                        height: 44.73 !important; //check
-                        // margin-left: 3.13vw;
-                    }
-                    .swiper-img {
-                        width: 21.35vw;
-                        display: block;
-                        @media (max-width: 768px) {
-                            width: 65.56vw !important;
-                        }
-                        @media (max-width: 414px) {
-                            width: 80.44vw !important;
-                        }
+                    img {
+                        width: 100%;
                     }
                 }
-                // .swiper-slide-1 {
-                //     margin-left: 0;
-                // }
             }
         }
 
@@ -2374,20 +2677,24 @@ nav {
             position: static;
             display: block;
             margin-top: 0;
+
             @media (max-width: 768px) {
                 display: none;
             }
         }
     }
+
     .banner-4-lantern {
         width: 111.83%;
         top: 0;
         left: -5.92vw;
         overflow-x: hidden;
+
         @media (max-width: 768px) {
             width: 156.78%;
             left: -28.34%;
         }
+
         @media (max-width: 414px) {
             width: 166.61%;
             left: -33.61%;
@@ -2398,6 +2705,7 @@ nav {
         width: 8.11%;
         left: 12.27vw;
         bottom: 0.47vw;
+
         @media (max-width: 414px) {
             width: 16.1%;
             left: 0.39vw;
@@ -2409,6 +2717,7 @@ nav {
         width: 10.74%;
         left: 17.95vw;
         bottom: 0.38vw;
+
         @media (max-width: 414px) {
             width: 21.33%;
             left: 11.74vw;
@@ -2420,6 +2729,7 @@ nav {
         width: 7.61%;
         left: 28.15vw;
         bottom: 0;
+
         @media (max-width: 414px) {
             width: 15.11vw;
             left: 32.96vw;
@@ -2431,6 +2741,7 @@ nav {
         width: 10.78%;
         left: 62.82vw;
         bottom: 0.47vw;
+
         @media (max-width: 414px) {
             width: 21.05vw;
             left: 50.25vw;
@@ -2442,6 +2753,7 @@ nav {
         width: 9.75%;
         left: 72.04vw;
         bottom: 0.47vw;
+
         @media (max-width: 414px) {
             width: 19.06vw;
             left: 68.34vw;
@@ -2453,6 +2765,7 @@ nav {
         width: 7.24%;
         left: 80.53vw;
         bottom: 0.47vw;
+
         @media (max-width: 414px) {
             width: 14.14vw;
             left: 85.08vw;
@@ -2464,6 +2777,7 @@ nav {
         width: 104.21%;
         bottom: 1.33vw;
         z-index: -2;
+
         @media (max-width: 414px) {
             width: 112.85vw;
             left: -3.58vw;
@@ -2476,30 +2790,37 @@ nav {
         left: 0;
         bottom: 0;
         z-index: -1;
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-4-redcloth-phone {
         width: 101.77vw;
         left: -0.92vw;
         bottom: 0;
         z-index: -1;
         display: none;
+
         @media (max-width: 414px) {
             display: block;
         }
     }
+
     .banner-4-video-background-computer {
         // top: 35.82vw;
         bottom: 0;
         z-index: -3;
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-4-background-ipad {
         display: none;
+
         @media (max-width: 768px) {
             width: 111.72vw;
             display: block;
@@ -2507,12 +2828,15 @@ nav {
             bottom: 0;
             z-index: -3;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
     }
+
     .banner-4-video-background-ipad {
         display: none;
+
         @media (max-width: 768px) {
             width: 100vw;
             display: block;
@@ -2520,6 +2844,7 @@ nav {
             bottom: 0;
             z-index: -3;
         }
+
         @media (max-width: 414px) {
             display: none;
         }
@@ -2531,6 +2856,7 @@ nav {
         bottom: 0;
         z-index: -3;
         display: none;
+
         @media (max-width: 414px) {
             display: block;
         }
