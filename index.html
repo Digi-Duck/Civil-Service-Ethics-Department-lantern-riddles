@@ -120,7 +120,7 @@
                     <img src="./img/moudle/模組-返回.png" alt="返回" class="moudle-exit moudle-goto-exit">
                     <div class="moudle-goto-instruction">
                     <div class="moudle-goto-detail moudle-goto-detail-1">為了加強保障您的個資安全，及保障抽獎活動的公平性，本次抽獎需登入台北通後即可參加抽獎。</div>
-                        <img src="./img/moudle/前往台北通.png" alt="" class="goto-btn">
+                        <img src="./img/moudle/前往台北通.svg" alt="" class="goto-btn">
                     </div>
                 </div>
             </div>
@@ -131,7 +131,7 @@
                     <img src="./img/moudle/模組-返回.png" alt="返回" class="moudle-exit moudle-writeQuestionnaire-exit">
                     <div class="moudle-writeQuestionnaire-instruction">
                     <div class="moudle-writeQuestionnaire-detail moudle-writeQuestionnaire-detail-1">您已具備抽獎資格，祝您中大獎~</div>
-                        <img src="./img/moudle/填寫活動滿意問卷.png" alt="" class="writeQuestionnaire-btn">
+                        <img src="./img/moudle/填寫活動滿意度問卷.svg" alt="" class="writeQuestionnaire-btn">
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@
                             <input type="text" name="suggestion" class="form-3-text">
 
                         </form>
-                        <div class="sent"><img src="./img/moudle/確定.png" alt="" class="sent-img"></div>
+                        <div class="sent"><img src="./img/moudle/確定.svg" alt="" class="sent-img"></div>
                         
                     </div>
                 </div>
@@ -184,18 +184,12 @@
                     <div class="moudle-subtitle">猜猜看，謎底是以下哪一個選項呢?</div>
                     <div class="moudle-btn-container">
                         <div class="moudle-btn moudle-btn-1" data-index="btn-1">
-                            <img src="./img/moudle/模組-按鈕框.png" alt=""
-                                class="moudle-btn-background moudle-btn-1-background">
                             <div class="moudle-btn-content moudle-btn-1-content">誠實</div>
                         </div>
                         <div class="moudle-btn moudle-btn-2" data-index="btn-2">
-                            <img src="./img/moudle/模組-按鈕框.png" alt=""
-                                class="moudle-btn-background moudle-btn-2-background">
                             <div class="moudle-btn-content moudle-btn-2-content">愛心</div>
                         </div>
                         <div class="moudle-btn moudle-btn-3" data-index="btn-3">
-                            <img src="./img/moudle/模組-按鈕框.png" alt=""
-                                class="moudle-btn-background moudle-btn-3-background">
                             <div class="moudle-btn-content moudle-btn-3-content">忠孝</div>
                         </div>
                     </div>
@@ -207,29 +201,29 @@
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/模組-返回.png" alt="" class="moudle-exit moudle-teach-exit">
-
                     <div class="moudle-teach-information">
                         <div class="moudle-teach-title">您答對了！</div>
                         <div class="moudle-teach-subtitle">成功連線就可以參加抽獎喔~</div>
                         <div class="moudle-teach-next">
-                            <img src="./img/moudle/繼續下一題.png" alt="" class="moudle-teach-next-img">
+                            <img src="./img/moudle/繼續下一題.svg" alt="" class="moudle-teach-next-img">
                         </div>
                     </div>
+                    
                     <div class="moudle-teach-background">
+                        <div class="moudle-teach-next-phone">
+                            <img src="./img/moudle/繼續下一題.svg" alt="" class="moudle-teach-next-img">
+                        </div>
                         <div class="moudle-teach-detail">
                             臺北市政府政風處製作「廉潔寶寶聯盟-勇敢吹哨篇」幼兒廉潔教材電子書，與臺北市政府教育局和臺北市國民教育輔導團幼兒教育輔導小組合作將「誠實、勇敢吹哨、不貪心、互相幫助」等核心價值，延伸教案及AR闖關遊戲，以多元方式提供親師共讀共學。
                         </div>
                         <div class="moudle-teach-video-information">
                             ● 「廉潔寶寶聯盟_看到怪怪的請舉手（勇敢吹哨）幼兒廉潔教材」電子書
                         </div>
-                        <!-- <div class="moudle-teach-url">
-                            https://www-ws.gov.taipei/001/Upload/377/ebook/ebook_2033450/index.html?ccms_cs=1</div> -->
                         <img src="./img/moudle/模組-影片.png" alt="" class="moudle-teach-video">
                     </div>
                 </div>
             </div>
         </div>
-      
     </section>
 
     <nav>
@@ -665,6 +659,8 @@
         let moudle_teach_title = document.querySelector(".moudle-teach-title");
         let moudle_teach_subtitle = document.querySelector(".moudle-teach-subtitle");
         let moudle_teach_next = document.querySelector(".moudle-teach-next");
+        let moudle_teach_next_phone = document.querySelector(".moudle-teach-next-phone");
+        
         let moudle_teach_detail = document.querySelector(".moudle-teach-detail");
         let moudle_teach_video_information = document.querySelector(".moudle-teach-video-information");
         let moudle_teach_url = document.querySelector(".moudle-teach-url");
@@ -699,26 +695,37 @@
         award_exit_Screen.addEventListener("click", unshowAward);
         purpose_exit_Screen.addEventListener("click", unshowPurpose);
         let body = document.querySelector("body");
-
-        function showQuestion() {
-            body.style['overflow-y']='hidden';
+        
+        function showQuestion() {//顯示問題畫面
+            locked();
             question_Screen.style['display'] = 'flex';
             index = this.dataset.index;
             change_Question_Data(this.dataset.index);
             // changeData(Array.from(cards).indexOf(event.target));
         }
-        function unshowQuestion() {
-            body.style['overflow-y']='scroll';
+        function unshowQuestion() {//解除顯示問題畫面
+            unlocked();
             question_Screen.style['display'] = 'none';
         }
 
-        function showTeach() {
+        function locked() {//鎖住滾動
+            body.style['overflow-y']='hidden';
+        }
+        function unlocked() {//解除
+            body.style['overflow-y']='scroll';
+        }
+
+
+
+
+        function showTeach() {//顯示教學畫面
             teach_Screen.style['display'] = 'flex';
             // console.log(this.dataset.index);
             change_Teach_Data(this.dataset.index);
+            
         }
 
-        function unshowTeach() {
+        function unshowTeach() {//關閉教學畫面
             teach_Screen.style['display'] = 'none';
         }
 
@@ -754,6 +761,7 @@
                 teach_Screen.style['display'] = 'none';
                 games_btn_fronts[index].classList.add("front-open");
                 games_btn_backs[index].classList.add("back-open");
+                unlocked();
             }
             else if (istrue == "錯") {
                 teach_Screen.style['display'] = 'none';
@@ -764,7 +772,6 @@
             // console.log(istrue);
         }
 
-
         function change_Teach_Data(e) {//點模組後 根據對應資料交換文字
             // console.log(answer);
             // console.log(cards[index]);
@@ -773,25 +780,38 @@
                 moudle_teach_title.innerHTML = `您答錯了`;
                 moudle_teach_title.style['color'] = 'red';
                 moudle_teach_subtitle.innerHTML = `重新看看提示吧`;
-                moudle_teach_next.innerHTML = `<img src="./img/moudle/在答一次.png" alt="" class="moudle-teach-next-img">`
+                moudle_teach_next.innerHTML = `<img src="./img/moudle/在答一次.svg" alt="" class="moudle-teach-next-img">`
+                moudle_teach_next_phone.innerHTML = `<img src="./img/moudle/在答一次.svg" alt="" class="moudle-teach-next-img">`
                 moudle_teach_detail.innerHTML = `${data[index].hint}`;
                 istrue = "錯";
                 moudle_teach_next.addEventListener("click", show);
+                moudle_teach_next_phone.addEventListener("click", show);
+
+                teach_exit_Screen.removeEventListener("click", closeBoth);
             }
             else {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/您答對了-背景.png')";
                 moudle_teach_title.innerHTML = `您答對了`;
                 moudle_teach_title.style['color'] = '#22AB38';
                 moudle_teach_subtitle.innerHTML = `成功連線就可以參加抽獎喔~`;
-                moudle_teach_next.innerHTML = `<img src="./img/moudle/繼續下一題.png" alt="" class="moudle-teach-next-img">`
+                moudle_teach_next.innerHTML = `<img src="./img/moudle/繼續下一題.svg" alt="" class="moudle-teach-next-img">`
+                moudle_teach_next_phone.innerHTML = `<img src="./img/moudle/繼續下一題.svg" alt="" class="moudle-teach-next-img">`
+
                 moudle_teach_detail.innerHTML = `${data[index].propaganda}`;
                 istrue = "對";
+                
                 moudle_teach_next.addEventListener("click", show);
-                game[index] = "o";
+                moudle_teach_next_phone.addEventListener("click", show);
 
+                game[index] = "o";
+                teach_exit_Screen.addEventListener("click", closeBoth);
             }
         }
-
+function closeBoth(){//同時關閉教學畫面與問題畫面
+ unlocked();
+ question_Screen.style['display'] = 'none';
+                teach_Screen.style['display'] = 'none';
+}
         const games_finish = document.querySelector(".game-finish");
         const games_information = document.querySelector(".games-information");
         const games = document.querySelector(".games");
@@ -850,9 +870,11 @@
                 }
 
                 if(tmp==true){
-                    setTimeout("games_information.style['position']='absolute'",1000);
-                    setTimeout("games.style['display']='none'",1000);
+                    games_information.style['position']='absolute'
+                    games_information.style['z-index']='1000'
+                    games.style['display']='none'
                     games_finish.style['display']='block';
+
                     isAllfinish=true;
                 }
             }
@@ -860,7 +882,7 @@
                 console.log("恭喜你全部答完");
             }
         }
-        
+       
 
         function banner2_moudle(){//第二區塊的模組
             //告示牌
@@ -886,62 +908,80 @@
             //顯示模組(電腦版)
             plate_computer[0].addEventListener("click",element=>{
                 moudle_purpose.style['display']='flex';
+                locked();
             })
             plate_computer[1].addEventListener("click",element=>{
                 moudle_rule.style['display']='flex';
+                locked();
             })
             plate_computer[2].addEventListener("click",element=>{
                 moudle_lottery.style['display']='flex';
+                locked();
             })
             plate_computer[3].addEventListener("click",element=>{
                 moudle_winning.style['display']='flex';
+                locked();
             })
             plate_computer[4].addEventListener("click",element=>{
                 moudle_award.style['display']='flex';
+                locked();
             })
             plate_computer[5].addEventListener("click",element=>{
                 moudle_notice.style['display']='flex';
+                locked();
             })
 
             //顯示模組(手機版)
             plate_phone[0].addEventListener("click",element=>{
                 moudle_purpose.style['display']='flex';
+                locked();
             })
             plate_phone[1].addEventListener("click",element=>{
                 moudle_rule.style['display']='flex';
+                locked();
             })
             plate_phone[2].addEventListener("click",element=>{
                 moudle_lottery.style['display']='flex';
+                locked();
             })
             plate_phone[3].addEventListener("click",element=>{
                 moudle_winning.style['display']='flex';
+                locked();
             })
             plate_phone[4].addEventListener("click",element=>{
                 moudle_award.style['display']='flex';
+                locked();
             })
             plate_phone[5].addEventListener("click",element=>{
                 moudle_notice.style['display']='flex';
+                locked();
             })
             
 
             //關閉模組
             moudle_purpose_exit.addEventListener("click",element=>{
                 moudle_award.style['display']='none';
+                unlocked();
             })
             moudle_rule_exit.addEventListener("click",element=>{
                 moudle_rule.style['display']='none';
+                unlocked();
             })
             moudle_lottery_exit.addEventListener("click",element=>{
                 moudle_lottery.style['display']='none';
+                unlocked();
             })
             moudle_winning_exit.addEventListener("click",element=>{
                 moudle_winning.style['display']='none';
+                unlocked();
             })
             moudle_award_exit.addEventListener("click",element=>{
                 moudle_award.style['display']='none';
+                unlocked();
             })
             moudle_notice_exit.addEventListener("click",element=>{
                 moudle_notice.style['display']='none';
+                unlocked();
             })
         }
         function openTaipelMoudle(){//第三區塊台北通的Moudle
@@ -953,26 +993,39 @@
             
             lottery_btn_computer.addEventListener("click",element=>{
                 moudle_goto.style['display']='flex';
+                locked();
             })
 
             lottery_btn_phone.addEventListener("click",element=>{
                 moudle_goto.style['display']='flex';
+                locked();
             })
 
             moudle_goto_exit.addEventListener("click",element=>{
                 moudle_goto.style['display']='none';
+                unlocked();
             })
 
-           //模組-問卷
+           
+            
+        }
+
+        function exit(){
+            const moudle_questionnaire = document.querySelector(".moudle-questionnaire");
+            const moudle_questionnaire_exit = document.querySelector(".moudle-questionnaire-exit");
+
+            moudle_questionnaire_exit.addEventListener("click",element=>{
+                moudle_questionnaire.style['display']='none';
+            })
+            //模組-問卷
             const moudle_writeQuestionnaire = document.querySelector(".moudle-writeQuestionnaire");
-            const moudle_writeQuestionnaire_exit = document.querySelector("moudle-writeQuestionnaire-exit");
+            const moudle_writeQuestionnaire_exit = document.querySelector(".moudle-writeQuestionnaire-exit");
 
             moudle_writeQuestionnaire_exit.addEventListener("click",element=>{
                 moudle_writeQuestionnaire.style['display']='none';
             })
-            
         }
-        
+        exit();
         banner2_moudle();
         
         // setInterval("toggleSound()", 1);

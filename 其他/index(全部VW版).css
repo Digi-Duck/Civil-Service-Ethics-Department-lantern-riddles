@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -115,8 +116,12 @@ nav .nav-container .sound {
 }
 
 .banner-1 .slognAbreast {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 2.86vw;
   margin-bottom: 0.90vw;
 }
@@ -125,8 +130,13 @@ nav .nav-container .sound {
   .banner-1 .slognAbreast {
     margin-left: 3.07vw;
     margin-bottom: 0;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
@@ -310,7 +320,10 @@ nav .nav-container .sound {
 }
 
 .banner-2 .swiper .swiper-wrapper {
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .banner-2 .swiper .swiper-wrapper .swiper-slide {
@@ -320,8 +333,14 @@ nav .nav-container .sound {
   font-size: 18px;
   cursor: pointer;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -353,7 +372,8 @@ nav .nav-container .sound {
   width: 1.18vw;
   left: 9.62vw;
   display: block;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .banner-2 .swiper-button-next {
@@ -361,7 +381,8 @@ nav .nav-container .sound {
   width: 1.18vw;
   right: 9.62vw;
   display: block;
-  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .banner-2 .banner-2-star {
@@ -407,10 +428,19 @@ nav .nav-container .sound {
 .banner-3 .games-information {
   width: 9.68vw;
   height: 33.56vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .banner-3 .games-information .banner-3-title {
@@ -535,8 +565,14 @@ nav .nav-container .sound {
   font-size: 18px;
   cursor: pointer;
   /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 

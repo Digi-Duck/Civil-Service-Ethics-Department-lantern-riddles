@@ -97,9 +97,11 @@ main {
             width: 708px;
             height: 424.8px;
         }
-
-        @media (max-width: 414px) {}
-
+        @media (max-width: 414px) {
+            width: 347px;
+            height: 602px;
+            background-image: url("./img/moudle/手機板-背景.png");
+        }
         .moudle-content {
             color: white;
 
@@ -126,8 +128,12 @@ main {
                     line-height: 26.55px;
                     margin-bottom: 6.6745px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    font-size: 28px;
+                    line-height: 33.6px;
+                    margin-bottom: 9.1178px;
+                    padding: 0 18.503px;
+                }
             }
 
             .moudle-subtitle {
@@ -137,27 +143,34 @@ main {
                 line-height: 1.25vw;
                 text-align: center;
                 margin-bottom: 2.16vw;
-
+                color: #ff8908;
                 @media (max-width: 768px) {
                     margin-bottom: 22.9412px;
                     font-size: 11.06px;
                     line-height: 13.28px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    margin-bottom: 41.5588px;
+                    font-size: 14px;
+                    line-height: 16.8px;
+                }
             }
 
             .moudle-btn-container {
                 display: flex;
-
+                @media (max-width: 414px) {
+                    flex-direction: column;
+                    align-items: center;
+                }
                 .moudle-btn-2 {
                     margin: 0 1.62vw;
 
                     @media (max-width: 768px) {
                         margin: 0 17.3159px;
                     }
-
-                    @media (max-width: 414px) {}
+                    @media (max-width: 414px) {
+                        margin: 16.1971px 0;
+                    }
                 }
 
                 .moudle-btn {
@@ -166,15 +179,20 @@ main {
                     align-items: center;
                     position: relative;
                     cursor: pointer;
+                    background-image: url("./img/moudle/模組-按鈕框.png");
+                    width: 233.5923px;
+                    height: 172.0658px;
 
-                    .moudle-btn-background {
-                        width: 12.16vw;
-
-                        @media (max-width: 768px) {
-                            width: 129.2058px;
-                        }
-
-                        @media (max-width: 414px) {}
+                    @media (max-width: 768px) {
+                        width: 129.2058px;
+                        height: 95.1739px;
+                        background-size: cover;
+                    }
+                    @media (max-width: 414px) {
+                        width: 295px;
+                        height: 55px;
+                        background-image: url("./img/moudle/手機板-背景2.png");
+                        background-size: contain;
                     }
 
                     .moudle-btn-content {
@@ -191,12 +209,6 @@ main {
 
                         @media (max-width: 414px) {}
                     }
-
-                    @media (max-width: 768px) {
-                        width: 129.2058px;
-                    }
-
-                    @media (max-width: 414px) {}
                 }
             }
         }
@@ -218,9 +230,13 @@ main {
             width: 708px;
             height: 424.8px;
         }
-
-        @media (max-width: 414px) {}
-
+        @media (max-width: 414px) {
+            width: 347px;
+            height: 602px;
+            background-image: url("./img/moudle/手機板-背景.png");
+            border: 0px;
+            border-radius: 0;
+        }
         .moudle-teach-information {
             width: 36.45vw;
             height: 14.43vw;
@@ -237,9 +253,12 @@ main {
                 padding-top: 45.1837px;
                 padding-left: 208.3625px;
             }
-
-            @media (max-width: 414px) {}
-
+            @media (max-width: 414px) {
+                width: 316.5051px;
+                height: 125.2796px;
+                padding-top: 41.4527px;
+                padding-left: 159.3076px;
+            }
             .moudle-teach-title {
                 color: #22ab38;
                 font-size: 1.87vw; //36px
@@ -252,8 +271,11 @@ main {
                     line-height: 18.81px;
                     margin-bottom: 2.5882px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    font-size: 28.63px;
+                    line-height: 27.04px;
+                    margin-bottom: 2.5882px;
+                }
             }
 
             .moudle-teach-subtitle {
@@ -267,8 +289,11 @@ main {
                     line-height: 18.81px;
                     margin-bottom: 17.8235px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    font-size: 17.5px;
+                    line-height: 22px;
+                    margin-bottom: 17.8235px;
+                }
             }
 
             .moudle-teach-next {
@@ -280,8 +305,9 @@ main {
                     @media (max-width: 768px) {
                         width: 80.2031px;
                     }
-
-                    @media (max-width: 414px) {}
+                    @media (max-width: 414px) {
+                        display: none;
+                    }
                 }
             }
         }
@@ -296,9 +322,22 @@ main {
                 width: 422.669px;
                 height: 215.8628px;
             }
-
-            @media (max-width: 414px) {}
-
+            @media (max-width: 414px) {
+                width: 306.4459px;
+                height: 416.1394px;
+                padding-top: 12.2181px;
+            }
+            .moudle-teach-next-phone {
+                display: none;
+                cursor: pointer;
+                .moudle-teach-next-img {
+                }
+                @media (max-width: 414px) {
+                    display: block;
+                    width: 140px;
+                    margin: 0 auto 20.9607px;
+                }
+            }
             .moudle-teach-detail {
                 width: 37.25vw;
                 font-size: 1.35vw;
@@ -313,8 +352,12 @@ main {
                     line-height: 21.02px;
                     margin-bottom: 13.6468px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin-bottom: 30.3529px;
+                    width: 290.315px;
+                }
             }
 
             .moudle-teach-video-information {
@@ -327,8 +370,10 @@ main {
                 @media (max-width: 768px) {
                     margin-bottom: 5.2516px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    font-size: 14px;
+                    line-height: 20px;
+                }
             }
 
             .moudle-teach-video {
@@ -337,8 +382,9 @@ main {
                 @media (max-width: 768px) {
                     width: 395.3132px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    width: 289.0994px;
+                }
             }
         }
 
@@ -998,7 +1044,7 @@ main {
 
 .moudle-goto {
     display: none;
-
+    z-index: 10001;
     .moudle-container {
         width: 1008.1133px;
         height: 450px;
@@ -1215,7 +1261,6 @@ main {
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 34px;
-
                 }
             }
 
@@ -1259,7 +1304,7 @@ main {
                 @media (max-width: 414px) {
                     font-size: 20px;
                     line-height: 34px;
-                    margin-bottom: 52.5463px;
+                    margin-bottom: 13.0362px;
                 }
             }
 
@@ -1276,8 +1321,8 @@ main {
                 }
 
                 @media (max-width: 414px) {
-                    font-size: 2.6vw;
-                    line-height: 4.94vw;
+                    font-size: 20px;
+                    line-height: 34px;
                 }
             }
 
@@ -1289,9 +1334,9 @@ main {
                 @media (max-width: 768px) {
                     margin-bottom: 17.4706px;
                 }
-
-                @media (max-width: 414px) {}
-
+                @media (max-width: 414px) {
+                    flex-wrap: wrap;
+                }
                 .font {
                     color: #faf0f0;
                     font-size: 24px;
@@ -1306,8 +1351,8 @@ main {
                     }
 
                     @media (max-width: 414px) {
-                        font-size: 2.6vw;
-                        line-height: 4.94vw;
+                        font-size: 18px;
+                        line-height: 28px;
                     }
                 }
 
@@ -1327,22 +1372,23 @@ main {
                 @media (max-width: 768px) {
                     margin-bottom: 8.1936px;
                 }
-
-                @media (max-width: 414px) {}
+                @media (max-width: 414px) {
+                    margin-bottom: 13.0362px;
+                }
             }
 
             .moudle-questionnaire-form-2 {
                 display: flex;
-                align-items: center;
+                flex-direction: column;
                 flex-wrap: wrap;
                 margin-bottom: 32.8592px;
 
                 @media (max-width: 768px) {
                     margin-bottom: 16.6765px;
                 }
-
-                @media (max-width: 414px) {}
-
+                @media (max-width: 414px) {
+                    flex-wrap: wrap;
+                }
                 .font {
                     color: #faf0f0;
                     font-size: 24px;
@@ -1357,8 +1403,8 @@ main {
                     }
 
                     @media (max-width: 414px) {
-                        font-size: 2.6vw;
-                        line-height: 4.94vw;
+                        font-size: 18px;
+                        line-height: 32px;
                     }
                 }
 
@@ -1374,17 +1420,40 @@ main {
 
             .moudle-questionnaire-question-title-3 {
                 margin-bottom: 18px;
+                @media (max-width: 768px) {
+                    font-size: 1.72vw;
+                    line-height: 2.88vw;
+                }
+                @media (max-width: 414px) {
+                    font-size: 18px;
+                    line-height: 28px;
+                    margin-bottom: 9.3979px;
+                }
             }
 
             .moudle-questionnaire-form-3 {
                 display: flex;
                 justify-content: center;
                 margin-bottom: 19.333px;
+                @media (max-width: 768px) {
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+                @media (max-width: 414px) {
+                    margin-bottom: 9.3979px;
+                }
 
                 .form-3-text {
                     width: 100%;
                     height: 6.35vw;
                     border-radius: 5px;
+                    @media (max-width: 768px) {
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                    @media (max-width: 414px) {
+                        height: 70px;
+                    }
                 }
             }
 
@@ -1393,8 +1462,13 @@ main {
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
-
-                .sent-img {}
+                .sent-img {
+                    @media (max-width: 768px) {
+                    }
+                    @media (max-width: 414px) {
+                        width: 75px;
+                    }
+                }
             }
         }
 
@@ -1420,7 +1494,7 @@ nav {
     width: 100%;
     height: 4.94vw;
     position: fixed;
-    z-index: 10;
+    z-index: 1000;
     background-color: #000000;
 
     @media (max-width: 768px) {
@@ -1479,8 +1553,7 @@ nav {
 .banner-1 {
     width: 100%;
     padding-top: 6.95vw;
-    overflow-x: hidden;
-
+    overflow: hidden;
     @media (max-width: 768px) {
         height: 123.72vw;
         padding-top: 10.59vw;
@@ -2098,12 +2171,21 @@ nav {
         width: 100%;
         height: 100%;
         position: absolute;
-        left: 0;
-        top: 0;
+        left: 50%;
+        top: 50%;
+        // transform: translate(-50%,-50%);
+        transform: translate(-50%, -50%);
         z-index: 100;
         background-image: url("./img/moudle/遊戲完成.png");
+        background-size: cover;
+        background-position: center;
         display: none;
+        @media (max-width: 768px) {
+            background-image: url("./img/moudle/平板版-遊戲完成.png");
+        }
 
+        @media (max-width: 414px) {
+        }
         .game-finish-information {
             width: 9.68%;
             height: 33.56vw;
@@ -2176,11 +2258,14 @@ nav {
         justify-content: space-between;
         align-items: center;
         // position: absolute;
-        z-index: 100;
-
+        // z-index: 100;
         @media (max-width: 768px) {
             height: 104.75vw;
             margin: 0 auto;
+            position: absolute;
+            left: 50%;
+            top: 40%;
+            transform: translate(-50%, -50%);
         }
 
         @media (max-width: 414px) {
