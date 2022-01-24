@@ -793,7 +793,9 @@
 function closeBoth(){//同時關閉教學畫面與問題畫面
  unlocked();
  question_Screen.style['display'] = 'none';
-                teach_Screen.style['display'] = 'none';
+ teach_Screen.style['display'] = 'none';
+ games_btn_fronts[index].classList.add("front-open");
+                games_btn_backs[index].classList.add("back-open");
 }
         const games_finish = document.querySelector(".game-finish");
         const games_information = document.querySelector(".games-information");
