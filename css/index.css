@@ -119,7 +119,14 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 734px) {
+  .moudle-question .moudle-container {
+    width: 655px;
+    height: 393px;
+  }
+}
+
+@media (max-width: 721px) {
   .moudle-question .moudle-container {
     width: 347px;
     height: 602px;
@@ -156,7 +163,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-question .moudle-container .moudle-content .moudle-title {
     font-size: 28px;
     line-height: 33.6px;
@@ -181,7 +188,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-question .moudle-container .moudle-content .moudle-subtitle {
     margin-bottom: 41.5588px;
     font-size: 14px;
@@ -195,7 +202,7 @@ main {
   display: flex;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -217,7 +224,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn-2 {
     margin: 16.1971px 0;
   }
@@ -248,7 +255,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn {
     width: 295px;
     height: 55px;
@@ -290,7 +297,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container {
     width: 347px;
     height: 602px;
@@ -320,7 +327,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-information {
     width: 316.5051px;
     height: 125.2796px;
@@ -345,7 +352,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-information .moudle-teach-title {
     font-size: 28.63px;
     line-height: 27.04px;
@@ -368,7 +375,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-information .moudle-teach-subtitle {
     font-size: 17.5px;
     line-height: 22px;
@@ -390,7 +397,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-information .moudle-teach-next .moudle-teach-next-img {
     display: none;
   }
@@ -410,7 +417,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-background {
     width: 306.4459px;
     height: 416.1394px;
@@ -423,7 +430,7 @@ main {
   cursor: pointer;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-background .moudle-teach-next-phone {
     display: block;
     width: 140px;
@@ -449,7 +456,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-background .moudle-teach-detail {
     font-size: 18px;
     line-height: 28px;
@@ -459,15 +466,22 @@ main {
 }
 
 .moudle-teach .moudle-container .moudle-teach-background .moudle-teach-video-information {
-  width: 100%;
   color: #ff8908;
   font-size: 0.93vw;
   line-height: 1.04vw;
   margin-bottom: 0.42vw;
+  width: 37.25vw;
+}
+
+@media (max-width: 1046px) {
+  .moudle-teach .moudle-container .moudle-teach-background .moudle-teach-video-information {
+    line-height: 2.04vw;
+  }
 }
 
 @media (max-width: 768px) {
   .moudle-teach .moudle-container .moudle-teach-background .moudle-teach-video-information {
+    width: 100%;
     margin-bottom: 5.2516px;
   }
 }
@@ -489,7 +503,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-teach-background .moudle-teach-video {
     width: 289.0994px;
   }
@@ -518,6 +532,7 @@ main {
   height: 40vw;
   background-color: black;
   background-image: url("../img/moudle/模組-領獎背景.png");
+  /*新的*/
 }
 
 @media (max-width: 768px) {
@@ -527,7 +542,21 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 727px) {
+  .moudle-purpose .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .moudle-purpose .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 584px) {
   .moudle-purpose .moudle-container {
     width: 347px;
     height: 602px;
@@ -551,7 +580,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-purpose .moudle-container .moudle-purpose-subtitle {
     font-size: 24px;
     line-height: 28.8px;
@@ -572,7 +601,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-purpose .moudle-container .moudle-purpose-instruction {
     width: 309.9459px;
     height: 328.352px;
@@ -593,7 +622,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-purpose .moudle-container .moudle-purpose-instruction .moudle-purpose-title {
     font-size: 20px;
     line-height: 38px;
@@ -614,7 +643,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-purpose .moudle-container .moudle-purpose-instruction .moudle-purpose-detail {
     font-size: 20px;
     line-height: 38px;
@@ -631,7 +660,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-purpose .moudle-container .moudle-purpose-instruction .moudle-purpose-detail-1 {
     margin-bottom: 17.1193px;
   }
@@ -669,7 +698,21 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 727px) {
+  .moudle-rule .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .moudle-rule .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 584px) {
   .moudle-rule .moudle-container {
     width: 347px;
     height: 602px;
@@ -693,7 +736,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-rule .moudle-container .moudle-rule-subtitle {
     font-size: 24px;
     line-height: 28.8px;
@@ -714,7 +757,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-rule .moudle-container .moudle-rule-instruction {
     width: 309.9459px;
     height: 328.352px;
@@ -735,7 +778,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-rule .moudle-container .moudle-rule-instruction .moudle-rule-title {
     font-size: 20px;
     line-height: 38px;
@@ -752,7 +795,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-rule .moudle-container .moudle-rule-instruction .moudle-rule-time-2 {
     margin-bottom: 17.1193px;
   }
@@ -768,7 +811,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-rule .moudle-container .moudle-rule-instruction .moudle-rule-title-4 {
     margin-bottom: 17.1193px;
   }
@@ -810,7 +853,21 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 727px) {
+  .moudle-lottery .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .moudle-lottery .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 584px) {
   .moudle-lottery .moudle-container {
     width: 347px;
     height: 602px;
@@ -834,7 +891,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-lottery .moudle-container .moudle-lottery-subtitle {
     font-size: 24px;
     line-height: 28.8px;
@@ -855,7 +912,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-lottery .moudle-container .moudle-lottery-instruction {
     width: 309.9459px;
     height: 328.352px;
@@ -877,7 +934,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-lottery .moudle-container .moudle-lottery-instruction .moudle-lottery-title {
     font-size: 20px;
     line-height: 38px;
@@ -894,7 +951,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-lottery .moudle-container .moudle-lottery-instruction .moudle-lottery-title-1 {
     margin-bottom: 17.1193px;
   }
@@ -932,7 +989,21 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 727px) {
+  .moudle-winning .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .moudle-winning .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 584px) {
   .moudle-winning .moudle-container {
     width: 347px;
     height: 602px;
@@ -956,7 +1027,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-winning .moudle-container .moudle-winning-subtitle {
     font-size: 24px;
     line-height: 28.8px;
@@ -977,7 +1048,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-winning .moudle-container .moudle-winning-instruction {
     width: 309.9459px;
     height: 328.352px;
@@ -998,7 +1069,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-winning .moudle-container .moudle-winning-instruction .moudle-winning-detail {
     font-size: 20px;
     line-height: 38px;
@@ -1015,7 +1086,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-winning .moudle-container .moudle-winning-instruction .moudle-winning-detail-1 {
     margin-bottom: 17.1193px;
   }
@@ -1053,7 +1124,21 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 727px) {
+  .moudle-award .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .moudle-award .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 584px) {
   .moudle-award .moudle-container {
     width: 347px;
     height: 602px;
@@ -1077,7 +1162,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-award .moudle-container .moudle-award-subtitle {
     font-size: 24px;
     line-height: 28.8px;
@@ -1098,7 +1183,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-award .moudle-container .moudle-award-instruction {
     width: 309.9459px;
     height: 328.352px;
@@ -1122,7 +1207,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-award .moudle-container .moudle-award-instruction .moudle-award-title {
     font-size: 20px;
     line-height: 38px;
@@ -1165,7 +1250,21 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 727px) {
+  .moudle-notice .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 580px) {
+  .moudle-notice .moudle-container {
+    width: 557px;
+    height: 334.8px;
+  }
+}
+
+@media (max-width: 584px) {
   .moudle-notice .moudle-container {
     width: 347px;
     height: 602px;
@@ -1189,7 +1288,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-notice .moudle-container .moudle-notice-subtitle {
     font-size: 24px;
     line-height: 28.8px;
@@ -1210,7 +1309,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-notice .moudle-container .moudle-notice-instruction {
     width: 309.9459px;
     height: 328.352px;
@@ -1234,7 +1333,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-notice .moudle-container .moudle-notice-instruction .moudle-notice-title {
     font-size: 20px;
     line-height: 38px;
@@ -1276,6 +1375,13 @@ main {
   background-image: url("../img/moudle/背景-前往台北通.png");
 }
 
+@media (max-width: 1017px) {
+  .moudle-goto .moudle-container {
+    width: 752px;
+    height: 336.8px;
+  }
+}
+
 @media (max-width: 768px) {
   .moudle-goto .moudle-container {
     width: 708px;
@@ -1283,7 +1389,14 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 728px) {
+  .moudle-goto .moudle-container {
+    width: 557px;
+    height: 247.8px;
+  }
+}
+
+@media (max-width: 584px) {
   .moudle-goto .moudle-container {
     width: 347px;
     height: 602px;
@@ -1314,7 +1427,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-goto .moudle-container .moudle-goto-instruction {
     font-size: 24px;
     line-height: 28.8px;
@@ -1339,7 +1452,7 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 584px) {
   .moudle-goto .moudle-container .moudle-goto-instruction .moudle-goto-detail {
     font-size: 20px;
     line-height: 38px;
@@ -1358,15 +1471,25 @@ main {
   }
 }
 
-.moudle-writeQuestionnaire {
-  display: none;
-}
-
 .moudle-writeQuestionnaire .moudle-container {
   width: 1008.1133px;
   height: 450px;
   background-color: black;
   background-image: url("../img/moudle/背景-前往台北通.png");
+}
+
+@media (max-width: 1017px) {
+  .moudle-writeQuestionnaire .moudle-container {
+    width: 884.1133px;
+    height: 393px;
+  }
+}
+
+@media (max-width: 915px) {
+  .moudle-writeQuestionnaire .moudle-container {
+    width: 708px;
+    height: 316.0714px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1376,11 +1499,24 @@ main {
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 728px) {
+  .moudle-writeQuestionnaire .moudle-container {
+    width: 557px;
+    height: 247.8px;
+  }
+}
+
+@media (max-width: 575px) {
+  .moudle-writeQuestionnaire .moudle-container {
+    width: 473px;
+    height: 211.8px;
+  }
+}
+
+@media (max-width: 487px) {
   .moudle-writeQuestionnaire .moudle-container {
     width: 347px;
-    height: 602px;
-    background-image: url("../img/moudle/手機板-背景.png");
+    height: 155.8px;
   }
 }
 
@@ -1400,17 +1536,30 @@ main {
           align-items: center;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 915px) {
   .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction {
-    padding-top: 35.8767px;
+    padding-top: 33.4614px;
+  }
+}
+
+@media (max-width: 720px) {
+  .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction {
+    padding-top: 1.8767px;
+  }
+}
+
+@media (max-width: 579px) {
+  .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction {
+    padding-top: 12.8767px;
     width: 424.1305px;
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 487px) {
   .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction {
     font-size: 24px;
     line-height: 28.8px;
+    padding-top: 1.877px;
     width: 279.1305px;
   }
 }
@@ -1422,6 +1571,12 @@ main {
   line-height: 40px;
   font-weight: bold;
   margin-bottom: 54.2343px;
+}
+
+@media (max-width: 921px) {
+  .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction .moudle-writeQuestionnaire-detail {
+    margin-bottom: 11px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1442,6 +1597,12 @@ main {
 
 .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction .writeQuestionnaire-btn {
   width: 312.8299px;
+}
+
+@media (max-width: 487px) {
+  .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction .writeQuestionnaire-btn {
+    width: 189.8299px;
+  }
 }
 
 .moudle-questionnaire {
@@ -2682,7 +2843,6 @@ nav .nav-container .sound-btn {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  z-index: 100;
   background-image: url("../img/moudle/遊戲完成.png");
   background-size: cover;
   background-position: center;

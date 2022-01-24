@@ -97,11 +97,18 @@ main {
             width: 708px;
             height: 424.8px;
         }
-        @media (max-width: 414px) {
+
+        @media (max-width: 734px) {
+            width: 655px;
+            height: 393px;
+        }
+
+        @media (max-width: 721px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
         }
+
         .moudle-content {
             color: white;
 
@@ -113,7 +120,6 @@ main {
                 margin-bottom: 29.1765px;
             }
 
-            @media (max-width: 414px) {}
 
             .moudle-title {
                 // font-size: 40px;
@@ -128,7 +134,8 @@ main {
                     line-height: 26.55px;
                     margin-bottom: 6.6745px;
                 }
-                @media (max-width: 414px) {
+
+                @media (max-width: 721px) {
                     font-size: 28px;
                     line-height: 33.6px;
                     margin-bottom: 9.1178px;
@@ -144,12 +151,14 @@ main {
                 text-align: center;
                 margin-bottom: 2.16vw;
                 color: #ff8908;
+
                 @media (max-width: 1480px) {
                     margin-bottom: 22.9412px;
                     font-size: 11.06px;
                     line-height: 13.28px;
                 }
-                @media (max-width: 414px) {
+
+                @media (max-width: 721px) {
                     margin-bottom: 41.5588px;
                     font-size: 14px;
                     line-height: 16.8px;
@@ -158,17 +167,20 @@ main {
 
             .moudle-btn-container {
                 display: flex;
-                @media (max-width: 414px) {
+
+                @media (max-width: 721px) {
                     flex-direction: column;
                     align-items: center;
                 }
+
                 .moudle-btn-2 {
                     margin: 0 1.62vw;
 
                     @media (max-width: 1480px) {
                         margin: 0 17.3159px;
                     }
-                    @media (max-width: 414px) {
+
+                    @media (max-width: 721px) {
                         margin: 16.1971px 0;
                     }
                 }
@@ -182,12 +194,14 @@ main {
                     background-image: url("../img/moudle/模組-按鈕框.png");
                     width: 233.5923px;
                     height: 172.0658px;
+
                     @media (max-width: 1480px) {
                         width: 129.2058px;
                         height: 95.1739px;
                         background-size: cover;
                     }
-                    @media (max-width: 414px) {
+
+                    @media (max-width: 721px) {
                         width: 295px;
                         height: 55px;
                         background-image: url("../img/moudle/手機板-背景2.png");
@@ -206,7 +220,7 @@ main {
                             text-align: center;
                         }
 
-                        @media (max-width: 414px) {}
+                        @media (max-width: 721px) {}
                     }
                 }
             }
@@ -229,13 +243,15 @@ main {
             width: 708px;
             height: 424.8px;
         }
-        @media (max-width: 414px) {
+
+        @media (max-width: 721px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
             border: 0px;
             border-radius: 0;
         }
+
         .moudle-teach-information {
             width: 36.45vw;
             height: 14.43vw;
@@ -252,12 +268,14 @@ main {
                 padding-top: 45.1837px;
                 padding-left: 208.3625px;
             }
-            @media (max-width: 414px) {
+
+            @media (max-width: 721px) {
                 width: 316.5051px;
                 height: 125.2796px;
                 padding-top: 41.4527px;
                 padding-left: 159.3076px;
             }
+
             .moudle-teach-title {
                 color: #22ab38;
                 font-size: 1.87vw; //36px
@@ -270,7 +288,8 @@ main {
                     line-height: 18.81px;
                     margin-bottom: 2.5882px;
                 }
-                @media (max-width: 414px) {
+
+                @media (max-width: 721px) {
                     font-size: 28.63px;
                     line-height: 27.04px;
                     margin-bottom: 2.5882px;
@@ -288,7 +307,8 @@ main {
                     line-height: 18.81px;
                     margin-bottom: 17.8235px;
                 }
-                @media (max-width: 414px) {
+
+                @media (max-width: 721px) {
                     font-size: 17.5px;
                     line-height: 22px;
                     margin-bottom: 17.8235px;
@@ -304,7 +324,8 @@ main {
                     @media (max-width: 768px) {
                         width: 80.2031px;
                     }
-                    @media (max-width: 414px) {
+
+                    @media (max-width: 721px) {
                         display: none;
                     }
                 }
@@ -321,22 +342,26 @@ main {
                 width: 422.669px;
                 height: 215.8628px;
             }
-            @media (max-width: 414px) {
+
+            @media (max-width: 721px) {
                 width: 306.4459px;
                 height: 416.1394px;
                 padding-top: 12.2181px;
             }
+
             .moudle-teach-next-phone {
                 display: none;
                 cursor: pointer;
-                .moudle-teach-next-img {
-                }
-                @media (max-width: 414px) {
+
+                .moudle-teach-next-img {}
+
+                @media (max-width: 721px) {
                     display: block;
                     width: 140px;
                     margin: 0 auto 20.9607px;
                 }
             }
+
             .moudle-teach-detail {
                 width: 37.25vw;
                 font-size: 1.35vw;
@@ -351,7 +376,8 @@ main {
                     line-height: 21.02px;
                     margin-bottom: 13.6468px;
                 }
-                @media (max-width: 414px) {
+
+                @media (max-width: 721px) {
                     font-size: 18px;
                     line-height: 28px;
                     margin-bottom: 30.3529px;
@@ -360,15 +386,22 @@ main {
             }
 
             .moudle-teach-video-information {
-                width: 100%;
                 color: #ff8908;
                 font-size: 0.93vw;
                 line-height: 1.04vw;
                 margin-bottom: 0.42vw;
+                width: 37.25vw;
+
+                @media (max-width: 1046px) {
+                    line-height: 2.04vw;
+                }
 
                 @media (max-width: 768px) {
+                    width: 100%;
                     margin-bottom: 5.2516px;
+
                 }
+
                 @media (max-width: 414px) {
                     font-size: 14px;
                     line-height: 20px;
@@ -381,7 +414,8 @@ main {
                 @media (max-width: 768px) {
                     width: 395.3132px;
                 }
-                @media (max-width: 414px) {
+
+                @media (max-width: 721px) {
                     width: 289.0994px;
                 }
             }
@@ -411,12 +445,23 @@ main {
         background-color: black;
         background-image: url("../img/moudle/模組-領獎背景.png");
 
+        /*新的*/
         @media (max-width: 768px) {
             width: 708px;
             height: 424.8px;
         }
 
-        @media (max-width: 414px) {
+        @media (max-width: 727px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 580px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 584px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
@@ -435,7 +480,7 @@ main {
                 line-height: 19.91px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
@@ -452,7 +497,7 @@ main {
                 height: 182.5462px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
@@ -468,7 +513,7 @@ main {
                     line-height: 21.02px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
@@ -489,7 +534,7 @@ main {
                     line-height: 21.02px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
@@ -502,7 +547,7 @@ main {
                     margin-bottom: 22.0989px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     margin-bottom: 17.1193px;
                 }
             }
@@ -539,7 +584,17 @@ main {
             height: 424.8px;
         }
 
-        @media (max-width: 414px) {
+        @media (max-width: 727px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 580px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 584px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
@@ -558,7 +613,7 @@ main {
                 line-height: 19.91px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
@@ -575,7 +630,7 @@ main {
                 height: 182.5462px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
@@ -591,7 +646,7 @@ main {
                     line-height: 21.02px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
@@ -604,7 +659,7 @@ main {
                     margin-bottom: 22.0989px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     margin-bottom: 17.1193px;
                 }
             }
@@ -616,7 +671,7 @@ main {
                     margin-bottom: 22.0989px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     margin-bottom: 17.1193px;
                 }
             }
@@ -655,7 +710,17 @@ main {
             height: 424.8px;
         }
 
-        @media (max-width: 414px) {
+        @media (max-width: 727px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 580px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 584px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
@@ -674,7 +739,7 @@ main {
                 line-height: 19.91px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
@@ -691,7 +756,7 @@ main {
                 height: 182.5462px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
@@ -708,7 +773,7 @@ main {
                     line-height: 19.91px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
@@ -721,7 +786,7 @@ main {
                     margin-bottom: 22.0989px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     margin-bottom: 17.1193px;
                 }
             }
@@ -758,7 +823,17 @@ main {
             height: 424.8px;
         }
 
-        @media (max-width: 414px) {
+        @media (max-width: 727px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 580px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 584px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
@@ -777,7 +852,7 @@ main {
                 line-height: 19.91px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
@@ -794,7 +869,7 @@ main {
                 height: 182.5462px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
@@ -810,7 +885,7 @@ main {
                     line-height: 21.02px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
@@ -823,7 +898,7 @@ main {
                     margin-bottom: 22.0989px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     margin-bottom: 17.1193px;
                 }
             }
@@ -860,7 +935,17 @@ main {
             height: 424.8px;
         }
 
-        @media (max-width: 414px) {
+        @media (max-width: 727px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 580px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 584px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
@@ -879,7 +964,7 @@ main {
                 line-height: 19.91px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
@@ -896,7 +981,7 @@ main {
                 height: 182.5462px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
@@ -915,7 +1000,7 @@ main {
                     line-height: 21.02px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                 }
@@ -955,7 +1040,17 @@ main {
             height: 424.8px;
         }
 
-        @media (max-width: 414px) {
+        @media (max-width: 727px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 580px) {
+            width: 557px;
+            height: 334.8px;
+        }
+
+        @media (max-width: 584px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
@@ -974,7 +1069,7 @@ main {
                 line-height: 19.91px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 font-size: 24px;
                 line-height: 28.8px;
             }
@@ -991,7 +1086,7 @@ main {
                 height: 182.5462px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 width: 309.9459px;
                 height: 328.352px;
             }
@@ -1010,7 +1105,7 @@ main {
                     margin-bottom: 22.0989px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                     margin-bottom: 17.1193px;
@@ -1044,18 +1139,31 @@ main {
 .moudle-goto {
     display: none;
     z-index: 10001;
+
     .moudle-container {
         width: 1008.1133px;
         height: 450px;
         background-color: black;
         background-image: url("../img/moudle/背景-前往台北通.png");
 
+        @media (max-width: 1017px) {
+            width: 752px;
+            height: 336.8px;
+        }
+
         @media (max-width: 768px) {
             width: 708px;
             height: 316.0714px;
         }
 
-        @media (max-width: 414px) {
+        @media (max-width: 728px) {
+            width: 557px;
+            height: 247.8px;
+        }
+
+
+
+        @media (max-width: 584px) {
             width: 347px;
             height: 602px;
             background-image: url("../img/moudle/手機板-背景.png");
@@ -1074,7 +1182,7 @@ main {
                 width: 424.1305px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 584px) {
                 font-size: 24px;
                 line-height: 28.8px;
                 width: 279.1305px;
@@ -1094,7 +1202,7 @@ main {
                     margin-bottom: 24.1462px;
                 }
 
-                @media (max-width: 414px) {
+                @media (max-width: 584px) {
                     font-size: 20px;
                     line-height: 38px;
                     margin-bottom: 17.1193px;
@@ -1109,15 +1217,14 @@ main {
                     width: 101.8452px;
                 }
 
-                @media (max-width: 414px) {}
+                @media (max-width: 584px) {}
             }
         }
     }
 }
 
 .moudle-writeQuestionnaire {
-    // RWD
-    display: none;
+    // display: none;
 
     .moudle-container {
         width: 1008.1133px;
@@ -1125,17 +1232,35 @@ main {
         background-color: black;
         background-image: url("../img/moudle/背景-前往台北通.png");
 
+        @media (max-width: 1017px) {
+            width: 884.1133px;
+            height: 393px;
+        }
+
+        @media (max-width: 915px) {
+            width: 708px;
+            height: 316.0714px;
+        }
+
+
+
         @media (max-width: 768px) {
             width: 708px;
             height: 316.0714px;
         }
 
-        @media (max-width: 414px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/手機板-背景.png");
+        @media (max-width: 728px) {
+            width: 557px;
+            height: 247.8px;
         }
-
+        @media (max-width: 575px) {
+            width: 473px;
+            height: 211.8px;
+        }
+        @media (max-width: 487px) {
+            width: 347px;
+            height: 155.8px;
+        }
         .moudle-writeQuestionnaire-instruction {
             width: 31.45vw;
             height: 8.69vw;
@@ -1144,14 +1269,22 @@ main {
             flex-direction: column;
             align-items: center;
 
-            @media (max-width: 768px) {
-                padding-top: 35.8767px;
+            @media (max-width: 915px) {
+                padding-top: 33.4614px;
+            }
+            @media (max-width: 720px) {
+                padding-top: 1.8767px;
+            }
+            
+            @media (max-width: 579px) {
+                padding-top: 12.8767px;
                 width: 424.1305px;
             }
 
-            @media (max-width: 414px) {
+            @media (max-width: 487px) {
                 font-size: 24px;
                 line-height: 28.8px;
+                padding-top: 1.877px;
                 width: 279.1305px;
             }
 
@@ -1162,6 +1295,10 @@ main {
                 line-height: 40px;
                 font-weight: bold;
                 margin-bottom: 54.2343px;
+
+                @media (max-width: 921px) {
+                    margin-bottom: 11px;
+                }
 
                 @media (max-width: 768px) {
                     font-size: 18px;
@@ -1181,7 +1318,10 @@ main {
 
                 @media (max-width: 768px) {}
 
-                @media (max-width: 414px) {}
+                @media (max-width: 487px) {
+                    width: 189.8299px;
+                }
+                
             }
         }
     }
@@ -1333,9 +1473,11 @@ main {
                 @media (max-width: 768px) {
                     margin-bottom: 17.4706px;
                 }
+
                 @media (max-width: 414px) {
                     flex-wrap: wrap;
                 }
+
                 .font {
                     color: #faf0f0;
                     font-size: 24px;
@@ -1371,6 +1513,7 @@ main {
                 @media (max-width: 768px) {
                     margin-bottom: 8.1936px;
                 }
+
                 @media (max-width: 414px) {
                     margin-bottom: 13.0362px;
                 }
@@ -1385,9 +1528,11 @@ main {
                 @media (max-width: 768px) {
                     margin-bottom: 16.6765px;
                 }
+
                 @media (max-width: 414px) {
                     flex-wrap: wrap;
                 }
+
                 .font {
                     color: #faf0f0;
                     font-size: 24px;
@@ -1419,10 +1564,12 @@ main {
 
             .moudle-questionnaire-question-title-3 {
                 margin-bottom: 18px;
+
                 @media (max-width: 768px) {
                     font-size: 1.72vw;
                     line-height: 2.88vw;
                 }
+
                 @media (max-width: 414px) {
                     font-size: 18px;
                     line-height: 28px;
@@ -1434,10 +1581,12 @@ main {
                 display: flex;
                 justify-content: center;
                 margin-bottom: 19.333px;
+
                 @media (max-width: 768px) {
                     font-size: 18px;
                     line-height: 28px;
                 }
+
                 @media (max-width: 414px) {
                     margin-bottom: 9.3979px;
                 }
@@ -1446,10 +1595,12 @@ main {
                     width: 100%;
                     height: 6.35vw;
                     border-radius: 5px;
+
                     @media (max-width: 768px) {
                         font-size: 18px;
                         line-height: 28px;
                     }
+
                     @media (max-width: 414px) {
                         height: 70px;
                     }
@@ -1461,9 +1612,10 @@ main {
                 justify-content: center;
                 align-items: center;
                 cursor: pointer;
+
                 .sent-img {
-                    @media (max-width: 768px) {
-                    }
+                    @media (max-width: 768px) {}
+
                     @media (max-width: 414px) {
                         width: 75px;
                     }
@@ -1553,6 +1705,7 @@ nav {
     width: 100%;
     padding-top: 6.95vw;
     overflow: hidden;
+
     @media (max-width: 768px) {
         height: 123.72vw;
         padding-top: 10.59vw;
@@ -2174,17 +2327,18 @@ nav {
         top: 50%;
         // transform: translate(-50%,-50%);
         transform: translate(-50%, -50%);
-        z-index: 100;
+        // z-index: 100;
         background-image: url("../img/moudle/遊戲完成.png");
         background-size: cover;
         background-position: center;
         display: none;
+
         @media (max-width: 768px) {
             background-image: url("../img/moudle/平板版-遊戲完成.png");
         }
 
-        @media (max-width: 414px) {
-        }
+        @media (max-width: 414px) {}
+
         .game-finish-information {
             width: 9.68%;
             height: 33.56vw;
@@ -2256,6 +2410,7 @@ nav {
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+
         // position: absolute;
         // z-index: 100;
         @media (max-width: 768px) {
