@@ -235,9 +235,9 @@
             </a>
             
             <img src="./img/banner-1/png/sound.png" alt="音樂播放" class="sound-btn">
-            <!-- <audio preload autoplay id="music">
+            <audio preload autoplay id="music">
                 <source src="./music/2022-01-21-配音調整-v6(人聲老虎吼).mp3" type="audio/mpeg">
-           </audio> -->
+           </audio>
         </div>
     </nav>
 
@@ -1038,6 +1038,15 @@ function closeBoth(){//同時關閉教學畫面與問題畫面
         //         music.play(); //沒有就播放 
         //     }
         // }
+    </script>
+
+    <script>
+        let myAudioElement = document.querySelector("#music");
+        myAudioElement.volume = 0.2;
+        myAudioElement.addEventListener("canplaythrough", event => {
+            /* the audio is now playable; play it if permissions allow */
+            myAudioElement.play();
+          });
     </script>
 </body>
 
