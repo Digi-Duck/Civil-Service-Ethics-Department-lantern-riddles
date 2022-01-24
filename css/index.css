@@ -112,7 +112,7 @@ main {
   background-image: url("../img/moudle/模組-問題背景.png");
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1480px) {
   .moudle-question .moudle-container {
     width: 708px;
     height: 424.8px;
@@ -135,7 +135,7 @@ main {
   margin-bottom: 2.8vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1480px) {
   .moudle-question .moudle-container .moudle-content {
     margin-bottom: 29.1765px;
   }
@@ -148,7 +148,7 @@ main {
   margin-bottom: 0.62vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1480px) {
   .moudle-question .moudle-container .moudle-content .moudle-title {
     font-size: 22.13px;
     line-height: 26.55px;
@@ -173,7 +173,7 @@ main {
   color: #ff8908;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1480px) {
   .moudle-question .moudle-container .moudle-content .moudle-subtitle {
     margin-bottom: 22.9412px;
     font-size: 11.06px;
@@ -211,7 +211,7 @@ main {
   margin: 0 1.62vw;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1480px) {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn-2 {
     margin: 0 17.3159px;
   }
@@ -240,7 +240,7 @@ main {
   height: 172.0658px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1480px) {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn {
     width: 129.2058px;
     height: 95.1739px;
@@ -262,7 +262,7 @@ main {
   position: absolute;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1480px) {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn .moudle-btn-content {
     width: 100%;
     font-size: 22.13px;
