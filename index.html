@@ -769,8 +769,9 @@
                 istrue = "錯";
                 moudle_teach_next.addEventListener("click", show);
                 moudle_teach_next_phone.addEventListener("click", show);
-
                 teach_exit_Screen.removeEventListener("click", closeBoth);
+                moudle_teach_video_information.style['display']='none';
+                moudle_teach_video.style['display']='none';
             }
             else {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/您答對了-背景.png')";
