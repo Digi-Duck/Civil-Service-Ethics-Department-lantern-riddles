@@ -109,7 +109,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-問題背景.png");
+  background-image: url("../img/moudle/模組-問題背景.png");
 }
 
 @media (max-width: 768px) {
@@ -123,7 +123,7 @@ main {
   .moudle-question .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -235,7 +235,7 @@ main {
           align-items: center;
   position: relative;
   cursor: pointer;
-  background-image: url("./img/moudle/模組-按鈕框.png");
+  background-image: url("../img/moudle/模組-按鈕框.png");
   width: 233.5923px;
   height: 172.0658px;
 }
@@ -252,7 +252,7 @@ main {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn {
     width: 295px;
     height: 55px;
-    background-image: url("./img/moudle/手機板-背景2.png");
+    background-image: url("../img/moudle/手機板-背景2.png");
     background-size: contain;
   }
 }
@@ -277,7 +277,7 @@ main {
 .moudle-teach .moudle-container {
   width: 66.25vw;
   height: 39.58vw;
-  background-image: url("./img/moudle/資產 8.png");
+  background-image: url("../img/moudle/資產 8.png");
   background-color: black;
   border: 4px #ff8908 solid;
   border-radius: 20px;
@@ -294,7 +294,7 @@ main {
   .moudle-teach .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
     border: 0px;
     border-radius: 0;
   }
@@ -303,7 +303,7 @@ main {
 .moudle-teach .moudle-container .moudle-teach-information {
   width: 36.45vw;
   height: 14.43vw;
-  background-image: url("./img/moudle/您答對了-背景.png");
+  background-image: url("../img/moudle/您答對了-背景.png");
   background-size: cover;
   padding-left: 19.58vw;
   margin-top: -1.85vw;
@@ -517,7 +517,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
+  background-image: url("../img/moudle/模組-領獎背景.png");
 }
 
 @media (max-width: 768px) {
@@ -531,7 +531,7 @@ main {
   .moudle-purpose .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -659,7 +659,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
+  background-image: url("../img/moudle/模組-領獎背景.png");
 }
 
 @media (max-width: 768px) {
@@ -673,7 +673,7 @@ main {
   .moudle-rule .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -800,7 +800,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
+  background-image: url("../img/moudle/模組-領獎背景.png");
 }
 
 @media (max-width: 768px) {
@@ -814,7 +814,7 @@ main {
   .moudle-lottery .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -922,7 +922,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
+  background-image: url("../img/moudle/模組-領獎背景.png");
 }
 
 @media (max-width: 768px) {
@@ -936,7 +936,7 @@ main {
   .moudle-winning .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -1043,7 +1043,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
+  background-image: url("../img/moudle/模組-領獎背景.png");
 }
 
 @media (max-width: 768px) {
@@ -1057,7 +1057,7 @@ main {
   .moudle-award .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -1155,7 +1155,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
+  background-image: url("../img/moudle/模組-領獎背景.png");
 }
 
 @media (max-width: 768px) {
@@ -1169,7 +1169,7 @@ main {
   .moudle-notice .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -1273,7 +1273,7 @@ main {
   width: 1008.1133px;
   height: 450px;
   background-color: black;
-  background-image: url("./img/moudle/背景-前往台北通.png");
+  background-image: url("../img/moudle/背景-前往台北通.png");
 }
 
 @media (max-width: 768px) {
@@ -1287,7 +1287,7 @@ main {
   .moudle-goto .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -1366,7 +1366,7 @@ main {
   width: 1008.1133px;
   height: 450px;
   background-color: black;
-  background-image: url("./img/moudle/背景-前往台北通.png");
+  background-image: url("../img/moudle/背景-前往台北通.png");
 }
 
 @media (max-width: 768px) {
@@ -1380,7 +1380,7 @@ main {
   .moudle-writeQuestionnaire .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -1452,7 +1452,7 @@ main {
   width: 66.66vw;
   height: 40vw;
   background-color: black;
-  background-image: url("./img/moudle/模組-領獎背景.png");
+  background-image: url("../img/moudle/模組-領獎背景.png");
 }
 
 @media (max-width: 768px) {
@@ -1466,7 +1466,7 @@ main {
   .moudle-questionnaire .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("./img/moudle/手機板-背景.png");
+    background-image: url("../img/moudle/手機板-背景.png");
   }
 }
 
@@ -2377,7 +2377,7 @@ nav .nav-container .sound-btn {
 
 .banner-2 .swiper-container .swiper-button-prev {
   position: static;
-  content: url("./img/banner-2/svg/箭頭-左.svg");
+  content: url("../img/banner-2/svg/箭頭-左.svg");
   width: 1.18%;
   display: block;
   z-index: 0;
@@ -2428,7 +2428,7 @@ nav .nav-container .sound-btn {
 }
 
 .banner-2 .swiper-container .swiper-button-next {
-  content: url("./img/banner-2/svg/箭頭-右.svg");
+  content: url("../img/banner-2/svg/箭頭-右.svg");
   width: 1.18%;
   position: static;
   display: block;
@@ -2683,7 +2683,7 @@ nav .nav-container .sound-btn {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   z-index: 100;
-  background-image: url("./img/moudle/遊戲完成.png");
+  background-image: url("../img/moudle/遊戲完成.png");
   background-size: cover;
   background-position: center;
   display: none;
@@ -2691,7 +2691,7 @@ nav .nav-container .sound-btn {
 
 @media (max-width: 768px) {
   .banner-3 .game-finish {
-    background-image: url("./img/moudle/平板版-遊戲完成.png");
+    background-image: url("../img/moudle/平板版-遊戲完成.png");
   }
 }
 
@@ -3366,7 +3366,7 @@ nav .nav-container .sound-btn {
 
 .banner-4 .swiper-container .swiper-button-prev {
   position: static;
-  content: url("./img/banner-2/svg/箭頭-左.svg");
+  content: url("../img/banner-2/svg/箭頭-左.svg");
   width: 1.18%;
   display: block;
   margin-top: 0;
@@ -3414,7 +3414,7 @@ nav .nav-container .sound-btn {
 }
 
 .banner-4 .swiper-container .swiper-button-next {
-  content: url("./img/banner-2/svg/箭頭-右.svg");
+  content: url("../img/banner-2/svg/箭頭-右.svg");
   width: 1.18%;
   position: static;
   display: block;
