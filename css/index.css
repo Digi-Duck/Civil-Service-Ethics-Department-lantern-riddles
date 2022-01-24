@@ -1471,6 +1471,10 @@ main {
   }
 }
 
+.moudle-writeQuestionnaire {
+  display: none;
+}
+
 .moudle-writeQuestionnaire .moudle-container {
   width: 1008.1133px;
   height: 450px;
@@ -1589,9 +1593,9 @@ main {
 
 @media (max-width: 414px) {
   .moudle-writeQuestionnaire .moudle-container .moudle-writeQuestionnaire-instruction .moudle-writeQuestionnaire-detail {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 38px;
-    margin-bottom: 17.1193px;
+    margin-bottom: 2.112px;
   }
 }
 
