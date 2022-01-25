@@ -39,7 +39,7 @@ main {
 .moudle {
     width: 100%;
     height: 100%;
-    
+
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
@@ -49,12 +49,15 @@ main {
     align-items: center;
     // font-size: 40px;
     font-size: 2.08vw;
+
     @media (max-width: 80vh) {
         height: 100%;
     }
+
     .moudle-container {
         background-size: cover;
         padding-top: 1.36vw;
+
         @media (max-width: 768px) {
             height: 16.5765px;
             padding-top: 19.6629px;
@@ -232,6 +235,21 @@ main {
 
 .moudle-teach {
     display: none;
+
+    a {
+        color: white;
+        text-decoration:none;
+        font-size: 24px;
+        @media (max-width: 1550px) {
+            font-size: 21px;
+        }
+        @media (max-width: 1414px) {
+            font-size: 17px;
+        }
+        @media (max-width: 1039px) {
+            font-size: 12px;
+        }
+    }
 
     .moudle-container {
         width: 66.25vw;
@@ -1143,7 +1161,7 @@ main {
 }
 
 .moudle-goto {
-    display: none;
+    // display: none;
     z-index: 10001;
 
     .moudle-container {
@@ -1655,7 +1673,7 @@ nav {
     width: 100%;
     height: 4.94vw;
     position: fixed;
-    z-index: 1000;
+    z-index: 10000;
     background-color: #000000;
 
     @media (max-width: 768px) {

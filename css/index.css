@@ -287,6 +287,30 @@ main {
   display: none;
 }
 
+.moudle-teach a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+@media (max-width: 1550px) {
+  .moudle-teach a {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 1414px) {
+  .moudle-teach a {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 1039px) {
+  .moudle-teach a {
+    font-size: 12px;
+  }
+}
+
 .moudle-teach .moudle-container {
   width: 66.25vw;
   height: 39.58vw;
@@ -1376,7 +1400,6 @@ main {
 }
 
 .moudle-goto {
-  display: none;
   z-index: 10001;
 }
 
@@ -2021,7 +2044,7 @@ nav {
   width: 100%;
   height: 4.94vw;
   position: fixed;
-  z-index: 1000;
+  z-index: 10000;
   background-color: #000000;
 }
 
