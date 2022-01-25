@@ -111,7 +111,7 @@ main {
         @media (max-width: 721px) {
             width: 347px;
             height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
+            background-image: url("../img/moudle/phone-backgroung-teach.png");
         }
 
         .moudle-content {
@@ -1161,7 +1161,7 @@ main {
 }
 
 .moudle-goto {
-    // display: none;
+    display: none;
     z-index: 10001;
 
     .moudle-container {
@@ -3077,6 +3077,7 @@ nav {
 
     .banner-4-video-background-computer {
         // top: 35.82vw;
+        width: 100vw;
         bottom: 0;
         z-index: -3;
 
@@ -3119,7 +3120,7 @@ nav {
 
     .banner-4-video-background-phone {
         // top: 35.82vw;
-        width: 100%;
+        width: 100vw;
         bottom: 0;
         z-index: -3;
         display: none;

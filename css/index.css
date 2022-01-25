@@ -136,7 +136,7 @@ main {
   .moudle-question .moudle-container {
     width: 347px;
     height: 602px;
-    background-image: url("../img/moudle/phone-backgroung.png");
+    background-image: url("../img/moudle/phone-backgroung-teach.png");
   }
 }
 
@@ -1400,6 +1400,7 @@ main {
 }
 
 .moudle-goto {
+  display: none;
   z-index: 10001;
 }
 
