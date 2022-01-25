@@ -3774,6 +3774,7 @@ nav .nav-container .sound-btn {
 }
 
 .banner-4 .banner-4-video-background-computer {
+  width: 100vw;
   bottom: 0;
   z-index: -3;
 }
@@ -3825,7 +3826,7 @@ nav .nav-container .sound-btn {
 }
 
 .banner-4 .banner-4-video-background-phone {
-  width: 100%;
+  width: 100vw;
   bottom: 0;
   z-index: -3;
   display: none;
