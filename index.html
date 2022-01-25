@@ -5,217 +5,309 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- <embed src="./music/2022-01-21-music.mp3" hidden="true" autostart="true" loop="true"> -->
-    <link rel="stylesheet" href="./css/index.css">
+
+    <meta property="og:url" content="https://2022riddles.digipack.io/riddles" />
+    <meta property="og:site_name" content="「虎虎生風 廉潔燈謎王」線上燈謎活動" />
+    <meta property="og:title" content="「虎虎生風 廉潔燈謎王」線上燈謎活動" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description"
+        content="臺北市政府政風處自110年2月9日起至3月9日舉辦「虎虎生風 廉潔燈謎王」線上燈謎活動，民眾只要答對3題謎題完成任一連線，就可以參加抽獎，有機會得到Iphone 12 Pro Max、禮券2萬元、Switch主機加健身環、BRUNO上掀式水蒸氣循環燒烤箱及AirPods等多項好禮！歡迎至「2021台北燈節」官網（https://2021lanternfestival.taipei/tc/）進入「訊息公告／線上燈謎活動『牛轉乾坤_好運廉廉』」（https://2021lanternfestival.taipei/riddles）或見本處網站（http://doge.gov.taipei/）左側「公告資訊／活動訊息」，一起猜燈謎拿大獎。" />
+    <meta property="og:image" content="https://2021lanternfestival.taipei/riddles/img/thun/1200x630px.jpg" />
+    <meta property="og:image:alt" content="「虎虎生風 廉潔燈謎王」線上燈謎活動" />
+    <meta property="og:image:type" content="image/jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+
+    <title>「虎虎生風 廉潔燈謎王」線上燈謎活動</title>
+    <link rel="icon" href="./img/small_icon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./img/small_icon.png" type="image/x-icon" />
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/nero.css">
 </head>
 
 <body>
     <section>
-        <div class="moudle moudle-purpose">
+        <div class="moudle moudle-list moudle-purpose">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-purpose-exit">
-                    <div class="moudle-purpose-subtitle">依據及活動目的</div>
-                    <div class="moudle-purpose-instruction">
-                        <div class="moudle-purpose-title moudle-purpose-title-1">一、依據：</div>
-                        <div class="moudle-purpose-detail moudle-purpose-detail-1">臺北市政府政風處111年度工作計畫。</div>
-                        <div class="moudle-purpose-title moudle-purpose-title-2">二、活動目的：</div>
-                        <div class="moudle-purpose-detail moudle-purpose-detail-2">
+                    <div class="moudle-list-subtitle">依據及活動目的</div>
+                    <div class="moudle-list-instruction">
+                        <div class="moudle-list-content">一、依據：</div>
+                        <div class="moudle-list-content moudle-list-margin">臺北市政府政風處111年度工作計畫。</div>
+                        <div class="moudle-list-content">二、活動目的：</div>
+                        <div class="moudle-list-content moudle-list-margin">
                             為擴大宣導廉政理念，臺北市政府政風處（下稱本處）訂於111年舉辦網路猜謎活動，以臺北市政府重要廉政工作成果、本府第8屆廉能透明獎專刊、廉潔教育教材等廉潔相關概念為謎題與民眾進行猜答互動，透過寓教於樂之方式推廣政府防貪工作，藉以培育全民廉潔意識。
                         </div>
                     </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-1.png" alt="">
+                </picture>
             </div>
         </div>
-        <div class="moudle moudle-rule">
+        <div class="moudle moudle-list moudle-rule">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-rule-exit">
-                    <div class="moudle-rule-subtitle">遊戲規則</div>
-                    <div class="moudle-rule-instruction">
-                        <div class="moudle-rule-title moudle-rule-time-1">活動時間：</div>
-                        <div class="moudle-rule-title moudle-rule-time-2">111年1月28日00時至111年2月28日24時。</div>
-                        <div class="moudle-rule-title moudle-rule-game-way"> 遊戲方式：</div>
-                        <div class="moudle-rule-title moudle-rule-title-1">一、請先登入台北通會員（如無台北通帳號請先至網站註冊）。</div>
-                        <div class="moudle-rule-title moudle-rule-title-2">二、於活動網站建置９道謎題，每道謎題均設計３個選項供參加者依據問項選擇答案，如答錯即會自動跳出提示框，不限作答次數直到答對為止。</div>
-                        <div class="moudle-rule-title moudle-rule-title-3">三、答對3題連成一線即可參加抽獎。每人僅有一次中獎機會，不重複獲獎。</div>
-                        <div class="moudle-rule-title moudle-rule-title-4">四、將以台北通所留聯絡方式通知中獎；如因聯絡方式錯誤導致無法通知獲獎訊息，視同放棄中獎權益。</div>
-                        <div class="moudle-rule-title moudle-rule-game-qualifications-1">參加資格：</div>
-                        <div class="moudle-rule-title moudle-rule-game-qualifications-2">全國民眾（註：臺北市政府政風同仁不具本活動得獎資格；得獎者經查有違反前揭規定時，將取消獲獎資格）。</div>
+                    <div class="moudle-list-subtitle">遊戲規則</div>
+                    <div class="moudle-list-instruction">
+                        <div class="moudle-list-content">活動時間：</div>
+                        <div class="moudle-list-content moudle-list-margin">111年1月28日00時至111年2月28日24時。</div>
+                        <div class="moudle-list-content"> 遊戲方式：</div>
+                        <div class="moudle-list-content">一、請先登入台北通會員（如無台北通帳號請先至網站註冊）。</div>
+                        <div class="moudle-list-content">
+                            二、於活動網站建置９道謎題，每道謎題均設計３個選項供參加者依據問項選擇答案，如答錯即會自動跳出提示框，不限作答次數直到答對為止。</div>
+                        <div class="moudle-list-content">三、答對3題連成一線即可參加抽獎。每人僅有一次中獎機會，不重複獲獎。</div>
+                        <div class="moudle-list-content moudle-list-margin">
+                            四、將以台北通所留聯絡方式通知中獎；如因聯絡方式錯誤導致無法通知獲獎訊息，視同放棄中獎權益。</div>
+                        <div class="moudle-list-content">參加資格：</div>
+                        <div class="moudle-list-content">
+                            全國民眾（註：臺北市政府政風同仁不具本活動得獎資格；得獎者經查有違反前揭規定時，將取消獲獎資格）。</div>
                     </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-1.png" alt="">
+                </picture>
             </div>
         </div>
-        <div class="moudle moudle-lottery">
+        <div class="moudle moudle-list moudle-lottery">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-lottery-exit">
-                    <div class="moudle-lottery-subtitle">抽獎方式</div>
-                    <div class="moudle-lottery-instruction">
-                        <div class="moudle-lottery-title moudle-lottery-title-1">一、將於活動結束10個工作天內完成抽獎程序，並自所有符合抽獎資格名單中以電腦亂數方式抽出得獎者，抽獎過程派員監抽及全程錄影。</div>
-                        <div class="moudle-lottery-title moudle-lottery-title-2">二、本次活動全部獎項（iPhone 13 pro max 256 GB、禮券2 萬元、任天堂 Switch 主機（OLED款式）+健身環、Garmin vivoactive 4 GPS 智慧腕錶、Armor A60 2T可攜式硬碟、禮券200元等）將自所有參與答對名單中抽出，不重複獲獎。</div>
+                    <div class="moudle-list-subtitle">抽獎方式</div>
+                    <div class="moudle-list-instruction">
+                        <div class="moudle-list-content moudle-list-margin">
+                            一、將於活動結束10個工作天內完成抽獎程序，並自所有符合抽獎資格名單中以電腦亂數方式抽出得獎者，抽獎過程派員監抽及全程錄影。</div>
+                        <div class="moudle-list-content">二、本次活動全部獎項（iPhone 13 pro max 256 GB、禮券2
+                            萬元、任天堂 Switch 主機（OLED款式）+健身環、Garmin vivoactive 4 GPS 智慧腕錶、Armor A60
+                            2T可攜式硬碟、禮券200元等）將自所有參與答對名單中抽出，不重複獲獎。</div>
                     </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-1.png" alt="">
+                </picture>
             </div>
         </div>
-        <div class="moudle moudle-winning">
+        <div class="moudle moudle-list moudle-winning">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-winning-exit">
-                    <div class="moudle-winning-subtitle">得獎公布</div>
-                    <div class="moudle-winning-instruction">
-                        <div class="moudle-winning-detail moudle-winning-detail-1">中獎名單將於「2022臺北燈節」官網「虎虎生風_廉潔燈謎王」線上燈謎網活動頁面、台北通及本處網站公布，並由本處以中獎人於台北通所留聯絡方式通知。（如因電子郵件或通訊資料錯誤導致無法寄送，主辦單位將不另通知聯繫，不得異議）。</div>
-                        <div class="moudle-winning-detail moudle-winning-detail-2">
+                    <div class="moudle-list-subtitle">得獎公布</div>
+                    <div class="moudle-list-instruction">
+                        <div class="moudle-list-content moudle-list-margin">
+                            中獎名單將於「2022臺北燈節」官網「虎虎生風_廉潔燈謎王」線上燈謎網活動頁面、台北通及本處網站公布，並由本處以中獎人於台北通所留聯絡方式通知。（如因電子郵件或通訊資料錯誤導致無法寄送，主辦單位將不另通知聯繫，不得異議）。
+                        </div>
+                        <div class="moudle-list-content">
                             由「2022台北燈節」官網（https://）進入「訊息公告／線上燈謎活動『虎虎生風_廉潔燈謎王』」或見本處網站（http://doge.gov.taipei/）左側「公告資訊／活動訊息」。
                         </div>
                     </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-1.png" alt="">
+                </picture>
             </div>
         </div>
-        <div class="moudle moudle-award">
+        <div class="moudle moudle-list moudle-award">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-award-exit">
-                    <div class="moudle-award-subtitle">領獎方式</div>
-                    <div class="moudle-award-instruction">
-                        <div class="moudle-award-title moudle-award-title-1">一、	特獎、頭獎、貳獎、參獎及肆獎（iPhone 13 pro max 256 GB、禮券2萬元、任天堂 Switch 主機（OLED款式）+健身環、Garmin vivoactive 4 GPS 智慧腕錶、Armor A60 2T可攜式硬碟）獲獎者須於本處指定時間內（相關訊息將公布於「2022臺北燈節」官網「虎虎生風_廉潔燈謎王」線上燈謎網活動頁面、台北通及本處網站），以傳真、電子郵件或郵寄回覆個人基本資料，含真實姓名、身分證影本、獎品寄送地址（限臺澎金馬地區）：
-                            傳真請傳送至：02-27595690；電子郵件請寄送至： va-a620040@mail.taipei.gov.tw；郵寄請寄至「11008臺北市信義區市府路1號11樓西南區（臺北市政府政風處第三科郭小姐收）」，聯絡電話：（02）27208889分機7764郭小姐。獎品將以快遞或郵件寄出，若因逾期回覆資料、資料不全或地址錯誤，而導致獎品無法寄送、退回、冒領、遺失者，視同放棄中獎權益，恕不另行補發。
+                    <div class="moudle-list-subtitle">領獎方式</div>
+                    <div class="moudle-list-instruction">
+                        <div class="moudle-list-content moudle-list-margin">一、 特獎、頭獎、貳獎、參獎及肆獎（iPhone 13 pro max 256
+                            GB、禮券2萬元、任天堂 Switch 主機（OLED款式）+健身環、Garmin vivoactive 4 GPS 智慧腕錶、Armor A60
+                            2T可攜式硬碟）獲獎者須於本處指定時間內（相關訊息將公布於「2022臺北燈節」官網「虎虎生風_廉潔燈謎王」線上燈謎網活動頁面、台北通及本處網站），以傳真、電子郵件或郵寄回覆個人基本資料，含真實姓名、身分證影本、獎品寄送地址（限臺澎金馬地區）：
+                            傳真請傳送至：02-27595690；電子郵件請寄送至：
+                            va-a620040@mail.taipei.gov.tw；郵寄請寄至「11008臺北市信義區市府路1號11樓西南區（臺北市政府政風處第三科郭小姐收）」，聯絡電話：（02）27208889分機7764郭小姐。獎品將以快遞或郵件寄出，若因逾期回覆資料、資料不全或地址錯誤，而導致獎品無法寄送、退回、冒領、遺失者，視同放棄中獎權益，恕不另行補發。
                         </div>
-                        <div class="moudle-award-title moudle-award-title-2">二、	伍獎（禮券200元）獲獎者須於本處指定時間內（相關訊息將公布於「2022臺北燈節」官網「虎虎生風_廉潔燈謎王」線上燈謎網活動頁面、台北通及本處網站），以傳真、電子郵件或郵寄回覆個人基本資料，含真實姓名及獎品寄送地址（限臺澎金馬地區）。傳真請傳送至：02-27595690；電子郵件請寄送至： va-a620040@mail.taipei.gov.tw；郵寄請寄至「11008臺北市信義區市府路1號11樓西南區（臺北市政府政風處第三科郭小姐收）」，聯絡電話：（02）27208889分機7764郭小姐。獎品將以快遞或郵件寄出，若因逾期回覆資料、資料不全或地址錯誤，而導致獎品無法寄送、退回、冒領、遺失者，視同放棄中獎權益，恕不另行補發。</div>
+                        <div class="moudle-list-content">二、
+                            伍獎（禮券200元）獲獎者須於本處指定時間內（相關訊息將公布於「2022臺北燈節」官網「虎虎生風_廉潔燈謎王」線上燈謎網活動頁面、台北通及本處網站），以傳真、電子郵件或郵寄回覆個人基本資料，含真實姓名及獎品寄送地址（限臺澎金馬地區）。傳真請傳送至：02-27595690；電子郵件請寄送至：
+                            va-a620040@mail.taipei.gov.tw；郵寄請寄至「11008臺北市信義區市府路1號11樓西南區（臺北市政府政風處第三科郭小姐收）」，聯絡電話：（02）27208889分機7764郭小姐。獎品將以快遞或郵件寄出，若因逾期回覆資料、資料不全或地址錯誤，而導致獎品無法寄送、退回、冒領、遺失者，視同放棄中獎權益，恕不另行補發。
                         </div>
+                    </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-1.png" alt="">
+                </picture>
             </div>
         </div>
-        <div class="moudle moudle-notice">
+        <div class="moudle moudle-list moudle-notice">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-notice-exit">
-                    <div class="moudle-notice-subtitle">注意事項</div>
-                    <div class="moudle-notice-instruction">
-                        <div class="moudle-notice-title moudle-notice-title-1">一、	將以台北通所留聯絡方式通知中獎，參加者保證所有填寫或提供資料均為真實且正確，得獎者如有資料不完整、造假等情況，本處保有取消得獎資格之權利。</div>
-                        <div class="moudle-notice-title moudle-notice-title-2">二、	獎品於運送過程中，非因可歸責於本處之事由造成損壞、遲延、錯遞或遺失，本處概不負責。</div>
-                        <div class="moudle-notice-title moudle-notice-title-3">三、	本活動得獎者不得要求折現或轉換其他獎品。本處保有修改活動及獎品等細節之權利，如遇產品缺貨或不可抗力之事由導致獎品內容變更，主辦單位有權變更獎品，改由等值商品取代之，中獎人須同意接受主辦單位所安排的替代獎品。</div>
-                        <div class="moudle-notice-title moudle-notice-title-4">四、	本活動所贈iPhone 13 pro max 256 GB、禮券2萬元、任天堂 Switch 主機（OLED款式）+健身環、Garmin vivoactive 4 GPS 智慧腕錶、Armor A60 2T可攜式硬碟等獎品型號、顏色由本處指定；所有獎品日後之使用、保固與維修，本處恕不負責。</div>
-                        <div class="moudle-notice-title moudle-notice-title-5">五、	依中華民國所得稅法規定，獎品價值超過新台幣1,000元，依規定須配合填寫相關得獎收據文件；若獎品價值超過新台幣20,000元，中獎者須扣繳10%中獎金額稅額（非中華民國境內居住之國人須扣繳20%），如得獎者拒絕或未能如期填寫相關文件或繳納應繳稅額，即視為自動放棄得獎資格。 </div>
-                        <div class="moudle-notice-title moudle-notice-title-6">六、	本活動如有未盡事宜，本處擁有保留修改活動內容之權利，修改訊息將於活動網站上公佈，不另行通知。</div>
-                        <div class="moudle-notice-title moudle-notice-title-7">七、如有任何疑問，歡迎來電洽詢（02）27208889分機7764郭小姐。</div>
-                        <div class="moudle-notice-title moudle-notice-title-8">電子郵件：</div>
-                        <div class="moudle-notice-title moudle-notice-title-9">va-a620040@mail.taipei.gov.tw</div>
+                    <div class="moudle-list-subtitle">注意事項</div>
+                    <div class="moudle-list-instruction">
+                        <div class="moudle-list-content 1">一、
+                            將以台北通所留聯絡方式通知中獎，參加者保證所有填寫或提供資料均為真實且正確，得獎者如有資料不完整、造假等情況，本處保有取消得獎資格之權利。</div>
+                        <div class="moudle-list-content">二、
+                            獎品於運送過程中，非因可歸責於本處之事由造成損壞、遲延、錯遞或遺失，本處概不負責。</div>
+                        <div class="moudle-list-content">三、
+                            本活動得獎者不得要求折現或轉換其他獎品。本處保有修改活動及獎品等細節之權利，如遇產品缺貨或不可抗力之事由導致獎品內容變更，主辦單位有權變更獎品，改由等值商品取代之，中獎人須同意接受主辦單位所安排的替代獎品。
+                        </div>
+                        <div class="moudle-list-content">四、 本活動所贈iPhone 13 pro max 256
+                            GB、禮券2萬元、任天堂 Switch 主機（OLED款式）+健身環、Garmin vivoactive 4 GPS 智慧腕錶、Armor A60
+                            2T可攜式硬碟等獎品型號、顏色由本處指定；所有獎品日後之使用、保固與維修，本處恕不負責。</div>
+                        <div class="moudle-list-content">五、
+                            依中華民國所得稅法規定，獎品價值超過新台幣1,000元，依規定須配合填寫相關得獎收據文件；若獎品價值超過新台幣20,000元，中獎者須扣繳10%中獎金額稅額（非中華民國境內居住之國人須扣繳20%），如得獎者拒絕或未能如期填寫相關文件或繳納應繳稅額，即視為自動放棄得獎資格。
+                        </div>
+                        <div class="moudle-list-content">六、
+                            本活動如有未盡事宜，本處擁有保留修改活動內容之權利，修改訊息將於活動網站上公佈，不另行通知。</div>
+                        <div class="moudle-list-content moudle-list-margin">七、如有任何疑問，歡迎來電洽詢（02）27208889分機7764郭小姐。
+                        </div>
+                        <div class="moudle-list-content moudle-list-margin">電子郵件：va-a620040@mail.taipei.gov.tw</div>
                     </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-1.png" alt="">
+                </picture>
             </div>
         </div>
 
         <!-- 連線成功抽獎連結 -->
-        <div class="moudle moudle-goto">
+        <div class="moudle moudle-backstage moudle-goto">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-goto-exit">
-                    <div class="moudle-goto-instruction">
-                        <div class="moudle-goto-detail moudle-goto-detail-1">
+                    <div class="moudle-backstage-instruction">
+                        <div class="moudle-backstage-content moudle-backstage-margin">
                             為了加強保障您的個資安全，及保障抽獎活動的公平性，本次抽獎需登入台北通後即可參加抽獎。
                         </div>
                         <a target="_block" onclick="TaipeiPasslogin()" id="TaipeiPasslogin">
-                            <img src="./img/moudle/goto-Taipeipass.svg" alt="" class="goto-btn">
+                            <img src="./img/moudle/goto-Taipeipass.svg" alt="" class="moudle-backstage-btn">
                         </a>
                     </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-2.svg" alt="">
+                </picture>
             </div>
         </div>
 
         <!-- 台北通回傳頁面資料 -->
-        <div class="moudle moudle-writeQuestionnaire">
+        <div class="moudle moudle-backstage moudle-writeQuestionnaire">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-writeQuestionnaire-exit">
-                    <div class="moudle-writeQuestionnaire-instruction">
-                    <div class="moudle-writeQuestionnaire-detail moudle-writeQuestionnaire-detail-1">您已具備抽獎資格，祝您中大獎~</div>
+                    <div class="moudle-backstage-instruction">
+                        <div class="moudle-backstage-content moudle-backstage-margin">您已具備抽獎資格，祝您中大獎~
+                        </div>
                         <img src="./img/moudle/questionnaire.svg" alt="" class="writeQuestionnaire-btn">
                     </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-2.svg" alt="">
+                </picture>
             </div>
         </div>
 
         <!-- 滿意度問卷調查表 -->
-        <div class="moudle moudle-questionnaire">
+        <div class="moudle moudle-list moudle-questionnaire">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-questionnaire-exit">
                     <form action="">
-                        <div class="moudle-questionnaire-subtitle">滿意度問卷</div>
-                        <div class="moudle-questionnaire-instruction">
-                            <div class="moudle-questionnaire-title moudle-questionnaire-thank-title-1">親愛的朋友您好：</div>
-                            <div class="moudle-questionnaire-detail moudle-questionnaire-thank-detail-1">感謝您熱情的參與，希望這次的燈謎活動，帶給您一個特別的元宵回憶～為使活動更臻完美，請您依本次活動感受提供寶貴建議，作為日後舉辦活動之參考，再次謝謝您！</div>
-                            <div class="moudle-questionnaire-title moudle-questionnaire-question-title-1">1. 請問您對於本次活動的整體滿意度：</div>
-                            <div class="moudle-questionnaire-detail moudle-questionnaire-question-detail-1">
-                                <div class="moudle-questionnaire-form-1">
-                                    <label for="">
-                                        <input type="radio" name="what" value="verygood" id="what-1" class="form-1-btn form-1-btn-1">
-                                        <span class="font">非常滿意</span><br>
-                                    </label>
-                                    <label for="">
-                                        <input type="radio" name="what" value="good" id="what-2" class="form-1-btn form-1-btn-2">
-                                        <span class="font">滿意</span><br>
-                                    </label>
-                                    <label for="">
-                                        <input type="radio" name="what" value="generally" id="what-3" class="form-1-btn form-1-btn-3">
-                                        <span class="font">普通</span><br>
-                                    </label>
-                                    <label for="">
-                                        <input type="radio" name="what" value="bad" id="what-4" class="form-1-btn form-1-btn-4">
-                                        <span class="font">不滿意</span><br>
-                                    </label>
-                                    <label for="">
-                                        <input type="radio" name="what" value="verybad" id="what-5" class="form-1-btn form-1-btn-5">
-                                        <span class="font">非常不滿意</span><br>
-                                    </label>
-                                </div>
+                        <div class="moudle-list-subtitle">滿意度問卷</div>
+                        <div class="moudle-list-instruction">
+                            <div class="moudle-list-content">親愛的朋友您好：</div>
+                            <div class="moudle-list-content moudle-list-margin">
+                                感謝您熱情的參與，希望這次的燈謎活動，帶給您一個特別的元宵回憶～為使活動更臻完美，請您依本次活動感受提供寶貴建議，作為日後舉辦活動之參考，再次謝謝您！</div>
+                            <div class="moudle-list-content ">
+                                1.請問您對於本次活動的整體滿意度：
                             </div>
-                            <div class="moudle-questionnaire-title moudle-questionnaire-question-title-2">2. 請問您是如何得知本活動訊息：</div>
-                            <div class="moudle-questionnaire-form-2">
+                            <div class="moudle-list-content moudle-list-margin moudle-list-from">
                                 <label for="">
-                                    <input type="radio" name="how" value="csed" id="how-1" class="form-2-btn form-2-btn-1">
+                                    <input type="radio" name="what" value="verygood" id="what-1"
+                                        class="form-1-btn form-1-btn-1">
+                                    <span class="font">非常滿意</span><br>
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="what" value="good" id="what-2"
+                                        class="form-1-btn form-1-btn-2">
+                                    <span class="font">滿意</span><br>
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="what" value="generally" id="what-3"
+                                        class="form-1-btn form-1-btn-3">
+                                    <span class="font">普通</span><br>
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="what" value="bad" id="what-4"
+                                        class="form-1-btn form-1-btn-4">
+                                    <span class="font">不滿意</span><br>
+                                </label>
+                                <label for="">
+                                    <input type="radio" name="what" value="verybad" id="what-5"
+                                        class="form-1-btn form-1-btn-5">
+                                    <span class="font">非常不滿意</span><br>
+                                </label>
+                            </div>
+                            <div class="moudle-list-content moudle-questionnaire-question-title-2">
+                                2.請問您是如何得知本活動訊息：
+                            </div>
+                            <div class="moudle-list-content moudle-list-margin moudle-list-from">
+                                <label for="">
+                                    <input type="radio" name="how" value="csed" id="how-1"
+                                        class="form-2-btn form-2-btn-1">
                                     <span class="font">臺北市政府政風處官網</span><br>
                                 </label>
                                 <label for="">
-                                    <input type="radio" name="how" value="friends" id="how-2" class="form-2-btn form-2-btn-2">
+                                    <input type="radio" name="how" value="friends" id="how-2"
+                                        class="form-2-btn form-2-btn-2">
                                     <span class="font">親友推薦</span><br>
                                 </label>
                                 <label for="">
-                                    <input type="radio" name="how" value="taipeipass" id="how-3" class="form-2-btn form-2-btn-3">
+                                    <input type="radio" name="how" value="taipeipass" id="how-3"
+                                        class="form-2-btn form-2-btn-3">
                                     <span class="font font-3">台北通公告</span><br>
                                 </label>
                                 <label for="">
-                                    <input type="radio" name="how" value="line" id="how-4" class="form-2-btn form-2-btn-4">
+                                    <input type="radio" name="how" value="line" id="how-4"
+                                        class="form-2-btn form-2-btn-4">
                                     <span class="font">臺北市政府Line官方帳號</span><br>
                                 </label>
                                 <label for="">
-                                    <input type="radio" name="how" value="pictorial" id="how-5" class="form-2-btn form-2-btn-5">
+                                    <input type="radio" name="how" value="pictorial" id="how-5"
+                                        class="form-2-btn form-2-btn-5">
                                     <span class="font">台北畫刊</span><br>
                                 </label>
                                 <label for="">
-                                    <input type="radio" name="how" value="Official" id="how-6" class="form-2-btn form-2-btn-6">
+                                    <input type="radio" name="how" value="Official" id="how-6"
+                                        class="form-2-btn form-2-btn-6">
                                     <span class="font">2022台北燈節官網</span><br>
                                 </label>
                             </div>
-                            <div class="moudle-questionnaire-title moudle-questionnaire-question-title-3">3. 請問您對本次活動或市府廉政工作，有無具體建議或反映事項：</div>
-                            <label for="" class="moudle-questionnaire-form-3">
+                            <div class="moudle-list-content">
+                                3.請問您對本次活動或市府廉政工作，有無具體建議或反映事項：
+                            </div>
+                            <label for="" class="moudle-list-content moudle-list-input moudle-list-margin">
                                 <input type="text" name="suggestion" class="form-3-text">
                             </label>
 
-                            <button class="sent">
+                            <button class="moudle-list-sent moudle-list-margin">
                                 <img src="./img/moudle/sure.svg" alt="" class="sent-img">
                             </button>
                         </div>
                     </form>
-
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-1.png" alt="">
+                </picture>
             </div>
         </div>
 
-        <div class="moudle moudle-question">
+        <!-- 問題系列 -->
+        <div class="moudle moudle-topic moudle-question">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="" class="moudle-exit moudle-question-exit">
@@ -233,10 +325,21 @@
                         </div>
                     </div>
                 </div>
+
+                <picture class="moudle-people">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-people-3.svg">
+                    <source media="(max-width:1024px)" srcset="/img/moudle-qusetion-people-2.svg">
+                    <img src="/img/moudle-qusetion-people-1.svg" alt="">
+                </picture>
+
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-2.svg">
+                    <img src="/img/moudle-qusetion-background-2.svg" alt="">
+                </picture>
             </div>
         </div>
 
-        <div class="moudle moudle-teach">
+        <div class="moudle moudle-topic moudle-teach">
             <div class="moudle-container">
                 <div class="moudle-content">
                     <img src="./img/moudle/moudle-exit.png" alt="" class="moudle-exit moudle-teach-exit">
@@ -247,7 +350,7 @@
                             <img src="./img/moudle/next.svg" alt="" class="moudle-teach-next-img">
                         </div>
                     </div>
-                    
+
                     <div class="moudle-teach-background">
                         <div class="moudle-teach-next-phone">
                             <img src="./img/moudle/next.svg" alt="" class="moudle-teach-next-img">
@@ -263,17 +366,19 @@
                             <img src="./img/moudle/hint-1.jpg" alt="" class="moudle-teach-video ">
                         </a> -->
 
-                         <!-- <div class="moudle-teach-video-information">
+                        <!-- <div class="moudle-teach-video-information">
                             ●  「幼兒連結教育教材-廉潔寶寶聯盟」電子書
                         </div>
                         <a href="http://www.abc.digimagic.com.tw/LJBB_ebook/index.html" class="moudle-teach-video-a" target="_blank">
                             http://www.abc.digimagic.com.tw/LJBB_ebook/index.html
                         </a> -->
 
-                        <a href="https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81" class="moudle-teach-video-information" target="_blank">
-                            ●  廉潔教育專區
+                        <a href="https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81"
+                            class="moudle-teach-video-information" target="_blank">
+                            ● 廉潔教育專區
                         </a>
-                        <a href="https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81" class="moudle-teach-video-a" target="_blank">
+                        <a href="https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81"
+                            class="moudle-teach-video-a" target="_blank">
                         </a>
 
                         <!-- <div class="moudle-teach-video-information">
@@ -304,7 +409,7 @@
                         <a href="https://doge.gov.taipei/News.aspx?n=5BCE1159E0DEF90D&sms=E9178972D5F0F1FB" class="moudle-teach-video-a" target="_blank">
                             https://doge.gov.taipei/News.aspx?n=5BCE1159E0DEF90D&sms=E9178972D5F0F1FB
                         </a>  -->
-<!-- 
+                        <!-- 
                         <div class="moudle-teach-video-information">
                             ●  廉能專刊(電子書)
                         </div> 
@@ -321,23 +426,28 @@
                         </a> -->
 
 
-                        </div>
+                    </div>
                 </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-2.svg" alt="">
+                </picture>
             </div>
         </div>
     </section>
 
     <nav>
         <div class="nav-container">
-            <a href="">
-                <img src="./img/banner-1/png/logo.png" alt="logo" class="logo">
+            <a href="" class="logo">
+                <img src="./img/banner-1/logo.png" alt="Taipei2022的LOGO">
             </a>
-            
-            <img src="./img/banner-1/png/sound.png" alt="音樂播放" class="sound-btn">
-            <!-- 音樂 -->
-            <!-- <audio preload autoplay id="music">
+
+            <button class="sound-btn" onclick="musiccontrol(this);" data-music="pause">
+                <img src="./img/banner-1/sound.png" alt="音樂播放">
+            </button>
+            <audio id="music">
                 <source src="./music/backgroundmusic.mp3" type="audio/mpeg">
-           </audio> -->
+            </audio>
         </div>
     </nav>
 
@@ -346,14 +456,19 @@
             <div class="container banner-1">
                 <section>
                     <div>
-                        <img src="./img/banner-1/svg/slogn-2022.svg" alt="2022" class="slogn-1">
-                        <img src="./img/banner-1/svg/slogn-tiger-and-tiger.svg" alt="虎虎生風" class="slogn-2">
+                        <img src="./img/banner-1/slogn-2022.svg" alt="2022" class="slogn-1">
+                        <img src="./img/banner-1/slogn-tiger-and-tiger.svg" alt="虎虎生風" class="slogn-2">
                         <div class="slognAbreast">
-                            <img src="./img/banner-1/svg/slogn-Incorrupt-king.svg" alt="廉潔燈謎王" class="slogn-3">
-                            <img src="./img/banner-1/svg/computer-people.svg" alt="瀏覽人次-電腦版" class="logo-computer">
-                            <img src="./img/banner-1/png/phone-people.png" alt="瀏覽人次-手機板" class="logo-phone">
+                            <img src="./img/banner-1/slogn-Incorrupt-king.svg" alt="廉潔燈謎王" class="slogn-3">
+                            <div class="slogn-4">
+                                <img src="./img/banner-1/dogo_logo.svg" alt="政風處的LOGO">
+                                <div class="views-people">
+                                    <span>瀏覽次數</span>
+                                    <span>1000000</span>
+                                </div>
+                            </div>
                         </div>
-                        <img src="./img/banner-1/svg/slogn-date.svg" alt="2022-1-28~2022-2-28" class="slogn-4">
+                        <img src="./img/banner-1/slogn-date.svg" alt="2022-1-28~2022-2-28" class="slogn-4">
                     </div>
                 </section>
 
@@ -404,8 +519,10 @@
                     <div class="swiper-button-next"></div>
                 </div>
                 <section>
-                    <img src="./img/banner-2/png/backgroud-star.png" alt="星星-電腦版" class="background banner-2-star-computer">
-                    <img src="./img/banner-2/png/phone-backgroud-star.png" alt="星星-手機板" class="background banner-2-star-phone">
+                    <img src="./img/banner-2/png/backgroud-star.png" alt="星星-電腦版"
+                        class="background banner-2-star-computer">
+                    <img src="./img/banner-2/png/phone-backgroud-star.png" alt="星星-手機板"
+                        class="background banner-2-star-phone">
                     <img src="./video/banner-2/2022-01-18-unicorn.gif" alt="廌寶寶"
                         class="background banner-2-video-unicorn">
                     <img src="./img/banner-2/png/banner-2-background-build.png" alt="背景城市-電腦版"
@@ -416,12 +533,18 @@
                         class="background banner-2-build-phone">
                     <section>
                         <div class="background plate-container-computer">
-                            <img src="./img/banner-2/png/purpose-red.png" alt="活動目的" class="plate-computer plate-1-computer">
-                            <img src="./img/banner-2/png/rule-orange.png" alt="遊戲規則" class="plate-computer plate-2-computer">
-                            <img src="./img/banner-2/png/lottery-red.png" alt="抽獎方式" class="plate-computer plate-3-computer">
-                            <img src="./img/banner-2/png/winning-orange.png" alt="得獎公布" class="plate-computer plate-4-computer">
-                            <img src="./img/banner-2/png/award-red.png" alt="領獎方式" class="plate-computer plate-5-computer">
-                            <img src="./img/banner-2/png/notice-orange.png" alt="注意事項" class="plate-computer plate-6-computer">
+                            <img src="./img/banner-2/png/purpose-red.png" alt="活動目的"
+                                class="plate-computer plate-1-computer">
+                            <img src="./img/banner-2/png/rule-orange.png" alt="遊戲規則"
+                                class="plate-computer plate-2-computer">
+                            <img src="./img/banner-2/png/lottery-red.png" alt="抽獎方式"
+                                class="plate-computer plate-3-computer">
+                            <img src="./img/banner-2/png/winning-orange.png" alt="得獎公布"
+                                class="plate-computer plate-4-computer">
+                            <img src="./img/banner-2/png/award-red.png" alt="領獎方式"
+                                class="plate-computer plate-5-computer">
+                            <img src="./img/banner-2/png/notice-orange.png" alt="注意事項"
+                                class="plate-computer plate-6-computer">
                         </div>
                         <div class="plate-container-phone">
                             <img src="./img/banner-2/png/phone-purpose-red.png" alt="活動目的-手機版"
@@ -530,19 +653,21 @@
                                 <img src="./img/banner-3/png/lantern-9.png" alt="返回" class="games-btn-back">
                             </div>
                         </div>
-                        </div>
+                    </div>
                     <div class="login">
                         <img src="./img/banner-3/png/lottery-btn.png" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
                         <img src="./img/banner-3/png/phone-lottery-btn.png" alt="抽獎按鈕-手機板" class="lottery-btn-phone">
                     </div>
                 </div>
                 <section>
-                    <img src="./img/banner-3/svg/background-star.svg" alt="星星-電腦版" class="background banner-3-star-computer">
+                    <img src="./img/banner-3/svg/background-star.svg" alt="星星-電腦版"
+                        class="background banner-3-star-computer">
                     <img src="./img/banner-3/png/ipad-left-background.png" alt="左星星-平板版"
                         class="background banner-3-left-star-ipad">
                     <img src="./img/banner-3/png/ipad-right-background.png" alt="右星星-平板版"
                         class="background banner-3-right-star-ipad">
-                    <img src="./img/banner-3/png/phone-background-star.png" alt="星星-手機板" class="background banner-3-star-phone">
+                    <img src="./img/banner-3/png/phone-background-star.png" alt="星星-手機板"
+                        class="background banner-3-star-phone">
                     <img src="./img/banner-3/svg/sky-lantern.svg" alt="天燈" class="background banner-3-lantern">
                     <img src="./img/banner-3/svg/bridge.svg" alt="橋" class="background banner-3-bridge">
                     <img src="./img/banner-3/png/cloud-4.png" alt="雲彩4" class="background banner-3-cloud-4">
@@ -565,7 +690,7 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide swiper-slide-1">
+                            <!-- <div class="swiper-slide swiper-slide-1">
                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/aoAc8BEGUnc?controls=0" title="廉政布袋戲_戲說清微 掌門傳廉潔（中英字幕）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                             <div class="swiper-slide swiper-slide-2">
@@ -576,7 +701,7 @@
                             </div>
                             <div class="swiper-slide swiper-slide-4">
                                 <iframe width="100%" height="100%" src="https://www.youtube.com/embed/JGuQSNh8bRM" title="廉潔寶寶聯盟（勇敢吹哨篇）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                            </div>
+                            </div> -->
                             <div class="swiper-slide swiper-slide-5">
                                 <img src="./img/banner-4/png/hint-5.png" alt="提示底加5" class="swiper-img swiper-img-5">
                             </div>
@@ -593,9 +718,10 @@
                 </div>
                 <section>
                     <img src="./img/banner-4/png/banner-lantern.png" alt="區塊4的燈籠" class="background banner-4-lantern">
-                    <img src="./img/banner-4/png/phone-banner4-redcloth.png" alt="紅布條" class="background banner-4-redcloth-phone">
-                    <video class="background banner-4-video-background-computer" loop="true" playsinline
-                        preload="auto" autoplay="autoplay" muted>
+                    <img src="./img/banner-4/png/phone-banner4-redcloth.png" alt="紅布條"
+                        class="background banner-4-redcloth-phone">
+                    <video class="background banner-4-video-background-computer" loop="true" playsinline preload="auto"
+                        autoplay="autoplay" muted>
                         <source src="./video/banner-4/2022-01-13-computer-Footer.mp4" type="video/mp4">
                     </video>
                     <video class="background banner-4-video-background-ipad" loop="true" playsinline preload="auto"
@@ -618,25 +744,26 @@
 
     <!-- swiper.js -->
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <!-- swiper -->
+    <!-- <script src="/riddles/js/swiper.js"></script>  -->
     <script src="/js/swiper.js"></script>
 
+    <!-- 背景音樂 -->
+    <!-- <script src="/riddles/js/backgroundmusic.js"></script> -->
+    <!-- <script src="/js/backgroundmusic.js"></script> -->
+
+    <!-- 題目 -->
+    <!-- <script src="/riddles/js/topic.js"></script> -->
+    <script src="/js/topic.js"></script>
+
     <script>
-        let index = "";
-        let answer = "";
-        let istrue = "";
-        // 2022-1-23
-        var data = [
-            { title: "題目【百而千，千而萬】",                  subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "誠實", btn2_content: "忠孝", btn3_content: "愛心",              correct_answer: "btn-1", hint: "謎面為三字經句，百乘十乃成千，千乘十乃成萬。",                                  propaganda: "臺北市政府政風處製作「廉潔寶寶聯盟-勇敢吹哨篇」幼兒廉潔教材電子書，與臺北市政府教育局和臺北市國民教育輔導團幼兒教育輔導小組合作將「誠實、勇敢吹哨、不貪心、互相幫助」等核心價值，延伸教案及AR闖關遊戲，以多元方式提供親師共讀共學。",                                                  video_information:" ● 「廉潔寶寶聯盟_看到怪怪的請舉手（勇敢吹哨篇）幼兒廉潔教材」電子書" , href: "https://www-ws.gov.taipei/001/Upload/377/ebook/ebook_2033450/index.html?ccms_cs=1", moudle_teach_video_a:`<img src="./img/moudle/hint-1.jpg" alt="" class="moudle-teach-video ">` },
-            { title: "題目【三方鼎立，道本在心】",              subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "廉潔", btn2_content: "誠信", btn3_content: "品德",              correct_answer: "btn-3", hint: "三方（口字為方形）鼎立；《周禮·地官》：「在心為德，施之為行。」",               propaganda: "為使廉潔教育向下扎根，臺北市政府推動品德教育實施計畫，臺北市政府政風處與教育局製作一系列廉潔教育教材，於臺北酷課雲架設廉潔教育專區，建構由小而大的廉潔教育網絡，培養學童誠信反貪觀念。",                                                                                             video_information:" ●  臺北市政風處-廉潔教育專區" ,                     href: "http://www.abc.digimagic.com.tw/LJBB_ebook/index.html",                              moudle_teach_video_a:``},
-            { title: "題目【春蠶吐絲，死而後已】",              subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "誠信", btn2_content: "公正", btn3_content: "透明",              correct_answer: "btn-2", hint: "謎面出自《李商隱 無題》：「春蠶到死絲方盡」，絲方盡表示「無絲」，諧音「無私」。", propaganda: "臺北市政府政風處與臺北市政府教育局、臺北市國民教育輔導團幼兒教育輔導小組合作製作「廉潔寶寶聯盟-誠信最棒篇」幼兒廉潔教材電子書，將「公平公正、利益衝突迴避、誠實信用、細心觀察、理直氣和」等核心價值，延伸教案5則，供教保服務人員、家長與幼兒共讀，使廉潔教育向下紮根。",                   video_information:"  ●  幼兒廉潔教育教材-廉潔寶寶聯盟" ,                                             href: "https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81",                        moudle_teach_video_a:`` },
-            { title: "題目【是謂是，非謂非】",                  subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "正義", btn2_content: "公平", btn3_content: "正直",              correct_answer: "btn-3", hint: "謎面出自《荀子．修身》：「是謂是，非謂非，曰直。」",                           propaganda: "臺北市政府政風處製作廉潔布袋戲影片，將「廉潔自持、正直誠信」等核心價值，結合傳統布袋戲，以競爭掌門人之故事，讓觀眾在身歷其境的布袋戲武俠世界感受其中所蘊含的誠信意涵，理解並認同「拒絕賄賂、勇於揭弊」的重要性。",                                                                     video_information:" ●  廉政布袋戲_戲說清微「掌門傳廉潔」" ,                 href: "https://www.youtube.com/watch?v=aoAc8BEGUnc" ,                                         moudle_teach_video_a:`<iframe width="90%" height="90%" src="https://www.youtube.com/embed/aoAc8BEGUnc?controls=0" title="廉潔掌中戲「黑冠現形記」（中英字幕）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
-            { title: "題目【不失方圓】",                       subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "守規矩", btn2_content: "守秩序", btn3_content: "守信用",         correct_answer: "btn-1", hint: "謎面出自《孟子》的《離婁章句上》：「不以規矩，不能成方圓。」",                  propaganda: "臺北市政府政風處製作「廉潔寶寶聯盟-誠信最棒篇」動畫，以「公平比賽守規矩、誠實信用最安心」的核心價值，藉由生動活潑的動畫，傳達廉潔價值理念，自幼兒階段起即培養廉潔自持意識。",                                                                                                      video_information:" ●  【廉潔寶寶聯盟 誠信最棒篇】廉潔寶寶們要參加跳舞比賽了！咦？好像有怪怪的事情發生了！為了守護比賽，廉潔寶寶聯盟再次出動！" ,                                    href: "https://www.youtube.com/watch?v=JBBcBdyTFOs" ,                                          moudle_teach_video_a:`<iframe width="90%" height="90%" src="https://www.youtube.com/embed/JBBcBdyTFOs" title="廉潔寶寶聯盟 誠信最棒篇" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
-            { title: "題目【龐涓改口為王出頭信平君頗不願出戰】", subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "守信", btn2_content: "清廉", btn3_content: "公平",              correct_answer: "btn-2", hint: "龐涓為戰國時期軍事家，為魏惠王重用。廉頗為戰國時期名將，封信平君，傳長平之戰時，廉頗初戰不利後選擇守勢，不願出戰。（謎用增損法：涓字改口，替換成出頭王，為「清」字）", propaganda: "臺北市政府政風處與臺北市平等國小「巧宛然掌中劇團」合作，製作「黑冠現形記」影片，將廉潔觀念融入新冠肺炎時事，藉由欽差調查弊案，以詼諧、逗趣的方式傳達「清廉、守法」的概念。",                            video_information:"  ●  廉潔掌中戲「黑冠現形記」（中英字幕）" ,                                               href: "https://www.youtube.com/watch?v=mvOQxetq1Oc" ,                                        moudle_teach_video_a:`<iframe width="90%" height="90%" src="https://www.youtube.com/embed/mvOQxetq1Oc" title="廉潔掌中戲「黑冠現形記」（中英字幕）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
-            { title: "題目【簾幕竹翦，熊火風偃】",              subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "廉能", btn2_content: "廉潔", btn3_content: "賢能",              correct_answer: "btn-1", hint: "謎用增損法：「簾」幕之竹翦除，「熊」熊火順風止息。",                           propaganda: "臺北市政府每年辦理選拔及表揚本府「廉能楷模」，藉由獲獎同仁的楷模示範，鼓勵同仁清廉自持， 提升本府廉能風氣。",                                                                                                                                                                 video_information:"●  臺北市政風處-全球資訊網_廉能楷模" ,                                                   href: "https://doge.gov.taipei/News.aspx?n=5BCE1159E0DEF90D&sms=E9178972D5F0F1FB" ,           moudle_teach_video_a:``},
-            { title: "題目【身直不怕斜啟窗莫愁黑】",            subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "嚴守規矩", btn2_content: "行政透明", btn3_content: "高風亮節",   correct_answer: "btn-2", hint: "身直就能行得正，門窗打開光線透進屋內就會明亮。",                               propaganda: "臺北市政府政風處編撰「第八屆廉能透明獎專刊」，介紹臺北市政府各機關推動透明化措施或系統之內容、建置過程及民眾使用情形，期望可供各單位在日後創設透明化措施或系統時之方向與指引參考，將「廉能透明」的效益擴散。",                                                                         video_information:"  ●  臺北市政府第8界「廉能透明獎」專刊-電子書" ,                                      href: "https://www-ws.gov.taipei/001/Upload/377/ebook/ebook_2087525/index.html" ,              moudle_teach_video_a:`<img src="./img/moudle/hint-2.jpg" alt="" class="moudle-teach-video">`},
-            { title: "題目【撥得雲開見白日】",                  subtitle: "猜猜看，謎底是以下哪一個選項呢?", btn1_content: "天行者", btn2_content: "影武者", btn3_content: "揭弊者",        correct_answer: "btn-3", hint: "謎面改李白《登金陵鳳凰臺》：「總為浮雲能蔽日，長安不見使人愁。」",               propaganda: "臺北市政府政風處製作廉潔布袋戲影片，將「廉潔自持、正直誠信」等核心價值，結合傳統布袋戲，以競爭掌門人之故事，讓觀眾在身歷其境的布袋戲武俠世界感受其中所蘊含的誠信意涵，理解並認同「拒絕賄賂、勇於揭弊」的重要性。此外，臺北市政府為維護揭弊者之權益，訂定「 臺北市政府揭弊者保護作業原則」。", video_information:"●  廉政布袋戲_戲說清微_掌門傳廉潔" ,                  href: "https://www.youtube.com/watch?v=aoAc8BEGUnc"  ,                                        moudle_teach_video_a:`<iframe width="90%" height="90%" src="https://www.youtube.com/embed/liXgOFdkKCM" title="廉潔掌中戲「黑冠現形記」（中英字幕）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`},
-        ]
-        // 2022-1-23
+        let index = ""; //當前的題數
+        let answer = ""; //答案
+        let istrue = ""; //是否正確
+
         // console.log(data);
         let sound_btn = document.querySelector(".sound-btn");
 
@@ -667,7 +794,7 @@
         let moudle_teach_subtitle = document.querySelector(".moudle-teach-subtitle");
         let moudle_teach_next = document.querySelector(".moudle-teach-next");
         let moudle_teach_next_phone = document.querySelector(".moudle-teach-next-phone");
-        
+
         let moudle_teach_detail = document.querySelector(".moudle-teach-detail");
         let moudle_teach_video_information = document.querySelector(".moudle-teach-video-information");
         let moudle_teach_url = document.querySelector(".moudle-teach-url");
@@ -679,7 +806,7 @@
         let purpose_Screen = document.querySelector(".moudle-purpose");
         let login = document.querySelector(".login");
 
-        
+
 
         // moudle-teach-title
 
@@ -702,7 +829,7 @@
         award_exit_Screen.addEventListener("click", unshowAward);
         purpose_exit_Screen.addEventListener("click", unshowPurpose);
         let body = document.querySelector("body");
-        
+
         function showQuestion() {//顯示問題畫面
             locked();
             question_Screen.style['display'] = 'flex';
@@ -716,20 +843,17 @@
         }
 
         function locked() {//鎖住滾動
-            body.style['overflow-y']='hidden';
+            body.style['overflow-y'] = 'hidden';
         }
         function unlocked() {//解除
-            body.style['overflow-y']='scroll';
+            body.style['overflow-y'] = 'scroll';
         }
-
-
-
 
         function showTeach() {//顯示教學畫面
             teach_Screen.style['display'] = 'flex';
             // console.log(this.dataset.index);
             change_Teach_Data(this.dataset.index);
-            
+
         }
 
         function unshowTeach() {//關閉教學畫面
@@ -761,7 +885,7 @@
             btn2_content_Screen.innerHTML = `${data[e].btn2_content}`;
             btn3_content_Screen.innerHTML = `${data[e].btn3_content}`;
             answer = `${data[e].correct_answer}`;
-            
+
         }
         function show() {
             if (istrue == "對") {
@@ -795,8 +919,8 @@
                 moudle_teach_next.addEventListener("click", show);
                 moudle_teach_next_phone.addEventListener("click", show);
                 teach_exit_Screen.removeEventListener("click", closeBoth);
-                moudle_teach_video_information.style['display']='none';
-                moudle_teach_video_a.style['display']='none';
+                moudle_teach_video_information.style['display'] = 'none';
+                moudle_teach_video_a.style['display'] = 'none';
             }
             else {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/background-right.png')";
@@ -808,46 +932,46 @@
 
                 moudle_teach_detail.innerHTML = `${data[index].propaganda}`;
                 istrue = "對";
-                
+
                 moudle_teach_next.addEventListener("click", show);
                 moudle_teach_next_phone.addEventListener("click", show);
 
                 game[index] = "o";
 
                 teach_exit_Screen.addEventListener("click", closeBoth);
-                
-                moudle_teach_video_information.style['display']='block';
+
+                moudle_teach_video_information.style['display'] = 'block';
                 moudle_teach_video_information.innerHTML = `${data[index].video_information}`;
 
-                
-                moudle_teach_video_a.style['display']='block';
-                moudle_teach_video_information.setAttribute('href',`${data[index].href}`)
-                moudle_teach_video_a.innerHTML=`${data[index].moudle_teach_video_a}`;
+
+                moudle_teach_video_a.style['display'] = 'block';
+                moudle_teach_video_information.setAttribute('href', `${data[index].href}`)
+                moudle_teach_video_a.innerHTML = `${data[index].moudle_teach_video_a}`;
 
 
             }
         }
-        function closeBoth(){//同時關閉教學畫面與問題畫面
-        unlocked();
-        question_Screen.style['display'] = 'none';
-        teach_Screen.style['display'] = 'none';
-        games_btn_fronts[index].classList.add("front-open");
-        games_btn_backs[index].classList.add("back-open");
-         isconnect()
+        function closeBoth() {//同時關閉教學畫面與問題畫面
+            unlocked();
+            question_Screen.style['display'] = 'none';
+            teach_Screen.style['display'] = 'none';
+            games_btn_fronts[index].classList.add("front-open");
+            games_btn_backs[index].classList.add("back-open");
+            isconnect();
         }
         const games_finish = document.querySelector(".game-finish");
         const games_information = document.querySelector(".games-information");
         const games = document.querySelector(".games");
-        
-        let tmp=true;
+
+        let tmp = true;
         let isfinish = false;
-        let isAllfinish=false;
+        let isAllfinish = false;
         game = ["x", "x", "x", "x", "x", "x", "x", "x", "x"];
 
         function isconnect() { //判斷是否連線
             console.log(game);
-           if(isfinish==false){
-            for (let i = 0; i < 9; i += 3) {
+            if (isfinish == false) {
+                for (let i = 0; i < 9; i += 3) {
                     if (('o' == game[i]) && ('o' == game[i + 1]) && ('o' == game[i + 2])) {
                         isfinish = true;
                     }
@@ -866,49 +990,47 @@
                 if (isfinish == true) {
                     // console.log("yes");
 
-                    login.innerHTML=
-                    `
+                    login.innerHTML =
+                        `
                             <img src="./img/banner-3/png/to-lottery-btn.png" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
                             <img src="./img/banner-3/png/phone-to-lottery-btn.png" alt="抽獎按鈕-手機板" class="lottery-btn-phone">
                     `
-                    
                     openTaipelMoudle();
                     question_Screen.style['display'] = 'none';
                     teach_Screen.style['display'] = 'none';
                 }
-           }
-           else{
-            
-           }
+            }
+            else {
 
-           //判斷是否全部完成
-           console.log(isAllfinish);
+            }
 
-            if(isAllfinish==false){
-                tmp=true;
+            //判斷是否全部完成
+            console.log(isAllfinish);
+
+            if (isAllfinish == false) {
+                tmp = true;
 
                 for (let i = 0; i < 9; i++) {
-                    if(game[i]!='o'){
-                        tmp=false;
+                    if (game[i] != 'o') {
+                        tmp = false;
                     }
                 }
 
-                if(tmp==true){
-                    games_information.style['position']='absolute'
-                    games_information.style['z-index']='1000'
-                    games.style['display']='none'
-                    games_finish.style['display']='block';
+                if (tmp == true) {
+                    games_information.style['position'] = 'absolute'
+                    games_information.style['z-index'] = '1000'
+                    games.style['display'] = 'none'
+                    games_finish.style['display'] = 'block';
 
-                    isAllfinish=true;
+                    isAllfinish = true;
                 }
             }
-            else{
+            else {
                 console.log("恭喜你全部答完");
             }
         }
-       
 
-        function banner2_moudle(){//第二區塊的模組
+        function banner2_moudle() {//第二區塊的模組
             //告示牌
             const plate_computer = document.querySelectorAll(".plate-computer");
             const plate_phone = document.querySelectorAll(".plate-phone");
@@ -930,148 +1052,133 @@
             const moudle_notice_exit = document.querySelector(".moudle-notice-exit");
 
             //顯示模組(電腦版)
-            plate_computer[0].addEventListener("click",element=>{
-                moudle_purpose.style['display']='flex';
+            plate_computer[0].addEventListener("click", element => {
+                moudle_purpose.style['display'] = 'flex';
                 locked();
             })
-            plate_computer[1].addEventListener("click",element=>{
-                moudle_rule.style['display']='flex';
+            plate_computer[1].addEventListener("click", element => {
+                moudle_rule.style['display'] = 'flex';
                 locked();
             })
-            plate_computer[2].addEventListener("click",element=>{
-                moudle_lottery.style['display']='flex';
+            plate_computer[2].addEventListener("click", element => {
+                moudle_lottery.style['display'] = 'flex';
                 locked();
             })
-            plate_computer[3].addEventListener("click",element=>{
-                moudle_winning.style['display']='flex';
+            plate_computer[3].addEventListener("click", element => {
+                moudle_winning.style['display'] = 'flex';
                 locked();
             })
-            plate_computer[4].addEventListener("click",element=>{
-                moudle_award.style['display']='flex';
+            plate_computer[4].addEventListener("click", element => {
+                moudle_award.style['display'] = 'flex';
                 locked();
             })
-            plate_computer[5].addEventListener("click",element=>{
-                moudle_notice.style['display']='flex';
+            plate_computer[5].addEventListener("click", element => {
+                moudle_notice.style['display'] = 'flex';
                 locked();
             })
 
             //顯示模組(手機版)
-            plate_phone[0].addEventListener("click",element=>{
-                moudle_purpose.style['display']='flex';
+            plate_phone[0].addEventListener("click", element => {
+                moudle_purpose.style['display'] = 'flex';
                 locked();
             })
-            plate_phone[1].addEventListener("click",element=>{
-                moudle_rule.style['display']='flex';
+            plate_phone[1].addEventListener("click", element => {
+                moudle_rule.style['display'] = 'flex';
                 locked();
             })
-            plate_phone[2].addEventListener("click",element=>{
-                moudle_lottery.style['display']='flex';
+            plate_phone[2].addEventListener("click", element => {
+                moudle_lottery.style['display'] = 'flex';
                 locked();
             })
-            plate_phone[3].addEventListener("click",element=>{
-                moudle_winning.style['display']='flex';
+            plate_phone[3].addEventListener("click", element => {
+                moudle_winning.style['display'] = 'flex';
                 locked();
             })
-            plate_phone[4].addEventListener("click",element=>{
-                moudle_award.style['display']='flex';
+            plate_phone[4].addEventListener("click", element => {
+                moudle_award.style['display'] = 'flex';
                 locked();
             })
-            plate_phone[5].addEventListener("click",element=>{
-                moudle_notice.style['display']='flex';
+            plate_phone[5].addEventListener("click", element => {
+                moudle_notice.style['display'] = 'flex';
                 locked();
             })
-            
+
 
             //關閉模組
-            moudle_purpose_exit.addEventListener("click",element=>{
-                moudle_award.style['display']='none';
+            moudle_purpose_exit.addEventListener("click", element => {
+                moudle_award.style['display'] = 'none';
                 unlocked();
             })
-            moudle_rule_exit.addEventListener("click",element=>{
-                moudle_rule.style['display']='none';
+            moudle_rule_exit.addEventListener("click", element => {
+                moudle_rule.style['display'] = 'none';
                 unlocked();
             })
-            moudle_lottery_exit.addEventListener("click",element=>{
-                moudle_lottery.style['display']='none';
+            moudle_lottery_exit.addEventListener("click", element => {
+                moudle_lottery.style['display'] = 'none';
                 unlocked();
             })
-            moudle_winning_exit.addEventListener("click",element=>{
-                moudle_winning.style['display']='none';
+            moudle_winning_exit.addEventListener("click", element => {
+                moudle_winning.style['display'] = 'none';
                 unlocked();
             })
-            moudle_award_exit.addEventListener("click",element=>{
-                moudle_award.style['display']='none';
+            moudle_award_exit.addEventListener("click", element => {
+                moudle_award.style['display'] = 'none';
                 unlocked();
             })
-            moudle_notice_exit.addEventListener("click",element=>{
-                moudle_notice.style['display']='none';
+            moudle_notice_exit.addEventListener("click", element => {
+                moudle_notice.style['display'] = 'none';
                 unlocked();
             })
         }
-        function openTaipelMoudle(){//第三區塊台北通的Moudle
+
+        function openTaipelMoudle() {//第三區塊台北通的Moudle
             const goto_btn = document.querySelector(".goto-btn");
             const lottery_btn_computer = document.querySelector(".lottery-btn-computer");
             const lottery_btn_phone = document.querySelector(".lottery-btn-phone");
             const moudle_goto_exit = document.querySelector(".moudle-goto-exit");
             const moudle_goto = document.querySelector(".moudle-goto");
-            
-            lottery_btn_computer.addEventListener("click",element=>{
-                moudle_goto.style['display']='flex';
+
+            lottery_btn_computer.addEventListener("click", element => {
+                moudle_goto.style['display'] = 'flex';
                 locked();
             })
 
-            lottery_btn_phone.addEventListener("click",element=>{
-                moudle_goto.style['display']='flex';
+            lottery_btn_phone.addEventListener("click", element => {
+                moudle_goto.style['display'] = 'flex';
                 locked();
             })
 
-            moudle_goto_exit.addEventListener("click",element=>{
-                moudle_goto.style['display']='none';
+            moudle_goto_exit.addEventListener("click", element => {
+                moudle_goto.style['display'] = 'none';
                 unlocked();
             })
-
-           
-            
         }
 
-        function exit(){
+        function exit() {
             const moudle_questionnaire = document.querySelector(".moudle-questionnaire");
             const moudle_questionnaire_exit = document.querySelector(".moudle-questionnaire-exit");
 
-            moudle_questionnaire_exit.addEventListener("click",element=>{
-                moudle_questionnaire.style['display']='none';
+            moudle_questionnaire_exit.addEventListener("click", element => {
+                moudle_questionnaire.style['display'] = 'none';
             })
             //模組-問卷
             const moudle_writeQuestionnaire = document.querySelector(".moudle-writeQuestionnaire");
             const moudle_writeQuestionnaire_exit = document.querySelector(".moudle-writeQuestionnaire-exit");
 
-            moudle_writeQuestionnaire_exit.addEventListener("click",element=>{
-                moudle_writeQuestionnaire.style['display']='none';
+            moudle_writeQuestionnaire_exit.addEventListener("click", element => {
+                moudle_writeQuestionnaire.style['display'] = 'none';
             })
         }
         exit();
         banner2_moudle();
-        
-        // setInterval("toggleSound()", 1);
-        
-        // function toggleSound() {
-        //     var music = document.getElementById("music");//獲取ID  
 
-        //     if (music.paused) { //判讀是否播放  
-        //         music.paused = false;
-        //         music.play(); //沒有就播放 
-        //     }
-        // }
+        // setInterval("toggleSound()", 1);
     </script>
 
+    <!-- 返回判斷 -->
     <script>
-        let myAudioElement = document.querySelector("#music");
-        myAudioElement.volume = 0.2;
-        myAudioElement.addEventListener("canplaythrough", event => {
-            /* the audio is now playable; play it if permissions allow */
-            myAudioElement.autoplay = true;
-            myAudioElement.play();
-        });
+        //game = ["o", "o", "o", "o", "o", "o", "o", "o", "o"];
+        //isconnect();
     </script>
 </body>
 

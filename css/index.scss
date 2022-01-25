@@ -3,21 +3,16 @@
     user-select: none;
 }
 
-/*#endregion*/
 body {
     margin: 0;
     padding: 0;
     background-color: #000000;
     width: 100%;
-    // height: 100vh;
     position: relative;
-    // overflow-x: hidden;
     overflow-y: scroll;
 }
 
 main {
-    // width: 100%;
-    // position: relative;
     overflow-x: hidden;
 }
 
@@ -39,52 +34,304 @@ main {
 .moudle {
     width: 100%;
     height: 100%;
+    padding: 15px;
 
-    z-index: 100;
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
+    z-index: 10;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    // font-size: 40px;
     font-size: 2.08vw;
 
-    @media (max-width: 80vh) {
-        height: 100%;
-    }
-
     .moudle-container {
+        position: relative;
         background-size: cover;
-        padding-top: 1.36vw;
-
-        @media (max-width: 768px) {
-            height: 16.5765px;
-            padding-top: 19.6629px;
-        }
-
-        @media (max-width: 414px) {}
+        padding: 1.36vw;
+        border: 2px #ff8908 solid;
+        border-radius: 15px;
+        overflow: hidden;
 
         .moudle-content {
             width: 100%;
+            height: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             font-weight: bold;
 
             .moudle-exit {
-                width: 2.62vw;
                 cursor: pointer;
+                width: 2.62vw;
                 align-self: flex-end;
-                margin-right: 1.7vw;
+            }
+        }
 
-                @media (max-width: 768px) {
+        .moudle-background {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+
+            img {
+                width: 100%;
+                margin-bottom: -10px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .moudle-container {
+            padding: 19.6629px;
+
+            .moudle-content {
+                .moudle-exit {
                     width: 27.9243px;
-                    margin-right: 18.2806px;
+                }
+            }
+        }
+    }
+}
+
+.moudle-list {
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+
+        .moudle-content {
+            .moudle-list-subtitle {
+                padding-top: 1.35vw;
+                color: #ffff00;
+                font-size: 1.56vw;
+                line-height: 36px;
+                font-weight: bold;
+                margin-bottom: 3.67vw;
+            }
+
+            .moudle-list-instruction {
+                overflow-y: scroll;
+                width: 40.91vw;
+                height: 17.18vw;
+                padding-right: 2.79vw;
+
+                .moudle-list-content {
+                    text-align: justify;
+                    color: white;
+                    font-size: 1.35vw;
+                    line-height: 38px;
+                    font-weight: bold;
                 }
 
-                @media (max-width: 414px) {}
+                .moudle-list-margin {
+                    margin-bottom: 2.08vw;
+                }
+
+                .moudle-list-from {
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .font {
+                        color: #faf0f0;
+                        font-size: 24px;
+                        line-height: 40px;
+                        display: inline;
+                        font-weight: bold;
+                        margin-right: 18.9208px;
+                    }
+
+                    .form-2-btn {
+                        margin: 0;
+                        margin-right: 7.0203px;
+                    }
+
+                    .font-3 {
+                        flex: auto;
+                    }
+                }
+
+                .moudle-list-input {
+                    display: flex;
+                    justify-content: center;
+
+                    .form-3-text {
+                        width: 100%;
+                        height: 6.35vw;
+                        border-radius: 5px;
+                    }
+                }
+
+                .moudle-list-sent {
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 0px;
+                    border: 0px;
+                    background-color: unset;
+
+                    .sent-img {
+                        height: 50px;
+                    }
+                }
             }
+
+            .moudle-list-instruction::-webkit-scrollbar {
+                width: 4px;
+            }
+
+            .moudle-list-instruction::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 6px #333333;
+            }
+
+            .moudle-list-instruction::-webkit-scrollbar-thumb {
+                border: 4px solid #808080;
+                border-radius: 2px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .moudle-container {
+            width: 708px;
+            height: 424.8px;
+
+            .moudle-content {
+                .moudle-list-subtitle {
+                    font-size: 16.59px;
+                    line-height: 19.91px;
+                }
+
+                .moudle-list-instruction {
+                    width: 434.561px;
+                    height: 182.5462px;
+
+                    .moudle-list-content {
+                        font-size: 14.38px;
+                        line-height: 21.02px;
+                    }
+
+                    .moudle-list-margin {
+                        margin-bottom: 22.0989px;
+                    }
+
+                    .moudle-list-from {
+                        .font {
+                            font-size: 1.72vw;
+                            line-height: 2.88vw;
+                        }
+                    }
+
+                    .moudle-list-input {
+                        font-size: 18px;
+                        line-height: 28px;
+
+                        .form-3-text {
+                            font-size: 18px;
+                            line-height: 28px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 727px) {
+        .moudle-container {
+            width: 557px;
+            height: 334.8px;
+        }
+    }
+
+    @media (max-width: 580px) {
+        .moudle-container {
+            width: 557px;
+            height: 334.8px;
+        }
+    }
+
+    @media (max-width: 584px) {
+        .moudle-container {
+            width: 347px;
+            height: 602px;
+
+            .moudle-content {
+                .moudle-list-subtitle {
+                    font-size: 24px;
+                    line-height: 28.8px;
+                }
+
+                .moudle-list-instruction {
+                    width: 309.9459px;
+                    height: 328.352px;
+
+                    .moudle-list-content {
+                        font-size: 20px;
+                        line-height: 38px;
+                    }
+
+                    .moudle-list-margin {
+                        margin-bottom: 17.1193px;
+                    }
+
+                    .moudle-list-from {
+                        .font {
+                            font-size: 18px;
+                            line-height: 32px;
+                        }
+                    }
+
+                    .moudle-list-input {
+                        margin-bottom: 9.3979px;
+
+                        .form-3-text {
+                            height: 70px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.moudle-purpose,
+.moudle-rule,
+.moudle-lottery,
+.moudle-winning,
+.moudle-award,
+.moudle-notice {
+    display: none;
+}
+
+
+// 問題系列
+.moudle-topic {
+    .moudle-container {
+        width: 66.66vw;
+        height: 40vw;
+        background-color: black;
+    }
+
+    @media (max-width: 1480px) {
+        .moudle-container {
+            width: 708px;
+            height: 424.8px;
+        }
+    }
+
+    @media (max-width: 734px) {
+        .moudle-container {
+            width: 655px;
+            height: 393px;
+        }
+    }
+
+    @media (max-width: 721px) {
+        .moudle-container {
+            width: 347px;
+            height: 602px;
         }
     }
 }
@@ -93,27 +340,6 @@ main {
     display: none;
 
     .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("../img/moudle/moudle-backgroung-qusetion.png");
-
-        @media (max-width: 1480px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 734px) {
-            width: 655px;
-            height: 393px;
-        }
-
-        @media (max-width: 721px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung-teach.png");
-        }
-
         .moudle-content {
             color: white;
 
@@ -121,14 +347,7 @@ main {
                 margin-bottom: 2.8vw;
             }
 
-            @media (max-width: 1480px) {
-                margin-bottom: 29.1765px;
-            }
-
-
             .moudle-title {
-                // font-size: 40px;
-                // line-height: 48px;
                 font-size: 2.08vw;
                 line-height: 2.5vw;
                 text-align: center;
@@ -230,6 +449,33 @@ main {
                 }
             }
         }
+
+        .moudle-people {
+            position: absolute;
+            left: 50%;
+            bottom: -14px;
+            z-index: 3;
+            width: 25vw;
+            transform: translate(-50%, 0);
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .moudle-container {
+            .moudle-people {
+                width: 275px;
+                bottom: -6px;
+            }
+        }
+    }
+
+    @media (max-width: 576px) {
+        .moudle-container {
+            .moudle-people {
+                width: 230px;
+                bottom: -3px;
+            }
+        }
     }
 }
 
@@ -238,40 +484,23 @@ main {
 
     a {
         color: white;
-        text-decoration:none;
+        text-decoration: none;
         font-size: 24px;
+
         @media (max-width: 1550px) {
             font-size: 21px;
         }
+
         @media (max-width: 1414px) {
             font-size: 17px;
         }
+
         @media (max-width: 1039px) {
             font-size: 12px;
         }
     }
 
     .moudle-container {
-        width: 66.25vw;
-        height: 39.58vw;
-        background-image: url("../img/moudle/backgroung-build.png");
-        background-color: black;
-        border: 4px #ff8908 solid;
-        border-radius: 20px;
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 721px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-            border: 0px;
-            border-radius: 0;
-        }
-
         .moudle-teach-information {
             width: 36.45vw;
             height: 14.43vw;
@@ -355,9 +584,10 @@ main {
         .moudle-teach-background {
             width: 39.79vw;
             padding-top: 1.2vw;
-            height: 20.8vw;
+            padding-bottom: 60px;
             overflow-y: scroll;
-background-color: rgba(0, 0, 0, 0.8);
+            background-color: rgba(0, 0, 0, 0.8);
+
             @media (max-width: 768px) {
                 width: 422.669px;
                 height: 215.8628px;
@@ -460,702 +690,106 @@ background-color: rgba(0, 0, 0, 0.8);
     }
 }
 
-.moudle-purpose {
-    display: none;
-
+// 抽獎系列
+.moudle-backstage {
     .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
+        width: 100%;
+        max-width: 1008.1133px;
+        height: 450px;
         background-color: black;
-        background-image: url("../img/moudle/background-award.png");
 
-        /*新的*/
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
+        .moudle-backstage-instruction {
+            max-width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
 
-        @media (max-width: 727px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 580px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 584px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-purpose-subtitle {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.56vw;
-            line-height: 36px;
-            font-weight: bold;
-            margin-bottom: 3.67vw;
-
-            @media (max-width: 768px) {
-                font-size: 16.59px;
-                line-height: 19.91px;
-            }
-
-            @media (max-width: 584px) {
-                font-size: 24px;
-                line-height: 28.8px;
-            }
-        }
-
-        .moudle-purpose-instruction {
-            overflow-y: scroll;
-            width: 40.91vw;
-            height: 17.18vw;
-            padding-right: 2.79vw;
-
-            @media (max-width: 768px) {
-                width: 434.561px;
-                height: 182.5462px;
-            }
-
-            @media (max-width: 584px) {
-                width: 309.9459px;
-                height: 328.352px;
-            }
-
-            .moudle-purpose-title {
+            .moudle-backstage-content {
+                text-align: justify;
                 color: white;
-                font-size: 1.35vw;
+                font-size: 26px;
                 line-height: 38px;
                 font-weight: bold;
+            }
 
-                @media (max-width: 768px) {
-                    font-size: 14.38px;
-                    line-height: 21.02px;
+            .moudle-backstage-margin {
+                margin-bottom: 1.71vw;
+            }
+
+            .moudle-backstage-btn {
+                height: 50px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    @media (max-width: 1017px) {
+        .moudle-container {
+            max-width: 884.1133px;
+            height: 393px;
+        }
+    }
+
+    @media (max-width: 915px) {
+        .moudle-container {
+            max-width: 708px;
+            height: 316.0714px;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .moudle-container {
+            max-width: 708px;
+            height: 316.0714px;
+
+            .moudle-backstage-instruction {
+                max-width: 85%;
+
+                .moudle-backstage-content {
+                    font-size: 18px;
+                    line-height: 26.69px;
                 }
 
-                @media (max-width: 584px) {
+                .moudle-backstage-margin {
+                    margin-bottom: 24.1462px;
+                }
+            }
+        }
+    }
+
+    @media (max-width: 728px) {
+        .moudle-container {
+            max-width: 557px;
+            height: 247.8px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .moudle-container {
+            max-width: 473px;
+            height: 100%;
+
+            .moudle-backstage-instruction {
+
+                .moudle-backstage-content {
                     font-size: 20px;
                     line-height: 38px;
                 }
-            }
 
-            .moudle-purpose-title-1 {}
-
-            .moudle-purpose-title-2 {}
-
-            .moudle-purpose-detail {
-                text-align: justify;
-                color: white;
-                font-size: 1.35vw;
-                line-height: 38px;
-
-                @media (max-width: 768px) {
-                    font-size: 14.38px;
-                    line-height: 21.02px;
-                }
-
-                @media (max-width: 584px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                }
-            }
-
-            .moudle-purpose-detail-1 {
-                margin-bottom: 2.08vw;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 22.0989px;
-                }
-
-                @media (max-width: 584px) {
+                .moudle-backstage-margin {
                     margin-bottom: 17.1193px;
                 }
             }
-
-            .moudle-purpose-detail-2 {}
-        }
-
-        .moudle-purpose-instruction::-webkit-scrollbar {
-            width: 4px;
-        }
-
-        .moudle-purpose-instruction::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-
-        .moudle-purpose-instruction::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
         }
     }
-}
 
-.moudle-rule {
-    display: none;
+    @media (max-width: 487px) {
+        .moudle-container {
 
-    .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("../img/moudle/background-award.png");
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 727px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 580px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 584px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-rule-subtitle {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.56vw;
-            line-height: 36px;
-            font-weight: bold;
-            margin-bottom: 3.67vw;
-
-            @media (max-width: 768px) {
-                font-size: 16.59px;
-                line-height: 19.91px;
-            }
-
-            @media (max-width: 584px) {
+            .moudle-backstage-instruction {
                 font-size: 24px;
                 line-height: 28.8px;
             }
-        }
-
-        .moudle-rule-instruction {
-            overflow-y: scroll;
-            width: 40.91vw;
-            height: 17.18vw;
-            padding-right: 2.79vw;
-
-            @media (max-width: 768px) {
-                width: 434.561px;
-                height: 182.5462px;
-            }
-
-            @media (max-width: 584px) {
-                width: 309.9459px;
-                height: 328.352px;
-            }
-
-            .moudle-rule-title {
-                color: white;
-                font-size: 1.35vw;
-                line-height: 38px;
-                text-align: justify;
-
-                @media (max-width: 768px) {
-                    font-size: 14.38px;
-                    line-height: 21.02px;
-                }
-
-                @media (max-width: 584px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                }
-            }
-
-            .moudle-rule-time-2 {
-                margin-bottom: 2.08vw;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 22.0989px;
-                }
-
-                @media (max-width: 584px) {
-                    margin-bottom: 17.1193px;
-                }
-            }
-
-            .moudle-rule-title-4 {
-                margin-bottom: 2.08vw;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 22.0989px;
-                }
-
-                @media (max-width: 584px) {
-                    margin-bottom: 17.1193px;
-                }
-            }
-
-            .moudle-rule-game-qualifications-2 {
-                margin-bottom: 0;
-            }
-        }
-
-        .moudle-rule-instruction::-webkit-scrollbar {
-            width: 4px;
-        }
-
-        .moudle-rule-instruction::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-
-        .moudle-rule-instruction::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
-        }
-    }
-}
-
-.moudle-lottery {
-    display: none;
-
-    .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("../img/moudle/background-award.png");
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 727px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 580px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 584px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-lottery-subtitle {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.56vw;
-            line-height: 36px;
-            font-weight: bold;
-            margin-bottom: 3.67vw;
-
-            @media (max-width: 768px) {
-                font-size: 16.59px;
-                line-height: 19.91px;
-            }
-
-            @media (max-width: 584px) {
-                font-size: 24px;
-                line-height: 28.8px;
-            }
-        }
-
-        .moudle-lottery-instruction {
-            overflow-y: scroll;
-            width: 40.91vw;
-            height: 17.18vw;
-            padding-right: 2.79vw;
-
-            @media (max-width: 768px) {
-                width: 434.561px;
-                height: 182.5462px;
-            }
-
-            @media (max-width: 584px) {
-                width: 309.9459px;
-                height: 328.352px;
-            }
-
-            .moudle-lottery-title {
-                text-align: justify;
-                color: white;
-                font-size: 1.35vw;
-                line-height: 38px;
-                font-weight: bold;
-
-                @media (max-width: 768px) {
-                    font-size: 16.59px;
-                    line-height: 19.91px;
-                }
-
-                @media (max-width: 584px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                }
-            }
-
-            .moudle-lottery-title-1 {
-                margin-bottom: 2.08vw;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 22.0989px;
-                }
-
-                @media (max-width: 584px) {
-                    margin-bottom: 17.1193px;
-                }
-            }
-
-            .moudle-lottery-title-2 {}
-        }
-
-        .moudle-lottery-instruction::-webkit-scrollbar {
-            width: 4px;
-        }
-
-        .moudle-lottery-instruction::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-
-        .moudle-lottery-instruction::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
-        }
-    }
-}
-
-.moudle-winning {
-    display: none;
-
-    .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("../img/moudle/background-award.png");
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 727px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 580px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 584px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-winning-subtitle {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.56vw;
-            line-height: 36px;
-            font-weight: bold;
-            margin-bottom: 3.67vw;
-
-            @media (max-width: 768px) {
-                font-size: 16.59px;
-                line-height: 19.91px;
-            }
-
-            @media (max-width: 584px) {
-                font-size: 24px;
-                line-height: 28.8px;
-            }
-        }
-
-        .moudle-winning-instruction {
-            overflow-y: scroll;
-            width: 40.91vw;
-            height: 17.18vw;
-            padding-right: 2.79vw;
-
-            @media (max-width: 768px) {
-                width: 434.561px;
-                height: 182.5462px;
-            }
-
-            @media (max-width: 584px) {
-                width: 309.9459px;
-                height: 328.352px;
-            }
-
-            .moudle-winning-detail {
-                text-align: justify;
-                color: white;
-                font-size: 1.35vw;
-                line-height: 38px;
-
-                @media (max-width: 768px) {
-                    font-size: 14.38px;
-                    line-height: 21.02px;
-                }
-
-                @media (max-width: 584px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                }
-            }
-
-            .moudle-winning-detail-1 {
-                margin-bottom: 2.08vw;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 22.0989px;
-                }
-
-                @media (max-width: 584px) {
-                    margin-bottom: 17.1193px;
-                }
-            }
-
-            .moudle-winning-detail-2 {}
-        }
-
-        .moudle-winning-instruction::-webkit-scrollbar {
-            width: 4px;
-        }
-
-        .moudle-winning-instruction::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-
-        .moudle-winning-instruction::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
-        }
-    }
-}
-
-.moudle-award {
-    display: none;
-
-    .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("../img/moudle/background-award.png");
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 727px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 580px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 584px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-award-subtitle {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.56vw;
-            line-height: 36px;
-            font-weight: bold;
-            margin-bottom: 3.67vw;
-
-            @media (max-width: 768px) {
-                font-size: 16.59px;
-                line-height: 19.91px;
-            }
-
-            @media (max-width: 584px) {
-                font-size: 24px;
-                line-height: 28.8px;
-            }
-        }
-
-        .moudle-award-instruction {
-            overflow-y: scroll;
-            width: 40.91vw;
-            height: 17.18vw;
-            padding-right: 2.79vw;
-
-            @media (max-width: 768px) {
-                width: 434.561px;
-                height: 182.5462px;
-            }
-
-            @media (max-width: 584px) {
-                width: 309.9459px;
-                height: 328.352px;
-            }
-
-            .moudle-award-title {
-                text-align: justify;
-                color: white;
-                font-size: 1.35vw;
-                line-height: 38px;
-                font-weight: bold;
-                margin-bottom: 2.08vw;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 22.0989px;
-                    font-size: 14.38px;
-                    line-height: 21.02px;
-                }
-
-                @media (max-width: 584px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                }
-            }
-
-            .moudle-award-title-2 {
-                margin-bottom: 0;
-            }
-        }
-
-        .moudle-award-instruction::-webkit-scrollbar {
-            width: 4px;
-        }
-
-        .moudle-award-instruction::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-
-        .moudle-award-instruction::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
-        }
-    }
-}
-
-.moudle-notice {
-    display: none;
-font-weight: normal;
-    .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("../img/moudle/background-award.png");
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 727px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 580px) {
-            width: 557px;
-            height: 334.8px;
-        }
-
-        @media (max-width: 584px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-notice-subtitle {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.56vw;
-            line-height: 36px;
-            // font-weight: bold;
-            margin-bottom: 3.67vw;
-
-            @media (max-width: 768px) {
-                font-size: 16.59px;
-                line-height: 19.91px;
-            }
-
-            @media (max-width: 584px) {
-                font-size: 24px;
-                line-height: 28.8px;
-            }
-        }
-
-        .moudle-notice-instruction {
-            overflow-y: scroll;
-            width: 40.91vw;
-            height: 17.18vw;
-            padding-right: 2.79vw;
-
-            @media (max-width: 768px) {
-                width: 434.561px;
-                height: 182.5462px;
-            }
-
-            @media (max-width: 584px) {
-                width: 309.9459px;
-                height: 328.352px;
-            }
-
-            .moudle-notice-title {
-                text-align: justify;
-                color: white;
-                font-size: 1.35vw;
-                line-height: 38px;
-                // font-weight: bold;
-                margin-bottom: 2.08vw;
-
-                @media (max-width: 768px) {
-                    font-size: 14.38px;
-                    line-height: 21.02px;
-                    margin-bottom: 22.0989px;
-                }
-
-                @media (max-width: 584px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                    margin-bottom: 17.1193px;
-                }
-            }
-
-            .moudle-notice-title-8 {
-                margin-bottom: -8.88px;
-            }
-
-            .moudle-notice-title-9 {
-                margin-bottom: 0;
-            }
-        }
-
-        .moudle-notice-instruction::-webkit-scrollbar {
-            width: 4px;
-        }
-
-        .moudle-notice-instruction::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-
-        .moudle-notice-instruction::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
         }
     }
 }
@@ -1165,83 +799,11 @@ font-weight: normal;
     z-index: 10001;
 
     .moudle-container {
-        width: 1008.1133px;
-        height: 450px;
-        background-color: black;
-        background-image: url("../img/moudle/backgroung-to-taipeipass.png");
-
-        @media (max-width: 1017px) {
-            width: 752px;
-            height: 336.8px;
-        }
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 316.0714px;
-        }
-
-        @media (max-width: 728px) {
-            width: 557px;
-            height: 247.8px;
-        }
-
-
-
-        @media (max-width: 584px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-goto-instruction {
-            width: 31.45vw;
-            height: 8.69vw;
+        .moudle-backstage-instruction {
             padding-top: 2.69vw;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
 
             @media (max-width: 768px) {
                 padding-top: 35.8767px;
-                width: 424.1305px;
-            }
-
-            @media (max-width: 584px) {
-                font-size: 24px;
-                line-height: 28.8px;
-                width: 279.1305px;
-            }
-
-            .moudle-goto-detail {
-                text-align: justify;
-                color: white;
-                font-size: 26px;
-                line-height: 38px;
-                font-weight: bold;
-                margin-bottom: 1.71vw;
-
-                @media (max-width: 768px) {
-                    font-size: 18px;
-                    line-height: 26.69px;
-                    margin-bottom: 24.1462px;
-                }
-
-                @media (max-width: 584px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                    margin-bottom: 17.1193px;
-                }
-            }
-
-            .goto-btn {
-                width: 7.55vw;
-                cursor: pointer;
-
-                @media (max-width: 768px) {
-                    width: 101.8452px;
-                }
-
-                @media (max-width: 584px) {}
             }
         }
     }
@@ -1251,50 +813,10 @@ font-weight: normal;
     display: none;
 
     .moudle-container {
-        width: 1008.1133px;
-        height: 450px;
-        background-color: black;
-        background-image: url("../img/moudle/backgroung-to-taipeipass.png");
 
-        @media (max-width: 1017px) {
-            width: 884.1133px;
-            height: 393px;
-        }
-
-        @media (max-width: 915px) {
-            width: 708px;
-            height: 316.0714px;
-        }
-
-
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 316.0714px;
-        }
-
-        @media (max-width: 728px) {
-            width: 557px;
-            height: 247.8px;
-        }
-
-        @media (max-width: 575px) {
-            width: 473px;
-            height: 211.8px;
-        }
-
-        @media (max-width: 487px) {
-            width: 347px;
-            height: 155.8px;
-        }
-
-        .moudle-writeQuestionnaire-instruction {
-            width: 31.45vw;
+        .moudle-backstage-instruction {
             height: 8.69vw;
             padding-top: 84.4614px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
 
             @media (max-width: 915px) {
                 padding-top: 33.4614px;
@@ -1306,754 +828,15 @@ font-weight: normal;
 
             @media (max-width: 579px) {
                 padding-top: 12.8767px;
-                width: 424.1305px;
-            }
-
-            @media (max-width: 487px) {
-                font-size: 24px;
-                line-height: 28.8px;
-                padding-top: 1.877px;
-                width: 279.1305px;
-            }
-
-            .moudle-writeQuestionnaire-detail {
-                text-align: justify;
-                color: white;
-                font-size: 26px;
-                line-height: 40px;
-                font-weight: bold;
-                margin-bottom: 54.2343px;
-
-                @media (max-width: 921px) {
-                    margin-bottom: 11px;
-                }
-
-                @media (max-width: 768px) {
-                    font-size: 18px;
-                    line-height: 26.69px;
-                    margin-bottom: 24.1462px;
-                }
-
-                @media (max-width: 414px) {
-                    font-size: 17px;
-                    line-height: 38px;
-                    margin-bottom: 2.112px;
-                }
-            }
-
-            .writeQuestionnaire-btn {
-                width: 312.8299px;
-
-                @media (max-width: 768px) {}
-
-                @media (max-width: 487px) {
-                    width: 189.8299px;
-                }
-
             }
         }
     }
 }
-
-.moudle-questionnaire {
-    display: none;
-
-    .moudle-container {
-        width: 66.66vw;
-        height: 40vw;
-        background-color: black;
-        background-image: url("../img/moudle/background-award.png");
-
-        @media (max-width: 768px) {
-            width: 708px;
-            height: 424.8px;
-        }
-
-        @media (max-width: 414px) {
-            width: 347px;
-            height: 602px;
-            background-image: url("../img/moudle/phone-backgroung.png");
-        }
-
-        .moudle-questionnaire-subtitle {
-            padding-top: 1.35vw;
-            color: #ffff00;
-            font-size: 1.25vw;
-            line-height: 40px;
-            font-weight: bold;
-            margin-top: -13.4118px;
-            margin-bottom: 1.75vw;
-
-            @media (max-width: 768px) {
-                font-size: 16.59px;
-                line-height: 19.91px;
-            }
-
-            @media (max-width: 414px) {
-                font-size: 24px;
-                line-height: 28.8px;
-            }
-        }
-
-        .moudle-questionnaire-instruction {
-            overflow-y: scroll;
-            width: 40.91vw;
-            height: 17.18vw;
-            padding-right: 2.79vw;
-
-            @media (max-width: 768px) {
-                width: 515.9756px;
-                height: 232.8249px;
-            }
-
-            @media (max-width: 414px) {
-                width: 309.9459px;
-                height: 328.352px;
-            }
-
-            .moudle-questionnaire-thank-title-1 {
-                text-align: justify;
-                color: white;
-                font-size: 24px;
-                line-height: 40px;
-                margin-bottom: 28px;
-                font-weight: bold;
-
-                @media (max-width: 768px) {
-                    font-size: 1.72vw;
-                    line-height: 2.88vw;
-                    margin-bottom: 7.0588px;
-                }
-
-                @media (max-width: 414px) {
-                    font-size: 20px;
-                    line-height: 34px;
-                }
-            }
-
-            .moudle-questionnaire-thank-detail-1 {
-                margin-bottom: 28px;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 15.5519px;
-                }
-
-                @media (max-width: 414px) {
-                    font-size: 20px;
-                    line-height: 38px;
-                }
-            }
-
-            .moudle-questionnaire-title {
-                font-size: 24px;
-                line-height: 40px;
-                color: white;
-                font-weight: bold;
-
-                @media (max-width: 768px) {
-                    font-size: 1.72vw;
-                    line-height: 2.88vw;
-                }
-
-                @media (max-width: 414px) {
-                    font-size: 20px;
-                    line-height: 34px;
-                }
-            }
-
-            .moudle-questionnaire-question-title-1 {
-                margin-bottom: 14.6423px;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 7.776px;
-                }
-
-                @media (max-width: 414px) {
-                    font-size: 20px;
-                    line-height: 34px;
-                    margin-bottom: 13.0362px;
-                }
-            }
-
-            .moudle-questionnaire-detail {
-                text-align: justify;
-                font-size: 24px;
-                line-height: 40px;
-                color: white;
-                font-weight: bold;
-
-                @media (max-width: 768px) {
-                    font-size: 1.72vw;
-                    line-height: 2.88vw;
-                }
-
-                @media (max-width: 414px) {
-                    font-size: 20px;
-                    line-height: 34px;
-                }
-            }
-
-            .moudle-questionnaire-form-1 {
-                display: flex;
-                align-items: center;
-                margin-bottom: 32.8592px;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 17.4706px;
-                }
-
-                @media (max-width: 414px) {
-                    flex-wrap: wrap;
-                }
-
-                .font {
-                    color: #faf0f0;
-                    font-size: 24px;
-                    line-height: 40px;
-                    display: inline;
-                    font-weight: bold;
-                    margin-right: 18.9208px;
-
-                    @media (max-width: 768px) {
-                        font-size: 1.72vw;
-                        line-height: 2.88vw;
-                    }
-
-                    @media (max-width: 414px) {
-                        font-size: 18px;
-                        line-height: 28px;
-                    }
-                }
-
-                .form-1-btn {
-                    margin: 0;
-                    margin-right: 7.0203px;
-
-                    @media (max-width: 768px) {}
-
-                    @media (max-width: 414px) {}
-                }
-            }
-
-            .moudle-questionnaire-question-title-2 {
-                margin-bottom: 14.6423px;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 8.1936px;
-                }
-
-                @media (max-width: 414px) {
-                    margin-bottom: 13.0362px;
-                }
-            }
-
-            .moudle-questionnaire-form-2 {
-                display: flex;
-                flex-direction: column;
-                flex-wrap: wrap;
-                margin-bottom: 32.8592px;
-
-                @media (max-width: 768px) {
-                    margin-bottom: 16.6765px;
-                }
-
-                @media (max-width: 414px) {
-                    flex-wrap: wrap;
-                }
-
-                .font {
-                    color: #faf0f0;
-                    font-size: 24px;
-                    line-height: 40px;
-                    display: inline;
-                    font-weight: bold;
-                    margin-right: 18.9208px;
-
-                    @media (max-width: 768px) {
-                        font-size: 1.72vw;
-                        line-height: 2.88vw;
-                    }
-
-                    @media (max-width: 414px) {
-                        font-size: 18px;
-                        line-height: 32px;
-                    }
-                }
-
-                .form-2-btn {
-                    margin: 0;
-                    margin-right: 7.0203px;
-                }
-
-                .font-3 {
-                    flex: auto;
-                }
-            }
-
-            .moudle-questionnaire-question-title-3 {
-                margin-bottom: 18px;
-
-                @media (max-width: 768px) {
-                    font-size: 1.72vw;
-                    line-height: 2.88vw;
-                }
-
-                @media (max-width: 414px) {
-                    font-size: 18px;
-                    line-height: 28px;
-                    margin-bottom: 9.3979px;
-                }
-            }
-
-            .moudle-questionnaire-form-3 {
-                display: flex;
-                justify-content: center;
-                margin-bottom: 19.333px;
-
-                @media (max-width: 768px) {
-                    font-size: 18px;
-                    line-height: 28px;
-                }
-
-                @media (max-width: 414px) {
-                    margin-bottom: 9.3979px;
-                }
-
-                .form-3-text {
-                    width: 100%;
-                    height: 6.35vw;
-                    border-radius: 5px;
-
-                    @media (max-width: 768px) {
-                        font-size: 18px;
-                        line-height: 28px;
-                    }
-
-                    @media (max-width: 414px) {
-                        height: 70px;
-                    }
-                }
-            }
-
-            .sent {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                cursor: pointer;
-
-                .sent-img {
-                    @media (max-width: 768px) {}
-
-                    @media (max-width: 414px) {
-                        width: 75px;
-                    }
-                }
-            }
-        }
-
-        .moudle-questionnaire-instruction::-webkit-scrollbar {
-            width: 4px;
-        }
-
-        .moudle-questionnaire-instruction::-webkit-scrollbar-track {
-            box-shadow: inset 0 0 6px #333333;
-        }
-
-        .moudle-questionnaire-instruction::-webkit-scrollbar-thumb {
-            border: 4px solid #808080;
-            border-radius: 2px;
-        }
-    }
-}
-
 /*#endregion*/
 
-/*#region nav*/
-nav {
-    width: 100%;
-    height: 4.94vw;
-    position: fixed;
-    z-index: 10000;
-    background-color: #000000;
 
-    @media (max-width: 768px) {
-        height: 7.16vw;
-    }
 
-    @media (max-width: 414px) {
-        height: 16vw;
-    }
 
-    .nav-container {
-        padding: 1.3vw 2.6vw 0 1.56vw;
-
-        @media (max-width: 768px) {
-            padding: 1.39vw 3.9vw 0 3.9vw;
-        }
-
-        @media (max-width: 414px) {
-            padding: 3.63vw 4vw 0 4vw;
-        }
-
-        .logo {
-            width: 15.52%;
-            cursor: pointer;
-
-            @media (max-width: 768px) {
-                width: 26.04%;
-            }
-
-            @media (max-width: 414px) {
-                width: 55.82%;
-            }
-        }
-
-        .sound-btn {
-            width: 2.18%;
-            float: right;
-            padding-top: 0.07vw;
-            display: block;
-            cursor: pointer;
-
-            @media (max-width: 768px) {
-                width: 3.03%;
-                padding-top: 0.7vw;
-            }
-
-            @media (max-width: 414px) {
-                width: 6.21%;
-                padding-top: 1.65vw;
-            }
-        }
-    }
-}
-
-/*#region banner-1*/
-.banner-1 {
-    width: 100%;
-    padding-top: 6.95vw;
-    overflow: hidden;
-
-    @media (max-width: 768px) {
-        height: 123.72vw;
-        padding-top: 10.59vw;
-    }
-
-    @media (max-width: 414px) {
-        height: 176.91vw;
-        padding-top: 28.53vw;
-    }
-
-    .slogn-1 {
-        width: 20.63%;
-        margin-left: 5.27vw;
-        margin-bottom: 1.02vw;
-        display: block;
-
-        @media (max-width: 768px) {
-            width: 46.2%;
-            margin-left: 8.44vw;
-            margin-bottom: 3.26vw;
-        }
-
-        @media (max-width: 414px) {
-            width: 46.05%;
-            margin-left: 8.94vw;
-            margin-bottom: 3.29vw;
-        }
-    }
-
-    .slogn-2 {
-        width: 42.21%;
-        margin-left: 2.86vw;
-        margin-bottom: 1.67vw;
-        display: block;
-
-        @media (max-width: 768px) {
-            width: 94.51%;
-            margin-left: 2.75%;
-            margin-bottom: 3.77vw;
-        }
-
-        @media (max-width: 414px) {
-            width: 94.42%;
-            margin-left: 2.84%;
-            margin-bottom: 3.62vw;
-        }
-    }
-
-    .slognAbreast {
-        display: flex;
-        align-items: center;
-        margin-left: 2.86vw;
-        margin-bottom: 0.9vw;
-
-        @media (max-width: 768px) {
-            margin-left: 2.74vw;
-            margin-bottom: 2.23vw;
-        }
-
-        @media (max-width: 414px) {
-            margin-left: 3.07vw;
-            margin-bottom: 0;
-            flex-direction: column;
-            align-items: flex-start;
-        }
-
-        .slogn-3 {
-            width: 27.3%;
-            margin-right: 2.64vw;
-
-            @media (max-width: 768px) {
-                width: 61.14%;
-                margin-right: 5.91vw;
-            }
-
-            @media (max-width: 414px) {
-                width: 91.74%;
-                margin-right: 0;
-                margin-bottom: 5.85vw;
-            }
-        }
-
-        .logo-computer {
-            width: 8.09%;
-
-            @media (max-width: 768px) {
-                width: 18.13%;
-            }
-
-            @media (max-width: 414px) {
-                display: none;
-            }
-        }
-
-        .logo-phone {
-            width: 29.68%;
-            margin-left: 6.59vw;
-            display: none;
-
-            @media (max-width: 414px) {
-                display: block;
-            }
-        }
-    }
-
-    .slogn-4 {
-        width: 20.26%;
-        margin-left: 2.86vw;
-        display: block;
-
-        @media (max-width: 768px) {
-            width: 45.38%;
-            margin-left: 2.74vw;
-        }
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    //------背景-------
-
-    .banner-1-lantern-computer {
-        width: 72.08%;
-        left: 27.89vw;
-        top: 4.94vw;
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    .banner-1-lantern-phone {
-        width: 63.69%;
-        left: 55.17vw;
-        top: 21.33vw;
-        display: none;
-
-        @media (max-width: 414px) {
-            display: block;
-        }
-    }
-
-    .banner-1-star {
-        width: 8.09%;
-        left: 46.09vw;
-        top: 9.58vw;
-
-        @media (max-width: 414px) {
-            width: 98.34%;
-            left: 0.36vw;
-            top: 82.1vw;
-        }
-    }
-
-    .banner-1-unicorn {
-        width: 50.46%;
-        left: 46.09vw;
-        // top: 13.90vw;
-        bottom: 2.14vw;
-        z-index: 2;
-
-        @media (max-width: 414px) {
-            width: 85.83%;
-            left: 19.77vw;
-            bottom: 18.09vw;
-        }
-    }
-
-    .tigerBady {
-        width: 18.43%;
-        left: 33.2vw;
-        // top: 29.43vw;
-        bottom: 3.43vw;
-        z-index: 1;
-
-        @media (max-width: 414px) {
-            width: 32.59%;
-            left: 0;
-            bottom: 17.93vw;
-        }
-    }
-
-    .banner-1-build-computer {
-        width: 100%;
-        left: 0;
-        bottom: 0;
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    .banner-1-build-phone {
-        width: 134.76%;
-        left: -26.46vw;
-        bottom: 16vw;
-        display: none;
-
-        @media (max-width: 414px) {
-            display: block;
-        }
-    }
-
-    .banner-1-redcloth-computer {
-        width: 100%;
-        left: -5.84vw;
-        bottom: 0vw;
-        display: block;
-
-        @media (max-width: 414px) {
-            width: 122.86%;
-            left: -11.08vw;
-        }
-    }
-
-    .banner-1-redcloth-phone {
-        width: 122.86vw;
-        left: -11.09vw;
-        bottom: 0;
-        display: none;
-
-        @media (max-width: 414px) {
-            display: block;
-        }
-    }
-
-    .brand {
-        width: 2.15%;
-        right: 1.56vw;
-        bottom: 4.57vw;
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    .banner-down {
-        width: 100vw;
-        // height: 44.94vw;
-        top: 4.94vw;
-        left: 0;
-        z-index: -1;
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    .banner-middle {
-        width: 100vw;
-        // height: 44.94vw;
-        top: 4.94vw;
-        left: 0;
-        z-index: -1;
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    .banner-1-video-background-computer {
-        width: 100vw;
-        // height: 44.94vw;
-        top: 4.94vw;
-        left: 0;
-        z-index: -1;
-
-        @media (max-width: 768px) {
-            display: none;
-        }
-    }
-
-    .banner-1-background-ipad {
-        width: 128.65vw;
-        top: 7.16vw;
-        left: -10.79vw;
-        z-index: -1;
-        display: none;
-
-        @media (max-width: 768px) {
-            display: block;
-        }
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    .banner-1-video-background-ipad {
-        width: 100%;
-        top: 7.16vw;
-        left: 0;
-        z-index: -1;
-        display: none;
-
-        @media (max-width: 768px) {
-            display: block;
-        }
-
-        @media (max-width: 414px) {
-            display: none;
-        }
-    }
-
-    .banner-1-video-background-phone {
-        width: 100%;
-        // height: 44.94vw;
-        top: 65px;
-        left: 0;
-        z-index: -1;
-        display: none;
-
-        @media (max-width: 414px) {
-            display: block;
-        }
-    }
-}
-
-/*#endregion*/
 /*#region banner-2*/
 .banner-2 {
     padding-top: 5.21vw;
@@ -2355,7 +1138,7 @@ nav {
         top: 50%;
         // transform: translate(-50%,-50%);
         transform: translate(-50%, -50%);
-        // z-index: 100;
+        z-index: 11;
         background-image: url("../img/moudle/finish.png");
         background-size: cover;
         background-position: center;
