@@ -1271,6 +1271,7 @@ main {
 
 .moudle-notice {
   display: none;
+  font-weight: normal;
 }
 
 .moudle-notice .moudle-container {
@@ -1314,7 +1315,6 @@ main {
   color: #ffff00;
   font-size: 1.56vw;
   line-height: 36px;
-  font-weight: bold;
   margin-bottom: 3.67vw;
 }
 
@@ -1358,7 +1358,6 @@ main {
   color: white;
   font-size: 1.35vw;
   line-height: 38px;
-  font-weight: bold;
   margin-bottom: 2.08vw;
 }
 
