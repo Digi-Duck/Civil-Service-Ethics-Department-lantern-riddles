@@ -305,6 +305,30 @@ main {
     display: none;
 }
 
+.moudle-writeQuestionnaire {
+    display: none;
+
+    .moudle-container {
+
+        .moudle-backstage-instruction {
+            height: 8.69vw;
+            padding-top: 84.4614px;
+
+            @media (max-width: 915px) {
+                padding-top: 33.4614px;
+            }
+
+            @media (max-width: 720px) {
+                padding-top: 1.8767px;
+            }
+
+            @media (max-width: 579px) {
+                padding-top: 12.8767px;
+            }
+        }
+    }
+}
+
 
 // 問題系列
 .moudle-topic {
@@ -808,26 +832,72 @@ main {
         }
     }
 }
+/*#endregion*/
 
-.moudle-writeQuestionnaire {
-    display: none;
 
-    .moudle-container {
+/*#region nav*/
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
+    background-color: #000000;
 
-        .moudle-backstage-instruction {
-            height: 8.69vw;
-            padding-top: 84.4614px;
+    .nav-container {
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between;
 
-            @media (max-width: 915px) {
-                padding-top: 33.4614px;
+        .logo {
+            display: flex;
+            width: 15.52%;
+            cursor: pointer;
+
+            img {
+                height: 100%;
+            }
+        }
+
+        .sound-btn {
+            width: 2.18%;
+            border: 0px;
+            padding: 0px;
+            background-color: unset;
+            cursor: pointer;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        height: 7.16vw;
+
+        .nav-container {
+            padding: 1.39vw 3.9vw 0 3.9vw;
+
+            .logo {
+                width: 26.04%;
             }
 
-            @media (max-width: 720px) {
-                padding-top: 1.8767px;
+            .sound-btn {
+                width: 3.03%;
+            }
+        }
+    }
+
+    @media (max-width: 414px) {
+        height: 16vw;
+
+        .nav-container {
+            padding: 3.63vw 4vw 0 4vw;
+
+            .logo {
+                width: 55.82%;
             }
 
-            @media (max-width: 579px) {
-                padding-top: 12.8767px;
+            .sound-btn {
+                width: 6.21%;
             }
         }
     }
@@ -835,7 +905,350 @@ main {
 /*#endregion*/
 
 
+/*#region banner-1*/
+.banner-1 {
+    width: 100%;
+    padding-top: 6.95vw;
+    overflow: hidden;
 
+    @media (max-width: 768px) {
+        height: 123.72vw;
+        padding-top: 10.59vw;
+    }
+
+    @media (max-width: 414px) {
+        height: 176.91vw;
+        padding-top: 28.53vw;
+    }
+
+    .slogn-1 {
+        width: 20.63%;
+        margin-left: 5.27vw;
+        margin-bottom: 1.02vw;
+        display: block;
+
+        @media (max-width: 768px) {
+            width: 46.2%;
+            margin-left: 8.44vw;
+            margin-bottom: 3.26vw;
+        }
+
+        @media (max-width: 414px) {
+            width: 46.05%;
+            margin-left: 8.94vw;
+            margin-bottom: 3.29vw;
+        }
+    }
+
+    .slogn-2 {
+        width: 42.21%;
+        margin-left: 2.86vw;
+        margin-bottom: 1.67vw;
+        display: block;
+
+        @media (max-width: 768px) {
+            width: 94.51%;
+            margin-left: 2.75%;
+            margin-bottom: 3.77vw;
+        }
+
+        @media (max-width: 414px) {
+            width: 94.42%;
+            margin-left: 2.84%;
+            margin-bottom: 3.62vw;
+        }
+    }
+
+    .slognAbreast {
+        display: flex;
+        align-items: center;
+        margin-left: 2.86vw;
+        margin-bottom: 0.9vw;
+
+        @media (max-width: 768px) {
+            margin-left: 2.74vw;
+            margin-bottom: 2.23vw;
+        }
+
+        @media (max-width: 414px) {
+            margin-left: 3.07vw;
+            margin-bottom: 0;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .slogn-3 {
+            width: 27.3%;
+            margin-right: 2.64vw;
+
+            @media (max-width: 768px) {
+                width: 61.14%;
+                margin-right: 5.91vw;
+            }
+
+            @media (max-width: 414px) {
+                width: 91.74%;
+                margin-right: 0;
+                margin-bottom: 5.85vw;
+            }
+        }
+
+        .logo-computer {
+            width: 8.09%;
+
+            @media (max-width: 768px) {
+                width: 18.13%;
+            }
+
+            @media (max-width: 414px) {
+                display: none;
+            }
+        }
+
+        .logo-phone {
+            width: 29.68%;
+            margin-left: 6.59vw;
+            display: none;
+
+            @media (max-width: 414px) {
+                display: block;
+            }
+        }
+    }
+
+    .slogn-4 {
+        width: 20.26%;
+        margin-left: 2.86vw;
+        display: flex;
+
+
+        img {
+            width: 30px;
+
+        }
+
+        .views-people {
+            padding-left: 10px;
+            display: flex;
+            flex-direction: column;
+
+            span {
+                letter-spacing: 1.2px;
+                font-size: 12px;
+                color: #FFFFFF;
+            }
+        }
+
+
+        @media (max-width: 768px) {
+            width: 45.38%;
+            margin-left: 2.74vw;
+        }
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    //------背景-------
+
+    .banner-1-lantern-computer {
+        width: 72.08%;
+        left: 27.89vw;
+        top: 4.94vw;
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    .banner-1-lantern-phone {
+        width: 63.69%;
+        left: 55.17vw;
+        top: 21.33vw;
+        display: none;
+
+        @media (max-width: 414px) {
+            display: block;
+        }
+    }
+
+    .banner-1-star {
+        width: 8.09%;
+        left: 46.09vw;
+        top: 9.58vw;
+
+        @media (max-width: 414px) {
+            width: 98.34%;
+            left: 0.36vw;
+            top: 82.1vw;
+        }
+    }
+
+    .banner-1-unicorn {
+        width: 50.46%;
+        left: 46.09vw;
+        // top: 13.90vw;
+        bottom: 2.14vw;
+        z-index: 2;
+
+        @media (max-width: 414px) {
+            width: 85.83%;
+            left: 19.77vw;
+            bottom: 18.09vw;
+        }
+    }
+
+    .tigerBady {
+        width: 18.43%;
+        left: 33.2vw;
+        // top: 29.43vw;
+        bottom: 3.43vw;
+        z-index: 1;
+
+        @media (max-width: 414px) {
+            width: 32.59%;
+            left: 0;
+            bottom: 17.93vw;
+        }
+    }
+
+    .banner-1-build-computer {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    .banner-1-build-phone {
+        width: 134.76%;
+        left: -26.46vw;
+        bottom: 16vw;
+        display: none;
+
+        @media (max-width: 414px) {
+            display: block;
+        }
+    }
+
+    .banner-1-redcloth-computer {
+        width: 100%;
+        left: -5.84vw;
+        bottom: 0vw;
+        display: block;
+
+        @media (max-width: 414px) {
+            width: 122.86%;
+            left: -11.08vw;
+        }
+    }
+
+    .banner-1-redcloth-phone {
+        width: 122.86vw;
+        left: -11.09vw;
+        bottom: 0;
+        display: none;
+
+        @media (max-width: 414px) {
+            display: block;
+        }
+    }
+
+    .brand {
+        width: 2.15%;
+        right: 1.56vw;
+        bottom: 4.57vw;
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    .banner-down {
+        width: 100vw;
+        // height: 44.94vw;
+        top: 4.94vw;
+        left: 0;
+        z-index: -1;
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    .banner-middle {
+        width: 100vw;
+        // height: 44.94vw;
+        top: 4.94vw;
+        left: 0;
+        z-index: -1;
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    .banner-1-video-background-computer {
+        width: 100vw;
+        // height: 44.94vw;
+        top: 4.94vw;
+        left: 0;
+        z-index: -1;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
+    }
+
+    .banner-1-background-ipad {
+        width: 128.65vw;
+        top: 7.16vw;
+        left: -10.79vw;
+        z-index: -1;
+        display: none;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    .banner-1-video-background-ipad {
+        width: 100%;
+        top: 7.16vw;
+        left: 0;
+        z-index: -1;
+        display: none;
+
+        @media (max-width: 768px) {
+            display: block;
+        }
+
+        @media (max-width: 414px) {
+            display: none;
+        }
+    }
+
+    .banner-1-video-background-phone {
+        width: 100%;
+        // height: 44.94vw;
+        top: 65px;
+        left: 0;
+        z-index: -1;
+        display: none;
+
+        @media (max-width: 414px) {
+            display: block;
+        }
+    }
+}
+/*#endregion*/
 
 /*#region banner-2*/
 .banner-2 {
