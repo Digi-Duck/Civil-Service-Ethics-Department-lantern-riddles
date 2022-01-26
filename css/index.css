@@ -41,7 +41,7 @@ main {
   padding: 15px;
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
-  z-index: 10;
+  z-index: 12;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -899,7 +899,7 @@ main {
 nav {
   width: 100%;
   position: fixed;
-  z-index: 95;
+  z-index: 12;
   background-color: #000000;
 }
 
@@ -1775,6 +1775,7 @@ nav .nav-container .sound-btn img {
   background-image: url("../img/moudle/finish.png");
   background-size: cover;
   background-position: center;
+  display: none;
   -webkit-animation-name: open;
           animation-name: open;
   -webkit-animation-duration: 1s;
