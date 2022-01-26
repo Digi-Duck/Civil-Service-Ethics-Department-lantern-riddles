@@ -25,6 +25,7 @@
 
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/nero.css">
+    <link rel="stylesheet" href="./css/lightbox.css">
 </head>
 
 <body>
@@ -500,22 +501,34 @@
                     <div class="swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide swiper-slide-1">
-                                <img src="./img/banner-2/png/prize-1.png" title="須提供身分證影本、須扣繳10%中獎金額稅額（非中華民國境內居住之國人須扣繳20%）、不挑色" alt="獎品1" class="swiper-img swiper-img-1">
+                                <a href="./img/banner-2/png/prize-1.png" data-lightbox="image-1" data-title="特獎：iPhone 13 pro max 256 GB 1台" >
+                                    <img src="./img/banner-2/png/prize-1.png" title="須提供身分證影本、須扣繳10%中獎金額稅額（非中華民國境內居住之國人須扣繳20%）、不挑色" alt="獎品1" class="swiper-img swiper-img-1">
+                                </a>
                             </div>
-                            <div class="swiper-slide swiper-slide-2">
-                                <img src="./img/banner-2/png/prize-2.png" title="須提供身分證影本"alt="獎品2" class="swiper-img swiper-img-2">
+                            <div class="swiper-slide swiper-slide-2" >
+                                <a href="./img/banner-2/png/prize-2.png" data-lightbox="image-2" data-title="頭獎：禮券2萬元 1式">
+                                    <img src="./img/banner-2/png/prize-2.png" title="須提供身分證影本"alt="獎品2" class="swiper-img swiper-img-2">
+                                </a>
                             </div>
-                            <div class="swiper-slide swiper-slide-3">
-                                <img src="./img/banner-2/png/prize-3.png" title="須提供身分證影本、不挑色"alt="獎品3" class="swiper-img swiper-img-3">
+                            <div class="swiper-slide swiper-slide-3" >
+                                <a href="./img/banner-2/png/prize-3.png" data-lightbox="image-3" data-title="貳獎：任天堂 Switch 主機（OLED款式）+健身環 1組">
+                                    <img src="./img/banner-2/png/prize-3.png" title="須提供身分證影本、不挑色"alt="獎品3" class="swiper-img swiper-img-3">
+                                </a>
                             </div>
-                            <div class="swiper-slide swiper-slide-4">
-                                <img src="./img/banner-2/png/prize-4.png" title="須提供身分證影本、不挑色"alt="獎品4" class="swiper-img swiper-img-4">
+                            <div class="swiper-slide swiper-slide-4" >
+                                <a href="./img/banner-2/png/prize-4.png" data-lightbox="image-4" data-title="參獎：Garmin vivoactive 4 GPS 智慧腕錶 1支">
+                                    <img src="./img/banner-2/png/prize-4.png" title="須提供身分證影本、不挑色"alt="獎品4" class="swiper-img swiper-img-4">
+                                </a>
                             </div>
-                            <div class="swiper-slide swiper-slide-5">
-                                <img src="./img/banner-2/png/prize-5.png" title="須提供身分證影本"alt="獎品5" class="swiper-img swiper-img-5">
-                            </div>
-                            <div class="swiper-slide swiper-slide-6">
-                                <img src="./img/banner-2/png/prize-6.png" title="不須提供身分證影本"alt="獎品6" class="swiper-img swiper-img-6">
+                            <div class="swiper-slide swiper-slide-5" >
+                                <a href="./img/banner-2/png/prize-5.png" data-lightbox="image-5" data-title="肆獎：Armor A60 2T可攜式硬碟 1台">
+                                    <img src="./img/banner-2/png/prize-5.png" title="須提供身分證影本"alt="獎品5" class="swiper-img swiper-img-5">
+                                </a>
+                                
+                            <div class="swiper-slide swiper-slide-6" >
+                                <a href="./img/banner-2/png/prize-6.png" data-lightbox="image-6" data-title="伍獎：禮券200元 100份">
+                                    <img src="./img/banner-2/png/prize-6.png" title="不須提供身分證影本"alt="獎品6" class="swiper-img swiper-img-6">
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -906,7 +919,6 @@
             // teach_Screen.style['display'] = 'none';
             // console.log(istrue);
         }
-
         function change_Teach_Data(e) {//點模組後 根據對應資料交換文字
             // console.log(answer);
             // console.log(cards[index]);
@@ -1184,6 +1196,15 @@
     <script>
         //game = ["o", "o", "o", "o", "o", "o", "o", "o", "o"];
         //isconnect();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/lightbox.js"></script>
+    <script>
+        lightbox.option({
+            disableScrolling:true,
+            positionFromTop:350,
+            showImageNumberLabel:false,
+        })
     </script>
 </body>
 
