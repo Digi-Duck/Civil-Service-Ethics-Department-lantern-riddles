@@ -26,6 +26,19 @@ var swiper2 = new Swiper('.banner-2 .swiper', {
             spaceBetween: 20,
         }
     },
+    // on:{
+    //     click: function(e){
+    //         // console.log(element.clickedIndex);
+    //         // console.log((element.clickedIndex-5)%6);
+    //         // console.log(this.dataset.index);
+
+    //         console.log(e.matches(".swiper-slide.swiper-slide-3"));
+    //         // if(element.t.matches(".swiper-slide")){
+    //         // }
+    //         // console.log(element.el.dataset.qw);
+    //         big_prize_backgroung.style['display']="flex";
+    //     },
+    //   },
 });
 var swiper4 = new Swiper('.banner-4 .swiper', {
     slidesPerView: 1.4,

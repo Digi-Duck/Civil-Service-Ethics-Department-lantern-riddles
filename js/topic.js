@@ -120,33 +120,27 @@ var data = [
 
 var banner_2_swiper = [
     {
-        index:1,
-        img:`./img/banner-2/png/prize-1.png`,
-        remind_text:`須提供身分證影本、須扣繳10%中獎金額稅額（非中華民國境內居住之國人須扣繳20%）、不挑色`,
+        img: `./img/banner-2/png/prize-1.png`,
+        remind_text: `須提供身分證影本、須扣繳10%中獎金額稅額（非中華民國境內居住之國人須扣繳20%）、不挑色`,
     },
     {
-        index:2,
-        img:`./img/banner-2/png/prize-2.png`,
-        remind_text:`須提供身分證影本`,
+        img: `./img/banner-2/png/prize-2.png`,
+        remind_text: `須提供身分證影本`,
     },
     {
-        index:3,
-        img:`./img/banner-2/png/prize-3.png`,
-        remind_text:`須提供身分證影本`,
+        img: `./img/banner-2/png/prize-3.png`,
+        remind_text: `須提供身分證影本、不挑色`,
     },
     {
-        index:4,
-        img:`./img/banner-2/png/prize-4.png`,
-        remind_text:`須提供身分證影本`,
+        img: `./img/banner-2/png/prize-4.png`,
+        remind_text: `須提供身分證影本、不挑色`,
     },
     {
-        index:5,
-        img:`./img/banner-2/png/prize-5.png`,
-        remind_text:`須提供身分證影本`,
+        img: `./img/banner-2/png/prize-5.png`,
+        remind_text: `須提供身分證影本`,
     },
     {
-        index:6,
-        img:`./img/banner-2/png/prize-6.png`,
-        remind_text:`須提供身分證影本`,
+        img: `./img/banner-2/png/prize-6.png`,
+        remind_text: `不須提供身分證影本`,
     },
 ]

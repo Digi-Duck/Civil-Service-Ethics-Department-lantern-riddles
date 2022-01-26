@@ -40,6 +40,7 @@ main {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
     display: none;
+    
     .big-prize-container {
         width: 746px;
         height: 596px;
@@ -1396,6 +1397,7 @@ nav {
                 flex-direction: row;
 
                 .swiper-slide {
+                    cursor: pointer;
                     img {
                         width: 100%;
                     }

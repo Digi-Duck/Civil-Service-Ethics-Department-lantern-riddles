@@ -1596,6 +1596,10 @@ nav .nav-container .sound-btn img {
           flex-direction: row;
 }
 
+.banner-2 .swiper-container .swiper .swiper-wrapper .swiper-slide {
+  cursor: pointer;
+}
+
 .banner-2 .swiper-container .swiper .swiper-wrapper .swiper-slide img {
   width: 100%;
 }

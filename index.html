@@ -513,33 +513,33 @@
                     <div class="swiper-button-prev"></div>
                     <div class="swiper">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide swiper-slide-1">
+                            <div class="swiper-slide swiper-slide-1" data-qw="1">
                                 <img src="./img/banner-2/png/prize-1.png"
                                     title="須提供身分證影本、須扣繳10%中獎金額稅額（非中華民國境內居住之國人須扣繳20%）、不挑色" alt="獎品1"
                                     class="swiper-img swiper-img-1">
                             </div>
 
-                            <div class="swiper-slide swiper-slide-2">
+                            <div class="swiper-slide swiper-slide-2" data-qw="2">
                                 <img src="./img/banner-2/png/prize-2.png" title="須提供身分證影本" alt="獎品2"
                                     class="swiper-img swiper-img-2">
                             </div>
 
-                            <div class="swiper-slide swiper-slide-3">
+                            <div class="swiper-slide swiper-slide-3" data-qw="3">
                                 <img src="./img/banner-2/png/prize-3.png" title="須提供身分證影本、不挑色" alt="獎品3"
                                     class="swiper-img swiper-img-3">
                             </div>
 
-                            <div class="swiper-slide swiper-slide-4">
+                            <div class="swiper-slide swiper-slide-4" data-qw="4">
                                 <img src="./img/banner-2/png/prize-4.png" title="須提供身分證影本、不挑色" alt="獎品4"
                                     class="swiper-img swiper-img-4">
                             </div>
 
-                            <div class="swiper-slide swiper-slide-5">
+                            <div class="swiper-slide swiper-slide-5" data-qw="5">
                                 <img src="./img/banner-2/png/prize-5.png" title="須提供身分證影本" alt="獎品5"
                                     class="swiper-img swiper-img-5">
                             </div>
-                            
-                            <div class="swiper-slide swiper-slide-6">
+
+                            <div class="swiper-slide swiper-slide-6" data-qw="6">
                                 <img src="./img/banner-2/png/prize-6.png" title="不須提供身分證影本" alt="獎品6"
                                     class="swiper-img swiper-img-6">
                             </div>
@@ -1214,7 +1214,8 @@
                 unlocked();
             })
         }
-
+        let big_prize_backgroung = document.querySelector(".big-prize-backgroung");
+        let big_prize_exit = document.querySelector(".big-prize-exit");
         function exit() {
             const moudle_questionnaire = document.querySelector(".moudle-questionnaire");
             const moudle_questionnaire_exit = document.querySelector(".moudle-questionnaire-exit");
@@ -1229,13 +1230,36 @@
             moudle_writeQuestionnaire_exit.addEventListener("click", element => {
                 moudle_writeQuestionnaire.style['display'] = 'none';
             })
+
+            big_prize_exit.addEventListener("click", element => {
+                big_prize_backgroung.style['display'] = 'none';
+            })
+
         }
         exit();
         banner2_moudle();
 
         // setInterval("toggleSound()", 1);
     </script>
+    <script>
+        const itemsList = document.querySelector('.swiper-container');
+        const remind_text = document.querySelector('.remind-text');
+        const big_prize = document.querySelector('.big-prize');
+        
+        itemsList.addEventListener('click', toggleDone);
+        
+        function toggleDone(e) {
+            if (!e.target.parentNode.matches('.swiper-slide')) return; // skip this unless it's an input
+            const el = e.target;
+            // console.log(el.parentNode.dataset.qw);//dataset
 
+            big_prize_backgroung.style['display'] = "flex";
+
+            remind_text.innerHTML=`${banner_2_swiper[el.parentNode.dataset.qw-1].remind_text}`
+            big_prize.setAttribute('src',`${banner_2_swiper[el.parentNode.dataset.qw-1].img}`);
+        }
+
+    </script>
     <!-- 返回判斷 -->
     <script>
         //game = ["o", "o", "o", "o", "o", "o", "o", "o", "o"];
