@@ -34,6 +34,86 @@ main {
   cursor: pointer;
 }
 
+.big-prize-backgroung {
+  position: fixed;
+  z-index: 13;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.big-prize-backgroung .big-prize-container {
+  width: 746px;
+  height: 596px;
+  border: #ff8908 4px solid;
+  border-radius: 35.541px;
+  position: relative;
+  background-color: black;
+}
+
+.big-prize-backgroung .big-prize-container .big-prize-content {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big-prize-backgroung .big-prize-container .big-prize-content .big-prize-exit {
+  cursor: pointer;
+  width: 30px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-top: 18.1101px;
+  margin-right: 21.4622px;
+}
+
+.big-prize-backgroung .big-prize-container .big-prize-content .big-prize {
+  width: 422.7832px;
+  margin-bottom: 27.858px;
+  margin-top: -6.7331px;
+}
+
+.big-prize-backgroung .big-prize-container .big-prize-content .big-prize-remind {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.big-prize-backgroung .big-prize-container .big-prize-content .big-prize-remind .remind-icon {
+  width: 28.4209px;
+  margin-right: 9.3721px;
+}
+
+.big-prize-backgroung .big-prize-container .big-prize-content .big-prize-remind .remind-text {
+  color: white;
+  font-size: 22px;
+  line-height: 26.4px;
+  width: 384.348px;
+  font-weight: bold;
+}
+
 /*#region moudle*/
 .moudle {
   width: 100%;

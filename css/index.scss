@@ -29,7 +29,63 @@ main {
 #TaipeiPasslogin {
     cursor: pointer;
 }
+.big-prize-backgroung {
+    position: fixed;
+    z-index: 13;
+    width: 100%;
+    height: 100%;
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.8);
+display: none;
+    .big-prize-container {
+        width: 746px;
+        height: 596px;
+        border: #ff8908 4px solid;
+        border-radius: 35.541px;
+       
+        position: relative;
+        background-color: black;
 
+        .big-prize-content {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .big-prize-exit {
+                cursor: pointer;
+                width: 30px;
+                align-self: flex-end;
+                margin-top: 18.1101px;
+                margin-right: 21.4622px;
+            }
+            .big-prize {
+                width: 422.7832px;
+                margin-bottom: 27.858px;
+                margin-top: -6.7331px;
+            }
+            .big-prize-remind {
+                display: flex;
+                width: 100%;
+                align-items: flex-start;
+                justify-content: center;
+                .remind-icon {
+                    width: 28.4209px;
+                    margin-right: 9.3721px;
+                }
+                .remind-text {
+                    color: white;
+                    font-size: 22px;
+                    line-height: 26.4px;
+                    width: 384.348px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
 /*#region moudle*/
 .moudle {
     width: 100%;
@@ -837,7 +893,7 @@ main {
 nav {
     width: 100%;
     position: fixed;
-    z-index:12;
+    z-index: 12;
     background-color: #000000;
 
     .nav-container {
@@ -1462,14 +1518,13 @@ nav {
             display: block;
         }
     }
-//這裡開始
+    //這裡開始
     .plate-container-computer {
         margin-left: 23.38%;
         bottom: 2.34vw;
         @media (max-width: 768px) {
             display: none;
         }
-       
     }
 
     .plate-computer {
@@ -1510,7 +1565,6 @@ nav {
             align-items: center;
             align-content: unset;
         }
-        
     }
     .plate-phone {
         display: none;
@@ -1524,7 +1578,6 @@ nav {
             width: 80vw;
         }
     }
-    
 }
 
 /*#endregion*/
