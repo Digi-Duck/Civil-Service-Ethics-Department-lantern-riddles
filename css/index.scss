@@ -2,6 +2,7 @@
     box-sizing: border-box;
     user-select: none;
 }
+html, body { scroll-behavior:smooth; }
 
 body {
     margin: 0;
@@ -38,13 +39,13 @@ main {
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
-display: none;
+    display: none;
     .big-prize-container {
         width: 746px;
         height: 596px;
         border: #ff8908 4px solid;
         border-radius: 35.541px;
-       
+
         position: relative;
         background-color: black;
 
@@ -1095,6 +1096,7 @@ nav {
         width: 20.49vw;
         margin-top: 1.302vw;
         margin-left: 2.8645vw;
+
         @media (max-width: 768px) {
             width: 30.48vw;
             margin-top: 3.302vw;
