@@ -1,1 +1,23 @@
-/* No CSS *//*# sourceMappingURL=test.css.map */
+.lantern {
+  position: relative;
+}
+
+.lantern::before {
+  position: absolute;
+  background-repeat: no-repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-image: radial-gradient(circle, #fff679 15%, #ff9900 40%, red 50%, rgba(245, 35, 192, 0.3) 60%, transparent 73%);
+  /* IE10+ */
+  background-image: radial-gradient(circle, #fff679 15%, #ff9900 40%, #ff0000 50%, #830f28 55%, transparent 73%);
+  background-image: -webkit-radial-gradient(circle, #fff679 15%, #ff9900 40%, red 50%, rgba(245, 35, 192, 0.3) 60%, transparent 73%);
+  z-index: -1;
+}
+
+.lantern::before {
+  -webkit-animation: gradient_lantern 3s ease infinite alternate;
+          animation: gradient_lantern 3s ease infinite alternate;
+}
+/*# sourceMappingURL=test.css.map */
