@@ -1,5 +1,9 @@
-.lantern{
+.row {
+    display: inline-block;
     position: relative;
+    transform-style: preserve-3d;
+    transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+
     &::before {
         position: absolute;
         background-repeat: no-repeat;
@@ -24,14 +28,7 @@
             transparent 73%
         );
         /* IE10+ */
-        background-image: radial-gradient(
-            circle,
-            #fff679 15%,
-            #ff9900 40%,
-            #ff0000 50%,
-            #830f28 55%,
-            transparent 73%
-        );
+        background-image: radial-gradient(circle, #fff679 15%, #ff9900 40%, #ff0000 50%, #830f28 55%, transparent 73%);
         background-image: -moz-radial-gradient(
             circle,
             rgba(255, 246, 121, 95%) 15%,
@@ -50,9 +47,31 @@
         );
         z-index: -1;
     }
-    
+
     &::before {
-        animation: gradient_lantern 3s ease infinite
-            alternate;
+        animation: gradient_lantern 3s ease infinite alternate;
     }
 }
+@keyframes gradient_lantern {
+    0% {
+        transform: scaleX(1.2) scaleY(1);
+    }
+
+    100% {
+        transform: scaleX(1.4) scaleY(1.2);
+    }
+}
+// @include keyframes(gradient_lantern) {
+//     0% {
+//         transform: scaleX(1.2) scaleY(1);
+//     }
+
+//     100% {
+//         transform: scaleX(1.4) scaleY(1.2);
+//     }
+// }
+//     @media (max-width: $pad) {
+//         width: 26.538849vw;
+//         min-width: 1px;
+//     }
+// }

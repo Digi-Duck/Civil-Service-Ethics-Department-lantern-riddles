@@ -1,8 +1,13 @@
-.lantern {
+.row {
+  display: inline-block;
   position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1s cubic-bezier(0, 0, 0.2, 1);
 }
 
-.lantern::before {
+.row::before {
   position: absolute;
   background-repeat: no-repeat;
   content: "";
@@ -16,8 +21,30 @@
   z-index: -1;
 }
 
-.lantern::before {
-  -webkit-animation: gradient_lantern 3s ease infinite alternate;
-          animation: gradient_lantern 3s ease infinite alternate;
+.row::before {
+  -webkit-animation: gradient_lantern 3s ease infinite alternate;
+          animation: gradient_lantern 3s ease infinite alternate;
+}
+
+@-webkit-keyframes gradient_lantern {
+  0% {
+    -webkit-transform: scaleX(1.2) scaleY(1);
+            transform: scaleX(1.2) scaleY(1);
+  }
+  100% {
+    -webkit-transform: scaleX(1.4) scaleY(1.2);
+            transform: scaleX(1.4) scaleY(1.2);
+  }
+}
+
+@keyframes gradient_lantern {
+  0% {
+    -webkit-transform: scaleX(1.2) scaleY(1);
+            transform: scaleX(1.2) scaleY(1);
+  }
+  100% {
+    -webkit-transform: scaleX(1.4) scaleY(1.2);
+            transform: scaleX(1.4) scaleY(1.2);
+  }
 }
 /*# sourceMappingURL=test.css.map */
