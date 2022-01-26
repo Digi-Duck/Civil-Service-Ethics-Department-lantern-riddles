@@ -310,7 +310,6 @@ main {
     display: none;
 
     .moudle-container {
-
         .moudle-backstage-instruction {
             height: 8.69vw;
             padding-top: 84.4614px;
@@ -329,7 +328,6 @@ main {
         }
     }
 }
-
 
 // 問題系列
 .moudle-topic {
@@ -469,7 +467,8 @@ main {
                             text-align: center;
                         }
 
-                        @media (max-width: 721px) {}
+                        @media (max-width: 721px) {
+                        }
                     }
                 }
             }
@@ -628,7 +627,8 @@ main {
                 display: none;
                 cursor: pointer;
 
-                .moudle-teach-next-img {}
+                .moudle-teach-next-img {
+                }
 
                 @media (max-width: 721px) {
                     display: block;
@@ -674,7 +674,6 @@ main {
                 @media (max-width: 768px) {
                     width: 100%;
                     margin-bottom: 5.2516px;
-
                 }
 
                 @media (max-width: 628px) {
@@ -795,7 +794,6 @@ main {
             height: 100%;
 
             .moudle-backstage-instruction {
-
                 .moudle-backstage-content {
                     font-size: 20px;
                     line-height: 38px;
@@ -810,7 +808,6 @@ main {
 
     @media (max-width: 487px) {
         .moudle-container {
-
             .moudle-backstage-instruction {
                 font-size: 24px;
                 line-height: 28.8px;
@@ -836,12 +833,11 @@ main {
 
 /*#endregion*/
 
-
 /*#region nav*/
 nav {
     width: 100%;
     position: fixed;
-    z-index: 3;
+    z-index: 95;
     background-color: #000000;
 
     .nav-container {
@@ -906,7 +902,6 @@ nav {
 }
 
 /*#endregion*/
-
 
 /*#region banner-1*/
 .banner-1 {
@@ -999,34 +994,31 @@ nav {
         .slogn-4 {
             width: 20.26%;
             display: flex;
-    
+
             img {
                 width: 30px;
             }
-    
+
             .views-people {
                 padding-left: 10px;
                 display: flex;
                 flex-direction: column;
-    
+
                 span {
                     letter-spacing: 1.2px;
                     font-size: 12px;
-                    color: #FFFFFF;
+                    color: #ffffff;
                 }
             }
-    
-    
+
             @media (max-width: 768px) {
                 width: 45.38%;
             }
-    
+
             @media (max-width: 414px) {
                 display: none;
             }
         }
-        
-    
     }
 
     .slogn-5 {
@@ -1043,15 +1035,15 @@ nav {
             display: none;
         }
     }
-    .start-game{
+    .start-game {
         width: 20.49vw;
         margin-top: 1.302vw;
         margin-left: 2.8645vw;
         @media (max-width: 768px) {
             width: 30.48vw;
-        margin-top: 3.302vw;
-        margin-left: 4.8645vw;
-           }
+            margin-top: 3.302vw;
+            margin-left: 4.8645vw;
+        }
 
         @media (max-width: 414px) {
             width: 35.49vw;
@@ -1566,13 +1558,24 @@ nav {
         background-image: url("../img/moudle/finish.png");
         background-size: cover;
         background-position: center;
-        display: none;
+        // display: none;
+        animation-name: open;
+        animation-duration: 1s;
 
+        @keyframes open {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
         @media (max-width: 768px) {
             background-image: url("../img/moudle/ipad-finish.png");
         }
 
-        @media (max-width: 414px) {}
+        @media (max-width: 414px) {
+        }
 
         .game-finish-information {
             width: 9.68%;
