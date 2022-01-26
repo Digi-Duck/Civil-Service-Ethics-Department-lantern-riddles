@@ -469,6 +469,9 @@
                             </div>
                         </div>
                         <img src="./img/banner-1/slogn-date.svg" alt="2022-1-28~2022-2-28" class="slogn-5">
+                        <a href="#start">
+                            <img src="./img/banner-1/png/start-game.png" alt=""class="start-game">
+                        </a>
                     </div>
                 </section>
 
@@ -566,7 +569,7 @@
         </section>
 
         <section>
-            <div class="container banner-3">
+            <div class="container banner-3 "id="start">
                 <div class="game-finish"></div>
                 <div class="games-information">
                     <img src="./img/banner-3/svg/title.svg" alt="好運廉廉" class="banner-3-title-computer">
@@ -995,6 +998,8 @@
                             <img src="./img/banner-3/png/to-lottery-btn.png" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
                             <img src="./img/banner-3/png/phone-to-lottery-btn.png" alt="抽獎按鈕-手機板" class="lottery-btn-phone">
                     `
+
+                    setTimeout(`alert("恭喜連線成功！");`,1000)
                     openTaipelMoudle();
                     question_Screen.style['display'] = 'none';
                     teach_Screen.style['display'] = 'none';

@@ -1025,6 +1025,8 @@ nav {
                 display: none;
             }
         }
+        
+    
     }
 
     .slogn-5 {
@@ -1039,6 +1041,22 @@ nav {
 
         @media (max-width: 414px) {
             display: none;
+        }
+    }
+    .start-game{
+        width: 20.49vw;
+        margin-top: 1.302vw;
+        margin-left: 2.8645vw;
+        @media (max-width: 768px) {
+            width: 30.48vw;
+        margin-top: 3.302vw;
+        margin-left: 4.8645vw;
+           }
+
+        @media (max-width: 414px) {
+            width: 35.49vw;
+            margin-top: -1.698vw;
+            margin-left: 6.8645vw;
         }
     }
 
