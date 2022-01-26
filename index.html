@@ -957,11 +957,12 @@
 
                 moudle_teach_video_information.style['display'] = 'block';
                 moudle_teach_video_information.innerHTML = `${data[index].video_information}`;
+                moudle_teach_video_information.setAttribute('href', `${data[index].href}`)
 
 
                 moudle_teach_video_a.style['display'] = 'block';
-                moudle_teach_video_information.setAttribute('href', `${data[index].href}`)
                 moudle_teach_video_a.innerHTML = `${data[index].moudle_teach_video_a}`;
+                moudle_teach_video_a.setAttribute('href', `${data[index].href}`)
 
 
             }

@@ -22,7 +22,7 @@ var data = [
         hint: "三方（口字為方形）鼎立；《周禮·地官》：「在心為德，施之為行。」",
         propaganda: "為使廉潔教育向下扎根，臺北市政府推動品德教育實施計畫，臺北市政府政風處與教育局製作一系列廉潔教育教材，於臺北酷課雲架設廉潔教育專區，建構由小而大的廉潔教育網絡，培養學童誠信反貪觀念。",
         video_information: " ●  臺北市政風處-廉潔教育專區",
-        href: "http://www.abc.digimagic.com.tw/LJBB_ebook/index.html",
+        href: "https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81",
         moudle_teach_video_a: ``
     },
     {
@@ -35,7 +35,7 @@ var data = [
         hint: "謎面出自《李商隱 無題》：「春蠶到死絲方盡」，絲方盡表示「無絲」，諧音「無私」。",
         propaganda: "臺北市政府政風處與臺北市政府教育局、臺北市國民教育輔導團幼兒教育輔導小組合作製作「廉潔寶寶聯盟-誠信最棒篇」幼兒廉潔教材電子書，將「公平公正、利益衝突迴避、誠實信用、細心觀察、理直氣和」等核心價值，延伸教案5則，供教保服務人員、家長與幼兒共讀，使廉潔教育向下紮根。",
         video_information: "  ●  幼兒廉潔教育教材-廉潔寶寶聯盟",
-        href: "https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81",
+        href: "http://www.abc.digimagic.com.tw/LJBB_ebook/index.html",
         moudle_teach_video_a: ``
     },
     {
