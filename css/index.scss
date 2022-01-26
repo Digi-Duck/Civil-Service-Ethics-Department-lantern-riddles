@@ -1462,14 +1462,14 @@ nav {
             display: block;
         }
     }
-
+//這裡開始
     .plate-container-computer {
         margin-left: 23.38%;
         bottom: 2.34vw;
-
         @media (max-width: 768px) {
             display: none;
         }
+       
     }
 
     .plate-computer {
@@ -1510,8 +1510,8 @@ nav {
             align-items: center;
             align-content: unset;
         }
+        
     }
-
     .plate-phone {
         display: none;
 
@@ -1524,6 +1524,7 @@ nav {
             width: 80vw;
         }
     }
+    
 }
 
 /*#endregion*/
