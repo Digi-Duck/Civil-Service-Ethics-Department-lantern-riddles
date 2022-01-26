@@ -301,7 +301,8 @@ main {
 .moudle-lottery,
 .moudle-winning,
 .moudle-award,
-.moudle-notice {
+.moudle-notice,
+.moudle-questionnaire {
     display: none;
 }
 
@@ -832,6 +833,7 @@ main {
         }
     }
 }
+
 /*#endregion*/
 
 
@@ -902,6 +904,7 @@ nav {
         }
     }
 }
+
 /*#endregion*/
 
 
@@ -993,52 +996,41 @@ nav {
             }
         }
 
-        .logo-computer {
-            width: 8.09%;
-
-            @media (max-width: 768px) {
-                width: 18.13%;
+        .slogn-4 {
+            width: 20.26%;
+            display: flex;
+    
+            img {
+                width: 30px;
             }
-
+    
+            .views-people {
+                padding-left: 10px;
+                display: flex;
+                flex-direction: column;
+    
+                span {
+                    letter-spacing: 1.2px;
+                    font-size: 12px;
+                    color: #FFFFFF;
+                }
+            }
+    
+    
+            @media (max-width: 768px) {
+                width: 45.38%;
+            }
+    
             @media (max-width: 414px) {
                 display: none;
             }
         }
-
-        .logo-phone {
-            width: 29.68%;
-            margin-left: 6.59vw;
-            display: none;
-
-            @media (max-width: 414px) {
-                display: block;
-            }
-        }
     }
 
-    .slogn-4 {
+    .slogn-5 {
         width: 20.26%;
         margin-left: 2.86vw;
         display: flex;
-
-
-        img {
-            width: 30px;
-
-        }
-
-        .views-people {
-            padding-left: 10px;
-            display: flex;
-            flex-direction: column;
-
-            span {
-                letter-spacing: 1.2px;
-                font-size: 12px;
-                color: #FFFFFF;
-            }
-        }
-
 
         @media (max-width: 768px) {
             width: 45.38%;
@@ -1248,6 +1240,7 @@ nav {
         }
     }
 }
+
 /*#endregion*/
 
 /*#region banner-2*/

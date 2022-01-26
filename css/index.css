@@ -270,7 +270,8 @@ main {
 .moudle-lottery,
 .moudle-winning,
 .moudle-award,
-.moudle-notice {
+.moudle-notice,
+.moudle-questionnaire {
   display: none;
 }
 
@@ -1012,65 +1013,54 @@ nav .nav-container .sound-btn img {
   }
 }
 
-.banner-1 .slognAbreast .logo-computer {
-  width: 8.09%;
-}
-
-@media (max-width: 768px) {
-  .banner-1 .slognAbreast .logo-computer {
-    width: 18.13%;
-  }
-}
-
-@media (max-width: 414px) {
-  .banner-1 .slognAbreast .logo-computer {
-    display: none;
-  }
-}
-
-.banner-1 .slognAbreast .logo-phone {
-  width: 29.68%;
-  margin-left: 6.59vw;
-  display: none;
-}
-
-@media (max-width: 414px) {
-  .banner-1 .slognAbreast .logo-phone {
-    display: block;
-  }
-}
-
-.banner-1 .slogn-4 {
+.banner-1 .slognAbreast .slogn-4 {
   width: 20.26%;
-  margin-left: 2.86vw;
   display: flex;
 }
 
-.banner-1 .slogn-4 img {
+.banner-1 .slognAbreast .slogn-4 img {
   width: 30px;
 }
 
-.banner-1 .slogn-4 .views-people {
+.banner-1 .slognAbreast .slogn-4 .views-people {
   padding-left: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.banner-1 .slogn-4 .views-people span {
+.banner-1 .slognAbreast .slogn-4 .views-people span {
   letter-spacing: 1.2px;
   font-size: 12px;
   color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
-  .banner-1 .slogn-4 {
+  .banner-1 .slognAbreast .slogn-4 {
+    width: 45.38%;
+  }
+}
+
+@media (max-width: 414px) {
+  .banner-1 .slognAbreast .slogn-4 {
+    display: none;
+  }
+}
+
+.banner-1 .slogn-5 {
+  width: 20.26%;
+  margin-left: 2.86vw;
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .banner-1 .slogn-5 {
     width: 45.38%;
     margin-left: 2.74vw;
   }
 }
 
 @media (max-width: 414px) {
-  .banner-1 .slogn-4 {
+  .banner-1 .slogn-5 {
     display: none;
   }
 }
