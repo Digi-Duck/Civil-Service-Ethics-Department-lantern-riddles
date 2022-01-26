@@ -1233,6 +1233,7 @@
 
             big_prize_exit.addEventListener("click", element => {
                 big_prize_backgroung.style['display'] = 'none';
+                unlocked();
             })
 
         }
@@ -1242,12 +1243,13 @@
         // setInterval("toggleSound()", 1);
     </script>
     <script>
+        //點了之後顯示大張圖片
         const itemsList = document.querySelector('.swiper-container');
         const remind_text = document.querySelector('.remind-text');
         const big_prize = document.querySelector('.big-prize');
-        
+
         itemsList.addEventListener('click', toggleDone);
-        
+
         function toggleDone(e) {
             if (!e.target.parentNode.matches('.swiper-slide')) return; // skip this unless it's an input
             const el = e.target;
@@ -1255,8 +1257,9 @@
 
             big_prize_backgroung.style['display'] = "flex";
 
-            remind_text.innerHTML=`${banner_2_swiper[el.parentNode.dataset.qw-1].remind_text}`
-            big_prize.setAttribute('src',`${banner_2_swiper[el.parentNode.dataset.qw-1].img}`);
+            remind_text.innerHTML = `${banner_2_swiper[el.parentNode.dataset.qw - 1].remind_text}`
+            big_prize.setAttribute('src', `${banner_2_swiper[el.parentNode.dataset.qw - 1].img}`);
+            locked();
         }
 
     </script>
