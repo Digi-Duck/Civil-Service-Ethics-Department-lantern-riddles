@@ -1001,6 +1001,7 @@ nav .nav-container {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #000000;
 }
 
 nav .nav-container .logo {
@@ -1233,6 +1234,12 @@ nav .nav-container .sound-btn img {
   }
 }
 
+@media (max-width: 375px) {
+  .banner-1 .slognAbreast .slogn-4 img {
+    width: 40px;
+  }
+}
+
 .banner-1 .slognAbreast .slogn-4 .views-people {
   padding-left: 10px;
   display: -webkit-box;
@@ -1294,7 +1301,7 @@ nav .nav-container .sound-btn img {
 
 @media (max-width: 414px) {
   .banner-1 .slognAbreast .slogn-4 {
-    display: none;
+    margin-left: 13.1866px;
   }
 }
 
@@ -1335,9 +1342,10 @@ nav .nav-container .sound-btn img {
 
 @media (max-width: 414px) {
   .banner-1 .start-game {
-    width: 35.49vw;
-    margin-top: -1.698vw;
-    margin-left: 6.8645vw;
+    width: 169.0205px;
+    margin-top: -36.7744px;
+    margin-left: 175.0218px;
+    float: left;
   }
 }
 

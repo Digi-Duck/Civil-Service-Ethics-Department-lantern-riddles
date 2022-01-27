@@ -597,7 +597,7 @@ main {
             margin-top: -1.85vw;
             margin-bottom: 1.83vw;
             padding-top: 4.26vw;
-            
+
             @media (max-width: 768px) {
                 width: 387.1875px;
                 height: 153.2573px;
@@ -910,7 +910,7 @@ nav {
         padding: 20px 30px;
         display: flex;
         justify-content: space-between;
-
+        background-color: #000000;
         .logo {
             display: flex;
             width: 15.52%;
@@ -1083,6 +1083,9 @@ nav {
                 @media (max-width: 577px) {
                     width: 40px;
                 }
+                @media (max-width: 375px) {
+                    width: 40px;
+                }
             }
 
             .views-people {
@@ -1119,7 +1122,8 @@ nav {
             }
 
             @media (max-width: 414px) {
-                display: none;
+                // display: none;
+                margin-left: 13.1866px;
             }
         }
     }
@@ -1150,9 +1154,10 @@ nav {
         }
 
         @media (max-width: 414px) {
-            width: 35.49vw;
-            margin-top: -1.698vw;
-            margin-left: 6.8645vw;
+            width: 169.0205px;
+            margin-top: -36.7744px;
+            margin-left: 175.0218px;
+            float: left;
         }
     }
 
