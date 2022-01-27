@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -743,9 +744,9 @@ main {
 }
 
 .moudle-teach .moudle-container .moudle-teach-background {
+  background-color: rgba(0, 0, 0, 0.8);
   width: 39.79vw;
   padding-top: 1.2vw;
-  padding-bottom: 60px;
   overflow-y: scroll;
   z-index: 1;
 }
@@ -2927,4 +2928,7 @@ nav .nav-container .sound-btn img {
 .writeQuestionnaire-btn {
   cursor: pointer;
 }
+
+/*#region 光暈*/
+/*#endregion*/
 /*# sourceMappingURL=index.css.map */

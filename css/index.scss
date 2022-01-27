@@ -148,7 +148,7 @@ main {
     @media (max-width: 768px) {
         .moudle-container {
             padding: 19.6629px;
-padding-bottom: 0;
+            padding-bottom: 0;
             .moudle-content {
                 .moudle-exit {
                     width: 27.9243px;
@@ -585,11 +585,9 @@ padding-bottom: 0;
         @media (max-width: 1039px) {
             font-size: 12px;
         }
-            
     }
 
     .moudle-container {
-        
         .moudle-teach-information {
             width: 36.45vw;
             height: 14.43vw;
@@ -671,17 +669,19 @@ padding-bottom: 0;
         }
 
         .moudle-teach-background {
+
+                background-color: rgba(0, 0, 0, 0.8);
             width: 39.79vw;
             padding-top: 1.2vw;
-            padding-bottom: 60px;
+            // padding-bottom: 60px;
             overflow-y: scroll;
             z-index: 1;
             @media (max-width: 768px) {
                 width: 422.669px;
                 // height: 215.8628px;
             }
-            
-            .moudle-teach-video-a{
+
+            .moudle-teach-video-a {
                 background-color: rgba(0, 0, 0, 0.8);
             }
             @media (max-width: 721px) {
@@ -2445,7 +2445,77 @@ nav {
 }
 
 /*#endregion*/
-
 .writeQuestionnaire-btn {
     cursor: pointer;
 }
+
+/*#region 光暈*/
+
+// .card {
+//     display: inline-block;
+//     position: relative;
+//     transform-style: preserve-3d;
+//     transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+//     transform: rotateY(0);
+//     &::before {
+//         position: absolute;
+//         background-repeat: no-repeat;
+//         content: "";
+//         width: 100%;
+//         height: 100%;
+//         background-size: 100%;
+//         background-image: radial-gradient(
+//             circle,
+//             rgba(255, 246, 121, 95%) 15%,
+//             rgba(255, 153, 0, 90%) 40%,
+//             rgba(255, 0, 0, 90%) 50%,
+//             rgba(245, 35, 192, 0.3) 60%,
+//             transparent 73%
+//         );
+//         background-image: -ms-radial-gradient(
+//             circle,
+//             rgba(255, 246, 121, 95%) 15%,
+//             rgba(255, 153, 0, 90%) 40%,
+//             rgba(255, 0, 0, 90%) 50%,
+//             rgba(245, 35, 192, 0.3) 60%,
+//             transparent 73%
+//         );
+//         /* IE10+ */
+//         background-image: radial-gradient(circle, #fff679 15%, #ff9900 40%, #ff0000 50%, #830f28 55%, transparent 73%);
+//         background-image: -moz-radial-gradient(
+//             circle,
+//             rgba(255, 246, 121, 95%) 15%,
+//             rgba(255, 153, 0, 90%) 40%,
+//             rgba(255, 0, 0, 90%) 50%,
+//             rgba(245, 35, 192, 0.3) 60%,
+//             transparent 73%
+//         );
+//         background-image: -webkit-radial-gradient(
+//             circle,
+//             rgba(255, 246, 121, 95%) 15%,
+//             rgba(255, 153, 0, 90%) 40%,
+//             rgba(255, 0, 0, 90%) 50%,
+//             rgba(245, 35, 192, 0.3) 60%,
+//             transparent 73%
+//         );
+//         z-index: -1;
+//     }
+
+//     &::before {
+//         animation: gradient_lantern 3s ease infinite alternate;
+//     }
+// }
+// @keyframes gradient_lantern {
+//     0% {
+//         transform: scaleX(1.2) scaleY(1);
+//     }
+
+//     100% {
+//         transform: scaleX(1.4) scaleY(1.2);
+//     }
+// }
+// .card-open {
+//     transform: rotateY(-180deg);
+// }
+
+/*#endregion*/
