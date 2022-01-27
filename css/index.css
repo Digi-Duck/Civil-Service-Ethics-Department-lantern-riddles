@@ -7,7 +7,8 @@
           user-select: none;
 }
 
-html, body {
+html,
+body {
   scroll-behavior: smooth;
 }
 
@@ -1156,6 +1157,18 @@ nav .nav-container .sound-btn img {
   margin-right: 2.64vw;
 }
 
+@media (max-width: 990px) {
+  .banner-1 .slognAbreast .slogn-3 {
+    margin-right: 1.64vw;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner-1 .slognAbreast .slogn-3 {
+    margin-right: 0.64vw;
+  }
+}
+
 @media (max-width: 768px) {
   .banner-1 .slognAbreast .slogn-3 {
     width: 61.14%;
@@ -1176,10 +1189,43 @@ nav .nav-container .sound-btn img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .banner-1 .slognAbreast .slogn-4 img {
   width: 54px;
+}
+
+@media (max-width: 1290px) {
+  .banner-1 .slognAbreast .slogn-4 img {
+    width: 51px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .banner-1 .slognAbreast .slogn-4 img {
+    width: 45px;
+  }
+}
+
+@media (max-width: 900px) {
+  .banner-1 .slognAbreast .slogn-4 img {
+    width: 40px;
+  }
+}
+
+@media (max-width: 798px) {
+  .banner-1 .slognAbreast .slogn-4 img {
+    width: 54px;
+  }
+}
+
+@media (max-width: 577px) {
+  .banner-1 .slognAbreast .slogn-4 img {
+    width: 40px;
+  }
 }
 
 .banner-1 .slognAbreast .slogn-4 .views-people {
@@ -1193,10 +1239,46 @@ nav .nav-container .sound-btn img {
           flex-direction: column;
 }
 
+@media (max-width: 900px) {
+  .banner-1 .slognAbreast .slogn-4 .views-people {
+    padding-left: 3px;
+  }
+}
+
 .banner-1 .slognAbreast .slogn-4 .views-people span {
   letter-spacing: 1.2px;
   font-size: 18px;
   color: #ffffff;
+}
+
+@media (max-width: 1290px) {
+  .banner-1 .slognAbreast .slogn-4 .views-people span {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 1160px) {
+  .banner-1 .slognAbreast .slogn-4 .views-people span {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .banner-1 .slognAbreast .slogn-4 .views-people span {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-1 .slognAbreast .slogn-4 .views-people span {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 577px) {
+  .banner-1 .slognAbreast .slogn-4 .views-people span {
+    font-size: 13px;
+  }
 }
 
 @media (max-width: 768px) {

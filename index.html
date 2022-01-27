@@ -1007,7 +1007,8 @@
                 moudle_teach_video_a.innerHTML = `${data[index].moudle_teach_video_a}`;
                 moudle_teach_video_a.setAttribute('href', `${data[index].href}`)
 
-
+                console.log("發送Fetch");
+                sendfetch();
             }
         }
         function closeBoth() {//同時關閉教學畫面與問題畫面
@@ -1262,6 +1263,17 @@
             locked();
         }
 
+        function sendfetch() {//送資料到後台
+            fetch('/riddles/correct')
+                .then(function (response) {
+                    return response.json()
+                    //原始資料的處理，通常是將資料提出選取
+                })
+                .then(function (data) { //funtion後面的表示回傳資料的名稱
+                    //將拿到的回傳資料作處理使用
+                    console.log(data)
+                })
+        }
     </script>
     <!-- 返回判斷 -->
     <script>

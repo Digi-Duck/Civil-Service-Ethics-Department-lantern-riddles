@@ -2,7 +2,10 @@
     box-sizing: border-box;
     user-select: none;
 }
-html, body { scroll-behavior:smooth; }
+html,
+body {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0;
@@ -40,7 +43,7 @@ main {
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
     display: none;
-    
+
     .big-prize-container {
         width: 746px;
         height: 596px;
@@ -1036,7 +1039,12 @@ nav {
         .slogn-3 {
             width: 27.3%;
             margin-right: 2.64vw;
-
+            @media (max-width: 990px) {
+                margin-right: 1.64vw;
+            }
+            @media (max-width: 900px) {
+                margin-right: 0.64vw;
+            }
             @media (max-width: 768px) {
                 width: 61.14%;
                 margin-right: 5.91vw;
@@ -1052,20 +1060,52 @@ nav {
         .slogn-4 {
             width: 20.26%;
             display: flex;
-
+            align-items: center;
             img {
                 width: 54px;
+                @media (max-width: 1290px) {
+                    width: 51px;
+                }
+                @media (max-width: 1030px) {
+                    width: 45px;
+                }
+                @media (max-width: 900px) {
+                    width: 40px;
+                }
+                @media (max-width: 798px) {
+                    width: 54px;
+                }
+                @media (max-width: 577px) {
+                    width: 40px;
+                }
             }
 
             .views-people {
                 padding-left: 10px;
                 display: flex;
                 flex-direction: column;
-
+                @media (max-width: 900px) {
+                    padding-left: 3px;
+                }
                 span {
                     letter-spacing: 1.2px;
                     font-size: 18px;
                     color: #ffffff;
+                    @media (max-width: 1290px) {
+                        font-size: 15px;
+                    }
+                    @media (max-width: 1160px) {
+                        font-size: 13px;
+                    }
+                    @media (max-width: 1030px) {
+                        font-size: 9px;
+                    }
+                    @media (max-width: 768px) {
+                    font-size: 18px;
+                    }
+                    @media (max-width: 577px) {
+                        font-size: 13px;
+                    }
                 }
             }
 
@@ -2400,7 +2440,6 @@ nav {
 
 /*#endregion*/
 
-
-.writeQuestionnaire-btn{
+.writeQuestionnaire-btn {
     cursor: pointer;
 }
