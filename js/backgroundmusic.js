@@ -2,12 +2,14 @@
 function musiccontrol(item) {
     let myAudioElement = document.querySelector("#music");
     if (item.dataset.music == "pause") {
+        document.querySelector(".sound-btn img").src='./img/banner-1/sound.png';
         myAudioElement.autoplay = true;
         myAudioElement.loop = true;
         myAudioElement.volume = 0.5;
         myAudioElement.play();
         item.dataset.music = 'play';
     } else if (item.dataset.music == "play") {
+        document.querySelector(".sound-btn img").src='./img/banner-1/soundspeed.svg';
         myAudioElement.pause();
         item.dataset.music = 'pause';
     }
