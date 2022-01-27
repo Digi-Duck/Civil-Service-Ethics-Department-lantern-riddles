@@ -91,7 +91,7 @@ var data = [
         moudle_teach_video_a: ``
     },
     {
-        title: "題目【身直不怕斜啟窗莫愁黑】",
+        title: "題目【身直不怕斜，啟窗莫愁黑】",
         subtitle: "猜猜看，謎底是以下哪一個選項呢?",
         btn1_content: "嚴守規矩",
         btn2_content: "行政透明",

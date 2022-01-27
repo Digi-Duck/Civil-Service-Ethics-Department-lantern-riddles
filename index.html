@@ -883,7 +883,9 @@
         let istrue = ""; //是否正確
 
         let sound_btn = document.querySelector(".sound-btn");
-
+        sound_btn.addEventListener("click", element => {//測試用
+            cards[0].classList.add("card-open");
+            })
         let question_Screen = document.querySelector(".moudle-question");
         let title_Screen = document.querySelector(".moudle-title");
         let subtitle_Screen = document.querySelector(".moudle-subtitle");
@@ -1066,6 +1068,9 @@
                 moudle_teach_video_a.innerHTML = `${data[index].moudle_teach_video_a}`;
                 moudle_teach_video_a.setAttribute('href', `${data[index].href}`);
                 sendfetch();
+
+            // cards[index].classList.add("card-open");
+
             }
         }
 

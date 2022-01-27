@@ -2940,5 +2940,54 @@ nav .nav-container .sound-btn img {
 /*#region classlist要增加的東西*/
 /*#endregion*/
 /*#region 光暈*/
+.card {
+  display: inline-block;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+  transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.card::before {
+  position: absolute;
+  background-repeat: no-repeat;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-size: 100%;
+  background-image: radial-gradient(circle, #fff679 30%, transparent 73%);
+  z-index: -1;
+}
+
+.card::before {
+  -webkit-animation: gradient_lantern 3s ease infinite alternate;
+          animation: gradient_lantern 3s ease infinite alternate;
+}
+
+@-webkit-keyframes gradient_lantern {
+  0% {
+    -webkit-transform: scaleX(1.2) scaleY(1);
+            transform: scaleX(1.2) scaleY(1);
+  }
+  100% {
+    -webkit-transform: scaleX(1.4) scaleY(1.2);
+            transform: scaleX(1.4) scaleY(1.2);
+  }
+}
+
+@keyframes gradient_lantern {
+  0% {
+    -webkit-transform: scaleX(1.2) scaleY(1);
+            transform: scaleX(1.2) scaleY(1);
+  }
+  100% {
+    -webkit-transform: scaleX(1.4) scaleY(1.2);
+            transform: scaleX(1.4) scaleY(1.2);
+  }
+}
+
 /*#endregion*/
 /*# sourceMappingURL=index.css.map */
