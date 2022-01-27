@@ -23,7 +23,7 @@ var data = [
         propaganda: "為使廉潔教育向下扎根，臺北市政府推動品德教育實施計畫，臺北市政府政風處與教育局製作一系列廉潔教育教材，於臺北酷課雲架設廉潔教育專區，建構由小而大的廉潔教育網絡，培養學童誠信反貪觀念。",
         video_information: " ●  臺北市政風處-廉潔教育專區",
         href: "https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81",
-        moudle_teach_video_a: ``
+        moudle_teach_video_a: `<img src="./img/moudle/hint-2.png" alt="" class="moudle-teach-video">`
     },
     {
         title: "題目【春蠶吐絲，死而後已】",
@@ -36,7 +36,7 @@ var data = [
         propaganda: "臺北市政府政風處與臺北市政府教育局、臺北市國民教育輔導團幼兒教育輔導小組合作製作「廉潔寶寶聯盟-誠信最棒篇」幼兒廉潔教材電子書，將「公平公正、利益衝突迴避、誠實信用、細心觀察、理直氣和」等核心價值，延伸教案5則，供教保服務人員、家長與幼兒共讀，使廉潔教育向下紮根。",
         video_information: "  ●  幼兒廉潔教育教材-廉潔寶寶聯盟",
         href: "http://www.abc.digimagic.com.tw/LJBB_ebook/index.html",
-        moudle_teach_video_a: ``
+        moudle_teach_video_a: `<img src="./img/moudle/hint-3.png" alt="" class="moudle-teach-video">`
     },
     {
         title: "題目【是謂是，非謂非】",
@@ -65,7 +65,7 @@ var data = [
         moudle_teach_video_a: `<iframe width="90%" height="90%" src="https://www.youtube.com/embed/JBBcBdyTFOs" title="廉潔寶寶聯盟 誠信最棒篇" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
-        title: "題目【龐涓改口為王出頭信平君頗不願出戰】",
+        title: "題目【龐涓改口為王出頭，信平君頗不願出戰。】",
         subtitle: "猜猜看，謎底是以下哪一個選項呢?",
         btn1_content: "守信",
         btn2_content: "清廉",
@@ -101,7 +101,7 @@ var data = [
         propaganda: "臺北市政府政風處編撰「第八屆廉能透明獎專刊」，介紹臺北市政府各機關推動透明化措施或系統之內容、建置過程及民眾使用情形，期望可供各單位在日後創設透明化措施或系統時之方向與指引參考，將「廉能透明」的效益擴散。",
         video_information: "  ●  臺北市政府第8界「廉能透明獎」專刊-電子書",
         href: "https://www-ws.gov.taipei/001/Upload/377/ebook/ebook_2087525/index.html",
-        moudle_teach_video_a: `<img src="./img/moudle/hint-2.jpg" alt="" class="moudle-teach-video">`
+        moudle_teach_video_a: `<img src="./img/moudle/hint-8.jpg" alt="" class="moudle-teach-video">`
     },
     {
         title: "題目【撥得雲開見白日】",

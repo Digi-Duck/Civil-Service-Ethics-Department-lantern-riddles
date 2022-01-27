@@ -110,14 +110,16 @@ main {
     .moudle-container {
         position: relative;
         background-size: cover;
+        //這裡
         padding: 1.36vw;
+        padding-bottom: 0;
         border: 2px #ff8908 solid;
         border-radius: 15px;
         overflow: hidden;
 
         .moudle-content {
             width: 100%;
-            height: 100%;
+            height: 104%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -146,7 +148,7 @@ main {
     @media (max-width: 768px) {
         .moudle-container {
             padding: 19.6629px;
-
+padding-bottom: 0;
             .moudle-content {
                 .moudle-exit {
                     width: 27.9243px;
@@ -583,9 +585,11 @@ main {
         @media (max-width: 1039px) {
             font-size: 12px;
         }
+            
     }
 
     .moudle-container {
+        
         .moudle-teach-information {
             width: 36.45vw;
             height: 14.43vw;
@@ -671,16 +675,18 @@ main {
             padding-top: 1.2vw;
             padding-bottom: 60px;
             overflow-y: scroll;
-            background-color: rgba(0, 0, 0, 0.8);
-
+            z-index: 1;
             @media (max-width: 768px) {
                 width: 422.669px;
-                height: 215.8628px;
+                // height: 215.8628px;
             }
-
+            
+            .moudle-teach-video-a{
+                background-color: rgba(0, 0, 0, 0.8);
+            }
             @media (max-width: 721px) {
                 width: 306.4459px;
-                height: 416.1394px;
+                // height: 416.1394px;
                 padding-top: 12.2181px;
             }
 
@@ -1101,7 +1107,7 @@ nav {
                         font-size: 9px;
                     }
                     @media (max-width: 768px) {
-                    font-size: 18px;
+                        font-size: 18px;
                     }
                     @media (max-width: 577px) {
                         font-size: 13px;
