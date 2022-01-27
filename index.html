@@ -1030,9 +1030,11 @@
                 moudle_teach_video_information.style['display'] = 'none';
                 moudle_teach_video_a.style['display'] = 'none';
 
-                moudle_teach_information.style['height']='15.26vw';
-                moudle_teach_information.style['flex-grow'] = '0';
-                moudle_teach_information.style['flex-shrink'] = '1';
+                moudle_teach_information.style['flex-grow']='0';
+                moudle_teach_information.style['flex-shrink']='1';
+                // moudle_teach_information.classList.remove("information-right");
+                // moudle_teach_information.classList.add("information-wrong");
+               
             }
             else {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/background-right.png')";
@@ -1055,10 +1057,10 @@
                 moudle_teach_video_information.style['display'] = 'block';
                 moudle_teach_video_information.innerHTML = `${data[index].video_information}`;
                 moudle_teach_video_information.setAttribute('href', `${data[index].href}`)
-                
-                moudle_teach_information.style['height']='14.43vw';
-                moudle_teach_information.style['flex-grow'] = '0';
-                moudle_teach_information.style['flex-shrink'] = '0';
+                moudle_teach_information.style['flex-grow']='0';
+                moudle_teach_information.style['flex-shrink']='0';
+                // moudle_teach_information.classList.remove("information-wrong");
+                // moudle_teach_information.classList.add("information-right");
 
                 moudle_teach_video_a.style['display'] = 'block';
                 moudle_teach_video_a.innerHTML = `${data[index].moudle_teach_video_a}`;
