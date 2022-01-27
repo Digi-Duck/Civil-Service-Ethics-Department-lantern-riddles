@@ -1,7 +1,11 @@
 @charset "UTF-8";
 * {
-  box-sizing: border-box;
-  user-select: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 html,
@@ -41,8 +45,12 @@ main {
   z-index: 13;
   width: 100%;
   height: 100%;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: rgba(0, 0, 0, 0.8);
   display: none;
 }
@@ -59,15 +67,23 @@ main {
 .big-prize-backgroung .big-prize-container .big-prize-content {
   width: 100%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .big-prize-backgroung .big-prize-container .big-prize-content .big-prize-exit {
   cursor: pointer;
   width: 30px;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
   margin-top: 18.1101px;
   margin-right: 21.4622px;
 }
@@ -79,10 +95,16 @@ main {
 }
 
 .big-prize-backgroung .big-prize-container .big-prize-content .big-prize-remind {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 100%;
-  align-items: flex-start;
-  justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .big-prize-backgroung .big-prize-container .big-prize-content .big-prize-remind .remind-icon {
@@ -106,10 +128,19 @@ main {
   background-color: rgba(0, 0, 0, 0.8);
   position: fixed;
   z-index: 13;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 2.08vw;
 }
 
@@ -126,16 +157,24 @@ main {
 .moudle .moudle-container .moudle-content {
   width: 100%;
   height: 104%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-weight: bold;
 }
 
 .moudle .moudle-container .moudle-content .moudle-exit {
   cursor: pointer;
   width: 2.62vw;
-  align-self: flex-end;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 .moudle .moudle-container .moudle-background {
@@ -195,8 +234,11 @@ main {
 }
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction .moudle-list-from {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction .moudle-list-from .font {
@@ -214,12 +256,18 @@ main {
 }
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction .moudle-list-from .font-3 {
-  flex: auto;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
 }
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction .moudle-list-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction .moudle-list-input .form-3-text {
@@ -230,9 +278,15 @@ main {
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction .moudle-list-sent {
   cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0px;
   border: 0px;
   background-color: unset;
@@ -247,7 +301,8 @@ main {
 }
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #333333;
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
 }
 
 .moudle-list .moudle-container .moudle-content .moudle-list-instruction::-webkit-scrollbar-thumb {
@@ -460,13 +515,20 @@ main {
 }
 
 .moudle-question .moudle-container .moudle-content .moudle-btn-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 @media (max-width: 721px) {
   .moudle-question .moudle-container .moudle-content .moudle-btn-container {
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -487,9 +549,15 @@ main {
 }
 
 .moudle-question .moudle-container .moudle-content .moudle-btn-container .moudle-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   cursor: pointer;
   background-image: url("../img/moudle/backgroung-btn.png");
@@ -533,7 +601,8 @@ main {
   bottom: -14px;
   z-index: 3;
   width: 25vw;
-  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 @media (max-width: 1024px) {
@@ -794,7 +863,8 @@ main {
 }
 
 .moudle-teach .moudle-container .moudle-teach-background::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px #333333;
+  -webkit-box-shadow: inset 0 0 6px #333333;
+          box-shadow: inset 0 0 6px #333333;
 }
 
 .moudle-teach .moudle-container .moudle-teach-background::-webkit-scrollbar-thumb {
@@ -811,9 +881,16 @@ main {
 
 .moudle-backstage .moudle-container .moudle-backstage-instruction {
   max-width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .moudle-backstage .moudle-container .moudle-backstage-instruction .moudle-backstage-content {
@@ -918,11 +995,17 @@ nav {
 
 nav .nav-container {
   padding: 20px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 nav .nav-container .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   width: 15.52%;
   cursor: pointer;
@@ -1043,8 +1126,12 @@ nav .nav-container .sound-btn img {
 }
 
 .banner-1 .slognAbreast {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-left: 2.86vw;
   margin-bottom: 0.9vw;
 }
@@ -1060,8 +1147,13 @@ nav .nav-container .sound-btn img {
   .banner-1 .slognAbreast {
     margin-left: 3.07vw;
     margin-bottom: 0;
-    flex-direction: column;
-    align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 }
 
@@ -1099,8 +1191,12 @@ nav .nav-container .sound-btn img {
 
 .banner-1 .slognAbreast .slogn-4 {
   width: 20.26%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .banner-1 .slognAbreast .slogn-4 img {
@@ -1139,8 +1235,13 @@ nav .nav-container .sound-btn img {
 
 .banner-1 .slognAbreast .slogn-4 .views-people {
   padding-left: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media (max-width: 900px) {
@@ -1200,6 +1301,8 @@ nav .nav-container .sound-btn img {
 .banner-1 .slogn-5 {
   width: 20.26%;
   margin-left: 2.86vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -1505,9 +1608,15 @@ nav .nav-container .sound-btn img {
 }
 
 .banner-2 .swiper-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto;
   width: 80.74vw;
 }
@@ -1543,8 +1652,12 @@ nav .nav-container .sound-btn img {
 .banner-2 .swiper-container .swiper {
   width: 74.21vw;
   height: 13.8vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -1564,7 +1677,10 @@ nav .nav-container .sound-btn img {
 }
 
 .banner-2 .swiper-container .swiper .swiper-wrapper {
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .banner-2 .swiper-container .swiper .swiper-wrapper .swiper-slide {
@@ -1751,10 +1867,16 @@ nav .nav-container .sound-btn img {
   .banner-2 .plate-container-phone {
     width: 92.18vw;
     height: 29.23vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     margin: 0 auto;
   }
 }
@@ -1763,9 +1885,15 @@ nav .nav-container .sound-btn img {
   .banner-2 .plate-container-phone {
     width: 100%;
     height: 108vw;
-    flex-direction: column;
-    align-items: center;
-    align-content: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: unset;
+        align-content: unset;
   }
 }
 
@@ -1816,14 +1944,26 @@ nav .nav-container .sound-btn img {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   z-index: 11;
   background-image: url("../img/moudle/finish.png");
   background-size: cover;
   background-position: center;
   display: none;
-  animation-name: open;
-  animation-duration: 1s;
+  -webkit-animation-name: open;
+          animation-name: open;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+@-webkit-keyframes open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes open {
@@ -1844,10 +1984,19 @@ nav .nav-container .sound-btn img {
 .banner-3 .game-finish .game-finish-information {
   width: 9.68%;
   height: 33.56vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -1923,10 +2072,19 @@ nav .nav-container .sound-btn img {
 .banner-3 .games-information {
   width: 9.68vw;
   height: 33.56vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 @media (max-width: 768px) {
@@ -1936,7 +2094,8 @@ nav .nav-container .sound-btn img {
     position: absolute;
     left: 50%;
     top: 40%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }
 
@@ -1988,10 +2147,16 @@ nav .nav-container .sound-btn img {
     width: 78.12vw;
     height: 76.9vw;
     position: static;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
@@ -2006,11 +2171,14 @@ nav .nav-container .sound-btn img {
   width: 13.12vw;
   height: 13.12vw;
   cursor: pointer;
-  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  -webkit-transition: 0.8s all ease;
   transition: 0.8s all ease;
   display: inline-block;
   position: relative;
-  perspective: 1000px;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
 }
 
 @media (max-width: 768px) {
@@ -2030,8 +2198,11 @@ nav .nav-container .sound-btn img {
 .banner-3 .games-information .games .card .games-btn-front {
   width: 13.12vw;
   position: absolute;
-  transform: rotateY(0);
-  backface-visibility: hidden;
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 1.5s all ease;
   transition: 1.5s all ease;
 }
 
@@ -2051,8 +2222,11 @@ nav .nav-container .sound-btn img {
 .banner-3 .games-information .games .card .games-btn-back {
   width: 13.12vw;
   position: absolute;
-  transform: rotateY(180deg);
-  backface-visibility: hidden;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: 1.5s all ease;
   transition: 1.5s all ease;
 }
 
@@ -2070,11 +2244,13 @@ nav .nav-container .sound-btn img {
 }
 
 .banner-3 .games-information .games .card .front-open {
-  transform: rotateY(-180deg);
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
 }
 
 .banner-3 .games-information .games .card .back-open {
-  transform: rotateY(0);
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
 }
 
 .banner-3 .games-information .lottery-btn-computer {
@@ -2447,9 +2623,15 @@ nav .nav-container .sound-btn img {
 }
 
 .banner-4 .swiper-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin: 0 auto;
   width: 80.74vw;
 }
@@ -2487,8 +2669,12 @@ nav .nav-container .sound-btn img {
   height: 11.87vw;
   margin-left: 2.29vw;
   margin-right: 2.29vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (max-width: 768px) {

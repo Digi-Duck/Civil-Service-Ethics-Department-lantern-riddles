@@ -435,22 +435,22 @@
                         <a href="https://www-ws.gov.taipei/001/Upload/377/ebook/ebook_2033450/index.html?ccms_cs=1" class="moudle-teach-video-a" target="_blank">
                             <img src="./img/moudle/hint-1.jpg" alt="" class="moudle-teach-video ">
                         </a> -->
-
+                        <!-- 
                         <div class="moudle-teach-video-information">
                             ● 「幼兒連結教育教材-廉潔寶寶聯盟」電子書
                         </div>
                         <a href="http://www.abc.digimagic.com.tw/LJBB_ebook/index.html" class="moudle-teach-video-a"
                             target="_blank">
                             http://www.abc.digimagic.com.tw/LJBB_ebook/index.html
-                        </a>
-                        <!-- 
+                        </a> -->
+
                         <a href="https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81"
                             class="moudle-teach-video-information" target="_blank">
                             ● 廉潔教育專區
                         </a>
                         <a href="https://sites.google.com/view/interity-edu/%E9%A6%96%E9%A0%81"
                             class="moudle-teach-video-a" target="_blank">
-                        </a> -->
+                        </a>
 
                         <!-- <div class="moudle-teach-video-information">
                             ●  廉政布袋戲「戲說清微＿掌門傳廉潔」影片連結：
@@ -1029,6 +1029,10 @@
                 teach_exit_Screen.removeEventListener("click", closeBoth);
                 moudle_teach_video_information.style['display'] = 'none';
                 moudle_teach_video_a.style['display'] = 'none';
+
+                moudle_teach_information.style['height']='15.26vw';
+                moudle_teach_information.style['flex-grow'] = '0';
+                moudle_teach_information.style['flex-shrink'] = '1';
             }
             else {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/background-right.png')";
@@ -1051,7 +1055,10 @@
                 moudle_teach_video_information.style['display'] = 'block';
                 moudle_teach_video_information.innerHTML = `${data[index].video_information}`;
                 moudle_teach_video_information.setAttribute('href', `${data[index].href}`)
-
+                
+                moudle_teach_information.style['height']='14.43vw';
+                moudle_teach_information.style['flex-grow'] = '0';
+                moudle_teach_information.style['flex-shrink'] = '0';
 
                 moudle_teach_video_a.style['display'] = 'block';
                 moudle_teach_video_a.innerHTML = `${data[index].moudle_teach_video_a}`;
@@ -1080,7 +1087,7 @@
         game = ["x", "x", "x", "x", "x", "x", "x", "x", "x"];
 
         //判斷是否連線
-        function isconnect() { 
+        function isconnect() {
             console.log(game);
             if (isfinish == false) {
                 for (let i = 0; i < 9; i += 3) {
@@ -1101,7 +1108,7 @@
                 }
                 if (isfinish == true) {
                     login.innerHTML =
-                    `
+                        `
                         <img src="./img/banner-3/png/to-lottery-btn.png" alt="抽獎按鈕-電腦版" class="lottery-btn-computer">
                         <img src="./img/banner-3/png/phone-to-lottery-btn.png" alt="抽獎按鈕-手機板" class="lottery-btn-phone">
                     `
@@ -1109,6 +1116,7 @@
                     openTaipelMoudle();
                     question_Screen.style['display'] = 'none';
                     teach_Screen.style['display'] = 'none';
+
                 }
             }
 
@@ -1267,7 +1275,7 @@
             moudle_questionnaire_exit.addEventListener("click", element => {
                 moudle_questionnaire.style['display'] = 'none';
             })
-            
+
             //模組-問卷
             const moudle_writeQuestionnaire = document.querySelector(".moudle-writeQuestionnaire");
             const moudle_writeQuestionnaire_exit = document.querySelector(".moudle-writeQuestionnaire-exit");
