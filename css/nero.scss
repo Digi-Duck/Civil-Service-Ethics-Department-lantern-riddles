@@ -1,0 +1,37 @@
+.moudle-personal {
+    display: none;
+    .form-block {
+        color: #FFFFFF;
+
+        .input-area {
+            display: flex;
+            flex-wrap: wrap;
+
+            label {
+                width: 100%;
+                margin-bottom: 16px;
+                display: flex;
+
+                &>div {
+                    width: 125px;
+                    text-align: justify;
+                    text-align-last: justify;
+                    padding-right: 16px;
+                }
+
+                input {
+                    width: calc(100% - 125px);
+                }
+            }
+        }
+
+        .collect-area {
+            display: flex;
+            justify-content: center;
+
+            label {
+                display: flex;
+            }
+        }
+    }
+}

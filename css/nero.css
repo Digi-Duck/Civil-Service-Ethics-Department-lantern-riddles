@@ -1,1 +1,39 @@
-/* No CSS *//*# sourceMappingURL=nero.css.map */
+.moudle-personal {
+  display: none;
+}
+
+.moudle-personal .form-block {
+  color: #FFFFFF;
+}
+
+.moudle-personal .form-block .input-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.moudle-personal .form-block .input-area label {
+  width: 100%;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.moudle-personal .form-block .input-area label > div {
+  width: 125px;
+  text-align: justify;
+  text-align-last: justify;
+  padding-right: 16px;
+}
+
+.moudle-personal .form-block .input-area label input {
+  width: calc(100% - 125px);
+}
+
+.moudle-personal .form-block .collect-area {
+  display: flex;
+  justify-content: center;
+}
+
+.moudle-personal .form-block .collect-area label {
+  display: flex;
+}
+/*# sourceMappingURL=nero.css.map */

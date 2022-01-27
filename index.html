@@ -194,9 +194,77 @@
                         <div class="moudle-backstage-content moudle-backstage-margin">
                             為了加強保障您的個資安全，及保障抽獎活動的公平性，本次抽獎需登入台北通後即可參加抽獎。
                         </div>
-                        <a target="_block" onclick="TaipeiPasslogin()" id="TaipeiPasslogin">
-                            <img src="./img/moudle/goto-Taipeipass.svg" alt="" class="moudle-backstage-btn">
-                        </a>
+                        <div>
+                            <div>
+                                <span>方法一：登入台北通</span>
+                                <a target="_block" onclick="TaipeiPasslogin()" id="TaipeiPasslogin">
+                                    <img src="./img/moudle/goto-Taipeipass.svg" alt="" class="moudle-backstage-btn">
+                                </a>
+                            </div>
+                            <div>
+                                <span>方法二：聯絡資訊</span>
+                                <a target="_block" onclick="TaipeiPasslogin()" id="TaipeiPasslogin">
+                                    <img src="./img/moudle/goto-Taipeipass.svg" alt="" class="moudle-backstage-btn">
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <picture class="moudle-background">
+                    <source media="(max-width:584px)" srcset="/img/moudle-qusetion-background-1.png">
+                    <img src="/img/moudle-qusetion-background-2.svg" alt="">
+                </picture>
+            </div>
+        </div>
+        
+        <div class="moudle moudle-backstage moudle-personal">
+            <div class="moudle-container">
+                <div class="moudle-content">
+                    <img src="./img/moudle/moudle-exit.png" alt="返回" class="moudle-exit moudle-goto-exit">
+                    <div class="moudle-backstage-instruction">
+                        <div class="moudle-backstage-content moudle-backstage-margin">
+                            聯絡資料填寫
+                        </div>
+                        <form action="" method="post" class="form-block">
+                            <!-- @scrf -->
+                            <div class="input-area">
+                                <label for="">
+                                    <div>姓名</div>
+                                    <input type="text" required>
+                                </label>
+                                <label for="">
+                                    <div>電話</div>
+                                    <input type="text" required>
+                                </label>
+                                <label for="">
+                                    <div>電子信箱</div>
+                                    <input type="mail" required>
+                                </label>
+                            </div>
+                            <div class="collect-area">
+                                <label for="">
+                                    <input type="checkbox">
+                                    <div>
+                                        XXXXXXXX
+                                        <div>OOOOOO</div>
+                                    </div>
+                                </label>
+                            </div>
+
+                            <div class="bottomblock">
+                                <button type="submit">
+                                    <div class="moudle-backstage-btn">
+                                        送出
+                                    </div>
+                                </button>
+                                <a target="_block" onclick="TaipeiPasslogin()" id="TaipeiPasslogin">
+                                    <div class="moudle-backstage-btn">
+                                        取消
+                                    </div>
+                                </a>
+                            </div>
+                        </form>
                     </div>
                 </div>
                 <picture class="moudle-background">
@@ -812,7 +880,7 @@
 
     <!-- 背景音樂 -->
     <!-- <script src="/riddles/js/backgroundmusic.js"></script> -->
-    <script src="/js/backgroundmusic.js"></script>
+    <!-- <script src="/js/backgroundmusic.js"></script> -->
 
     <!-- 題目 -->
     <!-- <script src="/riddles/js/topic.js"></script> -->
