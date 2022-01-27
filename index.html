@@ -1021,6 +1021,7 @@
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/background-wrong.png')";
                 moudle_teach_title.innerHTML = `您答錯了`;
                 moudle_teach_title.style['color'] = 'red';
+                moudle_teach_title.style.marginTop = '10px';
                 moudle_teach_subtitle.innerHTML = `重新看看提示吧`;
                 moudle_teach_next.innerHTML = `<img src="./img/moudle/again.svg" alt="" class="moudle-teach-next-img">`
                 moudle_teach_next_phone.innerHTML = `<img src="./img/moudle/again.svg" alt="" class="moudle-teach-next-img">`
@@ -1036,12 +1037,13 @@
                 moudle_teach_information.style['flex-shrink']='1';
                 // moudle_teach_information.classList.remove("information-right");
                 // moudle_teach_information.classList.add("information-wrong");
-               
+                moudle_teach_information.classList.add('wrong')
             }
             else {
                 moudle_teach_information.style.backgroundImage = "url('./img/moudle/background-right.png')";
                 moudle_teach_title.innerHTML = `您答對了`;
                 moudle_teach_title.style['color'] = '#22AB38';
+                moudle_teach_title.style.marginTop = '0px';
                 moudle_teach_subtitle.innerHTML = `成功連線就可以參加抽獎喔~`;
                 moudle_teach_next.innerHTML = `<img src="./img/moudle/next.svg" alt="" class="moudle-teach-next-img">`;
                 moudle_teach_next_phone.innerHTML = `<img src="./img/moudle/next.svg" alt="" class="moudle-teach-next-img">`;
@@ -1068,6 +1070,7 @@
                 moudle_teach_video_a.innerHTML = `${data[index].moudle_teach_video_a}`;
                 moudle_teach_video_a.setAttribute('href', `${data[index].href}`);
                 sendfetch();
+                moudle_teach_information.classList.remove('wrong')
 
             // cards[index].classList.add("card-open");
 

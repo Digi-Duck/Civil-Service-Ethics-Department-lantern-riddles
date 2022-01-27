@@ -2536,5 +2536,21 @@ nav {
 // }
 
 /*#endregion*/
+.moudle-teach{
+    .moudle-container{
+        .moudle-content{
+            .wrong{
+                height: 15.26vw ;
+               @media (max-width: 768px) {
+                height: 161.2573px;
+               }
+               @media (max-width: 721px) {
+                   height: 132.2796px;
+                  }
+               
+           }
+        }
+    }
+}
 
 

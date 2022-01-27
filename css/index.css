@@ -2990,4 +2990,19 @@ nav .nav-container .sound-btn img {
 }
 
 /*#endregion*/
+.moudle-teach .moudle-container .moudle-content .wrong {
+  height: 15.26vw;
+}
+
+@media (max-width: 768px) {
+  .moudle-teach .moudle-container .moudle-content .wrong {
+    height: 161.2573px;
+  }
+}
+
+@media (max-width: 721px) {
+  .moudle-teach .moudle-container .moudle-content .wrong {
+    height: 132.2796px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
