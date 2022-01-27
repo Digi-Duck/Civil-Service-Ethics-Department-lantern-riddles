@@ -2022,7 +2022,7 @@ nav .nav-container .sound-btn img {
 }
 
 .banner-3 .game-finish .game-finish-information .banner-3-title-computer {
-  width: calc(6.14vw - 17px);
+  width: calc(6.14vw);
 }
 
 @media (max-width: 768px) {
