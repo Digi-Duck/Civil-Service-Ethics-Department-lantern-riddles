@@ -885,7 +885,7 @@
         let sound_btn = document.querySelector(".sound-btn");
         sound_btn.addEventListener("click", element => {//測試用
             cards[0].classList.add("card-open");
-            })
+        })
         let question_Screen = document.querySelector(".moudle-question");
         let title_Screen = document.querySelector(".moudle-title");
         let subtitle_Screen = document.querySelector(".moudle-subtitle");
@@ -1033,8 +1033,8 @@
                 moudle_teach_video_information.style['display'] = 'none';
                 moudle_teach_video_a.style['display'] = 'none';
 
-                moudle_teach_information.style['flex-grow']='0';
-                moudle_teach_information.style['flex-shrink']='1';
+                moudle_teach_information.style['flex-grow'] = '0';
+                moudle_teach_information.style['flex-shrink'] = '1';
                 // moudle_teach_information.classList.remove("information-right");
                 // moudle_teach_information.classList.add("information-wrong");
                 moudle_teach_information.classList.add('wrong')
@@ -1061,8 +1061,8 @@
                 moudle_teach_video_information.style['display'] = 'block';
                 moudle_teach_video_information.innerHTML = `${data[index].video_information}`;
                 moudle_teach_video_information.setAttribute('href', `${data[index].href}`)
-                moudle_teach_information.style['flex-grow']='0';
-                moudle_teach_information.style['flex-shrink']='0';
+                moudle_teach_information.style['flex-grow'] = '0';
+                moudle_teach_information.style['flex-shrink'] = '0';
                 // moudle_teach_information.classList.remove("information-wrong");
                 // moudle_teach_information.classList.add("information-right");
 
@@ -1072,7 +1072,7 @@
                 sendfetch();
                 moudle_teach_information.classList.remove('wrong')
 
-            // cards[index].classList.add("card-open");
+                // cards[index].classList.add("card-open");
 
             }
         }
@@ -1085,6 +1085,9 @@
             games_btn_fronts[index].classList.add("front-open");
             games_btn_backs[index].classList.add("back-open");
             isconnect();
+            //2022-1-28
+            $('.moudle-teach iframe').detach();
+            //2022-1-28
         }
 
         const games_finish = document.querySelector(".game-finish");
