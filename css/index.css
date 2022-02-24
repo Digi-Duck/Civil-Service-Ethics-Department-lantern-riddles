@@ -19,7 +19,7 @@ body {
   background-color: #000000;
   width: 100%;
   position: relative;
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 main {
@@ -3037,6 +3037,105 @@ nav .nav-container .sound-btn img {
 @media (max-width: 721px) {
   .moudle-teach .moudle-container .moudle-content .wrong {
     height: 132.2796px;
+  }
+}
+
+.moudle-lottery-finish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+}
+
+.moudle-lottery-finish .moudle-container .moudle-content .moudle-list-subtitle {
+  padding-top: 2.35vw;
+  font-size: 48px;
+  text-align: center;
+}
+
+@media (max-width: 1080px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-subtitle {
+    font-size: 18px;
+    padding: 0 140px;
+    line-height: 25px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 770px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-subtitle {
+    margin-top: -14px;
+    margin-bottom: 15px;
+  }
+}
+
+.moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content {
+  text-align: justify;
+  color: white;
+  font-size: 28px;
+  padding: 0 250px;
+  line-height: 40px;
+}
+
+@media (max-width: 1763px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1620px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content {
+    padding: 0 140px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 1599px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content {
+    font-size: 24px;
+    padding: 0 140px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 770px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content {
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content {
+    font-size: 14px;
+  }
+}
+
+.moudle-lottery-finish .moudle-container .moudle-content .moudle-list-content a {
+  color: #1f8dff;
+}
+
+@media (max-width: 1080px) {
+  .moudle-lottery-finish .moudle-container {
+    height: 46vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .moudle-lottery-finish .moudle-container {
+    height: 55vw;
+  }
+}
+
+@media (max-width: 580px) {
+  .moudle-lottery-finish .moudle-container {
+    height: 85vw;
   }
 }
 /*# sourceMappingURL=index.css.map */

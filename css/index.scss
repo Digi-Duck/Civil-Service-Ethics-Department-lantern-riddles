@@ -13,7 +13,8 @@ body {
     background-color: #000000;
     width: 100%;
     position: relative;
-    overflow-y: scroll;
+    // overflow-y: scroll;
+    overflow-y:hidden;
 }
 
 main {
@@ -44,7 +45,7 @@ main {
     background-color: rgba(0, 0, 0, 0.8);
     display: none;
 
-//2022-1-28
+    //2022-1-28
     .big-prize-container {
         width: 746px;
         height: 596px;
@@ -59,7 +60,7 @@ main {
         @media (max-width: 546px) {
             width: 347px;
         }
-       
+
         .big-prize-content {
             width: 100%;
             height: 100%;
@@ -92,7 +93,7 @@ main {
                 align-items: flex-start;
                 justify-content: center;
                 @media (max-width: 546px) {
-                width: 80%;
+                    width: 80%;
                 }
                 .remind-icon {
                     width: 28.4209px;
@@ -2569,5 +2570,75 @@ nav {
                 }
             }
         }
+    }
+}
+.moudle-lottery-finish {
+    display: flex;
+    position: fixed;
+    top: 0;
+    // z-index: 10000;
+    .moudle-container {
+        .moudle-content {
+            .moudle-list-subtitle {
+                padding-top: 2.35vw;
+                font-size: 48px;
+                text-align: center;
+                
+                @media (max-width: 1080px) {
+                    font-size: 18px;
+                    padding: 0 140px;
+                    line-height: 25px;
+                    margin-bottom: 20px;
+                }
+                @media (max-width: 770px) {
+                    margin-top: -14px;
+                    margin-bottom: 15px;
+                }
+                @media (max-width: 700px) {
+                }
+            }
+            .moudle-list-content {
+                text-align: justify;
+                color: white;
+                // font-size: 24px;
+                font-size: 28px;
+                padding: 0 250px;
+                line-height: 40px;
+                @media (max-width: 1763px) {
+                    font-size: 24px;
+                }
+                @media (max-width: 1620px) {
+                    padding: 0 140px;
+                    line-height: 25px;
+                }
+                @media (max-width: 1599px) {
+                    font-size: 24px;
+                    padding: 0 140px;
+                    line-height: 25px;
+                }
+                @media (max-width: 1200px) {
+                    font-size: 18px;
+                
+                }
+                @media (max-width: 770px) {
+                    line-height: 20px;
+                }
+                @media (max-width: 700px) {
+                    font-size: 14px;
+                }
+                a {
+                    color: #1f8dff ;
+                }
+            }
+        }
+        @media (max-width: 1080px) {
+            height: 46vw;
+        }
+        @media (max-width: 700px) {
+        height: 55vw;
+        }
+        @media (max-width: 580px) {
+            height: 85vw;
+            }
     }
 }
