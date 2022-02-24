@@ -3138,4 +3138,10 @@ nav .nav-container .sound-btn img {
     height: 85vw;
   }
 }
+
+@media (max-width: 400px) {
+  .moudle-lottery-finish .moudle-container {
+    height: 92vw;
+  }
+}
 /*# sourceMappingURL=index.css.map */
