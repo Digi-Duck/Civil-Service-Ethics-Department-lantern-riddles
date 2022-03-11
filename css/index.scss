@@ -2645,3 +2645,369 @@ nav {
         }
     }
 }
+//得獎名單-px版
+// .banner-2 {
+//     padding-top: 60.05px;
+// }
+// .winner-list-container {
+//     // display: flex;
+//     // align-items: center;
+//     // flex-direction: column;
+//     .winner-list-btn-container {
+//         display: flex;
+//         justify-content: center;
+//         @media (max-width: 869px) {
+//             flex-wrap: wrap;
+//         }
+//         img {
+//             width: 211px;
+//             height: 76px;
+//             margin-right: 23.95px;
+//             cursor: pointer;
+//             @media (max-width: 869px) {
+//                 margin-bottom: 20px;
+//             }
+//         }
+//         img:last-child {
+//             margin-right: 0;
+//             @media (max-width: 869px) {
+//                 margin-right: 23.95px;
+//             }
+//         }
+//     }
+//     .winner-list-information-container {
+//         display: flex;
+//         padding-left: 378.82px;
+//         padding-top: 30.76px;
+//         .winner-list-information-title {
+//             padding-top: 30.76px;
+//             width: 231.82px;
+//             @media (max-width: 869px) {
+//                 display: none;
+//             }
+//         }
+//         .winner-list-information-detail-container {
+//             .information-detail-prize-name {
+//                 color: #ff8908;
+//                 font-size: 30px;
+//                 padding-left: 250.04px;
+//                 font-weight: bold;
+//                 margin-bottom: 20.32px;
+
+//             }
+//             .information-detail-prize-list-container {
+//                 position: relative;
+//                 margin-left: 14.17px;
+//                 height: 250px;
+//                 width: 918.37px;
+//                 // border: 1px solid #ff8908;
+//                 margin-bottom: 41.28px;
+//                 .information-detail-prize-list-title-container {
+//                     height: 53.41px;
+//                     color: #ff8908;
+//                     font-size: 24px;
+//                     font-weight: bold;
+//                     display: flex;
+//                     // justify-content: center;
+//                     // align-content: center;
+//                     .information-detail-prize-list-title {
+//                         border-bottom: 1px solid #ff8908;
+//                         text-align: center;
+//                         line-height: 53.41px;
+//                     }
+//                     .information-detail-prize-list-title-1 {
+//                         width: 322.43px;
+//                         border-radius: 16.562px 0 0 0;
+//                         border-top: 1px solid #ff8908;
+//                         border-left: 1px solid #ff8908;
+//                         border-right: 1px solid #ff8908;
+//                     }
+//                     .information-detail-prize-list-title-2 {
+//                         width: 592.86px;
+//                         border-radius: 0 16.562px 0 0;
+//                         border-top: 1px solid #ff8908;
+//                         border-right: 1px solid #ff8908;
+//                     }
+//                 }
+//                 .information-detail-prize-list-background-container {
+//                     display: flex;
+//                     .information-detail-prize-list-background-left {
+//                         height: 193.35px;
+//                         width: 322.43px;
+//                         border-left: 1px solid #ff8908;
+//                         border-bottom: 1px solid #ff8908;
+//                         border-right: 1px solid #ff8908;
+//                         border-radius: 0 0 0 16.562px;
+//                     }
+//                     .information-detail-prize-list-background-right {
+//                         height: 193.35px;
+//                         width: 592.86px;
+//                         border-right: 1px solid #ff8908;
+//                         border-bottom: 1px solid #ff8908;
+//                         border-radius: 0 0 16.562px 0;
+//                     }
+//                 }
+//                 .information-detail-prize-list-detail-container {
+//                     position: absolute;
+//                     top: 53.41px;
+//                     left: 130.72px;
+//                     color: white;
+//                     width: 550.37px;
+//                     height: 191px;
+//                     padding-top: 20.09px;
+//                     font-size: 24px;
+//                     font-weight: bold;
+//                     overflow-y: scroll;
+//                     padding-bottom: 30px;
+
+//                     .winning-people-container {
+//                         display: flex;
+//                         justify-content: space-between;
+//                     }
+//                 }
+//             }
+//             .information-detail-precautions-title {
+//                 color: #f2e424;
+//                 font-size: 24px;
+//                 font-weight: bold;
+//                 margin-bottom: 4.14px;
+//                 padding-left: 14.17px;
+//             }
+//             .information-detail-precautions-detail {
+//                 font-size: 18px;
+//                 color: white;
+//                 padding-left: 14.17px;
+//                 line-height: 34px;
+//             }
+//         }
+//     }
+//     .information-detail-prize-list-detail-container::-webkit-scrollbar {
+//         width: 0.001px;
+//     }
+//     .information-detail-prize-list-detail-1::-webkit-scrollbar-track-piece {
+//         background-color: black;
+//     } /* 滾動條的內層滑軌背景顏色 */
+
+//     .information-detail-prize-list-detail-1::-webkit-scrollbar-track {
+//         background-color: black;
+//     } /* 滾動條的外層滑軌背景顏色 */
+
+//     .information-detail-prize-list-detail-1::-webkit-scrollbar-thumb {
+//         background-color: black;
+//     } /* 滾動條的內層滑塊顏色 */
+
+//     .information-detail-prize-list-detail-1::-webkit-scrollbar-button {
+//         background-color: black;
+//         display: none;
+//     } /* 滑軌兩頭的監聽按鈕顏色 */
+// }
+
+//得獎名單-vw版
+.banner-2 {
+    padding-top: 3.12vw;
+}
+.winner-list-container {
+    // display: flex;
+    // align-items: center;
+    // flex-direction: column;
+    .winner-list-btn-container {
+        display: flex;
+        justify-content: center;
+        @media (max-width: 869px) {
+            flex-wrap: wrap;
+        }
+        img {
+            width: 10.98vw;
+            margin: 0 1.24vw;
+            cursor: pointer;
+            @media (max-width: 869px) {
+                width: 25.98vw;
+                margin: 0 1.24vw 20px;
+            }
+        }
+    }
+    .winner-list-information-container {
+        display: flex;
+        padding-left: 19.73vw;
+        padding-top: 1.6vw;
+        @media (max-width: 869px) {
+            padding-left: 0;
+            justify-content: center;
+            padding-top: 0;
+        }
+        .winner-list-information-title {
+            padding-top: 1.6vw;
+            width: 12.07vw;
+            @media (max-width: 869px) {
+                display: none;
+            }
+        }
+        .winner-list-information-detail-container {
+            @media (max-width: 869px) {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+            }
+            .information-detail-prize-name {
+                color: #ff8908;
+                font-size: 1.56vw;
+                padding-left: 13.02vw;
+                font-weight: bold;
+                margin-bottom: 1.05vw;
+                @media (max-width: 869px) {
+                    display: flex;
+                    justify-content: center;
+                    padding-left: 0;
+                    font-size: 3.25vw;
+                    margin-bottom: 2.05vw;
+                }
+            }
+            .information-detail-prize-list-container {
+                position: relative;
+                margin-left: 0.73vw;
+                height: 13.02vw;
+                width: 47.83vw;
+                // border: 1px solid #ff8908;
+                margin-bottom: 2.15vw;
+                @media (max-width: 869px) {
+                    margin: 0 auto;
+                    width: 78.83vw;
+                    height: auto;
+                }
+                .information-detail-prize-list-title-container {
+                    height: 2.78vw;
+                    color: #ff8908;
+                    font-size: 1.25vw;
+                    font-weight: bold;
+                    display: flex;
+                    // justify-content: center;
+                    // align-content: center;
+                    @media (max-width: 869px) {
+                        margin: 0 auto;
+                        font-size: 3.25vw;
+                        height: 4.78vw;
+                    }
+
+                    .information-detail-prize-list-title {
+                        border-bottom: 1px solid #ff8908;
+                        text-align: center;
+                        line-height: 2.78vw;
+                        @media (max-width: 869px) {
+                            line-height: 4.78vw;
+                        }
+                    }
+                    .information-detail-prize-list-title-1 {
+                        width: 16.79vw;
+                        border-radius: 0.86vw 0 0 0;
+                        border-top: 1px solid #ff8908;
+                        border-left: 1px solid #ff8908;
+                        border-right: 1px solid #ff8908;
+                        @media (max-width: 869px) {
+                            width: 31.79vw;
+                        }
+                    }
+                    .information-detail-prize-list-title-2 {
+                        width: 30.87vw;
+                        border-radius: 0 0.86vw 0 0;
+                        border-top: 1px solid #ff8908;
+                        border-right: 1px solid #ff8908;
+                        @media (max-width: 869px) {
+                            width: 51.87vw;
+                        }
+                    }
+                }
+                .information-detail-prize-list-background-container {
+                    display: flex;
+                    .information-detail-prize-list-background-left {
+                        height: 10.07vw;
+                        width: 16.79vw;
+                        border-left: 1px solid #ff8908;
+                        border-bottom: 1px solid #ff8908;
+                        border-right: 1px solid #ff8908;
+                        border-radius: 0 0 0 0.86vw;
+                        @media (max-width: 869px) {
+                            width: 31.79vw;
+                            height: 22.07vw;
+                        }
+                    }
+                    .information-detail-prize-list-background-right {
+                        height: 10.07vw;
+                        width: 30.87vw;
+                        border-right: 1px solid #ff8908;
+                        border-bottom: 1px solid #ff8908;
+                        border-radius: 0 0 0.86vw 0;
+                        @media (max-width: 869px) {
+                            width: 51.87vw;
+                            height: 22.07vw;
+                        }
+                    }
+                }
+                .information-detail-prize-list-detail-container {
+                    position: absolute;
+                    top: 2.78vw;
+                    left: 6.8vw;
+                    color: white;
+                    width: 28.66vw;
+                    height: 9.94vw;
+                    padding-top: 1.04vw;
+                    font-size: 1.25vw;
+                    font-weight: bold;
+                    overflow-y: scroll;
+                    padding-bottom: 1.56vw;
+                    @media (max-width: 869px) {
+                        font-size: 3.25vw;
+                        top: 6.78vw;
+                        left: 10.9vw;
+                        width: 51.66vw;
+                        height: 19.8vw;
+                    }
+                    .winning-people-container {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+            }
+            .information-detail-precautions-title {
+                color: #f2e424;
+                font-size: 1.25vw;
+                font-weight: bold;
+                margin-bottom: 0.21vw;
+                padding-left: 0.73vw;
+                @media (max-width: 869px) {
+                    font-size: 3.25vw;
+                }
+            }
+            .information-detail-precautions-detail {
+                font-size: 0.93vw;
+                width: 918.32px;
+                color: white;
+                padding-left: 0.73vw;
+                line-height: 1.77vw;
+                @media (max-width: 869px) {
+                    width: 567.32px;
+                    font-size: 2vw;
+                    line-height: 2.25vw;
+                }
+            }
+        }
+    }
+    .information-detail-prize-list-detail-container::-webkit-scrollbar {
+        width: 0.001px;
+    }
+    .information-detail-prize-list-detail-1::-webkit-scrollbar-track-piece {
+        background-color: black;
+    } /* 滾動條的內層滑軌背景顏色 */
+
+    .information-detail-prize-list-detail-1::-webkit-scrollbar-track {
+        background-color: black;
+    } /* 滾動條的外層滑軌背景顏色 */
+
+    .information-detail-prize-list-detail-1::-webkit-scrollbar-thumb {
+        background-color: black;
+    } /* 滾動條的內層滑塊顏色 */
+
+    .information-detail-prize-list-detail-1::-webkit-scrollbar-button {
+        background-color: black;
+        display: none;
+    } /* 滑軌兩頭的監聽按鈕顏色 */
+}
