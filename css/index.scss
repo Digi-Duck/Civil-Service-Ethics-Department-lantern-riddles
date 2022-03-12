@@ -2648,6 +2648,14 @@ nav {
 //得獎名單-px版
 // .banner-2 {
 //     padding-top: 60.05px;
+// @media (max-width: 800px) {
+//     padding-top: 60px;
+//     height: 1093px;
+// }
+// @media (max-width: 469px) {
+//     padding-top: 40px;
+//     height: 1580px;
+// }
 // }
 // .winner-list-container {
 //     // display: flex;
@@ -2656,7 +2664,7 @@ nav {
 //     .winner-list-btn-container {
 //         display: flex;
 //         justify-content: center;
-//         @media (max-width: 869px) {
+//         @media (max-width: 800px) {
 //             flex-wrap: wrap;
 //         }
 //         img {
@@ -2664,14 +2672,25 @@ nav {
 //             height: 76px;
 //             margin-right: 23.95px;
 //             cursor: pointer;
-//             @media (max-width: 869px) {
-//                 margin-bottom: 20px;
+//             z-index: 1;
+//             @media (max-width: 800px) {
+//                 width: 25.98vw;
+//                 margin: 0 1.24vw 20px;
+//             }
+//             @media (max-width: 469px) {
+//                 margin: 0 0 15px;
+//                 width: 83.55vw;
 //             }
 //         }
 //         img:last-child {
 //             margin-right: 0;
-//             @media (max-width: 869px) {
-//                 margin-right: 23.95px;
+//             @media (max-width: 800px) {
+//                 padding-left: 0;
+//                 justify-content: center;
+//                 padding-top: 15px;
+//             }
+//             @media (max-width: 469px) {
+//                 padding-top: 25px;
 //             }
 //         }
 //     }
@@ -2682,18 +2701,32 @@ nav {
 //         .winner-list-information-title {
 //             padding-top: 30.76px;
 //             width: 231.82px;
-//             @media (max-width: 869px) {
+//             @media (max-width: 800px) {
 //                 display: none;
 //             }
 //         }
 //         .winner-list-information-detail-container {
+//             @media (max-width: 800px) {
+//                 display: flex;
+//                 flex-direction: column;
+//                 align-content: center;
+//             }
 //             .information-detail-prize-name {
 //                 color: #ff8908;
 //                 font-size: 30px;
 //                 padding-left: 250.04px;
 //                 font-weight: bold;
 //                 margin-bottom: 20.32px;
-
+//                 @media (max-width: 800px) {
+//                     display: flex;
+//                     justify-content: center;
+//                     padding-left: 0;
+//                     font-size: 3.25vw;
+//                     margin-bottom: 2.05vw;
+//                 }
+//                 @media (max-width: 469px) {
+//                     font-size: 5.25vw;
+//                 }
 //             }
 //             .information-detail-prize-list-container {
 //                 position: relative;
@@ -2702,6 +2735,14 @@ nav {
 //                 width: 918.37px;
 //                 // border: 1px solid #ff8908;
 //                 margin-bottom: 41.28px;
+//                 @media (max-width: 800px) {
+//                     margin: 0 auto;
+//                     width: 78.83vw;
+//                     height: auto;
+//                 }
+//                 @media (max-width: 469px) {
+//                     width: 82.83vw;
+//                 }
 //                 .information-detail-prize-list-title-container {
 //                     height: 53.41px;
 //                     color: #ff8908;
@@ -2710,10 +2751,25 @@ nav {
 //                     display: flex;
 //                     // justify-content: center;
 //                     // align-content: center;
+//                     @media (max-width: 800px) {
+//                         margin: 0 auto;
+//                         font-size: 3.25vw;
+//                         height: 4.78vw;
+//                     }
+//                     @media (max-width: 469px) {
+//                         font-size: 4.25vw;
+//                         height: 6.78vw;
+//                     }
 //                     .information-detail-prize-list-title {
 //                         border-bottom: 1px solid #ff8908;
 //                         text-align: center;
 //                         line-height: 53.41px;
+//                         @media (max-width: 800px) {
+//                             line-height: 4.78vw;
+//                         }
+//                         @media (max-width: 469px) {
+//                             line-height: 6.78vw;
+//                         }
 //                     }
 //                     .information-detail-prize-list-title-1 {
 //                         width: 322.43px;
@@ -2721,12 +2777,18 @@ nav {
 //                         border-top: 1px solid #ff8908;
 //                         border-left: 1px solid #ff8908;
 //                         border-right: 1px solid #ff8908;
+//                         @media (max-width: 800px) {
+//                             width: 31.79vw;
+//                         }
 //                     }
 //                     .information-detail-prize-list-title-2 {
 //                         width: 592.86px;
 //                         border-radius: 0 16.562px 0 0;
 //                         border-top: 1px solid #ff8908;
 //                         border-right: 1px solid #ff8908;
+//                         @media (max-width: 800px) {
+//                             width: 51.87vw;
+//                         }
 //                     }
 //                 }
 //                 .information-detail-prize-list-background-container {
@@ -2738,6 +2800,13 @@ nav {
 //                         border-bottom: 1px solid #ff8908;
 //                         border-right: 1px solid #ff8908;
 //                         border-radius: 0 0 0 16.562px;
+//                         @media (max-width: 800px) {
+//                             width: 31.79vw;
+//                             height: 22.07vw;
+//                         }
+//                         @media (max-width: 469px) {
+//                             height: 33.35vw;
+//                         }
 //                     }
 //                     .information-detail-prize-list-background-right {
 //                         height: 193.35px;
@@ -2745,6 +2814,13 @@ nav {
 //                         border-right: 1px solid #ff8908;
 //                         border-bottom: 1px solid #ff8908;
 //                         border-radius: 0 0 16.562px 0;
+//                         @media (max-width: 800px) {
+//                             width: 51.87vw;
+//                             height: 22.07vw;
+//                         }
+//                         @media (max-width: 469px) {
+//                             height: 33.35vw;
+//                         }
 //                     }
 //                 }
 //                 .information-detail-prize-list-detail-container {
@@ -2759,7 +2835,19 @@ nav {
 //                     font-weight: bold;
 //                     overflow-y: scroll;
 //                     padding-bottom: 30px;
-
+//                     @media (max-width: 800px) {
+//                         font-size: 3.25vw;
+//                         top: 6.78vw;
+//                         left: 10.9vw;
+//                         width: 51.66vw;
+//                         height: 19.8vw;
+//                     }
+//                     @media (max-width: 469px) {
+//                         font-size: 4.25vw;
+//                         width: 56.66vw;
+//                         top: 8vw;
+//                         height: 31.8vw;
+//                     }
 //                     .winning-people-container {
 //                         display: flex;
 //                         justify-content: space-between;
@@ -2772,12 +2860,31 @@ nav {
 //                 font-weight: bold;
 //                 margin-bottom: 4.14px;
 //                 padding-left: 14.17px;
+//                 @media (max-width: 800px) {
+//                     font-size: 3.25vw;
+//                     padding-top: 30px;
+//                     padding-bottom: 15px;
+//                 }
+//                 @media (max-width: 469px) {
+//                     font-size: 4.25vw;
+//                     padding-top: 35px;
+//                 }
 //             }
 //             .information-detail-precautions-detail {
 //                 font-size: 18px;
 //                 color: white;
 //                 padding-left: 14.17px;
 //                 line-height: 34px;
+//                 @media (max-width: 800px) {
+//                     width: 31.68vw;
+//                     font-size: 2vw;
+//                     line-height: 2.25vw;
+//                 }
+//                 @media (max-width: 469px) {
+//                     width: 16.26vw;
+//                     font-size: 4.25vw;
+//                     line-height: 5.25vw;
+//                 }
 //             }
 //         }
 //     }
@@ -2805,6 +2912,24 @@ nav {
 //得獎名單-vw版
 .banner-2 {
     padding-top: 3.12vw;
+    @media (max-width: 1280px) {
+        height: 55.31vw;
+    }
+    @media (max-width: 800px) {
+        padding-top: 60px;
+        height: 120.31vw;
+    }
+    @media (max-width: 768px) {
+        height: 142.31vw;
+    }
+    @media (max-width: 650px) {
+        height: 158.31vw;
+    }
+
+    @media (max-width: 469px) {
+        padding-top: 40px;
+        height: 407.88vw;
+    }
 }
 .winner-list-container {
     // display: flex;
@@ -2813,16 +2938,21 @@ nav {
     .winner-list-btn-container {
         display: flex;
         justify-content: center;
-        @media (max-width: 869px) {
+        @media (max-width: 800px) {
             flex-wrap: wrap;
         }
         img {
             width: 10.98vw;
             margin: 0 1.24vw;
             cursor: pointer;
-            @media (max-width: 869px) {
+            z-index: 1;
+            @media (max-width: 800px) {
                 width: 25.98vw;
                 margin: 0 1.24vw 20px;
+            }
+            @media (max-width: 469px) {
+                margin: 0 0 3.19vw;
+                width: 83.55vw;
             }
         }
     }
@@ -2830,20 +2960,23 @@ nav {
         display: flex;
         padding-left: 19.73vw;
         padding-top: 1.6vw;
-        @media (max-width: 869px) {
+        @media (max-width: 800px) {
             padding-left: 0;
             justify-content: center;
-            padding-top: 0;
+            padding-top: 1.95vw;
+        }
+        @media (max-width: 469px) {
+            padding-top: 5.33vw;
         }
         .winner-list-information-title {
             padding-top: 1.6vw;
             width: 12.07vw;
-            @media (max-width: 869px) {
+            @media (max-width: 800px) {
                 display: none;
             }
         }
         .winner-list-information-detail-container {
-            @media (max-width: 869px) {
+            @media (max-width: 800px) {
                 display: flex;
                 flex-direction: column;
                 align-content: center;
@@ -2854,12 +2987,15 @@ nav {
                 padding-left: 13.02vw;
                 font-weight: bold;
                 margin-bottom: 1.05vw;
-                @media (max-width: 869px) {
+                @media (max-width: 800px) {
                     display: flex;
                     justify-content: center;
                     padding-left: 0;
                     font-size: 3.25vw;
                     margin-bottom: 2.05vw;
+                }
+                @media (max-width: 469px) {
+                    font-size: 5.25vw;
                 }
             }
             .information-detail-prize-list-container {
@@ -2869,10 +3005,13 @@ nav {
                 width: 47.83vw;
                 // border: 1px solid #ff8908;
                 margin-bottom: 2.15vw;
-                @media (max-width: 869px) {
+                @media (max-width: 800px) {
                     margin: 0 auto;
                     width: 78.83vw;
                     height: auto;
+                }
+                @media (max-width: 469px) {
+                    width: 82.83vw;
                 }
                 .information-detail-prize-list-title-container {
                     height: 2.78vw;
@@ -2882,18 +3021,24 @@ nav {
                     display: flex;
                     // justify-content: center;
                     // align-content: center;
-                    @media (max-width: 869px) {
+                    @media (max-width: 800px) {
                         margin: 0 auto;
                         font-size: 3.25vw;
                         height: 4.78vw;
                     }
-
+                    @media (max-width: 469px) {
+                        font-size: 4.25vw;
+                        height: 6.78vw;
+                    }
                     .information-detail-prize-list-title {
                         border-bottom: 1px solid #ff8908;
                         text-align: center;
                         line-height: 2.78vw;
-                        @media (max-width: 869px) {
+                        @media (max-width: 800px) {
                             line-height: 4.78vw;
+                        }
+                        @media (max-width: 469px) {
+                            line-height: 6.78vw;
                         }
                     }
                     .information-detail-prize-list-title-1 {
@@ -2902,7 +3047,7 @@ nav {
                         border-top: 1px solid #ff8908;
                         border-left: 1px solid #ff8908;
                         border-right: 1px solid #ff8908;
-                        @media (max-width: 869px) {
+                        @media (max-width: 800px) {
                             width: 31.79vw;
                         }
                     }
@@ -2911,7 +3056,7 @@ nav {
                         border-radius: 0 0.86vw 0 0;
                         border-top: 1px solid #ff8908;
                         border-right: 1px solid #ff8908;
-                        @media (max-width: 869px) {
+                        @media (max-width: 800px) {
                             width: 51.87vw;
                         }
                     }
@@ -2925,9 +3070,12 @@ nav {
                         border-bottom: 1px solid #ff8908;
                         border-right: 1px solid #ff8908;
                         border-radius: 0 0 0 0.86vw;
-                        @media (max-width: 869px) {
+                        @media (max-width: 800px) {
                             width: 31.79vw;
                             height: 22.07vw;
+                        }
+                        @media (max-width: 469px) {
+                            height: 33.35vw;
                         }
                     }
                     .information-detail-prize-list-background-right {
@@ -2936,9 +3084,12 @@ nav {
                         border-right: 1px solid #ff8908;
                         border-bottom: 1px solid #ff8908;
                         border-radius: 0 0 0.86vw 0;
-                        @media (max-width: 869px) {
+                        @media (max-width: 800px) {
                             width: 51.87vw;
                             height: 22.07vw;
+                        }
+                        @media (max-width: 469px) {
+                            height: 33.35vw;
                         }
                     }
                 }
@@ -2954,12 +3105,18 @@ nav {
                     font-weight: bold;
                     overflow-y: scroll;
                     padding-bottom: 1.56vw;
-                    @media (max-width: 869px) {
+                    @media (max-width: 800px) {
                         font-size: 3.25vw;
                         top: 6.78vw;
                         left: 10.9vw;
                         width: 51.66vw;
                         height: 19.8vw;
+                    }
+                    @media (max-width: 469px) {
+                        font-size: 4.25vw;
+                        width: 56.66vw;
+                        top: 8vw;
+                        height: 31.8vw;
                     }
                     .winning-people-container {
                         display: flex;
@@ -2973,20 +3130,34 @@ nav {
                 font-weight: bold;
                 margin-bottom: 0.21vw;
                 padding-left: 0.73vw;
-                @media (max-width: 869px) {
+                @media (max-width: 800px) {
                     font-size: 3.25vw;
+                    padding-top: 3.9vw;
+                    padding-bottom: 1.95vw;
+                }
+                @media (max-width: 469px) {
+                    font-size: 4.25vw;
+                    padding-top: 7.46vw;
                 }
             }
             .information-detail-precautions-detail {
                 font-size: 0.93vw;
-                width: 918.32px;
+                width: 47.82vw;
                 color: white;
                 padding-left: 0.73vw;
                 line-height: 1.77vw;
-                @media (max-width: 869px) {
-                    width: 567.32px;
+                @media (max-width: 800px) {
+                    width: 78.68vw;
                     font-size: 2vw;
                     line-height: 2.25vw;
+                }
+                @media (max-width: 650px) {
+                    line-height: 3.25vw;
+                }
+                @media (max-width: 469px) {
+                    width: 83.26vw;
+                    font-size: 4.25vw;
+                    line-height: 5.25vw;
                 }
             }
         }
