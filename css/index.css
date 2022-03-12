@@ -3155,6 +3155,12 @@ nav .nav-container .sound-btn img {
   }
 }
 
+@media (max-width: 1053px) {
+  .banner-2 {
+    height: 59.31vw;
+  }
+}
+
 @media (max-width: 800px) {
   .banner-2 {
     padding-top: 60px;
