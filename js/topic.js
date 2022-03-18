@@ -10,7 +10,8 @@ var data = [
         propaganda: "臺北市政府政風處製作「廉潔寶寶聯盟-勇敢吹哨篇」幼兒廉潔教材電子書，與臺北市政府教育局和臺北市國民教育輔導團幼兒教育輔導小組合作將「誠實、勇敢吹哨、不貪心、互相幫助」等核心價值，延伸教案及AR闖關遊戲，以多元方式提供親師共讀共學。",
         video_information: " ● 「廉潔寶寶聯盟_看到怪怪的請舉手（勇敢吹哨篇）幼兒廉潔教材」電子書",
         href: "https://www-ws.gov.taipei/001/Upload/377/ebook/ebook_2033450/index.html?ccms_cs=1",
-        moudle_teach_video_a: `<img src="./img/moudle/hint-1.jpg" alt="" class="moudle-teach-video ">`
+        moudle_teach_video_a: `<img src="./img/moudle/hint-1.jpg" alt="" class="moudle-teach-video ">`,
+        
     },
     {
         title: "題目【三方鼎立，道本在心】",

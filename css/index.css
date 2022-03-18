@@ -1609,6 +1609,26 @@ nav .nav-container .sound-btn img {
   }
 }
 
+.position {
+  margin-top: -93px;
+  height: 93px;
+  width: 10px;
+}
+
+@media (max-width: 768px) {
+  .position {
+    margin-top: -7.16vw;
+    height: 7.16vw;
+  }
+}
+
+@media (max-width: 414px) {
+  .position {
+    margin-top: -16vw;
+    height: 16vw;
+  }
+}
+
 /*#endregion*/
 /*#region banner-2*/
 .banner-2 {

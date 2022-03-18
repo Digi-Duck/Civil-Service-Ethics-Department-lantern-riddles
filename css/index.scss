@@ -1383,7 +1383,21 @@ nav {
         }
     }
 }
-
+.position {
+    margin-top: -93px;
+    height: 93px;
+    width: 10px;
+    // background-color: #1f8dff;
+    @media (max-width: 768px) {
+        margin-top: -7.16vw;
+        height: 7.16vw;
+    }
+    @media (max-width: 414px) {
+        margin-top: -16vw;
+        height: 16vw;
+    }
+    
+}
 /*#endregion*/
 /*#region banner-2*/
 .banner-2 {
