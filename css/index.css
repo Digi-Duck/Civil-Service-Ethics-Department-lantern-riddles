@@ -3303,9 +3303,9 @@ nav .nav-container .sound-btn img {
 .winner-list-container .winner-list-information-container .winner-list-information-detail-container .information-detail-prize-name {
   color: #ff8908;
   font-size: 1.56vw;
-  padding-left: 13.02vw;
   font-weight: bold;
   margin-bottom: 1.05vw;
+  text-align: center;
 }
 
 @media (max-width: 800px) {
@@ -3471,7 +3471,7 @@ nav .nav-container .sound-btn img {
 
 .winner-list-container .winner-list-information-container .winner-list-information-detail-container .information-detail-prize-list-container .information-detail-prize-list-detail-container {
   position: absolute;
-  top: 2.78vw;
+  top: 5.78vw;
   left: 6.8vw;
   color: white;
   width: 28.66vw;

@@ -3001,9 +3001,10 @@ nav {
             .information-detail-prize-name {
                 color: #ff8908;
                 font-size: 1.56vw;
-                padding-left: 13.02vw;
+                // padding-left: 13.02vw;
                 font-weight: bold;
                 margin-bottom: 1.05vw;
+                text-align: center;
                 @media (max-width: 800px) {
                     display: flex;
                     justify-content: center;
@@ -3112,7 +3113,8 @@ nav {
                 }
                 .information-detail-prize-list-detail-container {
                     position: absolute;
-                    top: 2.78vw;
+                    // top: 2.78vw;
+                    top: 5.78vw;
                     left: 6.8vw;
                     color: white;
                     width: 28.66vw;
@@ -3138,6 +3140,9 @@ nav {
                     .winning-people-container {
                         display: flex;
                         justify-content: space-between;
+                        .winning-phone{
+                            // transform: translateX(50%);
+                        }
                     }
                 }
             }

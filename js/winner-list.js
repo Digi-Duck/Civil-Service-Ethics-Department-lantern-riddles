@@ -21,7 +21,7 @@ winner_list_btn.forEach(element => {
             this.setAttribute("src", `./img/banner-2/png/Winner-announcement/${this.dataset.title}-active.svg`);
             
             //放資料庫的資料
-            for (let index = 0; index < 10; index++) {
+            for (let index = 0; index < 1; index++) {
                 string = string +
                     ` <div class="winning-people-container">
                 <div class="winning-name">陳玲${index}</div>
