@@ -3279,6 +3279,10 @@ nav .nav-container .sound-btn img {
   justify-content: space-between;
 }
 
+.winner-list-container .winner-list-information-container .winner-list-information-detail-container .information-detail-prize-list-container .information-detail-prize-list-detail-container#prize-list-5 {
+  top: 2.78vw;
+}
+
 .winner-list-container .winner-list-information-container .winner-list-information-detail-container .information-detail-precautions-title {
   color: #f2e424;
   font-size: 1.25vw;
@@ -3351,9 +3355,5 @@ nav .nav-container .sound-btn img {
 .winner-list-container .information-detail-prize-list-detail-1::-webkit-scrollbar-button {
   background-color: black;
   display: none;
-}
-
-#prize-list-5.winner-list-container .winner-list-information-container .winner-list-information-detail-container .information-detail-prize-list-container .information-detail-prize-list-detail-container {
-  top: 2.78vw;
 }
 /*# sourceMappingURL=index.css.map */
